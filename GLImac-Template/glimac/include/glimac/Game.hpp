@@ -29,6 +29,43 @@ class Bonus {
 		// + lambda fonction pour coder le comportement
 };
 
+class Obstacle {
+	private:
+		int _model;
+		int _posX;
+		std::vector<int> _bbox;
+	
+	public:
+		void setBbox(){
+			if(_model == 0){ //Ketchup
+				if(_posX == 0){
+					_bbox.push_back(1,0,0,1,0,0,1,0,0);
+				}
+				else if(_posX == 1){
+					_bbox.push_back(0,1,0,0,1,0,0,1,0);
+				}
+				else if(_posX == 2){
+					_bbox.push_back(0,0,1,0,0,1,0,0,1);
+				}
+			}
+			else if(_model == 1){ //Moutarde
+				if(_posX == 0){
+					_bbox.push_back(1,1,0,1,1,0,0,0,0);
+				}
+				else if(_posX == 1){
+					_bbox.push_back(0,1,1,0,1,1,0,0,0);
+				}
+			}
+			else if(_model == 2){ //Conserve
+				_bbox.push_back(1,0,1,1,1,1,1,1,1);
+			}
+			else if(_model == 3){ //Jus
+				_bbox.push_back(1,1,1,0,0,0,0,0,0);
+			}
+		}
+		
+}
+
 class Tile
 {
 	private:
@@ -41,7 +78,7 @@ class Tile
 class Library {
 	private:
 		std::vector<Model> _persos;
-		std::vector<Model> _tiles;
+		std::vector<Model> _support;
 		std::vector<Model> _obstacles;
 		std::vector<Model> _bonus;
 		Model _coin;
@@ -51,16 +88,20 @@ class Library {
 		void addPerso(Model m){
 			_persos.push_back(m);
 		}
-		void addTile(Model m){
+		void addSupport(Model m){
 			_tiles.push_back(m);
 		}
 		void addBonus(Model m){
 			_bonus.push_back(m);
 		}
+		void addObstacle(Model m){
+			_obstacle.push_back(m);
+		}
 		void setCoin(Model m){_coin = m;};
 		Model perso(unsigned int i) const {return _persos[i];}
-		Model tile(unsigned int i) const {return _tiles[i];}
+		Model support(unsigned int i) const {return _support[i];}
 		Model bonus(unsigned int i) const {return _bonus[i];}
+		Model obstacle(unsigned int i) const {return _obstacle[i];}
 		Model coin() const {return _coin;}
 };
 
