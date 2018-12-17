@@ -68,7 +68,7 @@ class Obstacle {
 
 class Tile{
 	private:
-		int _model; // id of the model in the Library
+		int _support; // id of the model in the Library
 	
 		int _obstacle; // id of the model in the Library
 		int _x_obs;
@@ -80,7 +80,9 @@ class Tile{
 		int _x_coin;
 		int _y_coin;
 	public:
-		Tile(int m, int o = -1, int b = -1, int c = 0):_model(m),_obstacle(o), _bonus(b), _coin(c){}
+		Tile(int s,int o,int ox,int b,int bx,int by,int cx,int cy)
+			:_support(s),_obstacle(o), _x_obs(ox), _bonus(b), _x_bonus(bx),_y_bonus(by), 
+			_x_coin(cx), _y_coin(cy){}
 };
 
 class Support{
@@ -213,8 +215,8 @@ class World
 			if(file == "") _randomized = true;
 			else loadFile(file);
 		_aroundCam = TrackballCamera(0.0f,0.0,0.0f);
-     		_eyesCam = EyesCam(7.0f,30.0f,0.0f);
-     		_eyesCam.setPosition(glm::vec3(0.9f,0.1f));
+     		_eyesCam = EyesCam(30.0f,0.0f);
+     		_eyesCam.setPosition(glm::vec3(0.0f, 0.9f,0.1f));
 		}
 
 		TrackballCamera* cam(){
