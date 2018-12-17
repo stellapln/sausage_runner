@@ -139,9 +139,6 @@ class World
 		int _t = 0; // Time elapsed from the beginning of the game
 		bool _randomized = false; // True : the world will be generated, False : the world will be loaded from a file
 
-		FreeflyCamera _eyesCam;
-		TrackballCamera _aroundCam;
-
 		glm::mat4 globalMVMatrix;
 
 		int _currentPerso = 0;
@@ -155,6 +152,8 @@ class World
 
 		void loadFile(std::string file); // Fill the vector _tiles with the file;
 	public:
+		FreeflyCamera _eyesCam;
+		TrackballCamera _aroundCam;
 		World(std::string file = ""){
 			if(file == "") _randomized = true;
 			else loadFile(file);

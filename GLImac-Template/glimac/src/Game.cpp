@@ -24,7 +24,7 @@ void World::addTile(Tile &t){
 void World::draw() const {
     glm::mat4 MVMatrix = glm::translate(globalMVMatrix, glm::vec3(0, 0, 0));
     _render->reset();
-	glm::mat4 viewMatrix = _eyesCam.getMatrixView();
+	glm::mat4 viewMatrix = _aroundCam.getMatrixView();
     _render->sendLight(viewMatrix);
 
     _render->sendMatrix(MVMatrix);
@@ -46,10 +46,6 @@ void World::draw() const {
 		// t.draw();
 	};
 	std::for_each(_tiles.begin(),_tiles.end(),worldDrawTile);*/
-
-	windowManager.swapBuffers();
-
-
 }
 void Personnage::draw() const{
 	_model.draw();

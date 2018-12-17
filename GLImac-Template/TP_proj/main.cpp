@@ -177,8 +177,8 @@ int main(int argc, char** argv) {
         }
 
         t++;
-        // Update the display
-        windowManager.swapBuffers();*/
+        // Update the display*/
+        windowManager.swapBuffers();
     }
 
     return EXIT_SUCCESS;
