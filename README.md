@@ -6,5 +6,7 @@ Open you console in your specific directory you want the project to stay.
 Then:
 ```
 git init
+```
+```
 git clone https://github.com/stellapln/sausage_runner.git
 ```
