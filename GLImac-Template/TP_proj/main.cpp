@@ -92,18 +92,16 @@ int main(int argc, char** argv) {
                     lastY = y;
                 }
             }
-           else if(e.type == SDL_MOUSEWHEEL && edit_mode){
-               if(e.button.button == SDL_BUTTON_WHEELUP){
-                   cam.moveFront(0.3);
-               }
-               else if(e.button.button == SDL_BUTTON_WHEELDOWN){
-                   cam.moveFront(-0.3);
-               }
-           }
            else if(e.type == SDL_MOUSEBUTTONDOWN) {
                 if(e.button.button == SDL_BUTTON_RIGHT) {
                     rightClickDown = true;
                     SDL_GetMouseState(&lastX, &lastY);
+                }
+                else if(e.button.button == SDL_BUTTON_WHEELUP && edit_mode){
+                   cam.moveFront(0.3);
+                }
+                else if(e.button.button == SDL_BUTTON_WHEELDOWN && edit_mode){
+                    cam.moveFront(-0.3);
                 }
             }
             else if(e.type == SDL_MOUSEBUTTONUP) {
@@ -155,7 +153,7 @@ int main(int argc, char** argv) {
 
         world.draw();
 
-        /* viewMatrix = cam.getMatrixView(); // Get the view Matrix from the camera
+         /*viewMatrix = cam.getMatrixView(); // Get the view Matrix from the camera
 
         render.reset();
         render.sendLight(viewMatrix);
@@ -164,10 +162,10 @@ int main(int argc, char** argv) {
         MVMatrix = viewMatrix*MVMatrix;
         render.sendMatrix(MVMatrix);
 
-        //perso.draw();
-        world.draw();
+        saucisse.draw();
+       // world.draw();
 
-        /*for(unsigned int i = 0; i< 10;i++)
+        for(unsigned int i = 0; i< 10;i++)
         {
         	MVMatrix = glm::translate(MVMatrix,glm::vec3(0.0,0.0,-1.0));
 
@@ -175,11 +173,11 @@ int main(int argc, char** argv) {
 
             render.sendMatrix(MVMatrix);
             normalModel.draw();
-        }*/
+        }
 
         t++;
         // Update the display
-        windowManager.swapBuffers();
+        windowManager.swapBuffers();*/
     }
 
     return EXIT_SUCCESS;
