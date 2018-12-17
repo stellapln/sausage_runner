@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template/assimp-4.0.1
-BuildDirectory: /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template/assimp-4.0.1
+SourceDirectory: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp
+BuildDirectory: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: pccop1b077-11
+Site: pccop1b077-05
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Linux-c++
@@ -33,7 +33,7 @@ ScpCommand: /usr/bin/scp
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template/assimp-4.0.1"
+ConfigureCommand: "/usr/bin/cmake" "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
