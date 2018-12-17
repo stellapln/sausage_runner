@@ -205,7 +205,8 @@ class World
 		std::vector<Tile> _tileVec; // stock the Tiles model
 
 		Render *_render;
-		TrackballCamera _aroundCam, _eyesCam;
+		TrackballCamera _aroundCam;
+		EyesCam _eyesCam;
 
 		unsigned short int _activeCam = 0; 
 
