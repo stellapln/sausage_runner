@@ -86,8 +86,6 @@ int main(int argc, char** argv) {
      glm::mat4 viewMatrix;
      // Definition of the camera
 
-     FreeflyCamera cam(glm::vec3(0.0,1.0,2.0));
-
     glEnable(GL_DEPTH_TEST);
 
     bool rightClickDown = false;
