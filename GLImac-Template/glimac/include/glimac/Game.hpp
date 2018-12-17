@@ -215,9 +215,9 @@ class World
 		World(std::string file = ""){
 			if(file == "") _randomized = true;
 			else loadFile(file);
-		_aroundCam = TrackballCamera(0.0f,0.0,0.0f);
+		_aroundCam = TrackballCamera(7.0f,0.0,0.0f);
      		_eyesCam = EyesCam(30.0f,0.0f);
-     		_eyesCam.setPosition(glm::vec3(0.0f, 0.9f,0.1f));
+     		_eyesCam.setPosition(glm::vec3(0.0f, 0.9f,-0.1f));
 		}
 
 		TrackballCamera* cam(){
