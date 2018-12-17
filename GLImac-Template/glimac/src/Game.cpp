@@ -24,13 +24,19 @@ void World::addTile(Tile &t){
 void World::draw() const {
     glm::mat4 MVMatrix = glm::translate(globalMVMatrix, glm::vec3(0, 0, 0));
     _render->reset();
-	glm::mat4 viewMatrix = _aroundCam.getMatrixView();
+	glm::mat4 viewMatrix;
+	if(_activeCam == 0)
+		viewMatrix = _aroundCam.getMatrixView();
+	else
+		viewMatrix = _eyesCam.getMatrixView();
     MVMatrix = viewMatrix*MVMatrix;
 
     _render->sendLight(viewMatrix);
 
     _render->sendMatrix(MVMatrix);
     _modelLib->perso(_currentPerso).draw();
+
+    _modelLib->support(2).draw();
 
     // Models
     //_render.sendMatrix(MVMatrix);

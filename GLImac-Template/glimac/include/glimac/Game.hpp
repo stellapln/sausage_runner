@@ -39,32 +39,32 @@ class Obstacle {
 		void setBbox(){
 			if(_model == 0){ //Ketchup
 				if(_posX == 0){
-					_bbox.push_back(1,0,0,1,0,0,1,0,0);
+					_bbox.insert(_bbox.end(),{1,0,0,1,0,0,1,0,0});
 				}
 				else if(_posX == 1){
-					_bbox.push_back(0,1,0,0,1,0,0,1,0);
+					_bbox.insert(_bbox.end(),{0,1,0,0,1,0,0,1,0});
 				}
 				else if(_posX == 2){
-					_bbox.push_back(0,0,1,0,0,1,0,0,1);
+					_bbox.insert(_bbox.end(),{0,0,1,0,0,1,0,0,1});
 				}
 			}
 			else if(_model == 1){ //Moutarde
 				if(_posX == 0){
-					_bbox.push_back(1,1,0,1,1,0,0,0,0);
+					_bbox.insert(_bbox.end(),{1,1,0,1,1,0,0,0,0});
 				}
 				else if(_posX == 1){
-					_bbox.push_back(0,1,1,0,1,1,0,0,0);
+					_bbox.insert(_bbox.end(),{0,1,1,0,1,1,0,0,0});
 				}
 			}
 			else if(_model == 2){ //Conserve
-				_bbox.push_back(1,0,1,1,1,1,1,1,1);
+				_bbox.insert(_bbox.end(),{1,0,1,1,1,1,1,1,1});
 			}
 			else if(_model == 3){ //Jus
-				_bbox.push_back(1,1,1,0,0,0,0,0,0);
+				_bbox.insert(_bbox.end(),{1,1,1,0,0,0,0,0,0});
 			}
 		}
 		
-}
+};
 
 class Tile
 {
@@ -78,7 +78,7 @@ class Tile
 class Library {
 	private:
 		std::vector<Model> _persos;
-		std::vector<Model> _support;
+		std::vector<Model> _supports;
 		std::vector<Model> _obstacles;
 		std::vector<Model> _bonus;
 		Model _coin;
@@ -89,19 +89,19 @@ class Library {
 			_persos.push_back(m);
 		}
 		void addSupport(Model m){
-			_tiles.push_back(m);
+			_supports.push_back(m);
 		}
 		void addBonus(Model m){
 			_bonus.push_back(m);
 		}
 		void addObstacle(Model m){
-			_obstacle.push_back(m);
+			_obstacles.push_back(m);
 		}
 		void setCoin(Model m){_coin = m;};
 		Model perso(unsigned int i) const {return _persos[i];}
-		Model support(unsigned int i) const {return _support[i];}
+		Model support(unsigned int i) const {return _supports[i];}
 		Model bonus(unsigned int i) const {return _bonus[i];}
-		Model obstacle(unsigned int i) const {return _obstacle[i];}
+		Model obstacle(unsigned int i) const {return _obstacles[i];}
 		Model coin() const {return _coin;}
 };
 
@@ -190,18 +190,28 @@ class World
 		std::vector<Tile> _tileVec; // stock the Tiles model
 
 		Render *_render;
+		TrackballCamera _aroundCam, _eyesCam;
+
+		unsigned short int _activeCam = 0; 
 
 		void loadFile(std::string file); // Fill the vector _tiles with the file;
 	public:
-		FreeflyCamera _eyesCam;
-		TrackballCamera _aroundCam;
 		World(std::string file = ""){
 			if(file == "") _randomized = true;
 			else loadFile(file);
-			_aroundCam = TrackballCamera();
-     		_eyesCam = FreeflyCamera(glm::vec3(0.0,1.0,2.0));
+			_aroundCam = TrackballCamera(0.0f,0.0,0.0f);
+     		_eyesCam = EyesCam(7.0f,30.0f,0.0f);
+     		_eyesCam.lockScroll();
 		}
 
+		TrackballCamera* cam(){
+			if(_activeCam == 0) return &_aroundCam;
+			return &_eyesCam;
+		}
+		void changeCam(){
+			if(_activeCam == 0) _activeCam = 1;
+			else _activeCam = 0;
+		}
 		void removeTile(); // remove the first tile
 		void addTile(Tile &t); // add tile at the end
 		void draw() const;

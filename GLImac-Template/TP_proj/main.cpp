@@ -109,8 +109,8 @@ int main(int argc, char** argv) {
                 if(rightClickDown){
                     int x,y;
                     SDL_GetMouseState(&x, &y);
-                    cam.rotateLeft(lastX-x);
-                    cam.rotateUp(lastY-y);
+                    world.cam()->rotateLeft(y-lastY);
+                    world.cam()->rotateTop(x-lastX);
                     lastX = x;
                     lastY = y;
                 }
@@ -121,10 +121,10 @@ int main(int argc, char** argv) {
                     SDL_GetMouseState(&lastX, &lastY);
                 }
                 else if(e.button.button == SDL_BUTTON_WHEELUP && edit_mode){
-                   cam.moveFront(0.3);
+                   world.cam()->moveFront(0.3);
                 }
                 else if(e.button.button == SDL_BUTTON_WHEELDOWN && edit_mode){
-                    cam.moveFront(-0.3);
+                    world.cam()->moveFront(-0.3);
                 }
             }
             else if(e.type == SDL_MOUSEBUTTONUP) {
@@ -152,6 +152,8 @@ int main(int argc, char** argv) {
                         else
                             edit_mode = true;
                         break;
+                    case SDLK_c:
+                        world.changeCam();
                 }
             }
             else if(e.type == SDL_KEYUP) {
@@ -171,8 +173,6 @@ int main(int argc, char** argv) {
                 }
             }
         }
-        if(goFront != 0) cam.moveFront(goFront*0.5);
-        if(goLeft != 0) cam.moveLeft(goLeft*0.5);
 
         world.draw();
 
