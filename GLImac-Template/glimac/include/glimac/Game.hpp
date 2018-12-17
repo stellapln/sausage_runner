@@ -205,8 +205,9 @@ class World
 		std::vector<Tile> _tileVec; // stock the Tiles model
 
 		Render *_render;
-		SimpleAxeCam _aroundCam;
-		EyesCam _eyesCam;
+
+		SimpleAxeCam* _aroundCam;
+		SimpleAxeCam* _eyesCam;
 
 		unsigned short int _activeCam = 0; 
 
@@ -215,14 +216,14 @@ class World
 		World(std::string file = ""){
 			if(file == "") _randomized = true;
 			else loadFile(file);
-		_aroundCam = TrackballCamera(7.0f,0.0,0.0f);
-     		_eyesCam = EyesCam(30.0f,0.0f);
-     		_eyesCam.setPosition(glm::vec3(0.0f, 0.9f,-0.1f));
+			_aroundCam = new TrackballCamera(7.0f,0.0,0.0f);
+     		_eyesCam = new EyesCam(30.0f,0.0f);
+     		_eyesCam->setPosition(glm::vec3(0.0f,-1.2f,0.2f));
 		}
 
 		SimpleAxeCam* cam(){
-			if(_activeCam == 0) return &_aroundCam;
-			return &_eyesCam;
+			if(_activeCam == 0) return _aroundCam;
+			return _eyesCam;
 		}
 		void changeCam(){
 			if(_activeCam == 0) _activeCam = 1;

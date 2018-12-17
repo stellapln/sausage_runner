@@ -42,9 +42,9 @@ void World::draw() const {
     _render->reset();
 	glm::mat4 viewMatrix;
 	if(_activeCam == 0)
-		viewMatrix = _aroundCam.getMatrixView();
+		viewMatrix = _aroundCam->getMatrixView();
 	else
-		viewMatrix = _eyesCam.getMatrixView();
+		viewMatrix = _eyesCam->getMatrixView();
     MVMatrix = viewMatrix*MVMatrix;
 
     _render->sendLight(viewMatrix);

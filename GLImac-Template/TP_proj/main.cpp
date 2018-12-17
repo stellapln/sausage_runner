@@ -84,10 +84,6 @@ int main(int argc, char** argv) {
 
      glm::mat4 MVMatrix;
      glm::mat4 viewMatrix;
-<<<<<<< HEAD
-=======
-     // Definition of the camera
->>>>>>> f6076675648341983dd9a1fe37bd3dc87aac4f90
 
     glEnable(GL_DEPTH_TEST);
 
