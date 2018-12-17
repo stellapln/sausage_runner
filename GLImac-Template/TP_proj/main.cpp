@@ -68,6 +68,7 @@ int main(int argc, char** argv) {
     glEnable(GL_DEPTH_TEST);
 
     bool rightClickDown = false;
+    bool edit_mode = false;
     int goFront = 0;
     int goLeft = 0;
     int lastX = 0, lastY = 0;
@@ -81,7 +82,7 @@ int main(int argc, char** argv) {
             if(e.type == SDL_QUIT) {
                 done = true; // Leave the loop after this iteration
             }
-            else if(e.type == SDL_MOUSEMOTION) {
+            else if(e.type == SDL_MOUSEMOTION && edit_mode) {
                 if(rightClickDown){
                     int x,y;
                     SDL_GetMouseState(&x, &y);
@@ -91,6 +92,14 @@ int main(int argc, char** argv) {
                     lastY = y;
                 }
             }
+           else if(e.type == SDL_MOUSEWHEEL && edit_mode){
+               if(e.button.button == SDL_BUTTON_WHEELUP){
+                   cam.moveFront(0.3);
+               }
+               else if(e.button.button == SDL_BUTTON_WHEELDOWN){
+                   cam.moveFront(-0.3);
+               }
+           }
            else if(e.type == SDL_MOUSEBUTTONDOWN) {
                 if(e.button.button == SDL_BUTTON_RIGHT) {
                     rightClickDown = true;
@@ -115,6 +124,12 @@ int main(int argc, char** argv) {
                         break;
                     case SDLK_d:
                         goLeft = -1;
+                        break;
+                    case SDLK_l:
+                        if(edit_mode)
+                            edit_mode = false;
+                        else
+                            edit_mode = true;
                         break;
                 }
             }
