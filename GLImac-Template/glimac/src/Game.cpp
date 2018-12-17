@@ -13,8 +13,8 @@
 #include <glimac/Model.hpp>
 #include <glimac/Game.hpp>
 
-void World::loadFile(const std::string niveau){
-	FILE *file = fopen(niveau, "r"); // level 1
+void World::loadFile(const std::string level){
+	FILE *file = fopen(level, "r");
   	if(!file){
    		std::cout << "Error : load fichier" << std::endl;
   	}
