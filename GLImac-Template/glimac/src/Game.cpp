@@ -13,7 +13,20 @@
 #include <glimac/Model.hpp>
 #include <glimac/Game.hpp>
 
-void World::loadFile(const std::string file){}
+void World::loadFile(const std::string niveau){
+	FILE *file = fopen(niveau, "r"); // level 1
+  	if(!file){
+   		std::cout << "Error : load fichier" << std::endl;
+  	}
+
+  	int sup, obs, xo, bon, xb, yb, xp, yp;
+  	Tile new_tile;
+
+	while(fscanf(file, "%d %d %d %d %d %d %d %d", &sup, &obs, &xo, &bon, &xb, &yb, &xp, &yp) != EOF){
+    	new_tile = Tile(sup, obs, xo, bon, xb, yb, xp, yp);
+    	addTile(new_tile);
+	}
+}
 
 void World::removeTile(){
 	_tiles.pop_front();
