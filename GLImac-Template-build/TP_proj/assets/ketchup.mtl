@@ -16,7 +16,7 @@ Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd /Users/Louise/Desktop/3D/Textures/ketchup_sausage_party.png
+map_Kd /Volumes/Untitled/3D/Textures/ketchup_sausage_party.png
 
 newmtl None_ketchup_sausage_party_dos.png
 Ns 0
@@ -25,4 +25,4 @@ Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd /Users/Louise/Desktop/3D/Textures/ketchup_sausage_party_dos.png
+map_Kd /Volumes/Untitled/3D/Textures/ketchup_sausage_party_dos.png
