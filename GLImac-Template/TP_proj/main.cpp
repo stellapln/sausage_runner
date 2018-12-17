@@ -87,7 +87,7 @@ int main(int argc, char** argv) {
                     lastY = y;
                 }
             }
-           else if(e.type == SDL_MOUSEWHEEL){
+           else if(e.type == SDL_MOUSEWHEEL && edit_mode){
                if(e.button.button == SDL_BUTTON_WHEELUP){
                    cam.moveFront(0.3);
                }
