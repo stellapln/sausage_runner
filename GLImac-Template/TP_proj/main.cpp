@@ -40,29 +40,30 @@ int main(int argc, char** argv) {
 
 
     /*********************************
-     * HERE SHOULD COME THE INITIALIZATION CODE
-     *********************************/
+     * HERE COME THE INITIALIZATION CODE
+    *********************************/
 
-     World world(render);
+    World world(render);
 
-     // Model cube("assets/cube.obj"); // Loading of the cube
-     Model normalModel("assets/normal.obj");
-     //Tile normalTile(normalModel);
+    // Model cube("assets/cube.obj"); // Loading of the cube
+    Model normalModel("assets/normal.obj");
+    //Tile normalTile(normalModel);
 
-     Model persoModel("assets/perso.obj");
+    Model persoModel("assets/perso.obj");
 
-     //Personnage perso(persoModel);
+    //Personnage perso(persoModel);
 
-     glm::mat4 MVMatrix;
-     glm::mat4 viewMatrix;
+    glm::mat4 MVMatrix;
+    glm::mat4 viewMatrix;
 
-     // Definition of the camera
+    // Definition of the camera
 
-     FreeflyCamera cam(glm::vec3(0.0,1.0,2.0));
+    FreeflyCamera cam(glm::vec3(0.0,1.0,2.0));
 
     glEnable(GL_DEPTH_TEST);
 
     bool rightClickDown = false;
+    bool edit_mode = false;
     int goFront = 0;
     int goLeft = 0;
     int lastX = 0, lastY = 0;
@@ -76,7 +77,7 @@ int main(int argc, char** argv) {
             if(e.type == SDL_QUIT) {
                 done = true; // Leave the loop after this iteration
             }
-            else if(e.type == SDL_MOUSEMOTION) {
+            else if(e.type == SDL_MOUSEMOTION && edit_mode) {
                 if(rightClickDown){
                     int x,y;
                     SDL_GetMouseState(&x, &y);
@@ -86,31 +87,44 @@ int main(int argc, char** argv) {
                     lastY = y;
                 }
             }
+           else if(e.type == SDL_MOUSEWHEEL && edit_mode){
+                if(e.button.button == SDL_BUTTON_WHEELUP) {
+                    cam.moveFront(0.3);
+                }
+                else if(e.button.button == SDL_BUTTON_WHEELDOWN) {
+                    cam.moveFront(-0.3);
+                }
+           }
            else if(e.type == SDL_MOUSEBUTTONDOWN) {
                 if(e.button.button == SDL_BUTTON_RIGHT) {
                     rightClickDown = true;
                     SDL_GetMouseState(&lastX, &lastY);
                 }
-            }
-            else if(e.type == SDL_MOUSEBUTTONUP) {
-                if(e.button.button == SDL_BUTTON_RIGHT) {
-                    rightClickDown = false;
-                }
-            }
-            else if(e.type == SDL_KEYDOWN) {
-                switch(e.key.keysym.sym) {
-                    case SDLK_z:
-                        goFront = 1;
-                        break;
-                    case SDLK_s:
-                        goFront = -1;
-                        break;
-                    case SDLK_q:
-                        goLeft = 1;
-                        break;
-                    case SDLK_d:
-                        goLeft = -1;
-                        break;
+           }
+           else if(e.type == SDL_MOUSEBUTTONUP) {
+               if(e.button.button == SDL_BUTTON_RIGHT) {
+                   rightClickDown = false;
+               }
+           }
+           else if(e.type == SDL_KEYDOWN) {
+               switch(e.key.keysym.sym) {
+                   case SDLK_z:
+                       goFront = 1;
+                       break;
+                   case SDLK_s:
+                       goFront = -1;
+                       break;
+                   case SDLK_q:
+                       goLeft = 1;
+                       break;
+                   case SDLK_d:
+                       goLeft = -1;
+                       break;
+                   case SDLK_l:
+                       if(edit_mode){
+                           edit_mode = false;
+                       }
+                       else {edit_mode = true;}
                 }
             }
             else if(e.type == SDL_KEYUP) {
