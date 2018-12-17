@@ -1,4 +1,4 @@
-# Install script for directory: /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template/assimp/tools/assimp_cmd
+# Install script for directory: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "assimp-bin" OR NOT CMAKE_INSTALL_COMPO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/assimp"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/assimp/tools/assimp_cmd/assimp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/tools/assimp_cmd/assimp")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/assimp" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/assimp")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/assimp"
-         OLD_RPATH "/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/assimp:/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/assimp/lib:/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/assimp/code:"
+         OLD_RPATH "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp:/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/lib:/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/code:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/assimp")

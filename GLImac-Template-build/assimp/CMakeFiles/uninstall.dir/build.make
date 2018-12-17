@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template
+CMAKE_SOURCE_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build
+CMAKE_BINARY_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build
 include assimp/CMakeFiles/uninstall.dir/progress.make
 
 assimp/CMakeFiles/uninstall:
-	cd /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/assimp && /usr/bin/cmake -P /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/assimp/cmake_uninstall.cmake
+	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp && /usr/bin/cmake -P /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/cmake_uninstall.cmake
 
 uninstall: assimp/CMakeFiles/uninstall
 uninstall: assimp/CMakeFiles/uninstall.dir/build.make
@@ -67,10 +67,10 @@ assimp/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : assimp/CMakeFiles/uninstall.dir/build
 
 assimp/CMakeFiles/uninstall.dir/clean:
-	cd /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/assimp && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : assimp/CMakeFiles/uninstall.dir/clean
 
 assimp/CMakeFiles/uninstall.dir/depend:
-	cd /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template/assimp /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/assimp /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/assimp/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : assimp/CMakeFiles/uninstall.dir/depend
 

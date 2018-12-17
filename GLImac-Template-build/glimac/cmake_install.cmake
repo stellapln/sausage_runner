@@ -1,4 +1,4 @@
-# Install script for directory: /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template/glimac
+# Install script for directory: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

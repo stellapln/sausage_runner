@@ -33,8 +33,7 @@ int main(int argc, char** argv) {
     }
 
     FilePath applicationPath(argv[0]);
-    Program prog = loadProgram(applicationPath.dirPath() + "shaders/3D.vs.glsl", applicationPath.dirPath() + "shaders/pointLight.fs.glsl");
-    Render render(applicationPath.dirPath() + "shaders/3D.vs.glsl",applicationPath.dirPath() + "shaders/pointLight.fs.glsl");
+    //Render render(applicationPath.dirPath() + "shaders/3D.vs.glsl",applicationPath.dirPath() + "shaders/pointLight.fs.glsl");
     std::cout << "OpenGL Version : " << glGetString(GL_VERSION) << std::endl;
     std::cout << "GLEW Version : " << glewGetString(GLEW_VERSION) << std::endl;
 
@@ -43,7 +42,7 @@ int main(int argc, char** argv) {
      * HERE COME THE INITIALIZATION CODE
     *********************************/
 
-    World world(render);
+    //World world();
 
     // Model cube("assets/cube.obj"); // Loading of the cube
     Model normalModel("assets/normal.obj");
@@ -87,14 +86,14 @@ int main(int argc, char** argv) {
                     lastY = y;
                 }
             }
-           else if(e.type == SDL_MOUSEWHEEL && edit_mode){
+           /*else if(e.type == SDL_MOUSEWHEEL && edit_mode){
                 if(e.button.button == SDL_BUTTON_WHEELUP) {
                     cam.moveFront(0.3);
                 }
                 else if(e.button.button == SDL_BUTTON_WHEELDOWN) {
                     cam.moveFront(-0.3);
                 }
-           }
+           }*/
            else if(e.type == SDL_MOUSEBUTTONDOWN) {
                 if(e.button.button == SDL_BUTTON_RIGHT) {
                     rightClickDown = true;
@@ -147,7 +146,7 @@ int main(int argc, char** argv) {
         if(goFront != 0) cam.moveFront(goFront*0.5);
         if(goLeft != 0) cam.moveLeft(goLeft*0.5);
 
-        world.draw();
+        //world.draw();
 
         /*viewMatrix = cam.getMatrixView(); // Get the view Matrix from the camera
 

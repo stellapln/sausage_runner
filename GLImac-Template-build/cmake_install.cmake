@@ -1,4 +1,4 @@
-# Install script for directory: /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template
+# Install script for directory: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,16 +34,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/glimac/cmake_install.cmake")
-  include("/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/assimp/cmake_install.cmake")
-  include("/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/TP1/cmake_install.cmake")
-  include("/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/TP2/cmake_install.cmake")
-  include("/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/TP3/cmake_install.cmake")
-  include("/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/TP4/cmake_install.cmake")
-  include("/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/TP5/cmake_install.cmake")
-  include("/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/TP_proj/cmake_install.cmake")
-  include("/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/TP_template/cmake_install.cmake")
-  include("/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/TPgarbage/cmake_install.cmake")
+  include("/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/glimac/cmake_install.cmake")
+  include("/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/cmake_install.cmake")
+  include("/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/TP_proj/cmake_install.cmake")
+  include("/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/TP_template/cmake_install.cmake")
 
 endif()
 
@@ -55,5 +49,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

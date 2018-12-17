@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template
+CMAKE_SOURCE_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build
+CMAKE_BINARY_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build
 
 #=============================================================================
 # Directory level rules for directory glimac
@@ -84,7 +84,7 @@ glimac/preinstall:
 glimac/CMakeFiles/glimac.dir/all:
 	$(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/depend
 	$(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num=76,77,78 "Built target glimac"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=72,73,74,75 "Built target glimac"
 .PHONY : glimac/CMakeFiles/glimac.dir/all
 
 # Include target in all.
@@ -94,9 +94,9 @@ all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 glimac/CMakeFiles/glimac.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 glimac/CMakeFiles/glimac.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : glimac/CMakeFiles/glimac.dir/rule
 
 # Convenience name for target.
@@ -149,14 +149,14 @@ assimp/preinstall: assimp/test/preinstall
 assimp/CMakeFiles/uninstall.dir/all:
 	$(MAKE) -f assimp/CMakeFiles/uninstall.dir/build.make assimp/CMakeFiles/uninstall.dir/depend
 	$(MAKE) -f assimp/CMakeFiles/uninstall.dir/build.make assimp/CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : assimp/CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -217,7 +217,7 @@ assimp/contrib/irrXML/preinstall:
 assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all:
 	$(MAKE) -f assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/build.make assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/depend
 	$(MAKE) -f assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/build.make assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target IrrXML"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target IrrXML"
 .PHONY : assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
 
 # Include target in all.
@@ -227,9 +227,9 @@ all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/rule
 
 # Convenience name for target.
@@ -272,7 +272,7 @@ assimp/code/preinstall:
 assimp/code/CMakeFiles/assimp.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
 	$(MAKE) -f assimp/code/CMakeFiles/assimp.dir/build.make assimp/code/CMakeFiles/assimp.dir/depend
 	$(MAKE) -f assimp/code/CMakeFiles/assimp.dir/build.make assimp/code/CMakeFiles/assimp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num=17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73 "Built target assimp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69 "Built target assimp"
 .PHONY : assimp/code/CMakeFiles/assimp.dir/all
 
 # Include target in all.
@@ -282,9 +282,9 @@ all: assimp/code/CMakeFiles/assimp.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/code/CMakeFiles/assimp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 57
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 66
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/code/CMakeFiles/assimp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/code/CMakeFiles/assimp.dir/rule
 
 # Convenience name for target.
@@ -328,7 +328,7 @@ assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/all: assimp/contrib/irrXML/CMa
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/all: assimp/code/CMakeFiles/assimp.dir/all
 	$(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/depend
 	$(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num=74,75 "Built target assimp_cmd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=70,71 "Built target assimp_cmd"
 .PHONY : assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/all
 
 # Include target in all.
@@ -338,9 +338,9 @@ all: assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 59
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 68
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/rule
 
 # Convenience name for target.
@@ -414,7 +414,7 @@ assimp/test/CMakeFiles/unit.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir
 assimp/test/CMakeFiles/unit.dir/all: assimp/code/CMakeFiles/assimp.dir/all
 	$(MAKE) -f assimp/test/CMakeFiles/unit.dir/build.make assimp/test/CMakeFiles/unit.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/unit.dir/build.make assimp/test/CMakeFiles/unit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num=79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target unit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target unit"
 .PHONY : assimp/test/CMakeFiles/unit.dir/all
 
 # Include target in all.
@@ -424,9 +424,9 @@ all: assimp/test/CMakeFiles/unit.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/unit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 79
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 91
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/unit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/unit.dir/rule
 
 # Convenience name for target.
@@ -451,14 +451,14 @@ clean: assimp/test/CMakeFiles/unit.dir/clean
 assimp/test/CMakeFiles/ContinuousSubmit.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/ContinuousSubmit.dir/build.make assimp/test/CMakeFiles/ContinuousSubmit.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/ContinuousSubmit.dir/build.make assimp/test/CMakeFiles/ContinuousSubmit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target ContinuousSubmit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target ContinuousSubmit"
 .PHONY : assimp/test/CMakeFiles/ContinuousSubmit.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/ContinuousSubmit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/ContinuousSubmit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/ContinuousSubmit.dir/rule
 
 # Convenience name for target.
@@ -483,14 +483,14 @@ clean: assimp/test/CMakeFiles/ContinuousSubmit.dir/clean
 assimp/test/CMakeFiles/ContinuousCoverage.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/ContinuousCoverage.dir/build.make assimp/test/CMakeFiles/ContinuousCoverage.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/ContinuousCoverage.dir/build.make assimp/test/CMakeFiles/ContinuousCoverage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target ContinuousCoverage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target ContinuousCoverage"
 .PHONY : assimp/test/CMakeFiles/ContinuousCoverage.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/ContinuousCoverage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/ContinuousCoverage.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/ContinuousCoverage.dir/rule
 
 # Convenience name for target.
@@ -515,14 +515,14 @@ clean: assimp/test/CMakeFiles/ContinuousCoverage.dir/clean
 assimp/test/CMakeFiles/ContinuousTest.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/ContinuousTest.dir/build.make assimp/test/CMakeFiles/ContinuousTest.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/ContinuousTest.dir/build.make assimp/test/CMakeFiles/ContinuousTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target ContinuousTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target ContinuousTest"
 .PHONY : assimp/test/CMakeFiles/ContinuousTest.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/ContinuousTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/ContinuousTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/ContinuousTest.dir/rule
 
 # Convenience name for target.
@@ -547,14 +547,14 @@ clean: assimp/test/CMakeFiles/ContinuousTest.dir/clean
 assimp/test/CMakeFiles/ContinuousBuild.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/ContinuousBuild.dir/build.make assimp/test/CMakeFiles/ContinuousBuild.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/ContinuousBuild.dir/build.make assimp/test/CMakeFiles/ContinuousBuild.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target ContinuousBuild"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target ContinuousBuild"
 .PHONY : assimp/test/CMakeFiles/ContinuousBuild.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/ContinuousBuild.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/ContinuousBuild.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/ContinuousBuild.dir/rule
 
 # Convenience name for target.
@@ -579,14 +579,14 @@ clean: assimp/test/CMakeFiles/ContinuousBuild.dir/clean
 assimp/test/CMakeFiles/ContinuousMemCheck.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/ContinuousMemCheck.dir/build.make assimp/test/CMakeFiles/ContinuousMemCheck.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/ContinuousMemCheck.dir/build.make assimp/test/CMakeFiles/ContinuousMemCheck.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target ContinuousMemCheck"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target ContinuousMemCheck"
 .PHONY : assimp/test/CMakeFiles/ContinuousMemCheck.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/ContinuousMemCheck.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/ContinuousMemCheck.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/ContinuousMemCheck.dir/rule
 
 # Convenience name for target.
@@ -611,14 +611,14 @@ clean: assimp/test/CMakeFiles/ContinuousMemCheck.dir/clean
 assimp/test/CMakeFiles/Nightly.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/Nightly.dir/build.make assimp/test/CMakeFiles/Nightly.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/Nightly.dir/build.make assimp/test/CMakeFiles/Nightly.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target Nightly"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target Nightly"
 .PHONY : assimp/test/CMakeFiles/Nightly.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/Nightly.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/Nightly.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/Nightly.dir/rule
 
 # Convenience name for target.
@@ -643,14 +643,14 @@ clean: assimp/test/CMakeFiles/Nightly.dir/clean
 assimp/test/CMakeFiles/NightlyTest.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/NightlyTest.dir/build.make assimp/test/CMakeFiles/NightlyTest.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/NightlyTest.dir/build.make assimp/test/CMakeFiles/NightlyTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target NightlyTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target NightlyTest"
 .PHONY : assimp/test/CMakeFiles/NightlyTest.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/NightlyTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/NightlyTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/NightlyTest.dir/rule
 
 # Convenience name for target.
@@ -675,14 +675,14 @@ clean: assimp/test/CMakeFiles/NightlyTest.dir/clean
 assimp/test/CMakeFiles/NightlyUpdate.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/NightlyUpdate.dir/build.make assimp/test/CMakeFiles/NightlyUpdate.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/NightlyUpdate.dir/build.make assimp/test/CMakeFiles/NightlyUpdate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target NightlyUpdate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target NightlyUpdate"
 .PHONY : assimp/test/CMakeFiles/NightlyUpdate.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/NightlyUpdate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/NightlyUpdate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/NightlyUpdate.dir/rule
 
 # Convenience name for target.
@@ -707,14 +707,14 @@ clean: assimp/test/CMakeFiles/NightlyUpdate.dir/clean
 assimp/test/CMakeFiles/Continuous.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/Continuous.dir/build.make assimp/test/CMakeFiles/Continuous.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/Continuous.dir/build.make assimp/test/CMakeFiles/Continuous.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target Continuous"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target Continuous"
 .PHONY : assimp/test/CMakeFiles/Continuous.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/Continuous.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/Continuous.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/Continuous.dir/rule
 
 # Convenience name for target.
@@ -739,14 +739,14 @@ clean: assimp/test/CMakeFiles/Continuous.dir/clean
 assimp/test/CMakeFiles/NightlyBuild.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/NightlyBuild.dir/build.make assimp/test/CMakeFiles/NightlyBuild.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/NightlyBuild.dir/build.make assimp/test/CMakeFiles/NightlyBuild.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target NightlyBuild"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target NightlyBuild"
 .PHONY : assimp/test/CMakeFiles/NightlyBuild.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/NightlyBuild.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/NightlyBuild.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/NightlyBuild.dir/rule
 
 # Convenience name for target.
@@ -771,14 +771,14 @@ clean: assimp/test/CMakeFiles/NightlyBuild.dir/clean
 assimp/test/CMakeFiles/NightlyStart.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/NightlyStart.dir/build.make assimp/test/CMakeFiles/NightlyStart.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/NightlyStart.dir/build.make assimp/test/CMakeFiles/NightlyStart.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target NightlyStart"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target NightlyStart"
 .PHONY : assimp/test/CMakeFiles/NightlyStart.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/NightlyStart.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/NightlyStart.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/NightlyStart.dir/rule
 
 # Convenience name for target.
@@ -803,14 +803,14 @@ clean: assimp/test/CMakeFiles/NightlyStart.dir/clean
 assimp/test/CMakeFiles/NightlyMemoryCheck.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/NightlyMemoryCheck.dir/build.make assimp/test/CMakeFiles/NightlyMemoryCheck.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/NightlyMemoryCheck.dir/build.make assimp/test/CMakeFiles/NightlyMemoryCheck.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target NightlyMemoryCheck"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target NightlyMemoryCheck"
 .PHONY : assimp/test/CMakeFiles/NightlyMemoryCheck.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/NightlyMemoryCheck.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/NightlyMemoryCheck.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/NightlyMemoryCheck.dir/rule
 
 # Convenience name for target.
@@ -835,14 +835,14 @@ clean: assimp/test/CMakeFiles/NightlyMemoryCheck.dir/clean
 assimp/test/CMakeFiles/NightlyMemCheck.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/NightlyMemCheck.dir/build.make assimp/test/CMakeFiles/NightlyMemCheck.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/NightlyMemCheck.dir/build.make assimp/test/CMakeFiles/NightlyMemCheck.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target NightlyMemCheck"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target NightlyMemCheck"
 .PHONY : assimp/test/CMakeFiles/NightlyMemCheck.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/NightlyMemCheck.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/NightlyMemCheck.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/NightlyMemCheck.dir/rule
 
 # Convenience name for target.
@@ -867,14 +867,14 @@ clean: assimp/test/CMakeFiles/NightlyMemCheck.dir/clean
 assimp/test/CMakeFiles/ExperimentalStart.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/ExperimentalStart.dir/build.make assimp/test/CMakeFiles/ExperimentalStart.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/ExperimentalStart.dir/build.make assimp/test/CMakeFiles/ExperimentalStart.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target ExperimentalStart"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target ExperimentalStart"
 .PHONY : assimp/test/CMakeFiles/ExperimentalStart.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/ExperimentalStart.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/ExperimentalStart.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/ExperimentalStart.dir/rule
 
 # Convenience name for target.
@@ -899,14 +899,14 @@ clean: assimp/test/CMakeFiles/ExperimentalStart.dir/clean
 assimp/test/CMakeFiles/ContinuousConfigure.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/ContinuousConfigure.dir/build.make assimp/test/CMakeFiles/ContinuousConfigure.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/ContinuousConfigure.dir/build.make assimp/test/CMakeFiles/ContinuousConfigure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target ContinuousConfigure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target ContinuousConfigure"
 .PHONY : assimp/test/CMakeFiles/ContinuousConfigure.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/ContinuousConfigure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/ContinuousConfigure.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/ContinuousConfigure.dir/rule
 
 # Convenience name for target.
@@ -931,14 +931,14 @@ clean: assimp/test/CMakeFiles/ContinuousConfigure.dir/clean
 assimp/test/CMakeFiles/NightlyCoverage.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/NightlyCoverage.dir/build.make assimp/test/CMakeFiles/NightlyCoverage.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/NightlyCoverage.dir/build.make assimp/test/CMakeFiles/NightlyCoverage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target NightlyCoverage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target NightlyCoverage"
 .PHONY : assimp/test/CMakeFiles/NightlyCoverage.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/NightlyCoverage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/NightlyCoverage.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/NightlyCoverage.dir/rule
 
 # Convenience name for target.
@@ -963,14 +963,14 @@ clean: assimp/test/CMakeFiles/NightlyCoverage.dir/clean
 assimp/test/CMakeFiles/ExperimentalUpdate.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/ExperimentalUpdate.dir/build.make assimp/test/CMakeFiles/ExperimentalUpdate.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/ExperimentalUpdate.dir/build.make assimp/test/CMakeFiles/ExperimentalUpdate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target ExperimentalUpdate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target ExperimentalUpdate"
 .PHONY : assimp/test/CMakeFiles/ExperimentalUpdate.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/ExperimentalUpdate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/ExperimentalUpdate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/ExperimentalUpdate.dir/rule
 
 # Convenience name for target.
@@ -995,14 +995,14 @@ clean: assimp/test/CMakeFiles/ExperimentalUpdate.dir/clean
 assimp/test/CMakeFiles/ExperimentalConfigure.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/ExperimentalConfigure.dir/build.make assimp/test/CMakeFiles/ExperimentalConfigure.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/ExperimentalConfigure.dir/build.make assimp/test/CMakeFiles/ExperimentalConfigure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target ExperimentalConfigure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target ExperimentalConfigure"
 .PHONY : assimp/test/CMakeFiles/ExperimentalConfigure.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/ExperimentalConfigure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/ExperimentalConfigure.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/ExperimentalConfigure.dir/rule
 
 # Convenience name for target.
@@ -1027,14 +1027,14 @@ clean: assimp/test/CMakeFiles/ExperimentalConfigure.dir/clean
 assimp/test/CMakeFiles/ExperimentalCoverage.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/ExperimentalCoverage.dir/build.make assimp/test/CMakeFiles/ExperimentalCoverage.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/ExperimentalCoverage.dir/build.make assimp/test/CMakeFiles/ExperimentalCoverage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target ExperimentalCoverage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target ExperimentalCoverage"
 .PHONY : assimp/test/CMakeFiles/ExperimentalCoverage.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/ExperimentalCoverage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/ExperimentalCoverage.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/ExperimentalCoverage.dir/rule
 
 # Convenience name for target.
@@ -1059,14 +1059,14 @@ clean: assimp/test/CMakeFiles/ExperimentalCoverage.dir/clean
 assimp/test/CMakeFiles/ExperimentalBuild.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/ExperimentalBuild.dir/build.make assimp/test/CMakeFiles/ExperimentalBuild.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/ExperimentalBuild.dir/build.make assimp/test/CMakeFiles/ExperimentalBuild.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target ExperimentalBuild"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target ExperimentalBuild"
 .PHONY : assimp/test/CMakeFiles/ExperimentalBuild.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/ExperimentalBuild.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/ExperimentalBuild.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/ExperimentalBuild.dir/rule
 
 # Convenience name for target.
@@ -1091,14 +1091,14 @@ clean: assimp/test/CMakeFiles/ExperimentalBuild.dir/clean
 assimp/test/CMakeFiles/NightlyConfigure.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/NightlyConfigure.dir/build.make assimp/test/CMakeFiles/NightlyConfigure.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/NightlyConfigure.dir/build.make assimp/test/CMakeFiles/NightlyConfigure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target NightlyConfigure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target NightlyConfigure"
 .PHONY : assimp/test/CMakeFiles/NightlyConfigure.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/NightlyConfigure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/NightlyConfigure.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/NightlyConfigure.dir/rule
 
 # Convenience name for target.
@@ -1123,14 +1123,14 @@ clean: assimp/test/CMakeFiles/NightlyConfigure.dir/clean
 assimp/test/CMakeFiles/ExperimentalTest.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/ExperimentalTest.dir/build.make assimp/test/CMakeFiles/ExperimentalTest.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/ExperimentalTest.dir/build.make assimp/test/CMakeFiles/ExperimentalTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target ExperimentalTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target ExperimentalTest"
 .PHONY : assimp/test/CMakeFiles/ExperimentalTest.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/ExperimentalTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/ExperimentalTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/ExperimentalTest.dir/rule
 
 # Convenience name for target.
@@ -1155,14 +1155,14 @@ clean: assimp/test/CMakeFiles/ExperimentalTest.dir/clean
 assimp/test/CMakeFiles/ExperimentalMemCheck.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/ExperimentalMemCheck.dir/build.make assimp/test/CMakeFiles/ExperimentalMemCheck.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/ExperimentalMemCheck.dir/build.make assimp/test/CMakeFiles/ExperimentalMemCheck.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target ExperimentalMemCheck"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target ExperimentalMemCheck"
 .PHONY : assimp/test/CMakeFiles/ExperimentalMemCheck.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/ExperimentalMemCheck.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/ExperimentalMemCheck.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/ExperimentalMemCheck.dir/rule
 
 # Convenience name for target.
@@ -1187,14 +1187,14 @@ clean: assimp/test/CMakeFiles/ExperimentalMemCheck.dir/clean
 assimp/test/CMakeFiles/Experimental.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/Experimental.dir/build.make assimp/test/CMakeFiles/Experimental.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/Experimental.dir/build.make assimp/test/CMakeFiles/Experimental.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target Experimental"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target Experimental"
 .PHONY : assimp/test/CMakeFiles/Experimental.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/Experimental.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/Experimental.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/Experimental.dir/rule
 
 # Convenience name for target.
@@ -1219,14 +1219,14 @@ clean: assimp/test/CMakeFiles/Experimental.dir/clean
 assimp/test/CMakeFiles/NightlySubmit.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/NightlySubmit.dir/build.make assimp/test/CMakeFiles/NightlySubmit.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/NightlySubmit.dir/build.make assimp/test/CMakeFiles/NightlySubmit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target NightlySubmit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target NightlySubmit"
 .PHONY : assimp/test/CMakeFiles/NightlySubmit.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/NightlySubmit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/NightlySubmit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/NightlySubmit.dir/rule
 
 # Convenience name for target.
@@ -1251,14 +1251,14 @@ clean: assimp/test/CMakeFiles/NightlySubmit.dir/clean
 assimp/test/CMakeFiles/ExperimentalSubmit.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/ExperimentalSubmit.dir/build.make assimp/test/CMakeFiles/ExperimentalSubmit.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/ExperimentalSubmit.dir/build.make assimp/test/CMakeFiles/ExperimentalSubmit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target ExperimentalSubmit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target ExperimentalSubmit"
 .PHONY : assimp/test/CMakeFiles/ExperimentalSubmit.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/ExperimentalSubmit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/ExperimentalSubmit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/ExperimentalSubmit.dir/rule
 
 # Convenience name for target.
@@ -1283,14 +1283,14 @@ clean: assimp/test/CMakeFiles/ExperimentalSubmit.dir/clean
 assimp/test/CMakeFiles/ContinuousStart.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/ContinuousStart.dir/build.make assimp/test/CMakeFiles/ContinuousStart.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/ContinuousStart.dir/build.make assimp/test/CMakeFiles/ContinuousStart.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target ContinuousStart"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target ContinuousStart"
 .PHONY : assimp/test/CMakeFiles/ContinuousStart.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/ContinuousStart.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/ContinuousStart.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/ContinuousStart.dir/rule
 
 # Convenience name for target.
@@ -1315,14 +1315,14 @@ clean: assimp/test/CMakeFiles/ContinuousStart.dir/clean
 assimp/test/CMakeFiles/ContinuousUpdate.dir/all:
 	$(MAKE) -f assimp/test/CMakeFiles/ContinuousUpdate.dir/build.make assimp/test/CMakeFiles/ContinuousUpdate.dir/depend
 	$(MAKE) -f assimp/test/CMakeFiles/ContinuousUpdate.dir/build.make assimp/test/CMakeFiles/ContinuousUpdate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target ContinuousUpdate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target ContinuousUpdate"
 .PHONY : assimp/test/CMakeFiles/ContinuousUpdate.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/test/CMakeFiles/ContinuousUpdate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/test/CMakeFiles/ContinuousUpdate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/test/CMakeFiles/ContinuousUpdate.dir/rule
 
 # Convenience name for target.
@@ -1359,947 +1359,6 @@ assimp/test/headercheck/preinstall:
 .PHONY : assimp/test/headercheck/preinstall
 
 #=============================================================================
-# Directory level rules for directory TP1
-
-# Convenience name for "all" pass in the directory.
-TP1/all: TP1/CMakeFiles/TP1_SDLtemplate.dir/all
-TP1/all: TP1/CMakeFiles/TP1_ex_1.dir/all
-
-.PHONY : TP1/all
-
-# Convenience name for "clean" pass in the directory.
-TP1/clean: TP1/CMakeFiles/TP1_SDLtemplate.dir/clean
-TP1/clean: TP1/CMakeFiles/TP1_ex_1.dir/clean
-
-.PHONY : TP1/clean
-
-# Convenience name for "preinstall" pass in the directory.
-TP1/preinstall:
-
-.PHONY : TP1/preinstall
-
-#=============================================================================
-# Target rules for target TP1/CMakeFiles/TP1_SDLtemplate.dir
-
-# All Build rule for target.
-TP1/CMakeFiles/TP1_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
-TP1/CMakeFiles/TP1_SDLtemplate.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
-TP1/CMakeFiles/TP1_SDLtemplate.dir/all: assimp/code/CMakeFiles/assimp.dir/all
-	$(MAKE) -f TP1/CMakeFiles/TP1_SDLtemplate.dir/build.make TP1/CMakeFiles/TP1_SDLtemplate.dir/depend
-	$(MAKE) -f TP1/CMakeFiles/TP1_SDLtemplate.dir/build.make TP1/CMakeFiles/TP1_SDLtemplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num=1 "Built target TP1_SDLtemplate"
-.PHONY : TP1/CMakeFiles/TP1_SDLtemplate.dir/all
-
-# Include target in all.
-all: TP1/CMakeFiles/TP1_SDLtemplate.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-TP1/CMakeFiles/TP1_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 61
-	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_SDLtemplate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
-.PHONY : TP1/CMakeFiles/TP1_SDLtemplate.dir/rule
-
-# Convenience name for target.
-TP1_SDLtemplate: TP1/CMakeFiles/TP1_SDLtemplate.dir/rule
-
-.PHONY : TP1_SDLtemplate
-
-# clean rule for target.
-TP1/CMakeFiles/TP1_SDLtemplate.dir/clean:
-	$(MAKE) -f TP1/CMakeFiles/TP1_SDLtemplate.dir/build.make TP1/CMakeFiles/TP1_SDLtemplate.dir/clean
-.PHONY : TP1/CMakeFiles/TP1_SDLtemplate.dir/clean
-
-# clean rule for target.
-clean: TP1/CMakeFiles/TP1_SDLtemplate.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target TP1/CMakeFiles/TP1_ex_1.dir
-
-# All Build rule for target.
-TP1/CMakeFiles/TP1_ex_1.dir/all: glimac/CMakeFiles/glimac.dir/all
-TP1/CMakeFiles/TP1_ex_1.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
-TP1/CMakeFiles/TP1_ex_1.dir/all: assimp/code/CMakeFiles/assimp.dir/all
-	$(MAKE) -f TP1/CMakeFiles/TP1_ex_1.dir/build.make TP1/CMakeFiles/TP1_ex_1.dir/depend
-	$(MAKE) -f TP1/CMakeFiles/TP1_ex_1.dir/build.make TP1/CMakeFiles/TP1_ex_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target TP1_ex_1"
-.PHONY : TP1/CMakeFiles/TP1_ex_1.dir/all
-
-# Include target in all.
-all: TP1/CMakeFiles/TP1_ex_1.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-TP1/CMakeFiles/TP1_ex_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 60
-	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_ex_1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
-.PHONY : TP1/CMakeFiles/TP1_ex_1.dir/rule
-
-# Convenience name for target.
-TP1_ex_1: TP1/CMakeFiles/TP1_ex_1.dir/rule
-
-.PHONY : TP1_ex_1
-
-# clean rule for target.
-TP1/CMakeFiles/TP1_ex_1.dir/clean:
-	$(MAKE) -f TP1/CMakeFiles/TP1_ex_1.dir/build.make TP1/CMakeFiles/TP1_ex_1.dir/clean
-.PHONY : TP1/CMakeFiles/TP1_ex_1.dir/clean
-
-# clean rule for target.
-clean: TP1/CMakeFiles/TP1_ex_1.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory TP2
-
-# Convenience name for "all" pass in the directory.
-TP2/all: TP2/CMakeFiles/TP2_SDLtemplate.dir/all
-TP2/all: TP2/CMakeFiles/TP2_ex_4_quad.dir/all
-TP2/all: TP2/CMakeFiles/TP2_ex_2.dir/all
-TP2/all: TP2/CMakeFiles/TP2_ex_6_IBO.dir/all
-TP2/all: TP2/CMakeFiles/TP2_ex_3_structure_vertex.dir/all
-TP2/all: TP2/CMakeFiles/TP2_ex_5_disque.dir/all
-TP2/all: TP2/CMakeFiles/TP2_ex_7_quadIBO.dir/all
-
-.PHONY : TP2/all
-
-# Convenience name for "clean" pass in the directory.
-TP2/clean: TP2/CMakeFiles/TP2_SDLtemplate.dir/clean
-TP2/clean: TP2/CMakeFiles/TP2_ex_4_quad.dir/clean
-TP2/clean: TP2/CMakeFiles/TP2_ex_2.dir/clean
-TP2/clean: TP2/CMakeFiles/TP2_ex_6_IBO.dir/clean
-TP2/clean: TP2/CMakeFiles/TP2_ex_3_structure_vertex.dir/clean
-TP2/clean: TP2/CMakeFiles/TP2_ex_5_disque.dir/clean
-TP2/clean: TP2/CMakeFiles/TP2_ex_7_quadIBO.dir/clean
-
-.PHONY : TP2/clean
-
-# Convenience name for "preinstall" pass in the directory.
-TP2/preinstall:
-
-.PHONY : TP2/preinstall
-
-#=============================================================================
-# Target rules for target TP2/CMakeFiles/TP2_SDLtemplate.dir
-
-# All Build rule for target.
-TP2/CMakeFiles/TP2_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
-TP2/CMakeFiles/TP2_SDLtemplate.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
-TP2/CMakeFiles/TP2_SDLtemplate.dir/all: assimp/code/CMakeFiles/assimp.dir/all
-	$(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/depend
-	$(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num=2 "Built target TP2_SDLtemplate"
-.PHONY : TP2/CMakeFiles/TP2_SDLtemplate.dir/all
-
-# Include target in all.
-all: TP2/CMakeFiles/TP2_SDLtemplate.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-TP2/CMakeFiles/TP2_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 61
-	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_SDLtemplate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
-.PHONY : TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
-
-# Convenience name for target.
-TP2_SDLtemplate: TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
-
-.PHONY : TP2_SDLtemplate
-
-# clean rule for target.
-TP2/CMakeFiles/TP2_SDLtemplate.dir/clean:
-	$(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/clean
-.PHONY : TP2/CMakeFiles/TP2_SDLtemplate.dir/clean
-
-# clean rule for target.
-clean: TP2/CMakeFiles/TP2_SDLtemplate.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target TP2/CMakeFiles/TP2_ex_4_quad.dir
-
-# All Build rule for target.
-TP2/CMakeFiles/TP2_ex_4_quad.dir/all: glimac/CMakeFiles/glimac.dir/all
-TP2/CMakeFiles/TP2_ex_4_quad.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
-TP2/CMakeFiles/TP2_ex_4_quad.dir/all: assimp/code/CMakeFiles/assimp.dir/all
-	$(MAKE) -f TP2/CMakeFiles/TP2_ex_4_quad.dir/build.make TP2/CMakeFiles/TP2_ex_4_quad.dir/depend
-	$(MAKE) -f TP2/CMakeFiles/TP2_ex_4_quad.dir/build.make TP2/CMakeFiles/TP2_ex_4_quad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num=4 "Built target TP2_ex_4_quad"
-.PHONY : TP2/CMakeFiles/TP2_ex_4_quad.dir/all
-
-# Include target in all.
-all: TP2/CMakeFiles/TP2_ex_4_quad.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-TP2/CMakeFiles/TP2_ex_4_quad.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 61
-	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_ex_4_quad.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
-.PHONY : TP2/CMakeFiles/TP2_ex_4_quad.dir/rule
-
-# Convenience name for target.
-TP2_ex_4_quad: TP2/CMakeFiles/TP2_ex_4_quad.dir/rule
-
-.PHONY : TP2_ex_4_quad
-
-# clean rule for target.
-TP2/CMakeFiles/TP2_ex_4_quad.dir/clean:
-	$(MAKE) -f TP2/CMakeFiles/TP2_ex_4_quad.dir/build.make TP2/CMakeFiles/TP2_ex_4_quad.dir/clean
-.PHONY : TP2/CMakeFiles/TP2_ex_4_quad.dir/clean
-
-# clean rule for target.
-clean: TP2/CMakeFiles/TP2_ex_4_quad.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target TP2/CMakeFiles/TP2_ex_2.dir
-
-# All Build rule for target.
-TP2/CMakeFiles/TP2_ex_2.dir/all: glimac/CMakeFiles/glimac.dir/all
-TP2/CMakeFiles/TP2_ex_2.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
-TP2/CMakeFiles/TP2_ex_2.dir/all: assimp/code/CMakeFiles/assimp.dir/all
-	$(MAKE) -f TP2/CMakeFiles/TP2_ex_2.dir/build.make TP2/CMakeFiles/TP2_ex_2.dir/depend
-	$(MAKE) -f TP2/CMakeFiles/TP2_ex_2.dir/build.make TP2/CMakeFiles/TP2_ex_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target TP2_ex_2"
-.PHONY : TP2/CMakeFiles/TP2_ex_2.dir/all
-
-# Include target in all.
-all: TP2/CMakeFiles/TP2_ex_2.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-TP2/CMakeFiles/TP2_ex_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 60
-	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_ex_2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
-.PHONY : TP2/CMakeFiles/TP2_ex_2.dir/rule
-
-# Convenience name for target.
-TP2_ex_2: TP2/CMakeFiles/TP2_ex_2.dir/rule
-
-.PHONY : TP2_ex_2
-
-# clean rule for target.
-TP2/CMakeFiles/TP2_ex_2.dir/clean:
-	$(MAKE) -f TP2/CMakeFiles/TP2_ex_2.dir/build.make TP2/CMakeFiles/TP2_ex_2.dir/clean
-.PHONY : TP2/CMakeFiles/TP2_ex_2.dir/clean
-
-# clean rule for target.
-clean: TP2/CMakeFiles/TP2_ex_2.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target TP2/CMakeFiles/TP2_ex_6_IBO.dir
-
-# All Build rule for target.
-TP2/CMakeFiles/TP2_ex_6_IBO.dir/all: glimac/CMakeFiles/glimac.dir/all
-TP2/CMakeFiles/TP2_ex_6_IBO.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
-TP2/CMakeFiles/TP2_ex_6_IBO.dir/all: assimp/code/CMakeFiles/assimp.dir/all
-	$(MAKE) -f TP2/CMakeFiles/TP2_ex_6_IBO.dir/build.make TP2/CMakeFiles/TP2_ex_6_IBO.dir/depend
-	$(MAKE) -f TP2/CMakeFiles/TP2_ex_6_IBO.dir/build.make TP2/CMakeFiles/TP2_ex_6_IBO.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num=5 "Built target TP2_ex_6_IBO"
-.PHONY : TP2/CMakeFiles/TP2_ex_6_IBO.dir/all
-
-# Include target in all.
-all: TP2/CMakeFiles/TP2_ex_6_IBO.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-TP2/CMakeFiles/TP2_ex_6_IBO.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 61
-	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_ex_6_IBO.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
-.PHONY : TP2/CMakeFiles/TP2_ex_6_IBO.dir/rule
-
-# Convenience name for target.
-TP2_ex_6_IBO: TP2/CMakeFiles/TP2_ex_6_IBO.dir/rule
-
-.PHONY : TP2_ex_6_IBO
-
-# clean rule for target.
-TP2/CMakeFiles/TP2_ex_6_IBO.dir/clean:
-	$(MAKE) -f TP2/CMakeFiles/TP2_ex_6_IBO.dir/build.make TP2/CMakeFiles/TP2_ex_6_IBO.dir/clean
-.PHONY : TP2/CMakeFiles/TP2_ex_6_IBO.dir/clean
-
-# clean rule for target.
-clean: TP2/CMakeFiles/TP2_ex_6_IBO.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target TP2/CMakeFiles/TP2_ex_3_structure_vertex.dir
-
-# All Build rule for target.
-TP2/CMakeFiles/TP2_ex_3_structure_vertex.dir/all: glimac/CMakeFiles/glimac.dir/all
-TP2/CMakeFiles/TP2_ex_3_structure_vertex.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
-TP2/CMakeFiles/TP2_ex_3_structure_vertex.dir/all: assimp/code/CMakeFiles/assimp.dir/all
-	$(MAKE) -f TP2/CMakeFiles/TP2_ex_3_structure_vertex.dir/build.make TP2/CMakeFiles/TP2_ex_3_structure_vertex.dir/depend
-	$(MAKE) -f TP2/CMakeFiles/TP2_ex_3_structure_vertex.dir/build.make TP2/CMakeFiles/TP2_ex_3_structure_vertex.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num=3 "Built target TP2_ex_3_structure_vertex"
-.PHONY : TP2/CMakeFiles/TP2_ex_3_structure_vertex.dir/all
-
-# Include target in all.
-all: TP2/CMakeFiles/TP2_ex_3_structure_vertex.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-TP2/CMakeFiles/TP2_ex_3_structure_vertex.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 61
-	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_ex_3_structure_vertex.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
-.PHONY : TP2/CMakeFiles/TP2_ex_3_structure_vertex.dir/rule
-
-# Convenience name for target.
-TP2_ex_3_structure_vertex: TP2/CMakeFiles/TP2_ex_3_structure_vertex.dir/rule
-
-.PHONY : TP2_ex_3_structure_vertex
-
-# clean rule for target.
-TP2/CMakeFiles/TP2_ex_3_structure_vertex.dir/clean:
-	$(MAKE) -f TP2/CMakeFiles/TP2_ex_3_structure_vertex.dir/build.make TP2/CMakeFiles/TP2_ex_3_structure_vertex.dir/clean
-.PHONY : TP2/CMakeFiles/TP2_ex_3_structure_vertex.dir/clean
-
-# clean rule for target.
-clean: TP2/CMakeFiles/TP2_ex_3_structure_vertex.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target TP2/CMakeFiles/TP2_ex_5_disque.dir
-
-# All Build rule for target.
-TP2/CMakeFiles/TP2_ex_5_disque.dir/all: glimac/CMakeFiles/glimac.dir/all
-TP2/CMakeFiles/TP2_ex_5_disque.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
-TP2/CMakeFiles/TP2_ex_5_disque.dir/all: assimp/code/CMakeFiles/assimp.dir/all
-	$(MAKE) -f TP2/CMakeFiles/TP2_ex_5_disque.dir/build.make TP2/CMakeFiles/TP2_ex_5_disque.dir/depend
-	$(MAKE) -f TP2/CMakeFiles/TP2_ex_5_disque.dir/build.make TP2/CMakeFiles/TP2_ex_5_disque.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target TP2_ex_5_disque"
-.PHONY : TP2/CMakeFiles/TP2_ex_5_disque.dir/all
-
-# Include target in all.
-all: TP2/CMakeFiles/TP2_ex_5_disque.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-TP2/CMakeFiles/TP2_ex_5_disque.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 60
-	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_ex_5_disque.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
-.PHONY : TP2/CMakeFiles/TP2_ex_5_disque.dir/rule
-
-# Convenience name for target.
-TP2_ex_5_disque: TP2/CMakeFiles/TP2_ex_5_disque.dir/rule
-
-.PHONY : TP2_ex_5_disque
-
-# clean rule for target.
-TP2/CMakeFiles/TP2_ex_5_disque.dir/clean:
-	$(MAKE) -f TP2/CMakeFiles/TP2_ex_5_disque.dir/build.make TP2/CMakeFiles/TP2_ex_5_disque.dir/clean
-.PHONY : TP2/CMakeFiles/TP2_ex_5_disque.dir/clean
-
-# clean rule for target.
-clean: TP2/CMakeFiles/TP2_ex_5_disque.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target TP2/CMakeFiles/TP2_ex_7_quadIBO.dir
-
-# All Build rule for target.
-TP2/CMakeFiles/TP2_ex_7_quadIBO.dir/all: glimac/CMakeFiles/glimac.dir/all
-TP2/CMakeFiles/TP2_ex_7_quadIBO.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
-TP2/CMakeFiles/TP2_ex_7_quadIBO.dir/all: assimp/code/CMakeFiles/assimp.dir/all
-	$(MAKE) -f TP2/CMakeFiles/TP2_ex_7_quadIBO.dir/build.make TP2/CMakeFiles/TP2_ex_7_quadIBO.dir/depend
-	$(MAKE) -f TP2/CMakeFiles/TP2_ex_7_quadIBO.dir/build.make TP2/CMakeFiles/TP2_ex_7_quadIBO.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target TP2_ex_7_quadIBO"
-.PHONY : TP2/CMakeFiles/TP2_ex_7_quadIBO.dir/all
-
-# Include target in all.
-all: TP2/CMakeFiles/TP2_ex_7_quadIBO.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-TP2/CMakeFiles/TP2_ex_7_quadIBO.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 60
-	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_ex_7_quadIBO.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
-.PHONY : TP2/CMakeFiles/TP2_ex_7_quadIBO.dir/rule
-
-# Convenience name for target.
-TP2_ex_7_quadIBO: TP2/CMakeFiles/TP2_ex_7_quadIBO.dir/rule
-
-.PHONY : TP2_ex_7_quadIBO
-
-# clean rule for target.
-TP2/CMakeFiles/TP2_ex_7_quadIBO.dir/clean:
-	$(MAKE) -f TP2/CMakeFiles/TP2_ex_7_quadIBO.dir/build.make TP2/CMakeFiles/TP2_ex_7_quadIBO.dir/clean
-.PHONY : TP2/CMakeFiles/TP2_ex_7_quadIBO.dir/clean
-
-# clean rule for target.
-clean: TP2/CMakeFiles/TP2_ex_7_quadIBO.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory TP3
-
-# Convenience name for "all" pass in the directory.
-TP3/all: TP3/CMakeFiles/TP3_SDLtemplate.dir/all
-TP3/all: TP3/CMakeFiles/TP3_ex_1.dir/all
-TP3/all: TP3/CMakeFiles/TP3_ex_2.dir/all
-TP3/all: TP3/CMakeFiles/TP3_ex_3.dir/all
-
-.PHONY : TP3/all
-
-# Convenience name for "clean" pass in the directory.
-TP3/clean: TP3/CMakeFiles/TP3_SDLtemplate.dir/clean
-TP3/clean: TP3/CMakeFiles/TP3_ex_1.dir/clean
-TP3/clean: TP3/CMakeFiles/TP3_ex_2.dir/clean
-TP3/clean: TP3/CMakeFiles/TP3_ex_3.dir/clean
-
-.PHONY : TP3/clean
-
-# Convenience name for "preinstall" pass in the directory.
-TP3/preinstall:
-
-.PHONY : TP3/preinstall
-
-#=============================================================================
-# Target rules for target TP3/CMakeFiles/TP3_SDLtemplate.dir
-
-# All Build rule for target.
-TP3/CMakeFiles/TP3_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
-TP3/CMakeFiles/TP3_SDLtemplate.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
-TP3/CMakeFiles/TP3_SDLtemplate.dir/all: assimp/code/CMakeFiles/assimp.dir/all
-	$(MAKE) -f TP3/CMakeFiles/TP3_SDLtemplate.dir/build.make TP3/CMakeFiles/TP3_SDLtemplate.dir/depend
-	$(MAKE) -f TP3/CMakeFiles/TP3_SDLtemplate.dir/build.make TP3/CMakeFiles/TP3_SDLtemplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num=6 "Built target TP3_SDLtemplate"
-.PHONY : TP3/CMakeFiles/TP3_SDLtemplate.dir/all
-
-# Include target in all.
-all: TP3/CMakeFiles/TP3_SDLtemplate.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-TP3/CMakeFiles/TP3_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 61
-	$(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_SDLtemplate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
-.PHONY : TP3/CMakeFiles/TP3_SDLtemplate.dir/rule
-
-# Convenience name for target.
-TP3_SDLtemplate: TP3/CMakeFiles/TP3_SDLtemplate.dir/rule
-
-.PHONY : TP3_SDLtemplate
-
-# clean rule for target.
-TP3/CMakeFiles/TP3_SDLtemplate.dir/clean:
-	$(MAKE) -f TP3/CMakeFiles/TP3_SDLtemplate.dir/build.make TP3/CMakeFiles/TP3_SDLtemplate.dir/clean
-.PHONY : TP3/CMakeFiles/TP3_SDLtemplate.dir/clean
-
-# clean rule for target.
-clean: TP3/CMakeFiles/TP3_SDLtemplate.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target TP3/CMakeFiles/TP3_ex_1.dir
-
-# All Build rule for target.
-TP3/CMakeFiles/TP3_ex_1.dir/all: glimac/CMakeFiles/glimac.dir/all
-TP3/CMakeFiles/TP3_ex_1.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
-TP3/CMakeFiles/TP3_ex_1.dir/all: assimp/code/CMakeFiles/assimp.dir/all
-	$(MAKE) -f TP3/CMakeFiles/TP3_ex_1.dir/build.make TP3/CMakeFiles/TP3_ex_1.dir/depend
-	$(MAKE) -f TP3/CMakeFiles/TP3_ex_1.dir/build.make TP3/CMakeFiles/TP3_ex_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target TP3_ex_1"
-.PHONY : TP3/CMakeFiles/TP3_ex_1.dir/all
-
-# Include target in all.
-all: TP3/CMakeFiles/TP3_ex_1.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-TP3/CMakeFiles/TP3_ex_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 60
-	$(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_ex_1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
-.PHONY : TP3/CMakeFiles/TP3_ex_1.dir/rule
-
-# Convenience name for target.
-TP3_ex_1: TP3/CMakeFiles/TP3_ex_1.dir/rule
-
-.PHONY : TP3_ex_1
-
-# clean rule for target.
-TP3/CMakeFiles/TP3_ex_1.dir/clean:
-	$(MAKE) -f TP3/CMakeFiles/TP3_ex_1.dir/build.make TP3/CMakeFiles/TP3_ex_1.dir/clean
-.PHONY : TP3/CMakeFiles/TP3_ex_1.dir/clean
-
-# clean rule for target.
-clean: TP3/CMakeFiles/TP3_ex_1.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target TP3/CMakeFiles/TP3_ex_2.dir
-
-# All Build rule for target.
-TP3/CMakeFiles/TP3_ex_2.dir/all: glimac/CMakeFiles/glimac.dir/all
-TP3/CMakeFiles/TP3_ex_2.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
-TP3/CMakeFiles/TP3_ex_2.dir/all: assimp/code/CMakeFiles/assimp.dir/all
-	$(MAKE) -f TP3/CMakeFiles/TP3_ex_2.dir/build.make TP3/CMakeFiles/TP3_ex_2.dir/depend
-	$(MAKE) -f TP3/CMakeFiles/TP3_ex_2.dir/build.make TP3/CMakeFiles/TP3_ex_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num=7 "Built target TP3_ex_2"
-.PHONY : TP3/CMakeFiles/TP3_ex_2.dir/all
-
-# Include target in all.
-all: TP3/CMakeFiles/TP3_ex_2.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-TP3/CMakeFiles/TP3_ex_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 61
-	$(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_ex_2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
-.PHONY : TP3/CMakeFiles/TP3_ex_2.dir/rule
-
-# Convenience name for target.
-TP3_ex_2: TP3/CMakeFiles/TP3_ex_2.dir/rule
-
-.PHONY : TP3_ex_2
-
-# clean rule for target.
-TP3/CMakeFiles/TP3_ex_2.dir/clean:
-	$(MAKE) -f TP3/CMakeFiles/TP3_ex_2.dir/build.make TP3/CMakeFiles/TP3_ex_2.dir/clean
-.PHONY : TP3/CMakeFiles/TP3_ex_2.dir/clean
-
-# clean rule for target.
-clean: TP3/CMakeFiles/TP3_ex_2.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target TP3/CMakeFiles/TP3_ex_3.dir
-
-# All Build rule for target.
-TP3/CMakeFiles/TP3_ex_3.dir/all: glimac/CMakeFiles/glimac.dir/all
-TP3/CMakeFiles/TP3_ex_3.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
-TP3/CMakeFiles/TP3_ex_3.dir/all: assimp/code/CMakeFiles/assimp.dir/all
-	$(MAKE) -f TP3/CMakeFiles/TP3_ex_3.dir/build.make TP3/CMakeFiles/TP3_ex_3.dir/depend
-	$(MAKE) -f TP3/CMakeFiles/TP3_ex_3.dir/build.make TP3/CMakeFiles/TP3_ex_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num=8 "Built target TP3_ex_3"
-.PHONY : TP3/CMakeFiles/TP3_ex_3.dir/all
-
-# Include target in all.
-all: TP3/CMakeFiles/TP3_ex_3.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-TP3/CMakeFiles/TP3_ex_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 61
-	$(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_ex_3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
-.PHONY : TP3/CMakeFiles/TP3_ex_3.dir/rule
-
-# Convenience name for target.
-TP3_ex_3: TP3/CMakeFiles/TP3_ex_3.dir/rule
-
-.PHONY : TP3_ex_3
-
-# clean rule for target.
-TP3/CMakeFiles/TP3_ex_3.dir/clean:
-	$(MAKE) -f TP3/CMakeFiles/TP3_ex_3.dir/build.make TP3/CMakeFiles/TP3_ex_3.dir/clean
-.PHONY : TP3/CMakeFiles/TP3_ex_3.dir/clean
-
-# clean rule for target.
-clean: TP3/CMakeFiles/TP3_ex_3.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory TP4
-
-# Convenience name for "all" pass in the directory.
-TP4/all: TP4/CMakeFiles/TP4_ex_2.dir/all
-TP4/all: TP4/CMakeFiles/TP4_ex_1.dir/all
-TP4/all: TP4/CMakeFiles/TP4_SDLtemplate.dir/all
-TP4/all: TP4/CMakeFiles/TP4_ex_4.dir/all
-TP4/all: TP4/CMakeFiles/TP4_ex_3.dir/all
-
-.PHONY : TP4/all
-
-# Convenience name for "clean" pass in the directory.
-TP4/clean: TP4/CMakeFiles/TP4_ex_2.dir/clean
-TP4/clean: TP4/CMakeFiles/TP4_ex_1.dir/clean
-TP4/clean: TP4/CMakeFiles/TP4_SDLtemplate.dir/clean
-TP4/clean: TP4/CMakeFiles/TP4_ex_4.dir/clean
-TP4/clean: TP4/CMakeFiles/TP4_ex_3.dir/clean
-
-.PHONY : TP4/clean
-
-# Convenience name for "preinstall" pass in the directory.
-TP4/preinstall:
-
-.PHONY : TP4/preinstall
-
-#=============================================================================
-# Target rules for target TP4/CMakeFiles/TP4_ex_2.dir
-
-# All Build rule for target.
-TP4/CMakeFiles/TP4_ex_2.dir/all: glimac/CMakeFiles/glimac.dir/all
-TP4/CMakeFiles/TP4_ex_2.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
-TP4/CMakeFiles/TP4_ex_2.dir/all: assimp/code/CMakeFiles/assimp.dir/all
-	$(MAKE) -f TP4/CMakeFiles/TP4_ex_2.dir/build.make TP4/CMakeFiles/TP4_ex_2.dir/depend
-	$(MAKE) -f TP4/CMakeFiles/TP4_ex_2.dir/build.make TP4/CMakeFiles/TP4_ex_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target TP4_ex_2"
-.PHONY : TP4/CMakeFiles/TP4_ex_2.dir/all
-
-# Include target in all.
-all: TP4/CMakeFiles/TP4_ex_2.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-TP4/CMakeFiles/TP4_ex_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 60
-	$(MAKE) -f CMakeFiles/Makefile2 TP4/CMakeFiles/TP4_ex_2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
-.PHONY : TP4/CMakeFiles/TP4_ex_2.dir/rule
-
-# Convenience name for target.
-TP4_ex_2: TP4/CMakeFiles/TP4_ex_2.dir/rule
-
-.PHONY : TP4_ex_2
-
-# clean rule for target.
-TP4/CMakeFiles/TP4_ex_2.dir/clean:
-	$(MAKE) -f TP4/CMakeFiles/TP4_ex_2.dir/build.make TP4/CMakeFiles/TP4_ex_2.dir/clean
-.PHONY : TP4/CMakeFiles/TP4_ex_2.dir/clean
-
-# clean rule for target.
-clean: TP4/CMakeFiles/TP4_ex_2.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target TP4/CMakeFiles/TP4_ex_1.dir
-
-# All Build rule for target.
-TP4/CMakeFiles/TP4_ex_1.dir/all: glimac/CMakeFiles/glimac.dir/all
-TP4/CMakeFiles/TP4_ex_1.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
-TP4/CMakeFiles/TP4_ex_1.dir/all: assimp/code/CMakeFiles/assimp.dir/all
-	$(MAKE) -f TP4/CMakeFiles/TP4_ex_1.dir/build.make TP4/CMakeFiles/TP4_ex_1.dir/depend
-	$(MAKE) -f TP4/CMakeFiles/TP4_ex_1.dir/build.make TP4/CMakeFiles/TP4_ex_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num=9 "Built target TP4_ex_1"
-.PHONY : TP4/CMakeFiles/TP4_ex_1.dir/all
-
-# Include target in all.
-all: TP4/CMakeFiles/TP4_ex_1.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-TP4/CMakeFiles/TP4_ex_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 61
-	$(MAKE) -f CMakeFiles/Makefile2 TP4/CMakeFiles/TP4_ex_1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
-.PHONY : TP4/CMakeFiles/TP4_ex_1.dir/rule
-
-# Convenience name for target.
-TP4_ex_1: TP4/CMakeFiles/TP4_ex_1.dir/rule
-
-.PHONY : TP4_ex_1
-
-# clean rule for target.
-TP4/CMakeFiles/TP4_ex_1.dir/clean:
-	$(MAKE) -f TP4/CMakeFiles/TP4_ex_1.dir/build.make TP4/CMakeFiles/TP4_ex_1.dir/clean
-.PHONY : TP4/CMakeFiles/TP4_ex_1.dir/clean
-
-# clean rule for target.
-clean: TP4/CMakeFiles/TP4_ex_1.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target TP4/CMakeFiles/TP4_SDLtemplate.dir
-
-# All Build rule for target.
-TP4/CMakeFiles/TP4_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
-TP4/CMakeFiles/TP4_SDLtemplate.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
-TP4/CMakeFiles/TP4_SDLtemplate.dir/all: assimp/code/CMakeFiles/assimp.dir/all
-	$(MAKE) -f TP4/CMakeFiles/TP4_SDLtemplate.dir/build.make TP4/CMakeFiles/TP4_SDLtemplate.dir/depend
-	$(MAKE) -f TP4/CMakeFiles/TP4_SDLtemplate.dir/build.make TP4/CMakeFiles/TP4_SDLtemplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target TP4_SDLtemplate"
-.PHONY : TP4/CMakeFiles/TP4_SDLtemplate.dir/all
-
-# Include target in all.
-all: TP4/CMakeFiles/TP4_SDLtemplate.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-TP4/CMakeFiles/TP4_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 60
-	$(MAKE) -f CMakeFiles/Makefile2 TP4/CMakeFiles/TP4_SDLtemplate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
-.PHONY : TP4/CMakeFiles/TP4_SDLtemplate.dir/rule
-
-# Convenience name for target.
-TP4_SDLtemplate: TP4/CMakeFiles/TP4_SDLtemplate.dir/rule
-
-.PHONY : TP4_SDLtemplate
-
-# clean rule for target.
-TP4/CMakeFiles/TP4_SDLtemplate.dir/clean:
-	$(MAKE) -f TP4/CMakeFiles/TP4_SDLtemplate.dir/build.make TP4/CMakeFiles/TP4_SDLtemplate.dir/clean
-.PHONY : TP4/CMakeFiles/TP4_SDLtemplate.dir/clean
-
-# clean rule for target.
-clean: TP4/CMakeFiles/TP4_SDLtemplate.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target TP4/CMakeFiles/TP4_ex_4.dir
-
-# All Build rule for target.
-TP4/CMakeFiles/TP4_ex_4.dir/all: glimac/CMakeFiles/glimac.dir/all
-TP4/CMakeFiles/TP4_ex_4.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
-TP4/CMakeFiles/TP4_ex_4.dir/all: assimp/code/CMakeFiles/assimp.dir/all
-	$(MAKE) -f TP4/CMakeFiles/TP4_ex_4.dir/build.make TP4/CMakeFiles/TP4_ex_4.dir/depend
-	$(MAKE) -f TP4/CMakeFiles/TP4_ex_4.dir/build.make TP4/CMakeFiles/TP4_ex_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target TP4_ex_4"
-.PHONY : TP4/CMakeFiles/TP4_ex_4.dir/all
-
-# Include target in all.
-all: TP4/CMakeFiles/TP4_ex_4.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-TP4/CMakeFiles/TP4_ex_4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 60
-	$(MAKE) -f CMakeFiles/Makefile2 TP4/CMakeFiles/TP4_ex_4.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
-.PHONY : TP4/CMakeFiles/TP4_ex_4.dir/rule
-
-# Convenience name for target.
-TP4_ex_4: TP4/CMakeFiles/TP4_ex_4.dir/rule
-
-.PHONY : TP4_ex_4
-
-# clean rule for target.
-TP4/CMakeFiles/TP4_ex_4.dir/clean:
-	$(MAKE) -f TP4/CMakeFiles/TP4_ex_4.dir/build.make TP4/CMakeFiles/TP4_ex_4.dir/clean
-.PHONY : TP4/CMakeFiles/TP4_ex_4.dir/clean
-
-# clean rule for target.
-clean: TP4/CMakeFiles/TP4_ex_4.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target TP4/CMakeFiles/TP4_ex_3.dir
-
-# All Build rule for target.
-TP4/CMakeFiles/TP4_ex_3.dir/all: glimac/CMakeFiles/glimac.dir/all
-TP4/CMakeFiles/TP4_ex_3.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
-TP4/CMakeFiles/TP4_ex_3.dir/all: assimp/code/CMakeFiles/assimp.dir/all
-	$(MAKE) -f TP4/CMakeFiles/TP4_ex_3.dir/build.make TP4/CMakeFiles/TP4_ex_3.dir/depend
-	$(MAKE) -f TP4/CMakeFiles/TP4_ex_3.dir/build.make TP4/CMakeFiles/TP4_ex_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num=10 "Built target TP4_ex_3"
-.PHONY : TP4/CMakeFiles/TP4_ex_3.dir/all
-
-# Include target in all.
-all: TP4/CMakeFiles/TP4_ex_3.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-TP4/CMakeFiles/TP4_ex_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 61
-	$(MAKE) -f CMakeFiles/Makefile2 TP4/CMakeFiles/TP4_ex_3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
-.PHONY : TP4/CMakeFiles/TP4_ex_3.dir/rule
-
-# Convenience name for target.
-TP4_ex_3: TP4/CMakeFiles/TP4_ex_3.dir/rule
-
-.PHONY : TP4_ex_3
-
-# clean rule for target.
-TP4/CMakeFiles/TP4_ex_3.dir/clean:
-	$(MAKE) -f TP4/CMakeFiles/TP4_ex_3.dir/build.make TP4/CMakeFiles/TP4_ex_3.dir/clean
-.PHONY : TP4/CMakeFiles/TP4_ex_3.dir/clean
-
-# clean rule for target.
-clean: TP4/CMakeFiles/TP4_ex_3.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory TP5
-
-# Convenience name for "all" pass in the directory.
-TP5/all: TP5/CMakeFiles/TP5_SDLtemplate.dir/all
-TP5/all: TP5/CMakeFiles/TP5_ex_1.dir/all
-TP5/all: TP5/CMakeFiles/TP5_ex_2.dir/all
-
-.PHONY : TP5/all
-
-# Convenience name for "clean" pass in the directory.
-TP5/clean: TP5/CMakeFiles/TP5_SDLtemplate.dir/clean
-TP5/clean: TP5/CMakeFiles/TP5_ex_1.dir/clean
-TP5/clean: TP5/CMakeFiles/TP5_ex_2.dir/clean
-
-.PHONY : TP5/clean
-
-# Convenience name for "preinstall" pass in the directory.
-TP5/preinstall:
-
-.PHONY : TP5/preinstall
-
-#=============================================================================
-# Target rules for target TP5/CMakeFiles/TP5_SDLtemplate.dir
-
-# All Build rule for target.
-TP5/CMakeFiles/TP5_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
-TP5/CMakeFiles/TP5_SDLtemplate.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
-TP5/CMakeFiles/TP5_SDLtemplate.dir/all: assimp/code/CMakeFiles/assimp.dir/all
-	$(MAKE) -f TP5/CMakeFiles/TP5_SDLtemplate.dir/build.make TP5/CMakeFiles/TP5_SDLtemplate.dir/depend
-	$(MAKE) -f TP5/CMakeFiles/TP5_SDLtemplate.dir/build.make TP5/CMakeFiles/TP5_SDLtemplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num=11 "Built target TP5_SDLtemplate"
-.PHONY : TP5/CMakeFiles/TP5_SDLtemplate.dir/all
-
-# Include target in all.
-all: TP5/CMakeFiles/TP5_SDLtemplate.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-TP5/CMakeFiles/TP5_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 61
-	$(MAKE) -f CMakeFiles/Makefile2 TP5/CMakeFiles/TP5_SDLtemplate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
-.PHONY : TP5/CMakeFiles/TP5_SDLtemplate.dir/rule
-
-# Convenience name for target.
-TP5_SDLtemplate: TP5/CMakeFiles/TP5_SDLtemplate.dir/rule
-
-.PHONY : TP5_SDLtemplate
-
-# clean rule for target.
-TP5/CMakeFiles/TP5_SDLtemplate.dir/clean:
-	$(MAKE) -f TP5/CMakeFiles/TP5_SDLtemplate.dir/build.make TP5/CMakeFiles/TP5_SDLtemplate.dir/clean
-.PHONY : TP5/CMakeFiles/TP5_SDLtemplate.dir/clean
-
-# clean rule for target.
-clean: TP5/CMakeFiles/TP5_SDLtemplate.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target TP5/CMakeFiles/TP5_ex_1.dir
-
-# All Build rule for target.
-TP5/CMakeFiles/TP5_ex_1.dir/all: glimac/CMakeFiles/glimac.dir/all
-TP5/CMakeFiles/TP5_ex_1.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
-TP5/CMakeFiles/TP5_ex_1.dir/all: assimp/code/CMakeFiles/assimp.dir/all
-	$(MAKE) -f TP5/CMakeFiles/TP5_ex_1.dir/build.make TP5/CMakeFiles/TP5_ex_1.dir/depend
-	$(MAKE) -f TP5/CMakeFiles/TP5_ex_1.dir/build.make TP5/CMakeFiles/TP5_ex_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num=12 "Built target TP5_ex_1"
-.PHONY : TP5/CMakeFiles/TP5_ex_1.dir/all
-
-# Include target in all.
-all: TP5/CMakeFiles/TP5_ex_1.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-TP5/CMakeFiles/TP5_ex_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 61
-	$(MAKE) -f CMakeFiles/Makefile2 TP5/CMakeFiles/TP5_ex_1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
-.PHONY : TP5/CMakeFiles/TP5_ex_1.dir/rule
-
-# Convenience name for target.
-TP5_ex_1: TP5/CMakeFiles/TP5_ex_1.dir/rule
-
-.PHONY : TP5_ex_1
-
-# clean rule for target.
-TP5/CMakeFiles/TP5_ex_1.dir/clean:
-	$(MAKE) -f TP5/CMakeFiles/TP5_ex_1.dir/build.make TP5/CMakeFiles/TP5_ex_1.dir/clean
-.PHONY : TP5/CMakeFiles/TP5_ex_1.dir/clean
-
-# clean rule for target.
-clean: TP5/CMakeFiles/TP5_ex_1.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target TP5/CMakeFiles/TP5_ex_2.dir
-
-# All Build rule for target.
-TP5/CMakeFiles/TP5_ex_2.dir/all: glimac/CMakeFiles/glimac.dir/all
-TP5/CMakeFiles/TP5_ex_2.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
-TP5/CMakeFiles/TP5_ex_2.dir/all: assimp/code/CMakeFiles/assimp.dir/all
-	$(MAKE) -f TP5/CMakeFiles/TP5_ex_2.dir/build.make TP5/CMakeFiles/TP5_ex_2.dir/depend
-	$(MAKE) -f TP5/CMakeFiles/TP5_ex_2.dir/build.make TP5/CMakeFiles/TP5_ex_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target TP5_ex_2"
-.PHONY : TP5/CMakeFiles/TP5_ex_2.dir/all
-
-# Include target in all.
-all: TP5/CMakeFiles/TP5_ex_2.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-TP5/CMakeFiles/TP5_ex_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 60
-	$(MAKE) -f CMakeFiles/Makefile2 TP5/CMakeFiles/TP5_ex_2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
-.PHONY : TP5/CMakeFiles/TP5_ex_2.dir/rule
-
-# Convenience name for target.
-TP5_ex_2: TP5/CMakeFiles/TP5_ex_2.dir/rule
-
-.PHONY : TP5_ex_2
-
-# clean rule for target.
-TP5/CMakeFiles/TP5_ex_2.dir/clean:
-	$(MAKE) -f TP5/CMakeFiles/TP5_ex_2.dir/build.make TP5/CMakeFiles/TP5_ex_2.dir/clean
-.PHONY : TP5/CMakeFiles/TP5_ex_2.dir/clean
-
-# clean rule for target.
-clean: TP5/CMakeFiles/TP5_ex_2.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Directory level rules for directory TP_proj
 
 # Convenience name for "all" pass in the directory.
@@ -2332,7 +1391,7 @@ TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/all: assimp/contrib/irrXML/CMakeFiles
 TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/all: assimp/code/CMakeFiles/assimp.dir/all
 	$(MAKE) -f TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/build.make TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/depend
 	$(MAKE) -f TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/build.make TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num=13 "Built target TP_proj_SDLtemplate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=1 "Built target TP_proj_SDLtemplate"
 .PHONY : TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/all
 
 # Include target in all.
@@ -2342,9 +1401,9 @@ all: TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/all
 
 # Build rule for subdir invocation for target.
 TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 61
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 71
 	$(MAKE) -f CMakeFiles/Makefile2 TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/rule
 
 # Convenience name for target.
@@ -2371,7 +1430,7 @@ TP_proj/CMakeFiles/TP_proj_ex_1.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML
 TP_proj/CMakeFiles/TP_proj_ex_1.dir/all: assimp/code/CMakeFiles/assimp.dir/all
 	$(MAKE) -f TP_proj/CMakeFiles/TP_proj_ex_1.dir/build.make TP_proj/CMakeFiles/TP_proj_ex_1.dir/depend
 	$(MAKE) -f TP_proj/CMakeFiles/TP_proj_ex_1.dir/build.make TP_proj/CMakeFiles/TP_proj_ex_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target TP_proj_ex_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target TP_proj_ex_1"
 .PHONY : TP_proj/CMakeFiles/TP_proj_ex_1.dir/all
 
 # Include target in all.
@@ -2381,9 +1440,9 @@ all: TP_proj/CMakeFiles/TP_proj_ex_1.dir/all
 
 # Build rule for subdir invocation for target.
 TP_proj/CMakeFiles/TP_proj_ex_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 70
 	$(MAKE) -f CMakeFiles/Makefile2 TP_proj/CMakeFiles/TP_proj_ex_1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP_proj/CMakeFiles/TP_proj_ex_1.dir/rule
 
 # Convenience name for target.
@@ -2410,7 +1469,7 @@ TP_proj/CMakeFiles/TP_proj_ex_2.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML
 TP_proj/CMakeFiles/TP_proj_ex_2.dir/all: assimp/code/CMakeFiles/assimp.dir/all
 	$(MAKE) -f TP_proj/CMakeFiles/TP_proj_ex_2.dir/build.make TP_proj/CMakeFiles/TP_proj_ex_2.dir/depend
 	$(MAKE) -f TP_proj/CMakeFiles/TP_proj_ex_2.dir/build.make TP_proj/CMakeFiles/TP_proj_ex_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num=14 "Built target TP_proj_ex_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=2 "Built target TP_proj_ex_2"
 .PHONY : TP_proj/CMakeFiles/TP_proj_ex_2.dir/all
 
 # Include target in all.
@@ -2420,9 +1479,9 @@ all: TP_proj/CMakeFiles/TP_proj_ex_2.dir/all
 
 # Build rule for subdir invocation for target.
 TP_proj/CMakeFiles/TP_proj_ex_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 61
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 71
 	$(MAKE) -f CMakeFiles/Makefile2 TP_proj/CMakeFiles/TP_proj_ex_2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP_proj/CMakeFiles/TP_proj_ex_2.dir/rule
 
 # Convenience name for target.
@@ -2449,7 +1508,7 @@ TP_proj/CMakeFiles/TP_proj_main.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML
 TP_proj/CMakeFiles/TP_proj_main.dir/all: assimp/code/CMakeFiles/assimp.dir/all
 	$(MAKE) -f TP_proj/CMakeFiles/TP_proj_main.dir/build.make TP_proj/CMakeFiles/TP_proj_main.dir/depend
 	$(MAKE) -f TP_proj/CMakeFiles/TP_proj_main.dir/build.make TP_proj/CMakeFiles/TP_proj_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num=15 "Built target TP_proj_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=3 "Built target TP_proj_main"
 .PHONY : TP_proj/CMakeFiles/TP_proj_main.dir/all
 
 # Include target in all.
@@ -2459,9 +1518,9 @@ all: TP_proj/CMakeFiles/TP_proj_main.dir/all
 
 # Build rule for subdir invocation for target.
 TP_proj/CMakeFiles/TP_proj_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 61
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 71
 	$(MAKE) -f CMakeFiles/Makefile2 TP_proj/CMakeFiles/TP_proj_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP_proj/CMakeFiles/TP_proj_main.dir/rule
 
 # Convenience name for target.
@@ -2506,7 +1565,7 @@ TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all: assimp/contrib/irrXML/CM
 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all: assimp/code/CMakeFiles/assimp.dir/all
 	$(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/depend
 	$(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num= "Built target TP_template_SDLtemplate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target TP_template_SDLtemplate"
 .PHONY : TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all
 
 # Include target in all.
@@ -2516,9 +1575,9 @@ all: TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all
 
 # Build rule for subdir invocation for target.
 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 70
 	$(MAKE) -f CMakeFiles/Makefile2 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP_template/CMakeFiles/TP_template_SDLtemplate.dir/rule
 
 # Convenience name for target.
@@ -2533,63 +1592,6 @@ TP_template/CMakeFiles/TP_template_SDLtemplate.dir/clean:
 
 # clean rule for target.
 clean: TP_template/CMakeFiles/TP_template_SDLtemplate.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory TPgarbage
-
-# Convenience name for "all" pass in the directory.
-TPgarbage/all: TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/all
-
-.PHONY : TPgarbage/all
-
-# Convenience name for "clean" pass in the directory.
-TPgarbage/clean: TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/clean
-
-.PHONY : TPgarbage/clean
-
-# Convenience name for "preinstall" pass in the directory.
-TPgarbage/preinstall:
-
-.PHONY : TPgarbage/preinstall
-
-#=============================================================================
-# Target rules for target TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir
-
-# All Build rule for target.
-TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
-TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
-TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/all: assimp/code/CMakeFiles/assimp.dir/all
-	$(MAKE) -f TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/build.make TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/depend
-	$(MAKE) -f TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/build.make TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles --progress-num=16 "Built target TPgarbage_SDLtemplate"
-.PHONY : TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/all
-
-# Include target in all.
-all: TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 61
-	$(MAKE) -f CMakeFiles/Makefile2 TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
-.PHONY : TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/rule
-
-# Convenience name for target.
-TPgarbage_SDLtemplate: TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/rule
-
-.PHONY : TPgarbage_SDLtemplate
-
-# clean rule for target.
-TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/clean:
-	$(MAKE) -f TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/build.make TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/clean
-.PHONY : TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/clean
-
-# clean rule for target.
-clean: TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/clean
 
 .PHONY : clean
 

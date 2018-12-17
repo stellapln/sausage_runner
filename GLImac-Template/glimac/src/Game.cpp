@@ -13,7 +13,6 @@
 #include <glimac/Model.hpp>
 #include <glimac/Game.hpp>
 
-void World::loadFile(const std::string file){}
 
 void World::removeTile(){
 	_tiles.pop_front();
@@ -23,7 +22,7 @@ void World::addTile(Tile &t){
 }
 void World::draw() const {
 	
-    MVMatrix = glm::translate(glm::mat4(), glm::vec3(0, 0, 0)); 
+    glm::mat4 MVMatrix = glm::translate(glm::mat4(), glm::vec3(0, 0, 0)); 
 	/*viewMatrix = cam.getMatrixView(); // Get the view Matrix from the camera
 
     render.reset();

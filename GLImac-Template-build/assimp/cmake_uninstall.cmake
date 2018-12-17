@@ -1,8 +1,8 @@
-IF(NOT EXISTS "/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/assimp/install_manifest.txt")
-  MESSAGE(FATAL_ERROR "Cannot find install manifest: \"/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/assimp/install_manifest.txt\"")
-ENDIF(NOT EXISTS "/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/assimp/install_manifest.txt")
+IF(NOT EXISTS "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/install_manifest.txt")
+  MESSAGE(FATAL_ERROR "Cannot find install manifest: \"/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/install_manifest.txt\"")
+ENDIF(NOT EXISTS "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/install_manifest.txt")
 
-FILE(READ "/home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/assimp/install_manifest.txt" files)
+FILE(READ "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/install_manifest.txt" files)
 STRING(REGEX REPLACE "\n" ";" files "${files}")
 FOREACH(file ${files})
   MESSAGE(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")

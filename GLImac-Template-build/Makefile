@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template
+CMAKE_SOURCE_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build
+CMAKE_BINARY_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,9 +124,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -597,279 +597,6 @@ ContinuousUpdate/fast:
 .PHONY : ContinuousUpdate/fast
 
 #=============================================================================
-# Target rules for targets named TP1_SDLtemplate
-
-# Build rule for target.
-TP1_SDLtemplate: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP1_SDLtemplate
-.PHONY : TP1_SDLtemplate
-
-# fast build rule for target.
-TP1_SDLtemplate/fast:
-	$(MAKE) -f TP1/CMakeFiles/TP1_SDLtemplate.dir/build.make TP1/CMakeFiles/TP1_SDLtemplate.dir/build
-.PHONY : TP1_SDLtemplate/fast
-
-#=============================================================================
-# Target rules for targets named TP1_ex_1
-
-# Build rule for target.
-TP1_ex_1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP1_ex_1
-.PHONY : TP1_ex_1
-
-# fast build rule for target.
-TP1_ex_1/fast:
-	$(MAKE) -f TP1/CMakeFiles/TP1_ex_1.dir/build.make TP1/CMakeFiles/TP1_ex_1.dir/build
-.PHONY : TP1_ex_1/fast
-
-#=============================================================================
-# Target rules for targets named TP2_SDLtemplate
-
-# Build rule for target.
-TP2_SDLtemplate: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP2_SDLtemplate
-.PHONY : TP2_SDLtemplate
-
-# fast build rule for target.
-TP2_SDLtemplate/fast:
-	$(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/build
-.PHONY : TP2_SDLtemplate/fast
-
-#=============================================================================
-# Target rules for targets named TP2_ex_4_quad
-
-# Build rule for target.
-TP2_ex_4_quad: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP2_ex_4_quad
-.PHONY : TP2_ex_4_quad
-
-# fast build rule for target.
-TP2_ex_4_quad/fast:
-	$(MAKE) -f TP2/CMakeFiles/TP2_ex_4_quad.dir/build.make TP2/CMakeFiles/TP2_ex_4_quad.dir/build
-.PHONY : TP2_ex_4_quad/fast
-
-#=============================================================================
-# Target rules for targets named TP2_ex_2
-
-# Build rule for target.
-TP2_ex_2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP2_ex_2
-.PHONY : TP2_ex_2
-
-# fast build rule for target.
-TP2_ex_2/fast:
-	$(MAKE) -f TP2/CMakeFiles/TP2_ex_2.dir/build.make TP2/CMakeFiles/TP2_ex_2.dir/build
-.PHONY : TP2_ex_2/fast
-
-#=============================================================================
-# Target rules for targets named TP2_ex_6_IBO
-
-# Build rule for target.
-TP2_ex_6_IBO: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP2_ex_6_IBO
-.PHONY : TP2_ex_6_IBO
-
-# fast build rule for target.
-TP2_ex_6_IBO/fast:
-	$(MAKE) -f TP2/CMakeFiles/TP2_ex_6_IBO.dir/build.make TP2/CMakeFiles/TP2_ex_6_IBO.dir/build
-.PHONY : TP2_ex_6_IBO/fast
-
-#=============================================================================
-# Target rules for targets named TP2_ex_3_structure_vertex
-
-# Build rule for target.
-TP2_ex_3_structure_vertex: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP2_ex_3_structure_vertex
-.PHONY : TP2_ex_3_structure_vertex
-
-# fast build rule for target.
-TP2_ex_3_structure_vertex/fast:
-	$(MAKE) -f TP2/CMakeFiles/TP2_ex_3_structure_vertex.dir/build.make TP2/CMakeFiles/TP2_ex_3_structure_vertex.dir/build
-.PHONY : TP2_ex_3_structure_vertex/fast
-
-#=============================================================================
-# Target rules for targets named TP2_ex_5_disque
-
-# Build rule for target.
-TP2_ex_5_disque: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP2_ex_5_disque
-.PHONY : TP2_ex_5_disque
-
-# fast build rule for target.
-TP2_ex_5_disque/fast:
-	$(MAKE) -f TP2/CMakeFiles/TP2_ex_5_disque.dir/build.make TP2/CMakeFiles/TP2_ex_5_disque.dir/build
-.PHONY : TP2_ex_5_disque/fast
-
-#=============================================================================
-# Target rules for targets named TP2_ex_7_quadIBO
-
-# Build rule for target.
-TP2_ex_7_quadIBO: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP2_ex_7_quadIBO
-.PHONY : TP2_ex_7_quadIBO
-
-# fast build rule for target.
-TP2_ex_7_quadIBO/fast:
-	$(MAKE) -f TP2/CMakeFiles/TP2_ex_7_quadIBO.dir/build.make TP2/CMakeFiles/TP2_ex_7_quadIBO.dir/build
-.PHONY : TP2_ex_7_quadIBO/fast
-
-#=============================================================================
-# Target rules for targets named TP3_SDLtemplate
-
-# Build rule for target.
-TP3_SDLtemplate: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP3_SDLtemplate
-.PHONY : TP3_SDLtemplate
-
-# fast build rule for target.
-TP3_SDLtemplate/fast:
-	$(MAKE) -f TP3/CMakeFiles/TP3_SDLtemplate.dir/build.make TP3/CMakeFiles/TP3_SDLtemplate.dir/build
-.PHONY : TP3_SDLtemplate/fast
-
-#=============================================================================
-# Target rules for targets named TP3_ex_1
-
-# Build rule for target.
-TP3_ex_1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP3_ex_1
-.PHONY : TP3_ex_1
-
-# fast build rule for target.
-TP3_ex_1/fast:
-	$(MAKE) -f TP3/CMakeFiles/TP3_ex_1.dir/build.make TP3/CMakeFiles/TP3_ex_1.dir/build
-.PHONY : TP3_ex_1/fast
-
-#=============================================================================
-# Target rules for targets named TP3_ex_2
-
-# Build rule for target.
-TP3_ex_2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP3_ex_2
-.PHONY : TP3_ex_2
-
-# fast build rule for target.
-TP3_ex_2/fast:
-	$(MAKE) -f TP3/CMakeFiles/TP3_ex_2.dir/build.make TP3/CMakeFiles/TP3_ex_2.dir/build
-.PHONY : TP3_ex_2/fast
-
-#=============================================================================
-# Target rules for targets named TP3_ex_3
-
-# Build rule for target.
-TP3_ex_3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP3_ex_3
-.PHONY : TP3_ex_3
-
-# fast build rule for target.
-TP3_ex_3/fast:
-	$(MAKE) -f TP3/CMakeFiles/TP3_ex_3.dir/build.make TP3/CMakeFiles/TP3_ex_3.dir/build
-.PHONY : TP3_ex_3/fast
-
-#=============================================================================
-# Target rules for targets named TP4_ex_2
-
-# Build rule for target.
-TP4_ex_2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP4_ex_2
-.PHONY : TP4_ex_2
-
-# fast build rule for target.
-TP4_ex_2/fast:
-	$(MAKE) -f TP4/CMakeFiles/TP4_ex_2.dir/build.make TP4/CMakeFiles/TP4_ex_2.dir/build
-.PHONY : TP4_ex_2/fast
-
-#=============================================================================
-# Target rules for targets named TP4_ex_1
-
-# Build rule for target.
-TP4_ex_1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP4_ex_1
-.PHONY : TP4_ex_1
-
-# fast build rule for target.
-TP4_ex_1/fast:
-	$(MAKE) -f TP4/CMakeFiles/TP4_ex_1.dir/build.make TP4/CMakeFiles/TP4_ex_1.dir/build
-.PHONY : TP4_ex_1/fast
-
-#=============================================================================
-# Target rules for targets named TP4_SDLtemplate
-
-# Build rule for target.
-TP4_SDLtemplate: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP4_SDLtemplate
-.PHONY : TP4_SDLtemplate
-
-# fast build rule for target.
-TP4_SDLtemplate/fast:
-	$(MAKE) -f TP4/CMakeFiles/TP4_SDLtemplate.dir/build.make TP4/CMakeFiles/TP4_SDLtemplate.dir/build
-.PHONY : TP4_SDLtemplate/fast
-
-#=============================================================================
-# Target rules for targets named TP4_ex_4
-
-# Build rule for target.
-TP4_ex_4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP4_ex_4
-.PHONY : TP4_ex_4
-
-# fast build rule for target.
-TP4_ex_4/fast:
-	$(MAKE) -f TP4/CMakeFiles/TP4_ex_4.dir/build.make TP4/CMakeFiles/TP4_ex_4.dir/build
-.PHONY : TP4_ex_4/fast
-
-#=============================================================================
-# Target rules for targets named TP4_ex_3
-
-# Build rule for target.
-TP4_ex_3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP4_ex_3
-.PHONY : TP4_ex_3
-
-# fast build rule for target.
-TP4_ex_3/fast:
-	$(MAKE) -f TP4/CMakeFiles/TP4_ex_3.dir/build.make TP4/CMakeFiles/TP4_ex_3.dir/build
-.PHONY : TP4_ex_3/fast
-
-#=============================================================================
-# Target rules for targets named TP5_SDLtemplate
-
-# Build rule for target.
-TP5_SDLtemplate: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP5_SDLtemplate
-.PHONY : TP5_SDLtemplate
-
-# fast build rule for target.
-TP5_SDLtemplate/fast:
-	$(MAKE) -f TP5/CMakeFiles/TP5_SDLtemplate.dir/build.make TP5/CMakeFiles/TP5_SDLtemplate.dir/build
-.PHONY : TP5_SDLtemplate/fast
-
-#=============================================================================
-# Target rules for targets named TP5_ex_1
-
-# Build rule for target.
-TP5_ex_1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP5_ex_1
-.PHONY : TP5_ex_1
-
-# fast build rule for target.
-TP5_ex_1/fast:
-	$(MAKE) -f TP5/CMakeFiles/TP5_ex_1.dir/build.make TP5/CMakeFiles/TP5_ex_1.dir/build
-.PHONY : TP5_ex_1/fast
-
-#=============================================================================
-# Target rules for targets named TP5_ex_2
-
-# Build rule for target.
-TP5_ex_2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP5_ex_2
-.PHONY : TP5_ex_2
-
-# fast build rule for target.
-TP5_ex_2/fast:
-	$(MAKE) -f TP5/CMakeFiles/TP5_ex_2.dir/build.make TP5/CMakeFiles/TP5_ex_2.dir/build
-.PHONY : TP5_ex_2/fast
-
-#=============================================================================
 # Target rules for targets named TP_proj_SDLtemplate
 
 # Build rule for target.
@@ -934,19 +661,6 @@ TP_template_SDLtemplate/fast:
 	$(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build
 .PHONY : TP_template_SDLtemplate/fast
 
-#=============================================================================
-# Target rules for targets named TPgarbage_SDLtemplate
-
-# Build rule for target.
-TPgarbage_SDLtemplate: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TPgarbage_SDLtemplate
-.PHONY : TPgarbage_SDLtemplate
-
-# fast build rule for target.
-TPgarbage_SDLtemplate/fast:
-	$(MAKE) -f TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/build.make TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/build
-.PHONY : TPgarbage_SDLtemplate/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -993,33 +707,11 @@ help:
 	@echo "... ExperimentalSubmit"
 	@echo "... ContinuousStart"
 	@echo "... ContinuousUpdate"
-	@echo "... TP1_SDLtemplate"
-	@echo "... TP1_ex_1"
-	@echo "... TP2_SDLtemplate"
-	@echo "... TP2_ex_4_quad"
-	@echo "... TP2_ex_2"
-	@echo "... TP2_ex_6_IBO"
-	@echo "... TP2_ex_3_structure_vertex"
-	@echo "... TP2_ex_5_disque"
-	@echo "... TP2_ex_7_quadIBO"
-	@echo "... TP3_SDLtemplate"
-	@echo "... TP3_ex_1"
-	@echo "... TP3_ex_2"
-	@echo "... TP3_ex_3"
-	@echo "... TP4_ex_2"
-	@echo "... TP4_ex_1"
-	@echo "... TP4_SDLtemplate"
-	@echo "... TP4_ex_4"
-	@echo "... TP4_ex_3"
-	@echo "... TP5_SDLtemplate"
-	@echo "... TP5_ex_1"
-	@echo "... TP5_ex_2"
 	@echo "... TP_proj_SDLtemplate"
 	@echo "... TP_proj_ex_1"
 	@echo "... TP_proj_ex_2"
 	@echo "... TP_proj_main"
 	@echo "... TP_template_SDLtemplate"
-	@echo "... TPgarbage_SDLtemplate"
 .PHONY : help
 
 

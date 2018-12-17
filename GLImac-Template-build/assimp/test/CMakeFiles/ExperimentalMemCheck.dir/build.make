@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template
+CMAKE_SOURCE_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build
+CMAKE_BINARY_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build
 
 # Utility rule file for ExperimentalMemCheck.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build
 include assimp/test/CMakeFiles/ExperimentalMemCheck.dir/progress.make
 
 assimp/test/CMakeFiles/ExperimentalMemCheck:
-	cd /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/assimp/test && /usr/bin/ctest -D ExperimentalMemCheck
+	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/test && /usr/bin/ctest -D ExperimentalMemCheck
 
 ExperimentalMemCheck: assimp/test/CMakeFiles/ExperimentalMemCheck
 ExperimentalMemCheck: assimp/test/CMakeFiles/ExperimentalMemCheck.dir/build.make
@@ -67,10 +67,10 @@ assimp/test/CMakeFiles/ExperimentalMemCheck.dir/build: ExperimentalMemCheck
 .PHONY : assimp/test/CMakeFiles/ExperimentalMemCheck.dir/build
 
 assimp/test/CMakeFiles/ExperimentalMemCheck.dir/clean:
-	cd /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/assimp/test && $(CMAKE_COMMAND) -P CMakeFiles/ExperimentalMemCheck.dir/cmake_clean.cmake
+	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/test && $(CMAKE_COMMAND) -P CMakeFiles/ExperimentalMemCheck.dir/cmake_clean.cmake
 .PHONY : assimp/test/CMakeFiles/ExperimentalMemCheck.dir/clean
 
 assimp/test/CMakeFiles/ExperimentalMemCheck.dir/depend:
-	cd /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template/assimp/test /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/assimp/test /home/6im2/bmantova/Documents/CPP-S3/GLImac-Template-build/assimp/test/CMakeFiles/ExperimentalMemCheck.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/test /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/test/CMakeFiles/ExperimentalMemCheck.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : assimp/test/CMakeFiles/ExperimentalMemCheck.dir/depend
 
