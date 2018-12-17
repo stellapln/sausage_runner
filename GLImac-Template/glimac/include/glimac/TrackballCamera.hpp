@@ -34,16 +34,16 @@ class EyesCam : public TrackballCamera
 		float _maxAngle = 90.0f;
 		float _fAngleX;
 		float _fAngleY;
-		glm::vec3 _position = glm::vec3(0.0f,0.0f,0.0f);
+		glm::vec3 _position = glm::vec3(0.0f,-1.0f,0.2f);
 	public:
 		EyesCam(float ax=0.0f,float ay=0.0f):TrackballCamera(0.0,ax,ay){}
 		void setMaxAngle(float m)
 		{
 			_maxAngle = m;
 		}
-		void setPosition(glm::vec3 &p)
+		void setPosition(const glm::vec3 &p)
 		{
-			_position = p;
+			//_position = p;
 		}
 		void rotateLeft(const float degrees){
 			float newAngle = _fAngleX+degrees;
@@ -51,9 +51,9 @@ class EyesCam : public TrackballCamera
 				_fAngleX = newAngle;
 		}
 		void rotateTop(const float degrees){
-			float newAngle = _fAngleX+degrees;
+			float newAngle = _fAngleY+degrees;
 			if(newAngle > -_maxAngle && newAngle < _maxAngle)
-				_fAngleX = newAngle;
+				_fAngleY = newAngle;
 		}
 		void moveFront(const float delta){}
 

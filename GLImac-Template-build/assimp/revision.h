@@ -1,7 +1,7 @@
 #ifndef ASSIMP_REVISION_H_INC
 #define ASSIMP_REVISION_H_INC
 
-#define GitVersion 0x53b1587
+#define GitVersion 0x8816be7
 #define GitBranch "master"
 
 #endif // ASSIMP_REVISION_H_INC
