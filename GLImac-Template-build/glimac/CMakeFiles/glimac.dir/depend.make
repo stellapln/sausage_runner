@@ -131,6 +131,7 @@ glimac/CMakeFiles/glimac.dir/src/Game.cpp.o: /home/6im2/bmantova/Documents/CPP-S
 glimac/CMakeFiles/glimac.dir/src/Game.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Program.hpp
 glimac/CMakeFiles/glimac.dir/src/Game.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/SDLWindowManager.hpp
 glimac/CMakeFiles/glimac.dir/src/Game.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Shader.hpp
+glimac/CMakeFiles/glimac.dir/src/Game.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/TrackballCamera.hpp
 glimac/CMakeFiles/glimac.dir/src/Game.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/glm.hpp
 glimac/CMakeFiles/glimac.dir/src/Game.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Game.cpp
 glimac/CMakeFiles/glimac.dir/src/Game.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/third-party/include/glm/common.hpp

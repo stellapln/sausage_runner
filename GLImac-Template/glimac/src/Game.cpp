@@ -22,12 +22,15 @@ void World::addTile(Tile &t){
 	_tiles.push_back(t);
 }
 void World::draw() const {
-	
-    glm::mat4 MVMatrix = glm::translate(glm::mat4(), glm::vec3(0, 0, 0));
+    glm::mat4 MVMatrix = glm::translate(globalMVMatrix, glm::vec3(0, 0, 0));
     _render->reset();
+	glm::mat4 viewMatrix = _eyesCam.getMatrixView();
+    _render->sendLight(viewMatrix);
 
+    _render->sendMatrix(MVMatrix);
     _modelLib->perso(_currentPerso).draw();
-	/*viewMatrix = cam.getMatrixView(); // Get the view Matrix from the camera
+
+    /*viewMatrix = cam.getMatrixView(); // Get the view Matrix from the camera
 
     render.reset();
     render.sendLight(viewMatrix);
@@ -39,10 +42,12 @@ void World::draw() const {
         
 	/* Affichage des tuiles */
 
-	std::function <void (const Tile &)> worldDrawTile = [MVMatrix](const Tile &t){
+	/*std::function <void (const Tile &)> worldDrawTile = [MVMatrix](const Tile &t){
 		// t.draw();
 	};
-	std::for_each(_tiles.begin(),_tiles.end(),worldDrawTile);
+	std::for_each(_tiles.begin(),_tiles.end(),worldDrawTile);*/
+
+	windowManager.swapBuffers();
 
 
 }

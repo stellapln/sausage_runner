@@ -257,6 +257,8 @@ glimac/Program.hpp
 -
 glimac/glm.hpp
 -
+glimac/TrackballCamera.hpp
+-
 
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Geometry.hpp
 glm/glm.hpp
@@ -335,6 +337,8 @@ vector
 -
 common.hpp
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/common.hpp
+
+/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/TrackballCamera.hpp
 
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/common.hpp
 GL/glew.h

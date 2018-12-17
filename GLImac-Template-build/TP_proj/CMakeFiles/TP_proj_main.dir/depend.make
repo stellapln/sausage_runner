@@ -39,6 +39,7 @@ TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CP
 TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/SDLWindowManager.hpp
 TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Shader.hpp
 TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Sphere.hpp
+TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/TrackballCamera.hpp
 TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/common.hpp
 TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/glm.hpp
 TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/third-party/include/glm/detail/_fixes.hpp

@@ -10,6 +10,7 @@
 #include <glimac/Image.hpp>
 #include <random>
 #include <glimac/FreeflyCamera.hpp>
+#include <glimac/TrackballCamera.hpp>
 
 #include <assimp/Importer.hpp>
 #include <assimp/scene.h>

@@ -5,6 +5,7 @@
 #include <GL/glew.h>
 #include <glimac/Program.hpp>
 #include <glimac/glm.hpp>
+#include <glimac/TrackballCamera.hpp>
 
 class Personnage{
 	private:
@@ -138,8 +139,8 @@ class World
 		int _t = 0; // Time elapsed from the beginning of the game
 		bool _randomized = false; // True : the world will be generated, False : the world will be loaded from a file
 
-		FreeflyCamera _eyes;
-		// TrackballCamera around;
+		FreeflyCamera _eyesCam;
+		TrackballCamera _aroundCam;
 
 		glm::mat4 globalMVMatrix;
 
@@ -157,6 +158,8 @@ class World
 		World(std::string file = ""){
 			if(file == "") _randomized = true;
 			else loadFile(file);
+			_aroundCam = TrackballCamera();
+     		_eyesCam = FreeflyCamera(glm::vec3(0.0,1.0,2.0));
 		}
 
 		void removeTile(); // remove the first tile
