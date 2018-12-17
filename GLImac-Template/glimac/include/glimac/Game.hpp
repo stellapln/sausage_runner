@@ -71,14 +71,14 @@ class Tile{
 		int _support; // id of the model in the Library
 	
 		int _obstacle; // id of the model in the Library
-		int _x_obs;
+		int _x_obs; // pos x obs
 	
-		int _bonus; // -1 : no bonus, 0, ... index in a bonus tab
-		int _x_bonus;
-		int _y_bonus;
+		int _bonus; // id of the model in the Library
+		int _x_bonus; // pos x bonus
+		int _y_bonus; // pos y bonus
 	
-		int _x_coin;
-		int _y_coin;
+		int _x_coin; // pos x coin
+		int _y_coin; // pos y coin
 	public:
 		Tile(int s,int o,int ox,int b,int bx,int by,int cx,int cy)
 			:_support(s),_obstacle(o), _x_obs(ox), _bonus(b), _x_bonus(bx),_y_bonus(by), 
