@@ -39,7 +39,7 @@ Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd /Users/Louise/Desktop/3D/Textures/boite.jpg
+map_Kd /Users/Louise/Desktop/3D/Textures/boite.png
 
 newmtl None_obstacle.png
 Ns 0

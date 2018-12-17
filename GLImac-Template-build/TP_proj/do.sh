@@ -1,4 +1,4 @@
 cd ../
-cmake ../GLImac-template
+cmake ../GLImac-Template
 make
 cd ./TP_proj
