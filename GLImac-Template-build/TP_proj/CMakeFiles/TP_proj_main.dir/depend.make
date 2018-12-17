@@ -10,7 +10,6 @@ TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CP
 TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h

@@ -10,8 +10,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.7.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.7.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.7.2/CMakeSystem.cmake"
-  "CMakeFiles/FindOpenMP/ompver.c"
-  "CMakeFiles/FindOpenMP/ompver.cpp"
   "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/CMake/FindGLEW.cmake"
   "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/CMakeLists.txt"
   "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/TP_proj/CMakeLists.txt"
@@ -47,8 +45,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.7/Modules/CTest.cmake"
   "/usr/share/cmake-3.7/Modules/CTestTargets.cmake"
   "/usr/share/cmake-3.7/Modules/CTestUseLaunchers.cmake"
-  "/usr/share/cmake-3.7/Modules/CheckCSourceCompiles.cmake"
-  "/usr/share/cmake-3.7/Modules/CheckCXXSourceCompiles.cmake"
   "/usr/share/cmake-3.7/Modules/CheckIncludeFile.cmake"
   "/usr/share/cmake-3.7/Modules/CheckLibraryExists.cmake"
   "/usr/share/cmake-3.7/Modules/CheckSymbolExists.cmake"
@@ -132,5 +128,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "TP_proj/CMakeFiles/TP_proj_ex_1.dir/DependInfo.cmake"
   "TP_proj/CMakeFiles/TP_proj_ex_2.dir/DependInfo.cmake"
   "TP_proj/CMakeFiles/TP_proj_main.dir/DependInfo.cmake"
-  "TP_template/CMakeFiles/TP_template_SDLtemplate.dir/DependInfo.cmake"
   )

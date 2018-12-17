@@ -10,7 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/glimac.dir/src/Sphere.cpp.o"
   "CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.o"
   "libglimac.pdb"
-  "libglimac.a"
+  "libglimac.so"
 )
 
 # Per-language clean rules from dependency scanning.

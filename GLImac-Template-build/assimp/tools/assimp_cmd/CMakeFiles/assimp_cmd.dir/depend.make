@@ -18,7 +18,6 @@ assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/CompareDump.cpp.o: /home/6im2/
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/CompareDump.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cexport.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/CompareDump.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/CompareDump.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/CompareDump.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/CompareDump.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/CompareDump.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/CompareDump.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -43,6 +42,7 @@ assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/CompareDump.cpp.o: /home/6im2/
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/CompareDump.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/CompareDump.cpp
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/CompareDump.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Main.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/CompareDump.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/generic_inserter.hpp
+assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/CompareDump.cpp.o: assimp/include/assimp/config.h
 
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Export.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/contrib/zlib/zlib.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Export.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
@@ -59,7 +59,6 @@ assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Export.cpp.o: /home/6im2/bmant
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Export.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cexport.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Export.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Export.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Export.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Export.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Export.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Export.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -83,6 +82,7 @@ assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Export.cpp.o: /home/6im2/bmant
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Export.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/version.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Export.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Export.cpp
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Export.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Main.h
+assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Export.cpp.o: assimp/include/assimp/config.h
 
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/ImageExtractor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StringComparison.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/ImageExtractor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/fast_atof.h
@@ -104,7 +104,6 @@ assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/ImageExtractor.cpp.o: /home/6i
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/ImageExtractor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cexport.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/ImageExtractor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/ImageExtractor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/ImageExtractor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/ImageExtractor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/ImageExtractor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/ImageExtractor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -128,6 +127,7 @@ assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/ImageExtractor.cpp.o: /home/6i
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/ImageExtractor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/version.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/ImageExtractor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/ImageExtractor.cpp
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/ImageExtractor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Main.h
+assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/ImageExtractor.cpp.o: assimp/include/assimp/config.h
 
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Info.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/contrib/zlib/zlib.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Info.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
@@ -144,7 +144,6 @@ assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Info.cpp.o: /home/6im2/bmantov
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Info.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cexport.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Info.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Info.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Info.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Info.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Info.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Info.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -168,6 +167,7 @@ assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Info.cpp.o: /home/6im2/bmantov
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Info.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/version.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Info.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Info.cpp
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Info.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Main.h
+assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Info.cpp.o: assimp/include/assimp/config.h
 
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/contrib/zlib/zlib.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
@@ -184,7 +184,6 @@ assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Main.cpp.o: /home/6im2/bmantov
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cexport.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -208,6 +207,7 @@ assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Main.cpp.o: /home/6im2/bmantov
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/version.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Main.cpp
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Main.h
+assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Main.cpp.o: assimp/include/assimp/config.h
 
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/WriteDumb.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/WriteDumb.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
@@ -234,7 +234,6 @@ assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/WriteDumb.cpp.o: /home/6im2/bm
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/WriteDumb.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cexport.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/WriteDumb.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/WriteDumb.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/WriteDumb.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/WriteDumb.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/WriteDumb.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/WriteDumb.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -258,4 +257,5 @@ assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/WriteDumb.cpp.o: /home/6im2/bm
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/WriteDumb.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/version.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/WriteDumb.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Main.h
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/WriteDumb.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/WriteDumb.cpp
+assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/WriteDumb.cpp.o: assimp/include/assimp/config.h
 

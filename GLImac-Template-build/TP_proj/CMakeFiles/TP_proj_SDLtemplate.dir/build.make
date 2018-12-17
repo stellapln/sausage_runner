@@ -90,7 +90,7 @@ TP_proj_SDLtemplate_EXTERNAL_OBJECTS =
 
 TP_proj/TP_proj_SDLtemplate: TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/SDLtemplate.cpp.o
 TP_proj/TP_proj_SDLtemplate: TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/build.make
-TP_proj/TP_proj_SDLtemplate: glimac/libglimac.a
+TP_proj/TP_proj_SDLtemplate: glimac/libglimac.so
 TP_proj/TP_proj_SDLtemplate: assimp/code/libassimp.so.4.0.1
 TP_proj/TP_proj_SDLtemplate: /usr/lib/x86_64-linux-gnu/libSDLmain.a
 TP_proj/TP_proj_SDLtemplate: /usr/lib/x86_64-linux-gnu/libSDL.so

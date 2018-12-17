@@ -13,6 +13,7 @@
 #include <glimac/Model.hpp>
 #include <glimac/Game.hpp>
 
+void World::loadFile(const std::string file){}
 
 void World::removeTile(){
 	_tiles.pop_front();
@@ -27,12 +28,11 @@ void World::draw() const {
 
     render.reset();
     render.sendLight(viewMatrix);
-    MVMatrix = glm::translate(glm::mat4(), glm::vec3(0, 0, 0)); 
     // Models
     MVMatrix = viewMatrix*MVMatrix;
     render.sendMatrix(MVMatrix);
 
-    perso.draw();/*
+    perso.draw();*/
         
 	/* Affichage des tuiles */
 

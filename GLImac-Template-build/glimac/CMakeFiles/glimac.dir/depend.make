@@ -104,7 +104,6 @@ glimac/CMakeFiles/glimac.dir/src/Game.cpp.o: /home/6im2/bmantova/Documents/CPP-S
 glimac/CMakeFiles/glimac.dir/src/Game.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 glimac/CMakeFiles/glimac.dir/src/Game.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 glimac/CMakeFiles/glimac.dir/src/Game.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-glimac/CMakeFiles/glimac.dir/src/Game.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 glimac/CMakeFiles/glimac.dir/src/Game.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 glimac/CMakeFiles/glimac.dir/src/Game.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 glimac/CMakeFiles/glimac.dir/src/Game.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -429,7 +428,6 @@ glimac/CMakeFiles/glimac.dir/src/Model.cpp.o: /home/6im2/bmantova/Documents/CPP-
 glimac/CMakeFiles/glimac.dir/src/Model.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 glimac/CMakeFiles/glimac.dir/src/Model.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 glimac/CMakeFiles/glimac.dir/src/Model.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-glimac/CMakeFiles/glimac.dir/src/Model.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 glimac/CMakeFiles/glimac.dir/src/Model.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 glimac/CMakeFiles/glimac.dir/src/Model.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 glimac/CMakeFiles/glimac.dir/src/Model.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h

@@ -648,19 +648,6 @@ TP_proj_main/fast:
 	$(MAKE) -f TP_proj/CMakeFiles/TP_proj_main.dir/build.make TP_proj/CMakeFiles/TP_proj_main.dir/build
 .PHONY : TP_proj_main/fast
 
-#=============================================================================
-# Target rules for targets named TP_template_SDLtemplate
-
-# Build rule for target.
-TP_template_SDLtemplate: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP_template_SDLtemplate
-.PHONY : TP_template_SDLtemplate
-
-# fast build rule for target.
-TP_template_SDLtemplate/fast:
-	$(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build
-.PHONY : TP_template_SDLtemplate/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -711,7 +698,6 @@ help:
 	@echo "... TP_proj_ex_1"
 	@echo "... TP_proj_ex_2"
 	@echo "... TP_proj_main"
-	@echo "... TP_template_SDLtemplate"
 .PHONY : help
 
 

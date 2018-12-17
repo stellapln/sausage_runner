@@ -41,6 +41,7 @@ class Library {
 	private:
 		std::vector<Model> _persos;
 		std::vector<Model> _tiles;
+		std::vector<Model> _obstacles;
 		std::vector<Model> _bonus;
 		Model _coin;
 
@@ -94,10 +95,9 @@ class Render {
 
 		glm::mat4 _projMatrix = glm::perspective(glm::radians(70.f),8.0f/6.0f,0.1f,100.f);
 
-		Render(std::string &vertexShader, std::string &fragmentShader){
+		Render(std::string vertexShader, std::string fragmentShader){
 
 			_prog = glimac::loadProgram(vertexShader, fragmentShader);
-
 
 			// Set uniform variables
 
@@ -116,14 +116,14 @@ class Render {
 		void reset() const {
         	glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
         }
-        void sendLight(glm::mat4 &viewMatrix) const {
+        void sendLight(glm::mat4 viewMatrix) const {
 	        glUniform3fv(_uKd,1,glm::value_ptr(_Kd));
 	        glUniform3fv(_uKs,1,glm::value_ptr(_Ks));
 	        glUniform1f(_uShininess,_Shininess);
 	        glUniform3fv(_uLightPos_vs,1,glm::value_ptr(viewMatrix*_LightPos_vs));
 	        glUniform3fv(_uLightIntensity,1,glm::value_ptr(_LightIntensity));
 		}
-        void sendMatrix(glm::mat4 &MVMatrix) const {
+        void sendMatrix(glm::mat4 MVMatrix) const {
 	    	glUniformMatrix4fv(_uMVPMatrix,1,GL_FALSE,glm::value_ptr(_projMatrix*MVMatrix));
 	    	glUniformMatrix4fv(_uMVMatrix,1,GL_FALSE,glm::value_ptr(MVMatrix));
 	    	glUniformMatrix4fv(_uNormalMatrix,1,GL_FALSE,glm::value_ptr(glm::transpose(glm::inverse(MVMatrix))));
@@ -150,7 +150,9 @@ class World
 		std::vector<Bonus> _bonusVec; // stock the Bonus models
 		std::vector<Tile> _tileVec; // stock the Tiles model
 
-		void loadFile(std::string &file){} // Fill the vector _tiles with the file;
+		//Render _render;
+
+		void loadFile(std::string file); // Fill the vector _tiles with the file;
 	public:
 		World(std::string file = ""){
 			if(file == "") _randomized = true;

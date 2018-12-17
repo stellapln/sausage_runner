@@ -40,8 +40,6 @@ core.h
 zconf.h
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./contrib/zlib/zconf.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./revision.h
-
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/../contrib/Open3DGC/o3dgcAdjacencyInfo.h
 o3dgcCommon.h
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/../contrib/Open3DGC/o3dgcCommon.h
@@ -5586,8 +5584,6 @@ defs.h
 color4.h
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
-
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/config.h
 -
@@ -5775,4 +5771,8 @@ cmath
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/version.h
 defs.h
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
+
+assimp/include/assimp/config.h
+
+assimp/revision.h
 

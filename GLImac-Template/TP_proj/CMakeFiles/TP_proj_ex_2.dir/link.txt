@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/TP_proj_ex_2.dir/ex_2.cpp.o  -o TP_proj_ex_2 -Wl,-rpath,/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac -rdynamic ../glimac/libglimac.so -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread /usr/lib/x86_64-linux-gnu/libGL.so.1 -lGLEW 

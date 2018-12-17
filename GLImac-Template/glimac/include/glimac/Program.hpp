@@ -43,8 +43,8 @@ public:
 
 	Program(const Program&);
 	Program& operator =(const Program&);
-
 private:
+
 	GLuint m_nGLId;
 };
 

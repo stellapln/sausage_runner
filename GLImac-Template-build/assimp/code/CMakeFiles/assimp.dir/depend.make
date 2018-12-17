@@ -44,7 +44,6 @@ assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -65,6 +64,7 @@ assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/3DSExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/Compiler/poppack1.h
 assimp/code/CMakeFiles/assimp.dir/3DSExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/Compiler/pushpack1.h
@@ -109,7 +109,6 @@ assimp/code/CMakeFiles/assimp.dir/3DSExporter.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/3DSExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cexport.h
 assimp/code/CMakeFiles/assimp.dir/3DSExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/3DSExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/3DSExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/3DSExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/3DSExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/3DSExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -130,6 +129,7 @@ assimp/code/CMakeFiles/assimp.dir/3DSExporter.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/3DSExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/3DSExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/3DSExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/3DSExporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/Compiler/poppack1.h
 assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/Compiler/pushpack1.h
@@ -165,7 +165,6 @@ assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -186,6 +185,7 @@ assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ACLoader.cpp
 assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ACLoader.h
@@ -215,7 +215,6 @@ assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.o: /home/6im2/bmantova/Documents/
 assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -236,6 +235,7 @@ assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.o: /home/6im2/bmantova/Documents/
 assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/AMFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/IOStream.hpp
 assimp/code/CMakeFiles/assimp.dir/AMFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/AMFImporter.cpp
@@ -266,7 +266,6 @@ assimp/code/CMakeFiles/assimp.dir/AMFImporter.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/AMFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/AMFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/AMFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/AMFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/AMFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/AMFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/AMFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -287,6 +286,7 @@ assimp/code/CMakeFiles/assimp.dir/AMFImporter.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/AMFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/AMFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/AMFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/AMFImporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Geometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/IOStream.hpp
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Geometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/AMFImporter.hpp
@@ -312,7 +312,6 @@ assimp/code/CMakeFiles/assimp.dir/AMFImporter_Geometry.cpp.o: /home/6im2/bmantov
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Geometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Geometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Geometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/AMFImporter_Geometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Geometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Geometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Geometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -333,6 +332,7 @@ assimp/code/CMakeFiles/assimp.dir/AMFImporter_Geometry.cpp.o: /home/6im2/bmantov
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Geometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Geometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Geometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/AMFImporter_Geometry.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Material.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/IOStream.hpp
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Material.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/AMFImporter.hpp
@@ -358,7 +358,6 @@ assimp/code/CMakeFiles/assimp.dir/AMFImporter_Material.cpp.o: /home/6im2/bmantov
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Material.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Material.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Material.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/AMFImporter_Material.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Material.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Material.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Material.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -379,6 +378,7 @@ assimp/code/CMakeFiles/assimp.dir/AMFImporter_Material.cpp.o: /home/6im2/bmantov
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Material.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Material.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Material.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/AMFImporter_Material.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Postprocess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/IOStream.hpp
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Postprocess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/AMFImporter.hpp
@@ -407,7 +407,6 @@ assimp/code/CMakeFiles/assimp.dir/AMFImporter_Postprocess.cpp.o: /home/6im2/bman
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Postprocess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Postprocess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Postprocess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/AMFImporter_Postprocess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Postprocess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Postprocess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Postprocess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -428,6 +427,7 @@ assimp/code/CMakeFiles/assimp.dir/AMFImporter_Postprocess.cpp.o: /home/6im2/bman
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Postprocess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Postprocess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/AMFImporter_Postprocess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/AMFImporter_Postprocess.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/Compiler/poppack1.h
 assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/Compiler/pushpack1.h
@@ -469,7 +469,6 @@ assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -490,6 +489,7 @@ assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/Compiler/poppack1.h
 assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/Compiler/pushpack1.h
@@ -532,7 +532,6 @@ assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -550,6 +549,7 @@ assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/AssbinExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/AssbinExporter.cpp
 assimp/code/CMakeFiles/assimp.dir/AssbinExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
@@ -582,7 +582,6 @@ assimp/code/CMakeFiles/assimp.dir/AssbinExporter.cpp.o: /home/6im2/bmantova/Docu
 assimp/code/CMakeFiles/assimp.dir/AssbinExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cexport.h
 assimp/code/CMakeFiles/assimp.dir/AssbinExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/AssbinExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/AssbinExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/AssbinExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/AssbinExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/AssbinExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -605,6 +604,7 @@ assimp/code/CMakeFiles/assimp.dir/AssbinExporter.cpp.o: /home/6im2/bmantova/Docu
 assimp/code/CMakeFiles/assimp.dir/AssbinExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/AssbinExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
 assimp/code/CMakeFiles/assimp.dir/AssbinExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/version.h
+assimp/code/CMakeFiles/assimp.dir/AssbinExporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/AssbinLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./contrib/zlib/zlib.h
 assimp/code/CMakeFiles/assimp.dir/AssbinLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/AssbinLoader.cpp
@@ -626,7 +626,6 @@ assimp/code/CMakeFiles/assimp.dir/AssbinLoader.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/AssbinLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/AssbinLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/AssbinLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/AssbinLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/AssbinLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/AssbinLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/AssbinLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -647,6 +646,7 @@ assimp/code/CMakeFiles/assimp.dir/AssbinLoader.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/AssbinLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/AssbinLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/AssbinLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/AssbinLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Assimp.cpp
 assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
@@ -676,7 +676,6 @@ assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.o: /home/6im2/bmantova/Documents/CP
 assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -697,6 +696,7 @@ assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.o: /home/6im2/bmantova/Documents/CP
 assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/AssimpCExport.cpp
 assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/CInterfaceIOWrapper.h
@@ -716,7 +716,6 @@ assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cfileio.h
 assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -736,6 +735,7 @@ assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/AssxmlExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./contrib/zlib/zlib.h
 assimp/code/CMakeFiles/assimp.dir/AssxmlExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/AssxmlExporter.cpp
@@ -764,7 +764,6 @@ assimp/code/CMakeFiles/assimp.dir/AssxmlExporter.cpp.o: /home/6im2/bmantova/Docu
 assimp/code/CMakeFiles/assimp.dir/AssxmlExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cexport.h
 assimp/code/CMakeFiles/assimp.dir/AssxmlExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/AssxmlExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/AssxmlExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/AssxmlExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/AssxmlExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/code/CMakeFiles/assimp.dir/AssxmlExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -786,6 +785,7 @@ assimp/code/CMakeFiles/assimp.dir/AssxmlExporter.cpp.o: /home/6im2/bmantova/Docu
 assimp/code/CMakeFiles/assimp.dir/AssxmlExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/AssxmlExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
 assimp/code/CMakeFiles/assimp.dir/AssxmlExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/version.h
+assimp/code/CMakeFiles/assimp.dir/AssxmlExporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/B3DImporter.cpp
 assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/B3DImporter.h
@@ -815,7 +815,6 @@ assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -836,6 +835,7 @@ assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BVHLoader.cpp
 assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BVHLoader.h
@@ -863,7 +863,6 @@ assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -884,6 +883,7 @@ assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.cpp
 assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
@@ -917,7 +917,6 @@ assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -939,6 +938,7 @@ assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.cpp
@@ -964,7 +964,6 @@ assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -985,6 +984,7 @@ assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/Bitmap.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Bitmap.cpp
 assimp/code/CMakeFiles/assimp.dir/Bitmap.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Bitmap.h
@@ -995,7 +995,6 @@ assimp/code/CMakeFiles/assimp.dir/Bitmap.cpp.o: /home/6im2/bmantova/Documents/CP
 assimp/code/CMakeFiles/assimp.dir/Bitmap.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/Bitmap.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/Bitmap.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/Bitmap.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/Bitmap.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/Bitmap.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
 assimp/code/CMakeFiles/assimp.dir/Bitmap.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.inl
@@ -1009,6 +1008,7 @@ assimp/code/CMakeFiles/assimp.dir/Bitmap.cpp.o: /home/6im2/bmantova/Documents/CP
 assimp/code/CMakeFiles/assimp.dir/Bitmap.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/Bitmap.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/Bitmap.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/Bitmap.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/BlenderBMesh.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/BlenderBMesh.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BlenderBMesh.cpp
@@ -1041,7 +1041,6 @@ assimp/code/CMakeFiles/assimp.dir/BlenderBMesh.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/BlenderBMesh.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/BlenderBMesh.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/BlenderBMesh.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/BlenderBMesh.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/BlenderBMesh.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/BlenderBMesh.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/BlenderBMesh.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -1055,6 +1054,7 @@ assimp/code/CMakeFiles/assimp.dir/BlenderBMesh.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/BlenderBMesh.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/BlenderBMesh.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/BlenderBMesh.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/BlenderBMesh.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BlenderDNA.cpp
@@ -1080,7 +1080,6 @@ assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.o: /home/6im2/bmantova/Document
 assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -1094,6 +1093,7 @@ assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.o: /home/6im2/bmantova/Document
 assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BlenderBMesh.h
@@ -1130,7 +1130,6 @@ assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -1151,6 +1150,7 @@ assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BlenderDNA.h
@@ -1183,7 +1183,6 @@ assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -1204,6 +1203,7 @@ assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BlenderDNA.h
@@ -1228,7 +1228,6 @@ assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -1242,6 +1241,7 @@ assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/BlenderTessellator.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/BlenderTessellator.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BlenderBMesh.h
@@ -1274,7 +1274,6 @@ assimp/code/CMakeFiles/assimp.dir/BlenderTessellator.cpp.o: /home/6im2/bmantova/
 assimp/code/CMakeFiles/assimp.dir/BlenderTessellator.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/BlenderTessellator.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/BlenderTessellator.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/BlenderTessellator.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/BlenderTessellator.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/BlenderTessellator.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/BlenderTessellator.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -1288,6 +1287,7 @@ assimp/code/CMakeFiles/assimp.dir/BlenderTessellator.cpp.o: /home/6im2/bmantova/
 assimp/code/CMakeFiles/assimp.dir/BlenderTessellator.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/BlenderTessellator.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/BlenderTessellator.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/BlenderTessellator.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/CInterfaceIOWrapper.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/CInterfaceIOWrapper.cpp
 assimp/code/CMakeFiles/assimp.dir/CInterfaceIOWrapper.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/CInterfaceIOWrapper.h
@@ -1298,7 +1298,6 @@ assimp/code/CMakeFiles/assimp.dir/CInterfaceIOWrapper.cpp.o: /home/6im2/bmantova
 assimp/code/CMakeFiles/assimp.dir/CInterfaceIOWrapper.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cfileio.h
 assimp/code/CMakeFiles/assimp.dir/CInterfaceIOWrapper.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/CInterfaceIOWrapper.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/CInterfaceIOWrapper.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/CInterfaceIOWrapper.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/CInterfaceIOWrapper.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
 assimp/code/CMakeFiles/assimp.dir/CInterfaceIOWrapper.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.inl
@@ -1311,6 +1310,7 @@ assimp/code/CMakeFiles/assimp.dir/CInterfaceIOWrapper.cpp.o: /home/6im2/bmantova
 assimp/code/CMakeFiles/assimp.dir/CInterfaceIOWrapper.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/CInterfaceIOWrapper.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/CInterfaceIOWrapper.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/CInterfaceIOWrapper.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ByteSwapper.h
@@ -1342,7 +1342,6 @@ assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -1363,6 +1362,7 @@ assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/CSMLoader.cpp
@@ -1391,7 +1391,6 @@ assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -1412,6 +1411,7 @@ assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/CalcTangentsProcess.cpp
@@ -1438,7 +1438,6 @@ assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.o: /home/6im2/bmantova
 assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -1459,6 +1458,7 @@ assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.o: /home/6im2/bmantova
 assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Bitmap.h
 assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ColladaExporter.cpp
@@ -1488,7 +1488,6 @@ assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cexport.h
 assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -1509,6 +1508,7 @@ assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/IOStream.hpp
 assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
@@ -1543,7 +1543,6 @@ assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -1564,6 +1563,7 @@ assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/IOStream.hpp
 assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
@@ -1593,7 +1593,6 @@ assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -1611,6 +1610,7 @@ assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ComputeUVMappingProcess.cpp
@@ -1639,7 +1639,6 @@ assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.o: /home/6im2/bman
 assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -1661,6 +1660,7 @@ assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.o: /home/6im2/bman
 assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ConvertToLHProcess.cpp
@@ -1680,7 +1680,6 @@ assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.o: /home/6im2/bmantova/
 assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -1701,6 +1700,7 @@ assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.o: /home/6im2/bmantova/
 assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/CreateAnimMesh.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/CreateAnimMesh.cpp
 assimp/code/CMakeFiles/assimp.dir/CreateAnimMesh.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/CreateAnimMesh.h
@@ -1708,7 +1708,6 @@ assimp/code/CMakeFiles/assimp.dir/CreateAnimMesh.cpp.o: /home/6im2/bmantova/Docu
 assimp/code/CMakeFiles/assimp.dir/CreateAnimMesh.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
 assimp/code/CMakeFiles/assimp.dir/CreateAnimMesh.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/CreateAnimMesh.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/CreateAnimMesh.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/CreateAnimMesh.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/CreateAnimMesh.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
 assimp/code/CMakeFiles/assimp.dir/CreateAnimMesh.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.inl
@@ -1722,6 +1721,7 @@ assimp/code/CMakeFiles/assimp.dir/CreateAnimMesh.cpp.o: /home/6im2/bmantova/Docu
 assimp/code/CMakeFiles/assimp.dir/CreateAnimMesh.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/CreateAnimMesh.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/CreateAnimMesh.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/CreateAnimMesh.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/D3MFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./contrib/unzip/ioapi.h
 assimp/code/CMakeFiles/assimp.dir/D3MFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./contrib/unzip/unzip.h
@@ -1753,7 +1753,6 @@ assimp/code/CMakeFiles/assimp.dir/D3MFImporter.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/D3MFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/D3MFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/D3MFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/D3MFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/D3MFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/D3MFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/D3MFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -1774,6 +1773,7 @@ assimp/code/CMakeFiles/assimp.dir/D3MFImporter.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/D3MFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/D3MFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/D3MFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/D3MFImporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/D3MFOpcPackage.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./contrib/unzip/ioapi.h
 assimp/code/CMakeFiles/assimp.dir/D3MFOpcPackage.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./contrib/unzip/unzip.h
@@ -1799,7 +1799,6 @@ assimp/code/CMakeFiles/assimp.dir/D3MFOpcPackage.cpp.o: /home/6im2/bmantova/Docu
 assimp/code/CMakeFiles/assimp.dir/D3MFOpcPackage.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/D3MFOpcPackage.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/D3MFOpcPackage.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/D3MFOpcPackage.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/D3MFOpcPackage.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/D3MFOpcPackage.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/D3MFOpcPackage.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -1813,6 +1812,7 @@ assimp/code/CMakeFiles/assimp.dir/D3MFOpcPackage.cpp.o: /home/6im2/bmantova/Docu
 assimp/code/CMakeFiles/assimp.dir/D3MFOpcPackage.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/D3MFOpcPackage.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/D3MFOpcPackage.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/D3MFOpcPackage.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
@@ -1849,7 +1849,6 @@ assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -1870,6 +1869,7 @@ assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/DeboneProcess.cpp
@@ -1894,7 +1894,6 @@ assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -1915,6 +1914,7 @@ assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/DefaultIOStream.cpp
 assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
@@ -1925,7 +1925,6 @@ assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -1939,6 +1938,7 @@ assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/DefaultIOSystem.cpp
 assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StringComparison.h
@@ -1956,7 +1956,6 @@ assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -1970,6 +1969,7 @@ assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/DefaultLogger.cpp
 assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/FileLogStream.h
@@ -1988,7 +1988,6 @@ assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
 assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.inl
@@ -2001,6 +2000,7 @@ assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BlobIOSystem.h
@@ -2034,7 +2034,6 @@ assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.o: /home/6im2/bmantova/Documents/
 assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cexport.h
 assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -2056,6 +2055,7 @@ assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.o: /home/6im2/bmantova/Documents/
 assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/FBXAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/FBXAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -2086,7 +2086,6 @@ assimp/code/CMakeFiles/assimp.dir/FBXAnimation.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/FBXAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/FBXAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/FBXAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/FBXAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/FBXAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/FBXAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/FBXAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -2101,6 +2100,7 @@ assimp/code/CMakeFiles/assimp.dir/FBXAnimation.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/FBXAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/FBXAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/FBXAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/FBXAnimation.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/FBXBinaryTokenizer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ByteSwapper.h
 assimp/code/CMakeFiles/assimp.dir/FBXBinaryTokenizer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -2116,7 +2116,6 @@ assimp/code/CMakeFiles/assimp.dir/FBXBinaryTokenizer.cpp.o: /home/6im2/bmantova/
 assimp/code/CMakeFiles/assimp.dir/FBXBinaryTokenizer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/FBXBinaryTokenizer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/FBXBinaryTokenizer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/FBXBinaryTokenizer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/FBXBinaryTokenizer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/FBXBinaryTokenizer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/FBXBinaryTokenizer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -2130,6 +2129,7 @@ assimp/code/CMakeFiles/assimp.dir/FBXBinaryTokenizer.cpp.o: /home/6im2/bmantova/
 assimp/code/CMakeFiles/assimp.dir/FBXBinaryTokenizer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/FBXBinaryTokenizer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/FBXBinaryTokenizer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/FBXBinaryTokenizer.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/FBXConverter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/FBXConverter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -2164,7 +2164,6 @@ assimp/code/CMakeFiles/assimp.dir/FBXConverter.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/FBXConverter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/FBXConverter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/FBXConverter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/FBXConverter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/FBXConverter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/FBXConverter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/FBXConverter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -2185,6 +2184,7 @@ assimp/code/CMakeFiles/assimp.dir/FBXConverter.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/FBXConverter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/FBXConverter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/FBXConverter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/FBXConverter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/FBXDeformer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/FBXDeformer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -2215,7 +2215,6 @@ assimp/code/CMakeFiles/assimp.dir/FBXDeformer.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/FBXDeformer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/FBXDeformer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/FBXDeformer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/FBXDeformer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/FBXDeformer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/FBXDeformer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/FBXDeformer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -2230,6 +2229,7 @@ assimp/code/CMakeFiles/assimp.dir/FBXDeformer.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/FBXDeformer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/FBXDeformer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/FBXDeformer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/FBXDeformer.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/FBXDocument.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/FBXDocument.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -2262,7 +2262,6 @@ assimp/code/CMakeFiles/assimp.dir/FBXDocument.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/FBXDocument.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/FBXDocument.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/FBXDocument.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/FBXDocument.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/FBXDocument.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/FBXDocument.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/FBXDocument.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -2277,6 +2276,7 @@ assimp/code/CMakeFiles/assimp.dir/FBXDocument.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/FBXDocument.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/FBXDocument.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/FBXDocument.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/FBXDocument.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/FBXDocumentUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
 assimp/code/CMakeFiles/assimp.dir/FBXDocumentUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/FBXCompileConfig.h
@@ -2304,7 +2304,6 @@ assimp/code/CMakeFiles/assimp.dir/FBXDocumentUtil.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/FBXDocumentUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/FBXDocumentUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/FBXDocumentUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/FBXDocumentUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/FBXDocumentUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/FBXDocumentUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/FBXDocumentUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -2319,6 +2318,7 @@ assimp/code/CMakeFiles/assimp.dir/FBXDocumentUtil.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/FBXDocumentUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/FBXDocumentUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/FBXDocumentUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/FBXDocumentUtil.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/FBXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/FBXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ByteSwapper.h
@@ -2355,7 +2355,6 @@ assimp/code/CMakeFiles/assimp.dir/FBXImporter.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/FBXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/FBXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/FBXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/FBXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/FBXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/FBXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/FBXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -2370,6 +2369,7 @@ assimp/code/CMakeFiles/assimp.dir/FBXImporter.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/FBXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/FBXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/FBXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/FBXImporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/FBXMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/FBXMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ByteSwapper.h
@@ -2401,7 +2401,6 @@ assimp/code/CMakeFiles/assimp.dir/FBXMaterial.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/FBXMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/FBXMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/FBXMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/FBXMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/FBXMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/FBXMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/FBXMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -2416,6 +2415,7 @@ assimp/code/CMakeFiles/assimp.dir/FBXMaterial.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/FBXMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/FBXMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/FBXMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/FBXMaterial.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/FBXMeshGeometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/FBXMeshGeometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -2447,7 +2447,6 @@ assimp/code/CMakeFiles/assimp.dir/FBXMeshGeometry.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/FBXMeshGeometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/FBXMeshGeometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/FBXMeshGeometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/FBXMeshGeometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/FBXMeshGeometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/FBXMeshGeometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/FBXMeshGeometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -2462,6 +2461,7 @@ assimp/code/CMakeFiles/assimp.dir/FBXMeshGeometry.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/FBXMeshGeometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/FBXMeshGeometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/FBXMeshGeometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/FBXMeshGeometry.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/FBXModel.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/FBXModel.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -2493,7 +2493,6 @@ assimp/code/CMakeFiles/assimp.dir/FBXModel.cpp.o: /home/6im2/bmantova/Documents/
 assimp/code/CMakeFiles/assimp.dir/FBXModel.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/FBXModel.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/FBXModel.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/FBXModel.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/FBXModel.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/FBXModel.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/FBXModel.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -2508,6 +2507,7 @@ assimp/code/CMakeFiles/assimp.dir/FBXModel.cpp.o: /home/6im2/bmantova/Documents/
 assimp/code/CMakeFiles/assimp.dir/FBXModel.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/FBXModel.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/FBXModel.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/FBXModel.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/FBXNodeAttribute.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/FBXNodeAttribute.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -2538,7 +2538,6 @@ assimp/code/CMakeFiles/assimp.dir/FBXNodeAttribute.cpp.o: /home/6im2/bmantova/Do
 assimp/code/CMakeFiles/assimp.dir/FBXNodeAttribute.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/FBXNodeAttribute.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/FBXNodeAttribute.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/FBXNodeAttribute.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/FBXNodeAttribute.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/FBXNodeAttribute.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/FBXNodeAttribute.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -2553,6 +2552,7 @@ assimp/code/CMakeFiles/assimp.dir/FBXNodeAttribute.cpp.o: /home/6im2/bmantova/Do
 assimp/code/CMakeFiles/assimp.dir/FBXNodeAttribute.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/FBXNodeAttribute.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/FBXNodeAttribute.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/FBXNodeAttribute.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/FBXParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ByteSwapper.h
 assimp/code/CMakeFiles/assimp.dir/FBXParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -2581,7 +2581,6 @@ assimp/code/CMakeFiles/assimp.dir/FBXParser.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/FBXParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/FBXParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/FBXParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/FBXParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/FBXParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/FBXParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/FBXParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -2595,6 +2594,7 @@ assimp/code/CMakeFiles/assimp.dir/FBXParser.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/FBXParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/FBXParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/FBXParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/FBXParser.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/FBXProperties.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
 assimp/code/CMakeFiles/assimp.dir/FBXProperties.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/FBXCompileConfig.h
@@ -2621,7 +2621,6 @@ assimp/code/CMakeFiles/assimp.dir/FBXProperties.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/FBXProperties.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/FBXProperties.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/FBXProperties.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/FBXProperties.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/FBXProperties.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/FBXProperties.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/FBXProperties.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -2636,6 +2635,7 @@ assimp/code/CMakeFiles/assimp.dir/FBXProperties.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/FBXProperties.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/FBXProperties.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/FBXProperties.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/FBXProperties.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/FBXTokenizer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
 assimp/code/CMakeFiles/assimp.dir/FBXTokenizer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/FBXCompileConfig.h
@@ -2653,7 +2653,6 @@ assimp/code/CMakeFiles/assimp.dir/FBXTokenizer.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/FBXTokenizer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/FBXTokenizer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/FBXTokenizer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/FBXTokenizer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/FBXTokenizer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/FBXTokenizer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/FBXTokenizer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -2667,6 +2666,7 @@ assimp/code/CMakeFiles/assimp.dir/FBXTokenizer.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/FBXTokenizer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/FBXTokenizer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/FBXTokenizer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/FBXTokenizer.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/FBXUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/FBXCompileConfig.h
 assimp/code/CMakeFiles/assimp.dir/FBXUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/FBXTokenizer.h
@@ -2697,7 +2697,6 @@ assimp/code/CMakeFiles/assimp.dir/FIReader.cpp.o: /home/6im2/bmantova/Documents/
 assimp/code/CMakeFiles/assimp.dir/FIReader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/FIReader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/FIReader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/FIReader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/FIReader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/FIReader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/FIReader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -2711,6 +2710,7 @@ assimp/code/CMakeFiles/assimp.dir/FIReader.cpp.o: /home/6im2/bmantova/Documents/
 assimp/code/CMakeFiles/assimp.dir/FIReader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/FIReader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/FIReader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/FIReader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -2739,7 +2739,6 @@ assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -2761,6 +2760,7 @@ assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/FindInstancesProcess.cpp
@@ -2785,7 +2785,6 @@ assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.o: /home/6im2/bmantov
 assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -2806,6 +2805,7 @@ assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.o: /home/6im2/bmantov
 assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -2836,7 +2836,6 @@ assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.o: /home/6im2/bmant
 assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -2858,6 +2857,7 @@ assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.o: /home/6im2/bmant
 assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/FixNormalsStep.cpp
@@ -2878,7 +2878,6 @@ assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.o: /home/6im2/bmantova/Docu
 assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -2899,6 +2898,7 @@ assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.o: /home/6im2/bmantova/Docu
 assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -2923,7 +2923,6 @@ assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.o: /home/6im2/bmanto
 assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -2945,6 +2944,7 @@ assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.o: /home/6im2/bmanto
 assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -2974,7 +2974,6 @@ assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.o: /home/6im2/bman
 assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -2996,6 +2995,7 @@ assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.o: /home/6im2/bman
 assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/Compiler/poppack1.h
 assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/Compiler/pushpack1.h
@@ -3028,7 +3028,6 @@ assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -3049,6 +3048,7 @@ assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/IFCBoolean.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/IFCBoolean.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
@@ -3094,7 +3094,6 @@ assimp/code/CMakeFiles/assimp.dir/IFCBoolean.cpp.o: /home/6im2/bmantova/Document
 assimp/code/CMakeFiles/assimp.dir/IFCBoolean.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/IFCBoolean.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/IFCBoolean.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/IFCBoolean.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/IFCBoolean.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/IFCBoolean.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/IFCBoolean.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -3116,6 +3115,7 @@ assimp/code/CMakeFiles/assimp.dir/IFCBoolean.cpp.o: /home/6im2/bmantova/Document
 assimp/code/CMakeFiles/assimp.dir/IFCBoolean.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/IFCBoolean.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/IFCBoolean.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/IFCBoolean.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ByteSwapper.h
@@ -3152,7 +3152,6 @@ assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.o: /home/6im2/bmantova/Documents/
 assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -3169,6 +3168,7 @@ assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.o: /home/6im2/bmantova/Documents/
 assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
@@ -3221,7 +3221,6 @@ assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -3243,6 +3242,7 @@ assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./contrib/unzip/ioapi.h
 assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./contrib/unzip/unzip.h
@@ -3288,7 +3288,6 @@ assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -3309,6 +3308,7 @@ assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ByteSwapper.h
@@ -3345,7 +3345,6 @@ assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -3362,6 +3361,7 @@ assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/IFCOpenings.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/IFCOpenings.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
@@ -3414,7 +3414,6 @@ assimp/code/CMakeFiles/assimp.dir/IFCOpenings.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/IFCOpenings.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/IFCOpenings.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/IFCOpenings.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/IFCOpenings.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/IFCOpenings.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/IFCOpenings.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/IFCOpenings.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -3436,6 +3435,7 @@ assimp/code/CMakeFiles/assimp.dir/IFCOpenings.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/IFCOpenings.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/IFCOpenings.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/IFCOpenings.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/IFCOpenings.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ByteSwapper.h
@@ -3472,7 +3472,6 @@ assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.o: /home/6im2/bmantova/Document
 assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -3489,6 +3488,7 @@ assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.o: /home/6im2/bmantova/Document
 assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/IFCReaderGen1.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ByteSwapper.h
 assimp/code/CMakeFiles/assimp.dir/IFCReaderGen1.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -3521,7 +3521,6 @@ assimp/code/CMakeFiles/assimp.dir/IFCReaderGen1.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/IFCReaderGen1.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/IFCReaderGen1.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/IFCReaderGen1.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/IFCReaderGen1.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/IFCReaderGen1.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/IFCReaderGen1.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/IFCReaderGen1.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -3536,6 +3535,7 @@ assimp/code/CMakeFiles/assimp.dir/IFCReaderGen1.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/IFCReaderGen1.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/IFCReaderGen1.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/IFCReaderGen1.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/IFCReaderGen1.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/IFCReaderGen2.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ByteSwapper.h
 assimp/code/CMakeFiles/assimp.dir/IFCReaderGen2.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -3568,7 +3568,6 @@ assimp/code/CMakeFiles/assimp.dir/IFCReaderGen2.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/IFCReaderGen2.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/IFCReaderGen2.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/IFCReaderGen2.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/IFCReaderGen2.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/IFCReaderGen2.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/IFCReaderGen2.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/IFCReaderGen2.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -3583,6 +3582,7 @@ assimp/code/CMakeFiles/assimp.dir/IFCReaderGen2.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/IFCReaderGen2.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/IFCReaderGen2.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/IFCReaderGen2.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/IFCReaderGen2.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
@@ -3628,7 +3628,6 @@ assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.o: /home/6im2/bmantova/Documents/C
 assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -3650,6 +3649,7 @@ assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.o: /home/6im2/bmantova/Documents/C
 assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/IOStream.hpp
 assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
@@ -3687,7 +3687,6 @@ assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -3709,6 +3708,7 @@ assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/IOStream.hpp
 assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
@@ -3740,7 +3740,6 @@ assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -3761,6 +3760,7 @@ assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/IOStream.hpp
 assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
@@ -3787,7 +3787,6 @@ assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -3803,6 +3802,7 @@ assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/Importer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/Importer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
@@ -3842,7 +3842,6 @@ assimp/code/CMakeFiles/assimp.dir/Importer.cpp.o: /home/6im2/bmantova/Documents/
 assimp/code/CMakeFiles/assimp.dir/Importer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/Importer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/Importer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/Importer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/Importer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/Importer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/Importer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -3865,6 +3864,7 @@ assimp/code/CMakeFiles/assimp.dir/Importer.cpp.o: /home/6im2/bmantova/Documents/
 assimp/code/CMakeFiles/assimp.dir/Importer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/Importer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
 assimp/code/CMakeFiles/assimp.dir/Importer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/version.h
+assimp/code/CMakeFiles/assimp.dir/Importer.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/Compiler/poppack1.h
 assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/Compiler/pushpack1.h
@@ -3983,7 +3983,6 @@ assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.o: /home/6im2/bmantova/Do
 assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -4004,6 +4003,7 @@ assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.o: /home/6im2/bmantova/Do
 assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
@@ -4025,7 +4025,6 @@ assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.o: /home/6im2/bmantov
 assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -4046,6 +4045,7 @@ assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.o: /home/6im2/bmantov
 assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
@@ -4072,7 +4072,6 @@ assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.o: /home/6im2/bmantova
 assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -4093,6 +4092,7 @@ assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.o: /home/6im2/bmantova
 assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ByteSwapper.h
 assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/IFF.h
@@ -4105,7 +4105,6 @@ assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/anim.h
 assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
 assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.inl
@@ -4119,6 +4118,7 @@ assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ByteSwapper.h
@@ -4141,7 +4141,6 @@ assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.o: /home/6im2/bmantova/Document
 assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -4158,6 +4157,7 @@ assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.o: /home/6im2/bmantova/Document
 assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
@@ -4195,7 +4195,6 @@ assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -4217,6 +4216,7 @@ assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ByteSwapper.h
@@ -4239,7 +4239,6 @@ assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -4256,6 +4255,7 @@ assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
@@ -4294,7 +4294,6 @@ assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -4315,6 +4314,7 @@ assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
@@ -4335,7 +4335,6 @@ assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.o: /home/6im2/bman
 assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -4356,6 +4355,7 @@ assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.o: /home/6im2/bman
 assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ByteSwapper.h
@@ -4384,7 +4384,6 @@ assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -4405,6 +4404,7 @@ assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/Compiler/poppack1.h
 assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
@@ -4440,7 +4440,6 @@ assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -4461,6 +4460,7 @@ assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -4491,7 +4491,6 @@ assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -4512,6 +4511,7 @@ assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -4537,7 +4537,6 @@ assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -4552,6 +4551,7 @@ assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/Compiler/poppack1.h
 assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
@@ -4582,7 +4582,6 @@ assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -4603,6 +4602,7 @@ assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/Compiler/poppack1.h
 assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/Compiler/pushpack1.h
@@ -4638,7 +4638,6 @@ assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -4659,6 +4658,7 @@ assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/Compiler/poppack1.h
 assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/Compiler/pushpack1.h
@@ -4690,7 +4690,6 @@ assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.o: /home/6im2/bmantova/D
 assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -4711,6 +4710,7 @@ assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.o: /home/6im2/bmantova/D
 assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/MMDImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/MMDImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
@@ -4739,7 +4739,6 @@ assimp/code/CMakeFiles/assimp.dir/MMDImporter.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/MMDImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/MMDImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/MMDImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/MMDImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/MMDImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/MMDImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/MMDImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -4760,6 +4759,7 @@ assimp/code/CMakeFiles/assimp.dir/MMDImporter.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/MMDImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/MMDImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/MMDImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/MMDImporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/MMDPmxParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
 assimp/code/CMakeFiles/assimp.dir/MMDPmxParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/MMDCpp14.h
@@ -4776,7 +4776,6 @@ assimp/code/CMakeFiles/assimp.dir/MMDPmxParser.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/MMDPmxParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/IOStream.hpp
 assimp/code/CMakeFiles/assimp.dir/MMDPmxParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/MMDPmxParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/MMDPmxParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/MMDPmxParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/MMDPmxParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/MMDPmxParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -4790,6 +4789,7 @@ assimp/code/CMakeFiles/assimp.dir/MMDPmxParser.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/MMDPmxParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/MMDPmxParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/MMDPmxParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/MMDPmxParser.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ByteSwapper.h
@@ -4814,7 +4814,6 @@ assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.o: /home/6im2/bmantova/Document
 assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -4835,6 +4834,7 @@ assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.o: /home/6im2/bmantova/Document
 assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
@@ -4854,7 +4854,6 @@ assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.o: /home/6im2/bmantova/D
 assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -4874,6 +4873,7 @@ assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.o: /home/6im2/bmantova/D
 assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Hash.h
 assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Macros.h
@@ -4893,7 +4893,6 @@ assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.o: /home/6im2/bmantova/Docu
 assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
 assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.inl
@@ -4908,6 +4907,7 @@ assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.o: /home/6im2/bmantova/Docu
 assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ByteSwapper.h
@@ -4932,7 +4932,6 @@ assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -4953,6 +4952,7 @@ assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -4982,7 +4982,6 @@ assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -5003,6 +5002,7 @@ assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -5029,7 +5029,6 @@ assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -5050,6 +5049,7 @@ assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
 assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ObjExporter.cpp
@@ -5069,7 +5069,6 @@ assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cexport.h
 assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -5091,6 +5090,7 @@ assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
 assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/version.h
+assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -5121,7 +5121,6 @@ assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -5142,6 +5141,7 @@ assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ObjFileData.h
 assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ObjFileMtlImporter.cpp
@@ -5161,7 +5161,6 @@ assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.o: /home/6im2/bmantova/
 assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
 assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.inl
@@ -5177,6 +5176,7 @@ assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.o: /home/6im2/bmantova/
 assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -5207,7 +5207,6 @@ assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -5224,6 +5223,7 @@ assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/OgreBinarySerializer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/IOStream.hpp
 assimp/code/CMakeFiles/assimp.dir/OgreBinarySerializer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
@@ -5256,7 +5256,6 @@ assimp/code/CMakeFiles/assimp.dir/OgreBinarySerializer.cpp.o: /home/6im2/bmantov
 assimp/code/CMakeFiles/assimp.dir/OgreBinarySerializer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/OgreBinarySerializer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/OgreBinarySerializer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/OgreBinarySerializer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/OgreBinarySerializer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/OgreBinarySerializer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/OgreBinarySerializer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -5271,6 +5270,7 @@ assimp/code/CMakeFiles/assimp.dir/OgreBinarySerializer.cpp.o: /home/6im2/bmantov
 assimp/code/CMakeFiles/assimp.dir/OgreBinarySerializer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/OgreBinarySerializer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/OgreBinarySerializer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/OgreBinarySerializer.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/IOStream.hpp
 assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
@@ -5300,7 +5300,6 @@ assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -5317,6 +5316,7 @@ assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -5347,7 +5347,6 @@ assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -5368,6 +5367,7 @@ assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/OgreStructs.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
 assimp/code/CMakeFiles/assimp.dir/OgreStructs.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/MemoryIOWrapper.h
@@ -5390,7 +5390,6 @@ assimp/code/CMakeFiles/assimp.dir/OgreStructs.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/OgreStructs.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/OgreStructs.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/OgreStructs.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/OgreStructs.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/OgreStructs.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/OgreStructs.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/OgreStructs.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -5411,6 +5410,7 @@ assimp/code/CMakeFiles/assimp.dir/OgreStructs.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/OgreStructs.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/OgreStructs.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/OgreStructs.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/OgreStructs.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/OgreXmlSerializer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/IOStream.hpp
 assimp/code/CMakeFiles/assimp.dir/OgreXmlSerializer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
@@ -5443,7 +5443,6 @@ assimp/code/CMakeFiles/assimp.dir/OgreXmlSerializer.cpp.o: /home/6im2/bmantova/D
 assimp/code/CMakeFiles/assimp.dir/OgreXmlSerializer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/OgreXmlSerializer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/OgreXmlSerializer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/OgreXmlSerializer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/OgreXmlSerializer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/OgreXmlSerializer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/OgreXmlSerializer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -5458,6 +5457,7 @@ assimp/code/CMakeFiles/assimp.dir/OgreXmlSerializer.cpp.o: /home/6im2/bmantova/D
 assimp/code/CMakeFiles/assimp.dir/OgreXmlSerializer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/OgreXmlSerializer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/OgreXmlSerializer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/OgreXmlSerializer.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/OpenGEXExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/OpenGEXExporter.cpp
 assimp/code/CMakeFiles/assimp.dir/OpenGEXExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/OpenGEXExporter.h
@@ -5465,7 +5465,6 @@ assimp/code/CMakeFiles/assimp.dir/OpenGEXExporter.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/OpenGEXExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
 assimp/code/CMakeFiles/assimp.dir/OpenGEXExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/OpenGEXExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/OpenGEXExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/OpenGEXExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/OpenGEXExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
 assimp/code/CMakeFiles/assimp.dir/OpenGEXExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.inl
@@ -5478,6 +5477,7 @@ assimp/code/CMakeFiles/assimp.dir/OpenGEXExporter.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/OpenGEXExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/OpenGEXExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/OpenGEXExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/OpenGEXExporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/OpenGEXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/../contrib/openddlparser/include/openddlparser/DDLNode.h
 assimp/code/CMakeFiles/assimp.dir/OpenGEXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/../contrib/openddlparser/include/openddlparser/OpenDDLCommon.h
@@ -5512,7 +5512,6 @@ assimp/code/CMakeFiles/assimp.dir/OpenGEXImporter.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/OpenGEXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/OpenGEXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/OpenGEXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/OpenGEXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/OpenGEXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/OpenGEXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/OpenGEXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -5533,6 +5532,7 @@ assimp/code/CMakeFiles/assimp.dir/OpenGEXImporter.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/OpenGEXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/OpenGEXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/OpenGEXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/OpenGEXImporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -5562,7 +5562,6 @@ assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -5584,6 +5583,7 @@ assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -5613,7 +5613,6 @@ assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.o: /home/6im2/bmantova/Docu
 assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -5635,6 +5634,7 @@ assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.o: /home/6im2/bmantova/Docu
 assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
 assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/PlyExporter.cpp
@@ -5653,7 +5653,6 @@ assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cexport.h
 assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -5675,6 +5674,7 @@ assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
 assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/version.h
+assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -5699,7 +5699,6 @@ assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -5720,6 +5719,7 @@ assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ByteSwapper.h
@@ -5746,7 +5746,6 @@ assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -5760,6 +5759,7 @@ assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
@@ -5813,7 +5813,6 @@ assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.o: /home/6im2/bmantova/Do
 assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -5835,6 +5834,7 @@ assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.o: /home/6im2/bmantova/Do
 assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -5864,7 +5864,6 @@ assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.o: /home/6im2/bmantov
 assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -5886,6 +5885,7 @@ assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.o: /home/6im2/bmantov
 assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
@@ -5909,7 +5909,6 @@ assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -5930,6 +5929,7 @@ assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./contrib/unzip/ioapi.h
 assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./contrib/unzip/unzip.h
@@ -5957,7 +5957,6 @@ assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.o: /home/6im2/bmantova/D
 assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -5978,6 +5977,7 @@ assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.o: /home/6im2/bmantova/D
 assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./contrib/unzip/ioapi.h
 assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./contrib/unzip/unzip.h
@@ -5999,7 +5999,6 @@ assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -6013,6 +6012,7 @@ assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./contrib/unzip/ioapi.h
 assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./contrib/unzip/unzip.h
@@ -6026,7 +6026,6 @@ assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
 assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.inl
@@ -6039,6 +6038,7 @@ assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ByteSwapper.h
@@ -6065,7 +6065,6 @@ assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -6086,6 +6085,7 @@ assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -6112,7 +6112,6 @@ assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -6133,6 +6132,7 @@ assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/RemoveComments.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ParsingUtils.h
 assimp/code/CMakeFiles/assimp.dir/RemoveComments.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/RemoveComments.cpp
@@ -6140,8 +6140,8 @@ assimp/code/CMakeFiles/assimp.dir/RemoveComments.cpp.o: /home/6im2/bmantova/Docu
 assimp/code/CMakeFiles/assimp.dir/RemoveComments.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StringComparison.h
 assimp/code/CMakeFiles/assimp.dir/RemoveComments.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StringUtils.h
 assimp/code/CMakeFiles/assimp.dir/RemoveComments.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
-assimp/code/CMakeFiles/assimp.dir/RemoveComments.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/RemoveComments.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
+assimp/code/CMakeFiles/assimp.dir/RemoveComments.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
@@ -6167,7 +6167,6 @@ assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.o: /home/6im2/bma
 assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -6188,6 +6187,7 @@ assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.o: /home/6im2/bma
 assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
@@ -6207,7 +6207,6 @@ assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -6228,6 +6227,7 @@ assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/SGSpatialSort.cpp
 assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/SGSpatialSort.h
@@ -6235,7 +6235,6 @@ assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
 assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
 assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.inl
@@ -6248,6 +6247,7 @@ assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/SIBImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/SIBImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ByteSwapper.h
@@ -6277,7 +6277,6 @@ assimp/code/CMakeFiles/assimp.dir/SIBImporter.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/SIBImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/SIBImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/SIBImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/SIBImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/SIBImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/SIBImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/SIBImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -6298,6 +6297,7 @@ assimp/code/CMakeFiles/assimp.dir/SIBImporter.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/SIBImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/SIBImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/SIBImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/SIBImporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -6326,7 +6326,6 @@ assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -6347,6 +6346,7 @@ assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/STEPFileEncoding.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./contrib/utf8cpp/source/utf8.h
 assimp/code/CMakeFiles/assimp.dir/STEPFileEncoding.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./contrib/utf8cpp/source/utf8/checked.h
@@ -6366,7 +6366,6 @@ assimp/code/CMakeFiles/assimp.dir/STEPFileEncoding.cpp.o: /home/6im2/bmantova/Do
 assimp/code/CMakeFiles/assimp.dir/STEPFileEncoding.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/STEPFileEncoding.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/STEPFileEncoding.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/STEPFileEncoding.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/STEPFileEncoding.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/STEPFileEncoding.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
 assimp/code/CMakeFiles/assimp.dir/STEPFileEncoding.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.inl
@@ -6379,6 +6378,7 @@ assimp/code/CMakeFiles/assimp.dir/STEPFileEncoding.cpp.o: /home/6im2/bmantova/Do
 assimp/code/CMakeFiles/assimp.dir/STEPFileEncoding.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/STEPFileEncoding.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/STEPFileEncoding.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/STEPFileEncoding.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ByteSwapper.h
 assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -6412,7 +6412,6 @@ assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.o: /home/6im2/bmantova/Docu
 assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -6427,6 +6426,7 @@ assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.o: /home/6im2/bmantova/Docu
 assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ByteSwapper.h
 assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -6446,7 +6446,6 @@ assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cexport.h
 assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -6468,6 +6467,7 @@ assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
 assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/version.h
+assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -6494,7 +6494,6 @@ assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -6515,6 +6514,7 @@ assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Hash.h
 assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/SceneCombiner.cpp
@@ -6536,7 +6536,6 @@ assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -6556,6 +6555,7 @@ assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ScenePreprocessor.cpp
 assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ScenePreprocessor.h
@@ -6571,7 +6571,6 @@ assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.o: /home/6im2/bmantova/D
 assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -6591,6 +6590,7 @@ assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.o: /home/6im2/bmantova/D
 assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/SkeletonMeshBuilder.cpp
 assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/SkeletonMeshBuilder.h
@@ -6601,7 +6601,6 @@ assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.o: /home/6im2/bmantova
 assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -6621,6 +6620,7 @@ assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.o: /home/6im2/bmantova
 assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -6649,7 +6649,6 @@ assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.o: /home/6im2/bmantova/
 assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -6671,6 +6670,7 @@ assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.o: /home/6im2/bmantova/
 assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/SpatialSort.cpp
 assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/SpatialSort.h
@@ -6679,7 +6679,6 @@ assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
 assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.inl
@@ -6692,6 +6691,7 @@ assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
@@ -6712,7 +6712,6 @@ assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.o: /home/6im2/bman
 assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -6733,6 +6732,7 @@ assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.o: /home/6im2/bman
 assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
@@ -6757,7 +6757,6 @@ assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.o: /home/6im2/bmantova/Do
 assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -6778,6 +6777,7 @@ assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.o: /home/6im2/bmantova/Do
 assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StandardShapes.cpp
 assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StandardShapes.h
@@ -6788,7 +6788,6 @@ assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.o: /home/6im2/bmantova/Docu
 assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
 assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.inl
@@ -6802,6 +6801,7 @@ assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.o: /home/6im2/bmantova/Docu
 assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/StepExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/StepExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
@@ -6836,7 +6836,6 @@ assimp/code/CMakeFiles/assimp.dir/StepExporter.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/StepExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cexport.h
 assimp/code/CMakeFiles/assimp.dir/StepExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/StepExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/StepExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/StepExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/StepExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/StepExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -6857,6 +6856,7 @@ assimp/code/CMakeFiles/assimp.dir/StepExporter.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/StepExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/StepExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/StepExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/StepExporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
@@ -6884,7 +6884,6 @@ assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -6905,6 +6904,7 @@ assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/TargetAnimation.cpp
 assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/TargetAnimation.h
@@ -6914,7 +6914,6 @@ assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/anim.h
 assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
 assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.inl
@@ -6927,6 +6926,7 @@ assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.o: /home/6im2/bmantova/Doc
 assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ByteSwapper.h
@@ -6952,7 +6952,6 @@ assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.o: /home/6im2/bmantova/Docu
 assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -6973,6 +6972,7 @@ assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.o: /home/6im2/bmantova/Docu
 assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
@@ -6999,7 +6999,6 @@ assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.o: /home/6im2/bmantova/Do
 assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -7021,6 +7020,7 @@ assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.o: /home/6im2/bmantova/Do
 assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
@@ -7046,7 +7046,6 @@ assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.o: /home/6im2/bmantova/
 assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -7067,6 +7066,7 @@ assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.o: /home/6im2/bmantova/
 assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
@@ -7100,7 +7100,6 @@ assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -7121,6 +7120,7 @@ assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
@@ -7152,7 +7152,6 @@ assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.o: /home/6im2/bmanto
 assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -7174,8 +7173,8 @@ assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.o: /home/6im2/bmanto
 assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.o: assimp/include/assimp/config.h
 
-assimp/code/CMakeFiles/assimp.dir/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./revision.h
 assimp/code/CMakeFiles/assimp.dir/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ScenePrivate.h
 assimp/code/CMakeFiles/assimp.dir/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Version.cpp
 assimp/code/CMakeFiles/assimp.dir/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
@@ -7185,7 +7184,6 @@ assimp/code/CMakeFiles/assimp.dir/Version.cpp.o: /home/6im2/bmantova/Documents/C
 assimp/code/CMakeFiles/assimp.dir/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/code/CMakeFiles/assimp.dir/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -7206,6 +7204,8 @@ assimp/code/CMakeFiles/assimp.dir/Version.cpp.o: /home/6im2/bmantova/Documents/C
 assimp/code/CMakeFiles/assimp.dir/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
 assimp/code/CMakeFiles/assimp.dir/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/version.h
+assimp/code/CMakeFiles/assimp.dir/Version.cpp.o: assimp/include/assimp/config.h
+assimp/code/CMakeFiles/assimp.dir/Version.cpp.o: assimp/revision.h
 
 assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
@@ -7218,7 +7218,6 @@ assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.o: /home/6im2/bman
 assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
 assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.inl
@@ -7232,6 +7231,7 @@ assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.o: /home/6im2/bman
 assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/X3DExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
 assimp/code/CMakeFiles/assimp.dir/X3DExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StringUtils.h
@@ -7254,7 +7254,6 @@ assimp/code/CMakeFiles/assimp.dir/X3DExporter.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/X3DExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cexport.h
 assimp/code/CMakeFiles/assimp.dir/X3DExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/X3DExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/X3DExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/X3DExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/X3DExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/X3DExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -7275,6 +7274,7 @@ assimp/code/CMakeFiles/assimp.dir/X3DExporter.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/X3DExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/X3DExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/X3DExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/X3DExporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/X3DImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/IOStream.hpp
 assimp/code/CMakeFiles/assimp.dir/X3DImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
@@ -7307,7 +7307,6 @@ assimp/code/CMakeFiles/assimp.dir/X3DImporter.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/X3DImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/X3DImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -7328,6 +7327,7 @@ assimp/code/CMakeFiles/assimp.dir/X3DImporter.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/X3DImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/X3DImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/X3DImporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry2D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/IOStream.hpp
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry2D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
@@ -7354,7 +7354,6 @@ assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry2D.cpp.o: /home/6im2/bmant
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry2D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry2D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry2D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry2D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry2D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry2D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry2D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -7375,6 +7374,7 @@ assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry2D.cpp.o: /home/6im2/bmant
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry2D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry2D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry2D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry2D.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry3D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/IOStream.hpp
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry3D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
@@ -7402,7 +7402,6 @@ assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry3D.cpp.o: /home/6im2/bmant
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry3D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry3D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry3D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry3D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry3D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry3D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry3D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -7423,6 +7422,7 @@ assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry3D.cpp.o: /home/6im2/bmant
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry3D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry3D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry3D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/X3DImporter_Geometry3D.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Group.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/IOStream.hpp
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Group.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
@@ -7449,7 +7449,6 @@ assimp/code/CMakeFiles/assimp.dir/X3DImporter_Group.cpp.o: /home/6im2/bmantova/D
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Group.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Group.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Group.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/X3DImporter_Group.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Group.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Group.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Group.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -7470,6 +7469,7 @@ assimp/code/CMakeFiles/assimp.dir/X3DImporter_Group.cpp.o: /home/6im2/bmantova/D
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Group.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Group.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Group.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/X3DImporter_Group.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Light.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/IOStream.hpp
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Light.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
@@ -7497,7 +7497,6 @@ assimp/code/CMakeFiles/assimp.dir/X3DImporter_Light.cpp.o: /home/6im2/bmantova/D
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Light.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Light.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Light.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/X3DImporter_Light.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Light.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Light.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Light.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -7518,6 +7517,7 @@ assimp/code/CMakeFiles/assimp.dir/X3DImporter_Light.cpp.o: /home/6im2/bmantova/D
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Light.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Light.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Light.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/X3DImporter_Light.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Metadata.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/IOStream.hpp
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Metadata.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
@@ -7544,7 +7544,6 @@ assimp/code/CMakeFiles/assimp.dir/X3DImporter_Metadata.cpp.o: /home/6im2/bmantov
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Metadata.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Metadata.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Metadata.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/X3DImporter_Metadata.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Metadata.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Metadata.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Metadata.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -7565,6 +7564,7 @@ assimp/code/CMakeFiles/assimp.dir/X3DImporter_Metadata.cpp.o: /home/6im2/bmantov
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Metadata.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Metadata.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Metadata.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/X3DImporter_Metadata.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Networking.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/IOStream.hpp
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Networking.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
@@ -7593,7 +7593,6 @@ assimp/code/CMakeFiles/assimp.dir/X3DImporter_Networking.cpp.o: /home/6im2/bmant
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Networking.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Networking.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Networking.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/X3DImporter_Networking.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Networking.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Networking.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Networking.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -7614,6 +7613,7 @@ assimp/code/CMakeFiles/assimp.dir/X3DImporter_Networking.cpp.o: /home/6im2/bmant
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Networking.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Networking.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Networking.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/X3DImporter_Networking.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Postprocess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/IOStream.hpp
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Postprocess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
@@ -7641,7 +7641,6 @@ assimp/code/CMakeFiles/assimp.dir/X3DImporter_Postprocess.cpp.o: /home/6im2/bman
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Postprocess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Postprocess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Postprocess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/X3DImporter_Postprocess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Postprocess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Postprocess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Postprocess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -7662,6 +7661,7 @@ assimp/code/CMakeFiles/assimp.dir/X3DImporter_Postprocess.cpp.o: /home/6im2/bman
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Postprocess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Postprocess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Postprocess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/X3DImporter_Postprocess.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Rendering.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/IOStream.hpp
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Rendering.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
@@ -7688,7 +7688,6 @@ assimp/code/CMakeFiles/assimp.dir/X3DImporter_Rendering.cpp.o: /home/6im2/bmanto
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Rendering.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Rendering.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Rendering.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/X3DImporter_Rendering.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Rendering.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Rendering.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Rendering.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -7709,6 +7708,7 @@ assimp/code/CMakeFiles/assimp.dir/X3DImporter_Rendering.cpp.o: /home/6im2/bmanto
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Rendering.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Rendering.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Rendering.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/X3DImporter_Rendering.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Shape.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/IOStream.hpp
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Shape.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
@@ -7735,7 +7735,6 @@ assimp/code/CMakeFiles/assimp.dir/X3DImporter_Shape.cpp.o: /home/6im2/bmantova/D
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Shape.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Shape.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Shape.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/X3DImporter_Shape.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Shape.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Shape.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Shape.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -7756,6 +7755,7 @@ assimp/code/CMakeFiles/assimp.dir/X3DImporter_Shape.cpp.o: /home/6im2/bmantova/D
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Shape.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Shape.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Shape.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/X3DImporter_Shape.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Texturing.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/IOStream.hpp
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Texturing.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
@@ -7782,7 +7782,6 @@ assimp/code/CMakeFiles/assimp.dir/X3DImporter_Texturing.cpp.o: /home/6im2/bmanto
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Texturing.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Texturing.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Texturing.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/X3DImporter_Texturing.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Texturing.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Texturing.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Texturing.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -7803,6 +7802,7 @@ assimp/code/CMakeFiles/assimp.dir/X3DImporter_Texturing.cpp.o: /home/6im2/bmanto
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Texturing.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Texturing.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/X3DImporter_Texturing.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/X3DImporter_Texturing.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/X3DVocabulary.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/FIReader.hpp
 assimp/code/CMakeFiles/assimp.dir/X3DVocabulary.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/X3DVocabulary.cpp
@@ -7841,7 +7841,6 @@ assimp/code/CMakeFiles/assimp.dir/XFileExporter.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/XFileExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cexport.h
 assimp/code/CMakeFiles/assimp.dir/XFileExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/XFileExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/XFileExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/XFileExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/XFileExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/XFileExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -7862,6 +7861,7 @@ assimp/code/CMakeFiles/assimp.dir/XFileExporter.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/XFileExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/XFileExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/XFileExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/XFileExporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
@@ -7892,7 +7892,6 @@ assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -7913,6 +7912,7 @@ assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.o: /home/6im2/bmantova/Docum
 assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ByteSwapper.h
 assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -7938,7 +7938,6 @@ assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/anim.h
 assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -7953,6 +7952,7 @@ assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.o: /home/6im2/bmantova/Documen
 assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./contrib/zlib/zlib.h
 assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/./../include/assimp/IOStream.hpp
@@ -7989,7 +7989,6 @@ assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -8010,6 +8009,7 @@ assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.o: /home/6im2/bmantova/Documents
 assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/__/contrib/Open3DGC/o3dgcArithmeticCodec.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/contrib/Open3DGC/o3dgcArithmeticCodec.cpp
 assimp/code/CMakeFiles/assimp.dir/__/contrib/Open3DGC/o3dgcArithmeticCodec.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/contrib/Open3DGC/o3dgcArithmeticCodec.h
@@ -8191,7 +8191,6 @@ assimp/code/CMakeFiles/assimp.dir/glTFExporter.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/glTFExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cexport.h
 assimp/code/CMakeFiles/assimp.dir/glTFExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/glTFExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/glTFExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/glTFExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/glTFExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/glTFExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -8213,6 +8212,7 @@ assimp/code/CMakeFiles/assimp.dir/glTFExporter.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/glTFExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/glTFExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
 assimp/code/CMakeFiles/assimp.dir/glTFExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/version.h
+assimp/code/CMakeFiles/assimp.dir/glTFExporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/glTFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/../contrib/Open3DGC/o3dgcAdjacencyInfo.h
 assimp/code/CMakeFiles/assimp.dir/glTFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/../contrib/Open3DGC/o3dgcArithmeticCodec.h
@@ -8287,7 +8287,6 @@ assimp/code/CMakeFiles/assimp.dir/glTFImporter.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/glTFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/glTFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/glTFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/glTFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/glTFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/glTFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/code/CMakeFiles/assimp.dir/glTFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -8308,6 +8307,7 @@ assimp/code/CMakeFiles/assimp.dir/glTFImporter.cpp.o: /home/6im2/bmantova/Docume
 assimp/code/CMakeFiles/assimp.dir/glTFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/glTFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/glTFImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/glTFImporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/code/CMakeFiles/assimp.dir/scene.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/scene.cpp
 assimp/code/CMakeFiles/assimp.dir/scene.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
@@ -8317,7 +8317,6 @@ assimp/code/CMakeFiles/assimp.dir/scene.cpp.o: /home/6im2/bmantova/Documents/CPP
 assimp/code/CMakeFiles/assimp.dir/scene.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/code/CMakeFiles/assimp.dir/scene.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/code/CMakeFiles/assimp.dir/scene.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/code/CMakeFiles/assimp.dir/scene.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/code/CMakeFiles/assimp.dir/scene.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/code/CMakeFiles/assimp.dir/scene.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/code/CMakeFiles/assimp.dir/scene.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -8337,4 +8336,5 @@ assimp/code/CMakeFiles/assimp.dir/scene.cpp.o: /home/6im2/bmantova/Documents/CPP
 assimp/code/CMakeFiles/assimp.dir/scene.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/code/CMakeFiles/assimp.dir/scene.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/code/CMakeFiles/assimp.dir/scene.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/code/CMakeFiles/assimp.dir/scene.cpp.o: assimp/include/assimp/config.h
 

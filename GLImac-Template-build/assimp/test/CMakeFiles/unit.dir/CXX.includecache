@@ -48,8 +48,6 @@ assimp/mesh.h
 sstream
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./revision.h
-
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 Exceptional.h
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -721,8 +719,6 @@ defs.h
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
 color4.h
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
-
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/config.h
@@ -2099,4 +2095,8 @@ AbstractImportExportBase.h
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/AbstractImportExportBase.h
 assimp/Importer.hpp
 -
+
+assimp/include/assimp/config.h
+
+assimp/revision.h
 

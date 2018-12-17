@@ -20,7 +20,6 @@ assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/irrXML.cpp.o: /home/6im2/bmantova/Do
 assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/irrXML.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/irrXML.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/irrXML.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/irrXML.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/irrXML.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/irrXML.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
 assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/irrXML.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.inl
@@ -33,4 +32,5 @@ assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/irrXML.cpp.o: /home/6im2/bmantova/Do
 assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/irrXML.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/irrXML.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/irrXML.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/irrXML.cpp.o: assimp/include/assimp/config.h
 

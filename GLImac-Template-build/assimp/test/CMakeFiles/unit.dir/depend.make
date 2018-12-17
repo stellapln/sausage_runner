@@ -10,7 +10,6 @@ assimp/test/CMakeFiles/unit.dir/unit/CCompilerTest.c.o: /home/6im2/bmantova/Docu
 assimp/test/CMakeFiles/unit.dir/unit/CCompilerTest.c.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/CCompilerTest.c.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/CCompilerTest.c.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/CCompilerTest.c.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/CCompilerTest.c.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/CCompilerTest.c.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/CCompilerTest.c.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -34,8 +33,8 @@ assimp/test/CMakeFiles/unit.dir/unit/CCompilerTest.c.o: /home/6im2/bmantova/Docu
 assimp/test/CMakeFiles/unit.dir/unit/CCompilerTest.c.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
 assimp/test/CMakeFiles/unit.dir/unit/CCompilerTest.c.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/version.h
 assimp/test/CMakeFiles/unit.dir/unit/CCompilerTest.c.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/CCompilerTest.c
+assimp/test/CMakeFiles/unit.dir/unit/CCompilerTest.c.o: assimp/include/assimp/config.h
 
-assimp/test/CMakeFiles/unit.dir/__/code/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./revision.h
 assimp/test/CMakeFiles/unit.dir/__/code/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ScenePrivate.h
 assimp/test/CMakeFiles/unit.dir/__/code/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Version.cpp
 assimp/test/CMakeFiles/unit.dir/__/code/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
@@ -45,7 +44,6 @@ assimp/test/CMakeFiles/unit.dir/__/code/Version.cpp.o: /home/6im2/bmantova/Docum
 assimp/test/CMakeFiles/unit.dir/__/code/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 assimp/test/CMakeFiles/unit.dir/__/code/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/__/code/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/__/code/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/__/code/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/__/code/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 assimp/test/CMakeFiles/unit.dir/__/code/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -66,6 +64,8 @@ assimp/test/CMakeFiles/unit.dir/__/code/Version.cpp.o: /home/6im2/bmantova/Docum
 assimp/test/CMakeFiles/unit.dir/__/code/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 assimp/test/CMakeFiles/unit.dir/__/code/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
 assimp/test/CMakeFiles/unit.dir/__/code/Version.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/version.h
+assimp/test/CMakeFiles/unit.dir/__/code/Version.cpp.o: assimp/include/assimp/config.h
+assimp/test/CMakeFiles/unit.dir/__/code/Version.cpp.o: assimp/revision.h
 
 assimp/test/CMakeFiles/unit.dir/__/contrib/gtest/src/gtest-all.cc.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/contrib/gtest/src/gtest-all.cc
 assimp/test/CMakeFiles/unit.dir/__/contrib/gtest/src/gtest-all.cc.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/../contrib/gtest/include/gtest/gtest-death-test.h
@@ -107,7 +107,6 @@ assimp/test/CMakeFiles/unit.dir/unit/AbstractImportExportBase.cpp.o: /home/6im2/
 assimp/test/CMakeFiles/unit.dir/unit/AbstractImportExportBase.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/AbstractImportExportBase.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/AbstractImportExportBase.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/AbstractImportExportBase.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/AbstractImportExportBase.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/AbstractImportExportBase.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/AbstractImportExportBase.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -147,6 +146,7 @@ assimp/test/CMakeFiles/unit.dir/unit/AbstractImportExportBase.cpp.o: /home/6im2/
 assimp/test/CMakeFiles/unit.dir/unit/AbstractImportExportBase.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/AbstractImportExportBase.h
 assimp/test/CMakeFiles/unit.dir/unit/AbstractImportExportBase.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/AbstractImportExportBase.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
+assimp/test/CMakeFiles/unit.dir/unit/AbstractImportExportBase.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/AssimpAPITest.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/AssimpAPITest.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -154,7 +154,6 @@ assimp/test/CMakeFiles/unit.dir/unit/AssimpAPITest.cpp.o: /home/6im2/bmantova/Do
 assimp/test/CMakeFiles/unit.dir/unit/AssimpAPITest.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/AssimpAPITest.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/AssimpAPITest.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/AssimpAPITest.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/AssimpAPITest.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/AssimpAPITest.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/AssimpAPITest.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -193,6 +192,7 @@ assimp/test/CMakeFiles/unit.dir/unit/AssimpAPITest.cpp.o: /home/6im2/bmantova/Do
 assimp/test/CMakeFiles/unit.dir/unit/AssimpAPITest.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/AssimpAPITest.cpp
 assimp/test/CMakeFiles/unit.dir/unit/AssimpAPITest.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/AssimpAPITest.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
+assimp/test/CMakeFiles/unit.dir/unit/AssimpAPITest.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/Main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/Main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -203,7 +203,6 @@ assimp/test/CMakeFiles/unit.dir/unit/Main.cpp.o: /home/6im2/bmantova/Documents/C
 assimp/test/CMakeFiles/unit.dir/unit/Main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/Main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/Main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/Main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/Main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/Main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/Main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -242,6 +241,7 @@ assimp/test/CMakeFiles/unit.dir/unit/Main.cpp.o: /home/6im2/bmantova/Documents/C
 assimp/test/CMakeFiles/unit.dir/unit/Main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/Main.cpp
 assimp/test/CMakeFiles/unit.dir/unit/Main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/Main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
+assimp/test/CMakeFiles/unit.dir/unit/Main.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/SceneDiffer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StringComparison.h
 assimp/test/CMakeFiles/unit.dir/unit/SceneDiffer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/fast_atof.h
@@ -258,7 +258,6 @@ assimp/test/CMakeFiles/unit.dir/unit/SceneDiffer.cpp.o: /home/6im2/bmantova/Docu
 assimp/test/CMakeFiles/unit.dir/unit/SceneDiffer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/SceneDiffer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/SceneDiffer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/SceneDiffer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/SceneDiffer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/SceneDiffer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/SceneDiffer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -305,6 +304,7 @@ assimp/test/CMakeFiles/unit.dir/unit/SceneDiffer.cpp.o: /home/6im2/bmantova/Docu
 assimp/test/CMakeFiles/unit.dir/unit/SceneDiffer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/SceneDiffer.h
 assimp/test/CMakeFiles/unit.dir/unit/SceneDiffer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/SceneDiffer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
+assimp/test/CMakeFiles/unit.dir/unit/SceneDiffer.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/ut3DImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StringComparison.h
 assimp/test/CMakeFiles/unit.dir/unit/ut3DImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/fast_atof.h
@@ -320,7 +320,6 @@ assimp/test/CMakeFiles/unit.dir/unit/ut3DImportExport.cpp.o: /home/6im2/bmantova
 assimp/test/CMakeFiles/unit.dir/unit/ut3DImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/ut3DImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/ut3DImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/ut3DImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/ut3DImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/ut3DImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/ut3DImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -361,6 +360,7 @@ assimp/test/CMakeFiles/unit.dir/unit/ut3DImportExport.cpp.o: /home/6im2/bmantova
 assimp/test/CMakeFiles/unit.dir/unit/ut3DImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/ut3DImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/ut3DImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/ut3DImportExport.cpp
+assimp/test/CMakeFiles/unit.dir/unit/ut3DImportExport.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/ut3DSImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StringComparison.h
 assimp/test/CMakeFiles/unit.dir/unit/ut3DSImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/fast_atof.h
@@ -376,7 +376,6 @@ assimp/test/CMakeFiles/unit.dir/unit/ut3DSImportExport.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/ut3DSImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/ut3DSImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/ut3DSImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/ut3DSImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/ut3DSImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/ut3DSImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/ut3DSImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -417,6 +416,7 @@ assimp/test/CMakeFiles/unit.dir/unit/ut3DSImportExport.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/ut3DSImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/ut3DSImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/ut3DSImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/ut3DSImportExport.cpp
+assimp/test/CMakeFiles/unit.dir/unit/ut3DSImportExport.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utACImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StringComparison.h
 assimp/test/CMakeFiles/unit.dir/unit/utACImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/fast_atof.h
@@ -432,7 +432,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utACImportExport.cpp.o: /home/6im2/bmantova
 assimp/test/CMakeFiles/unit.dir/unit/utACImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utACImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utACImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utACImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utACImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utACImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utACImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -473,6 +472,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utACImportExport.cpp.o: /home/6im2/bmantova
 assimp/test/CMakeFiles/unit.dir/unit/utACImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utACImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utACImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utACImportExport.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utACImportExport.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utAMFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StringComparison.h
 assimp/test/CMakeFiles/unit.dir/unit/utAMFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/fast_atof.h
@@ -488,7 +488,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utAMFImportExport.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utAMFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utAMFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utAMFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utAMFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utAMFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utAMFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utAMFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -529,6 +528,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utAMFImportExport.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utAMFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utAMFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utAMFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utAMFImportExport.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utAMFImportExport.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utASEImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StringComparison.h
 assimp/test/CMakeFiles/unit.dir/unit/utASEImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/fast_atof.h
@@ -544,7 +544,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utASEImportExport.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utASEImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utASEImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utASEImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utASEImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utASEImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utASEImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utASEImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -585,6 +584,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utASEImportExport.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utASEImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utASEImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utASEImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utASEImportExport.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utASEImportExport.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utAnim.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utAnim.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -593,7 +593,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utAnim.cpp.o: /home/6im2/bmantova/Documents
 assimp/test/CMakeFiles/unit.dir/unit/utAnim.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utAnim.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utAnim.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utAnim.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utAnim.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utAnim.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utAnim.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -632,6 +631,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utAnim.cpp.o: /home/6im2/bmantova/Documents
 assimp/test/CMakeFiles/unit.dir/unit/utAnim.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utAnim.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utAnim.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utAnim.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utAnim.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utB3DImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StringComparison.h
 assimp/test/CMakeFiles/unit.dir/unit/utB3DImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/fast_atof.h
@@ -647,7 +647,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utB3DImportExport.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utB3DImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utB3DImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utB3DImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utB3DImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utB3DImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utB3DImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utB3DImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -688,6 +687,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utB3DImportExport.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utB3DImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utB3DImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utB3DImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utB3DImportExport.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utB3DImportExport.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utBVHImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utBVHImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -696,7 +696,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utBVHImportExport.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utBVHImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utBVHImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utBVHImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utBVHImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utBVHImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utBVHImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utBVHImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -736,6 +735,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utBVHImportExport.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utBVHImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utBVHImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utBVHImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utBVHImportExport.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utBVHImportExport.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utBatchLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Importer.h
 assimp/test/CMakeFiles/unit.dir/unit/utBatchLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
@@ -745,7 +745,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utBatchLoader.cpp.o: /home/6im2/bmantova/Do
 assimp/test/CMakeFiles/unit.dir/unit/utBatchLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utBatchLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utBatchLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utBatchLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utBatchLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utBatchLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utBatchLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -785,6 +784,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utBatchLoader.cpp.o: /home/6im2/bmantova/Do
 assimp/test/CMakeFiles/unit.dir/unit/utBatchLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utBatchLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utBatchLoader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utBatchLoader.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utBatchLoader.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utBlendImportAreaLight.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlendImportAreaLight.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -798,7 +798,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utBlendImportAreaLight.cpp.o: /home/6im2/bm
 assimp/test/CMakeFiles/unit.dir/unit/utBlendImportAreaLight.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlendImportAreaLight.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlendImportAreaLight.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utBlendImportAreaLight.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlendImportAreaLight.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlendImportAreaLight.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlendImportAreaLight.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -844,6 +843,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utBlendImportAreaLight.cpp.o: /home/6im2/bm
 assimp/test/CMakeFiles/unit.dir/unit/utBlendImportAreaLight.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlendImportAreaLight.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlendImportAreaLight.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utBlendImportAreaLight.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utBlendImportAreaLight.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utBlendImportMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlendImportMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -856,7 +856,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utBlendImportMaterials.cpp.o: /home/6im2/bm
 assimp/test/CMakeFiles/unit.dir/unit/utBlendImportMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlendImportMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlendImportMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utBlendImportMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlendImportMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlendImportMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlendImportMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -902,6 +901,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utBlendImportMaterials.cpp.o: /home/6im2/bm
 assimp/test/CMakeFiles/unit.dir/unit/utBlendImportMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlendImportMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlendImportMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utBlendImportMaterials.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utBlendImportMaterials.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utBlenderImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlenderImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -910,7 +910,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utBlenderImportExport.cpp.o: /home/6im2/bma
 assimp/test/CMakeFiles/unit.dir/unit/utBlenderImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlenderImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlenderImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utBlenderImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlenderImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlenderImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlenderImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -950,6 +949,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utBlenderImportExport.cpp.o: /home/6im2/bma
 assimp/test/CMakeFiles/unit.dir/unit/utBlenderImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlenderImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlenderImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utBlenderImportExport.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utBlenderImportExport.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utBlenderIntermediate.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlenderIntermediate.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BlenderDNA.h
@@ -992,7 +992,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utBlenderIntermediate.cpp.o: /home/6im2/bma
 assimp/test/CMakeFiles/unit.dir/unit/utBlenderIntermediate.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ProgressHandler.hpp
 assimp/test/CMakeFiles/unit.dir/unit/utBlenderIntermediate.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlenderIntermediate.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
-assimp/test/CMakeFiles/unit.dir/unit/utBlenderIntermediate.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlenderIntermediate.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlenderIntermediate.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlenderIntermediate.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.inl
@@ -1022,6 +1021,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utBlenderIntermediate.cpp.o: /home/6im2/bma
 assimp/test/CMakeFiles/unit.dir/unit/utBlenderIntermediate.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlenderIntermediate.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utBlenderIntermediate.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utBlenderIntermediate.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utBlenderIntermediate.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utCSMImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utCSMImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -1030,7 +1030,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utCSMImportExport.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utCSMImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utCSMImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utCSMImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utCSMImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utCSMImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utCSMImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utCSMImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -1070,6 +1069,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utCSMImportExport.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utCSMImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utCSMImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utCSMImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utCSMImportExport.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utCSMImportExport.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utColladaExportCamera.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utColladaExportCamera.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -1083,7 +1083,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utColladaExportCamera.cpp.o: /home/6im2/bma
 assimp/test/CMakeFiles/unit.dir/unit/utColladaExportCamera.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utColladaExportCamera.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utColladaExportCamera.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utColladaExportCamera.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utColladaExportCamera.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utColladaExportCamera.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utColladaExportCamera.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -1129,6 +1128,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utColladaExportCamera.cpp.o: /home/6im2/bma
 assimp/test/CMakeFiles/unit.dir/unit/utColladaExportCamera.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utColladaExportCamera.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utColladaExportCamera.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utColladaExportCamera.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utColladaExportCamera.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utColladaExportLight.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utColladaExportLight.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -1142,7 +1142,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utColladaExportLight.cpp.o: /home/6im2/bman
 assimp/test/CMakeFiles/unit.dir/unit/utColladaExportLight.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utColladaExportLight.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utColladaExportLight.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utColladaExportLight.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utColladaExportLight.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utColladaExportLight.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utColladaExportLight.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -1188,6 +1187,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utColladaExportLight.cpp.o: /home/6im2/bman
 assimp/test/CMakeFiles/unit.dir/unit/utColladaExportLight.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utColladaExportLight.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utColladaExportLight.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utColladaExportLight.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utColladaExportLight.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utColladaImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utColladaImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -1196,7 +1196,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utColladaImportExport.cpp.o: /home/6im2/bma
 assimp/test/CMakeFiles/unit.dir/unit/utColladaImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utColladaImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utColladaImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utColladaImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utColladaImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utColladaImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utColladaImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -1236,6 +1235,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utColladaImportExport.cpp.o: /home/6im2/bma
 assimp/test/CMakeFiles/unit.dir/unit/utColladaImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utColladaImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utColladaImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utColladaImportExport.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utColladaImportExport.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utD3MFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utD3MFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -1244,7 +1244,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utD3MFImportExport.cpp.o: /home/6im2/bmanto
 assimp/test/CMakeFiles/unit.dir/unit/utD3MFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utD3MFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utD3MFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utD3MFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utD3MFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utD3MFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utD3MFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -1284,6 +1283,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utD3MFImportExport.cpp.o: /home/6im2/bmanto
 assimp/test/CMakeFiles/unit.dir/unit/utD3MFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utD3MFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utD3MFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utD3MFImportExport.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utD3MFImportExport.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utDXFImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StringComparison.h
 assimp/test/CMakeFiles/unit.dir/unit/utDXFImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/fast_atof.h
@@ -1299,7 +1299,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utDXFImporterExporter.cpp.o: /home/6im2/bma
 assimp/test/CMakeFiles/unit.dir/unit/utDXFImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utDXFImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utDXFImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utDXFImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utDXFImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utDXFImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utDXFImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -1340,6 +1339,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utDXFImporterExporter.cpp.o: /home/6im2/bma
 assimp/test/CMakeFiles/unit.dir/unit/utDXFImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utDXFImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utDXFImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utDXFImporterExporter.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utDXFImporterExporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utDefaultIOStream.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utDefaultIOStream.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -1348,7 +1348,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utDefaultIOStream.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utDefaultIOStream.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/IOStream.hpp
 assimp/test/CMakeFiles/unit.dir/unit/utDefaultIOStream.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utDefaultIOStream.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utDefaultIOStream.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utDefaultIOStream.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utDefaultIOStream.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utDefaultIOStream.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -1386,6 +1385,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utDefaultIOStream.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utDefaultIOStream.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/../contrib/gtest/include/gtest/internal/gtest-type-util.h
 assimp/test/CMakeFiles/unit.dir/unit/utDefaultIOStream.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/TestIOStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utDefaultIOStream.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utDefaultIOStream.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utDefaultIOStream.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utFBXImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StringComparison.h
 assimp/test/CMakeFiles/unit.dir/unit/utFBXImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/fast_atof.h
@@ -1401,7 +1401,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utFBXImporterExporter.cpp.o: /home/6im2/bma
 assimp/test/CMakeFiles/unit.dir/unit/utFBXImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utFBXImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utFBXImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utFBXImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utFBXImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utFBXImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utFBXImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -1442,6 +1441,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utFBXImporterExporter.cpp.o: /home/6im2/bma
 assimp/test/CMakeFiles/unit.dir/unit/utFBXImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utFBXImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utFBXImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utFBXImporterExporter.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utFBXImporterExporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utFastAtof.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StringComparison.h
 assimp/test/CMakeFiles/unit.dir/unit/utFastAtof.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/fast_atof.h
@@ -1456,7 +1456,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utFastAtof.cpp.o: /home/6im2/bmantova/Docum
 assimp/test/CMakeFiles/unit.dir/unit/utFastAtof.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utFastAtof.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utFastAtof.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utFastAtof.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utFastAtof.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utFastAtof.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utFastAtof.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -1495,6 +1494,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utFastAtof.cpp.o: /home/6im2/bmantova/Docum
 assimp/test/CMakeFiles/unit.dir/unit/utFastAtof.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utFastAtof.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utFastAtof.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utFastAtof.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utFastAtof.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utFindDegenerates.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/test/CMakeFiles/unit.dir/unit/utFindDegenerates.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/FindDegenerates.h
@@ -1508,7 +1508,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utFindDegenerates.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utFindDegenerates.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utFindDegenerates.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utFindDegenerates.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utFindDegenerates.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utFindDegenerates.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utFindDegenerates.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utFindDegenerates.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -1548,6 +1547,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utFindDegenerates.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utFindDegenerates.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utFindDegenerates.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utFindDegenerates.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utFindDegenerates.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utFindDegenerates.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utFindInvalidData.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/test/CMakeFiles/unit.dir/unit/utFindInvalidData.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/FindInvalidDataProcess.h
@@ -1562,7 +1562,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utFindInvalidData.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utFindInvalidData.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utFindInvalidData.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utFindInvalidData.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utFindInvalidData.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utFindInvalidData.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utFindInvalidData.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utFindInvalidData.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -1602,6 +1601,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utFindInvalidData.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utFindInvalidData.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utFindInvalidData.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utFindInvalidData.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utFindInvalidData.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utFindInvalidData.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utFixInfacingNormals.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utFixInfacingNormals.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -1609,7 +1609,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utFixInfacingNormals.cpp.o: /home/6im2/bman
 assimp/test/CMakeFiles/unit.dir/unit/utFixInfacingNormals.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utFixInfacingNormals.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utFixInfacingNormals.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utFixInfacingNormals.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utFixInfacingNormals.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utFixInfacingNormals.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utFixInfacingNormals.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -1648,6 +1647,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utFixInfacingNormals.cpp.o: /home/6im2/bman
 assimp/test/CMakeFiles/unit.dir/unit/utFixInfacingNormals.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utFixInfacingNormals.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utFixInfacingNormals.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utFixInfacingNormals.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utFixInfacingNormals.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utGenNormals.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/test/CMakeFiles/unit.dir/unit/utGenNormals.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenVertexNormalsProcess.h
@@ -1661,7 +1661,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utGenNormals.cpp.o: /home/6im2/bmantova/Doc
 assimp/test/CMakeFiles/unit.dir/unit/utGenNormals.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utGenNormals.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utGenNormals.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utGenNormals.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utGenNormals.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utGenNormals.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utGenNormals.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -1701,6 +1700,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utGenNormals.cpp.o: /home/6im2/bmantova/Doc
 assimp/test/CMakeFiles/unit.dir/unit/utGenNormals.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utGenNormals.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utGenNormals.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utGenNormals.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utGenNormals.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utHMPImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utHMPImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -1709,7 +1709,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utHMPImportExport.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utHMPImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utHMPImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utHMPImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utHMPImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utHMPImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utHMPImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utHMPImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -1749,6 +1748,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utHMPImportExport.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utHMPImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utHMPImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utHMPImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utHMPImportExport.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utHMPImportExport.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utIFCImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utIFCImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -1757,7 +1757,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utIFCImportExport.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utIFCImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utIFCImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utIFCImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utIFCImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utIFCImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utIFCImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utIFCImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -1797,6 +1796,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utIFCImportExport.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utIFCImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utIFCImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utIFCImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utIFCImportExport.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utIFCImportExport.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utIOStreamBuffer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/IOStreamBuffer.h
 assimp/test/CMakeFiles/unit.dir/unit/utIOStreamBuffer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ParsingUtils.h
@@ -1812,7 +1812,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utIOStreamBuffer.cpp.o: /home/6im2/bmantova
 assimp/test/CMakeFiles/unit.dir/unit/utIOStreamBuffer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utIOStreamBuffer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utIOStreamBuffer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utIOStreamBuffer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utIOStreamBuffer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utIOStreamBuffer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utIOStreamBuffer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -1852,6 +1851,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utIOStreamBuffer.cpp.o: /home/6im2/bmantova
 assimp/test/CMakeFiles/unit.dir/unit/utIOStreamBuffer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utIOStreamBuffer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utIOStreamBuffer.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utIOStreamBuffer.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utIOStreamBuffer.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utIOSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utIOSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -1860,7 +1860,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utIOSystem.cpp.o: /home/6im2/bmantova/Docum
 assimp/test/CMakeFiles/unit.dir/unit/utIOSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utIOSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utIOSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utIOSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utIOSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utIOSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utIOSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -1900,6 +1899,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utIOSystem.cpp.o: /home/6im2/bmantova/Docum
 assimp/test/CMakeFiles/unit.dir/unit/utIOSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utIOSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utIOSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utIOSystem.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utIOSystem.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/test/CMakeFiles/unit.dir/unit/utImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -1919,7 +1919,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utImporter.cpp.o: /home/6im2/bmantova/Docum
 assimp/test/CMakeFiles/unit.dir/unit/utImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -1967,6 +1966,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utImporter.cpp.o: /home/6im2/bmantova/Docum
 assimp/test/CMakeFiles/unit.dir/unit/utImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utImporter.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utImporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utImproveCacheLocality.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utImproveCacheLocality.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -1974,7 +1974,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utImproveCacheLocality.cpp.o: /home/6im2/bm
 assimp/test/CMakeFiles/unit.dir/unit/utImproveCacheLocality.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utImproveCacheLocality.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utImproveCacheLocality.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utImproveCacheLocality.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utImproveCacheLocality.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utImproveCacheLocality.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utImproveCacheLocality.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -2013,6 +2012,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utImproveCacheLocality.cpp.o: /home/6im2/bm
 assimp/test/CMakeFiles/unit.dir/unit/utImproveCacheLocality.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utImproveCacheLocality.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utImproveCacheLocality.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utImproveCacheLocality.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utImproveCacheLocality.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utIssues.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utIssues.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -2026,7 +2026,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utIssues.cpp.o: /home/6im2/bmantova/Documen
 assimp/test/CMakeFiles/unit.dir/unit/utIssues.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utIssues.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utIssues.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utIssues.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utIssues.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utIssues.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utIssues.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -2073,6 +2072,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utIssues.cpp.o: /home/6im2/bmantova/Documen
 assimp/test/CMakeFiles/unit.dir/unit/utIssues.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utIssues.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utIssues.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utIssues.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utIssues.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utJoinVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/test/CMakeFiles/unit.dir/unit/utJoinVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
@@ -2089,7 +2089,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utJoinVertices.cpp.o: /home/6im2/bmantova/D
 assimp/test/CMakeFiles/unit.dir/unit/utJoinVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utJoinVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utJoinVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utJoinVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utJoinVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utJoinVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utJoinVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -2135,6 +2134,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utJoinVertices.cpp.o: /home/6im2/bmantova/D
 assimp/test/CMakeFiles/unit.dir/unit/utJoinVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utJoinVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utJoinVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utJoinVertices.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utJoinVertices.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utLWSImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utLWSImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -2143,7 +2143,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utLWSImportExport.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utLWSImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utLWSImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utLWSImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utLWSImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utLWSImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utLWSImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utLWSImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -2183,6 +2182,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utLWSImportExport.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utLWSImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utLWSImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utLWSImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utLWSImportExport.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utLWSImportExport.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utLimitBoneWeights.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/test/CMakeFiles/unit.dir/unit/utLimitBoneWeights.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
@@ -2199,7 +2199,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utLimitBoneWeights.cpp.o: /home/6im2/bmanto
 assimp/test/CMakeFiles/unit.dir/unit/utLimitBoneWeights.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utLimitBoneWeights.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utLimitBoneWeights.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utLimitBoneWeights.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utLimitBoneWeights.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utLimitBoneWeights.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utLimitBoneWeights.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -2245,6 +2244,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utLimitBoneWeights.cpp.o: /home/6im2/bmanto
 assimp/test/CMakeFiles/unit.dir/unit/utLimitBoneWeights.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utLimitBoneWeights.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utLimitBoneWeights.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utLimitBoneWeights.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utLimitBoneWeights.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utMaterialSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/MaterialSystem.h
 assimp/test/CMakeFiles/unit.dir/unit/utMaterialSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
@@ -2256,7 +2256,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utMaterialSystem.cpp.o: /home/6im2/bmantova
 assimp/test/CMakeFiles/unit.dir/unit/utMaterialSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utMaterialSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utMaterialSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utMaterialSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utMaterialSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utMaterialSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utMaterialSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -2302,6 +2301,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utMaterialSystem.cpp.o: /home/6im2/bmantova
 assimp/test/CMakeFiles/unit.dir/unit/utMaterialSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utMaterialSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utMaterialSystem.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utMaterialSystem.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utMaterialSystem.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utMatrix3x3.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utMatrix3x3.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -2309,7 +2309,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utMatrix3x3.cpp.o: /home/6im2/bmantova/Docu
 assimp/test/CMakeFiles/unit.dir/unit/utMatrix3x3.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utMatrix3x3.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utMatrix3x3.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utMatrix3x3.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utMatrix3x3.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utMatrix3x3.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utMatrix3x3.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -2348,6 +2347,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utMatrix3x3.cpp.o: /home/6im2/bmantova/Docu
 assimp/test/CMakeFiles/unit.dir/unit/utMatrix3x3.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utMatrix3x3.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utMatrix3x3.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utMatrix3x3.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utMatrix3x3.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utMatrix4x4.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utMatrix4x4.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -2355,7 +2355,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utMatrix4x4.cpp.o: /home/6im2/bmantova/Docu
 assimp/test/CMakeFiles/unit.dir/unit/utMatrix4x4.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utMatrix4x4.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utMatrix4x4.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utMatrix4x4.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utMatrix4x4.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utMatrix4x4.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utMatrix4x4.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -2394,6 +2393,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utMatrix4x4.cpp.o: /home/6im2/bmantova/Docu
 assimp/test/CMakeFiles/unit.dir/unit/utMatrix4x4.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utMatrix4x4.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utMatrix4x4.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utMatrix4x4.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utMatrix4x4.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utMetadata.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utMetadata.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -2402,7 +2402,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utMetadata.cpp.o: /home/6im2/bmantova/Docum
 assimp/test/CMakeFiles/unit.dir/unit/utMetadata.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utMetadata.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utMetadata.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utMetadata.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utMetadata.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utMetadata.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utMetadata.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -2442,6 +2441,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utMetadata.cpp.o: /home/6im2/bmantova/Docum
 assimp/test/CMakeFiles/unit.dir/unit/utMetadata.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utMetadata.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utMetadata.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utMetadata.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utMetadata.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utObjImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StringComparison.h
 assimp/test/CMakeFiles/unit.dir/unit/utObjImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/fast_atof.h
@@ -2461,7 +2461,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utObjImportExport.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utObjImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utObjImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utObjImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utObjImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utObjImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utObjImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utObjImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -2509,6 +2508,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utObjImportExport.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utObjImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utObjImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utObjImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utObjImportExport.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utObjImportExport.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utObjTools.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/IOStreamBuffer.h
 assimp/test/CMakeFiles/unit.dir/unit/utObjTools.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ObjFileParser.h
@@ -2529,7 +2529,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utObjTools.cpp.o: /home/6im2/bmantova/Docum
 assimp/test/CMakeFiles/unit.dir/unit/utObjTools.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utObjTools.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utObjTools.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utObjTools.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utObjTools.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utObjTools.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utObjTools.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -2569,6 +2568,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utObjTools.cpp.o: /home/6im2/bmantova/Docum
 assimp/test/CMakeFiles/unit.dir/unit/utObjTools.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utObjTools.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utObjTools.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utObjTools.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utObjTools.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utOpenGEXImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utOpenGEXImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -2577,7 +2577,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utOpenGEXImportExport.cpp.o: /home/6im2/bma
 assimp/test/CMakeFiles/unit.dir/unit/utOpenGEXImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utOpenGEXImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utOpenGEXImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utOpenGEXImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utOpenGEXImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utOpenGEXImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utOpenGEXImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -2617,6 +2616,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utOpenGEXImportExport.cpp.o: /home/6im2/bma
 assimp/test/CMakeFiles/unit.dir/unit/utOpenGEXImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utOpenGEXImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utOpenGEXImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utOpenGEXImportExport.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utOpenGEXImportExport.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utPLYImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utPLYImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -2627,7 +2627,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utPLYImportExport.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utPLYImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utPLYImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utPLYImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utPLYImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utPLYImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utPLYImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utPLYImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -2667,6 +2666,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utPLYImportExport.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utPLYImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utPLYImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utPLYImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utPLYImportExport.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utPLYImportExport.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utPMXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/test/CMakeFiles/unit.dir/unit/utPMXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -2691,7 +2691,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utPMXImporter.cpp.o: /home/6im2/bmantova/Do
 assimp/test/CMakeFiles/unit.dir/unit/utPMXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utPMXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utPMXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utPMXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utPMXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utPMXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utPMXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -2734,6 +2733,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utPMXImporter.cpp.o: /home/6im2/bmantova/Do
 assimp/test/CMakeFiles/unit.dir/unit/utPMXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utPMXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utPMXImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utPMXImporter.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utPMXImporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utPretransformVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/test/CMakeFiles/unit.dir/unit/utPretransformVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
@@ -2750,7 +2750,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utPretransformVertices.cpp.o: /home/6im2/bm
 assimp/test/CMakeFiles/unit.dir/unit/utPretransformVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utPretransformVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utPretransformVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utPretransformVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utPretransformVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utPretransformVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utPretransformVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -2796,6 +2795,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utPretransformVertices.cpp.o: /home/6im2/bm
 assimp/test/CMakeFiles/unit.dir/unit/utPretransformVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utPretransformVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utPretransformVertices.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utPretransformVertices.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utPretransformVertices.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utProfiler.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./code/Profiler.h
 assimp/test/CMakeFiles/unit.dir/unit/utProfiler.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./code/TinyFormatter.h
@@ -2808,7 +2808,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utProfiler.cpp.o: /home/6im2/bmantova/Docum
 assimp/test/CMakeFiles/unit.dir/unit/utProfiler.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utProfiler.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utProfiler.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utProfiler.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utProfiler.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utProfiler.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utProfiler.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -2847,6 +2846,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utProfiler.cpp.o: /home/6im2/bmantova/Docum
 assimp/test/CMakeFiles/unit.dir/unit/utProfiler.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utProfiler.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utProfiler.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utProfiler.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utProfiler.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveComments.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/RemoveComments.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveComments.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
@@ -2855,7 +2855,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utRemoveComments.cpp.o: /home/6im2/bmantova
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveComments.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveComments.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveComments.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utRemoveComments.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveComments.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveComments.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveComments.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -2894,6 +2893,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utRemoveComments.cpp.o: /home/6im2/bmantova
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveComments.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveComments.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveComments.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utRemoveComments.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utRemoveComments.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveComponent.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveComponent.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
@@ -2911,7 +2911,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utRemoveComponent.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveComponent.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveComponent.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveComponent.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utRemoveComponent.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveComponent.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveComponent.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveComponent.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -2957,6 +2956,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utRemoveComponent.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveComponent.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveComponent.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveComponent.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utRemoveComponent.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utRemoveComponent.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveRedundantMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveRedundantMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
@@ -2974,7 +2974,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utRemoveRedundantMaterials.cpp.o: /home/6im
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveRedundantMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveRedundantMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveRedundantMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utRemoveRedundantMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveRedundantMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveRedundantMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveRedundantMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -3020,6 +3019,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utRemoveRedundantMaterials.cpp.o: /home/6im
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveRedundantMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveRedundantMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveRedundantMaterials.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utRemoveRedundantMaterials.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utRemoveRedundantMaterials.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveVCProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./code/BaseProcess.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveVCProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/./code/GenericProperty.h
@@ -3036,7 +3036,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utRemoveVCProcess.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveVCProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveVCProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveVCProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utRemoveVCProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveVCProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveVCProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveVCProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -3082,6 +3081,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utRemoveVCProcess.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveVCProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveVCProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utRemoveVCProcess.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utRemoveVCProcess.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utRemoveVCProcess.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utSIBImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/test/CMakeFiles/unit.dir/unit/utSIBImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -3097,7 +3097,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utSIBImporter.cpp.o: /home/6im2/bmantova/Do
 assimp/test/CMakeFiles/unit.dir/unit/utSIBImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utSIBImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utSIBImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utSIBImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utSIBImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utSIBImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utSIBImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -3137,6 +3136,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utSIBImporter.cpp.o: /home/6im2/bmantova/Do
 assimp/test/CMakeFiles/unit.dir/unit/utSIBImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utSIBImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utSIBImporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utSIBImporter.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utSIBImporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utSMDImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseImporter.h
 assimp/test/CMakeFiles/unit.dir/unit/utSMDImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Exceptional.h
@@ -3157,7 +3157,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utSMDImportExport.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utSMDImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utSMDImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utSMDImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utSMDImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utSMDImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utSMDImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utSMDImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
@@ -3200,6 +3199,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utSMDImportExport.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utSMDImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utSMDImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utSMDImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utSMDImportExport.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utSMDImportExport.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utScenePreprocessor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ScenePreprocessor.h
 assimp/test/CMakeFiles/unit.dir/unit/utScenePreprocessor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
@@ -3212,7 +3212,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utScenePreprocessor.cpp.o: /home/6im2/bmant
 assimp/test/CMakeFiles/unit.dir/unit/utScenePreprocessor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utScenePreprocessor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utScenePreprocessor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utScenePreprocessor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utScenePreprocessor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utScenePreprocessor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utScenePreprocessor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -3258,6 +3257,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utScenePreprocessor.cpp.o: /home/6im2/bmant
 assimp/test/CMakeFiles/unit.dir/unit/utScenePreprocessor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utScenePreprocessor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utScenePreprocessor.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utScenePreprocessor.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utScenePreprocessor.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utSharedPPData.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/test/CMakeFiles/unit.dir/unit/utSharedPPData.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
@@ -3273,7 +3273,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utSharedPPData.cpp.o: /home/6im2/bmantova/D
 assimp/test/CMakeFiles/unit.dir/unit/utSharedPPData.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utSharedPPData.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utSharedPPData.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utSharedPPData.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utSharedPPData.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utSharedPPData.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utSharedPPData.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -3319,6 +3318,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utSharedPPData.cpp.o: /home/6im2/bmantova/D
 assimp/test/CMakeFiles/unit.dir/unit/utSharedPPData.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utSharedPPData.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utSharedPPData.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utSharedPPData.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utSharedPPData.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utSortByPType.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/test/CMakeFiles/unit.dir/unit/utSortByPType.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
@@ -3336,7 +3336,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utSortByPType.cpp.o: /home/6im2/bmantova/Do
 assimp/test/CMakeFiles/unit.dir/unit/utSortByPType.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utSortByPType.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utSortByPType.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utSortByPType.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utSortByPType.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utSortByPType.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utSortByPType.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -3382,6 +3381,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utSortByPType.cpp.o: /home/6im2/bmantova/Do
 assimp/test/CMakeFiles/unit.dir/unit/utSortByPType.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utSortByPType.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utSortByPType.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utSortByPType.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utSortByPType.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utSplitLargeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/test/CMakeFiles/unit.dir/unit/utSplitLargeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
@@ -3398,7 +3398,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utSplitLargeMeshes.cpp.o: /home/6im2/bmanto
 assimp/test/CMakeFiles/unit.dir/unit/utSplitLargeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utSplitLargeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utSplitLargeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utSplitLargeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utSplitLargeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utSplitLargeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utSplitLargeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -3444,6 +3443,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utSplitLargeMeshes.cpp.o: /home/6im2/bmanto
 assimp/test/CMakeFiles/unit.dir/unit/utSplitLargeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utSplitLargeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utSplitLargeMeshes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utSplitLargeMeshes.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utSplitLargeMeshes.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utStringUtils.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StringUtils.h
 assimp/test/CMakeFiles/unit.dir/unit/utStringUtils.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
@@ -3452,7 +3452,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utStringUtils.cpp.o: /home/6im2/bmantova/Do
 assimp/test/CMakeFiles/unit.dir/unit/utStringUtils.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utStringUtils.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utStringUtils.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utStringUtils.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utStringUtils.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utStringUtils.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utStringUtils.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -3491,6 +3490,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utStringUtils.cpp.o: /home/6im2/bmantova/Do
 assimp/test/CMakeFiles/unit.dir/unit/utStringUtils.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utStringUtils.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utStringUtils.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utStringUtils.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utStringUtils.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utTargetAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utTargetAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -3498,7 +3498,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utTargetAnimation.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utTargetAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utTargetAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utTargetAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utTargetAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utTargetAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utTargetAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utTargetAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -3537,6 +3536,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utTargetAnimation.cpp.o: /home/6im2/bmantov
 assimp/test/CMakeFiles/unit.dir/unit/utTargetAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utTargetAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utTargetAnimation.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utTargetAnimation.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utTargetAnimation.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utTextureTransform.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utTextureTransform.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -3544,7 +3544,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utTextureTransform.cpp.o: /home/6im2/bmanto
 assimp/test/CMakeFiles/unit.dir/unit/utTextureTransform.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utTextureTransform.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utTextureTransform.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utTextureTransform.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utTextureTransform.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utTextureTransform.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utTextureTransform.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -3583,6 +3582,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utTextureTransform.cpp.o: /home/6im2/bmanto
 assimp/test/CMakeFiles/unit.dir/unit/utTextureTransform.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utTextureTransform.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utTextureTransform.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utTextureTransform.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utTextureTransform.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utTriangulate.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/test/CMakeFiles/unit.dir/unit/utTriangulate.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
@@ -3599,7 +3599,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utTriangulate.cpp.o: /home/6im2/bmantova/Do
 assimp/test/CMakeFiles/unit.dir/unit/utTriangulate.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utTriangulate.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utTriangulate.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utTriangulate.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utTriangulate.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utTriangulate.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utTriangulate.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
@@ -3645,6 +3644,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utTriangulate.cpp.o: /home/6im2/bmantova/Do
 assimp/test/CMakeFiles/unit.dir/unit/utTriangulate.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utTriangulate.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utTriangulate.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utTriangulate.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utTriangulate.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utTypes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utTypes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -3652,7 +3652,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utTypes.cpp.o: /home/6im2/bmantova/Document
 assimp/test/CMakeFiles/unit.dir/unit/utTypes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utTypes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utTypes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utTypes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utTypes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utTypes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utTypes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -3691,6 +3690,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utTypes.cpp.o: /home/6im2/bmantova/Document
 assimp/test/CMakeFiles/unit.dir/unit/utTypes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utTypes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utTypes.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utTypes.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utTypes.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utVector3.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utVector3.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -3698,7 +3698,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utVector3.cpp.o: /home/6im2/bmantova/Docume
 assimp/test/CMakeFiles/unit.dir/unit/utVector3.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utVector3.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utVector3.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utVector3.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utVector3.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utVector3.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utVector3.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -3737,6 +3736,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utVector3.cpp.o: /home/6im2/bmantova/Docume
 assimp/test/CMakeFiles/unit.dir/unit/utVector3.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utVector3.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utVector3.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utVector3.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utVector3.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utVersion.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utVersion.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -3744,7 +3744,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utVersion.cpp.o: /home/6im2/bmantova/Docume
 assimp/test/CMakeFiles/unit.dir/unit/utVersion.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utVersion.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utVersion.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utVersion.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utVersion.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utVersion.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utVersion.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -3784,6 +3783,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utVersion.cpp.o: /home/6im2/bmantova/Docume
 assimp/test/CMakeFiles/unit.dir/unit/utVersion.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utVersion.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utVersion.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utVersion.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utVersion.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utVertexTriangleAdjacency.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 assimp/test/CMakeFiles/unit.dir/unit/utVertexTriangleAdjacency.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
@@ -3797,7 +3797,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utVertexTriangleAdjacency.cpp.o: /home/6im2
 assimp/test/CMakeFiles/unit.dir/unit/utVertexTriangleAdjacency.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utVertexTriangleAdjacency.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utVertexTriangleAdjacency.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utVertexTriangleAdjacency.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utVertexTriangleAdjacency.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utVertexTriangleAdjacency.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utVertexTriangleAdjacency.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -3837,6 +3836,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utVertexTriangleAdjacency.cpp.o: /home/6im2
 assimp/test/CMakeFiles/unit.dir/unit/utVertexTriangleAdjacency.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utVertexTriangleAdjacency.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utVertexTriangleAdjacency.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utVertexTriangleAdjacency.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utVertexTriangleAdjacency.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utXImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StringComparison.h
 assimp/test/CMakeFiles/unit.dir/unit/utXImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/fast_atof.h
@@ -3852,7 +3852,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utXImporterExporter.cpp.o: /home/6im2/bmant
 assimp/test/CMakeFiles/unit.dir/unit/utXImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utXImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utXImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utXImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utXImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utXImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utXImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -3893,6 +3892,7 @@ assimp/test/CMakeFiles/unit.dir/unit/utXImporterExporter.cpp.o: /home/6im2/bmant
 assimp/test/CMakeFiles/unit.dir/unit/utXImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utXImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utXImporterExporter.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utXImporterExporter.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utXImporterExporter.cpp.o: assimp/include/assimp/config.h
 
 assimp/test/CMakeFiles/unit.dir/unit/utglTFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 assimp/test/CMakeFiles/unit.dir/unit/utglTFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
@@ -3901,7 +3901,6 @@ assimp/test/CMakeFiles/unit.dir/unit/utglTFImportExport.cpp.o: /home/6im2/bmanto
 assimp/test/CMakeFiles/unit.dir/unit/utglTFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cimport.h
 assimp/test/CMakeFiles/unit.dir/unit/utglTFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 assimp/test/CMakeFiles/unit.dir/unit/utglTFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
-assimp/test/CMakeFiles/unit.dir/unit/utglTFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/config.h
 assimp/test/CMakeFiles/unit.dir/unit/utglTFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/test/CMakeFiles/unit.dir/unit/utglTFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/importerdesc.h
 assimp/test/CMakeFiles/unit.dir/unit/utglTFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
@@ -3941,4 +3940,5 @@ assimp/test/CMakeFiles/unit.dir/unit/utglTFImportExport.cpp.o: /home/6im2/bmanto
 assimp/test/CMakeFiles/unit.dir/unit/utglTFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UTLogStream.h
 assimp/test/CMakeFiles/unit.dir/unit/utglTFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/UnitTestPCH.h
 assimp/test/CMakeFiles/unit.dir/unit/utglTFImportExport.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test/unit/utglTFImportExport.cpp
+assimp/test/CMakeFiles/unit.dir/unit/utglTFImportExport.cpp.o: assimp/include/assimp/config.h
 

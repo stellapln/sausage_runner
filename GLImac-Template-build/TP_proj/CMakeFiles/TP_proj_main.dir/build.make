@@ -90,7 +90,7 @@ TP_proj_main_EXTERNAL_OBJECTS =
 
 TP_proj/TP_proj_main: TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o
 TP_proj/TP_proj_main: TP_proj/CMakeFiles/TP_proj_main.dir/build.make
-TP_proj/TP_proj_main: glimac/libglimac.a
+TP_proj/TP_proj_main: glimac/libglimac.so
 TP_proj/TP_proj_main: assimp/code/libassimp.so.4.0.1
 TP_proj/TP_proj_main: /usr/lib/x86_64-linux-gnu/libSDLmain.a
 TP_proj/TP_proj_main: /usr/lib/x86_64-linux-gnu/libSDL.so

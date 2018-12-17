@@ -1430,7 +1430,7 @@ TP_proj/CMakeFiles/TP_proj_ex_1.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML
 TP_proj/CMakeFiles/TP_proj_ex_1.dir/all: assimp/code/CMakeFiles/assimp.dir/all
 	$(MAKE) -f TP_proj/CMakeFiles/TP_proj_ex_1.dir/build.make TP_proj/CMakeFiles/TP_proj_ex_1.dir/depend
 	$(MAKE) -f TP_proj/CMakeFiles/TP_proj_ex_1.dir/build.make TP_proj/CMakeFiles/TP_proj_ex_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target TP_proj_ex_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=2 "Built target TP_proj_ex_1"
 .PHONY : TP_proj/CMakeFiles/TP_proj_ex_1.dir/all
 
 # Include target in all.
@@ -1440,7 +1440,7 @@ all: TP_proj/CMakeFiles/TP_proj_ex_1.dir/all
 
 # Build rule for subdir invocation for target.
 TP_proj/CMakeFiles/TP_proj_ex_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 70
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 71
 	$(MAKE) -f CMakeFiles/Makefile2 TP_proj/CMakeFiles/TP_proj_ex_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP_proj/CMakeFiles/TP_proj_ex_1.dir/rule
@@ -1469,7 +1469,7 @@ TP_proj/CMakeFiles/TP_proj_ex_2.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML
 TP_proj/CMakeFiles/TP_proj_ex_2.dir/all: assimp/code/CMakeFiles/assimp.dir/all
 	$(MAKE) -f TP_proj/CMakeFiles/TP_proj_ex_2.dir/build.make TP_proj/CMakeFiles/TP_proj_ex_2.dir/depend
 	$(MAKE) -f TP_proj/CMakeFiles/TP_proj_ex_2.dir/build.make TP_proj/CMakeFiles/TP_proj_ex_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=2 "Built target TP_proj_ex_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target TP_proj_ex_2"
 .PHONY : TP_proj/CMakeFiles/TP_proj_ex_2.dir/all
 
 # Include target in all.
@@ -1479,7 +1479,7 @@ all: TP_proj/CMakeFiles/TP_proj_ex_2.dir/all
 
 # Build rule for subdir invocation for target.
 TP_proj/CMakeFiles/TP_proj_ex_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 71
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 70
 	$(MAKE) -f CMakeFiles/Makefile2 TP_proj/CMakeFiles/TP_proj_ex_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP_proj/CMakeFiles/TP_proj_ex_2.dir/rule
@@ -1542,12 +1542,12 @@ clean: TP_proj/CMakeFiles/TP_proj_main.dir/clean
 # Directory level rules for directory TP_template
 
 # Convenience name for "all" pass in the directory.
-TP_template/all: TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all
+TP_template/all:
 
 .PHONY : TP_template/all
 
 # Convenience name for "clean" pass in the directory.
-TP_template/clean: TP_template/CMakeFiles/TP_template_SDLtemplate.dir/clean
+TP_template/clean:
 
 .PHONY : TP_template/clean
 
@@ -1555,45 +1555,6 @@ TP_template/clean: TP_template/CMakeFiles/TP_template_SDLtemplate.dir/clean
 TP_template/preinstall:
 
 .PHONY : TP_template/preinstall
-
-#=============================================================================
-# Target rules for target TP_template/CMakeFiles/TP_template_SDLtemplate.dir
-
-# All Build rule for target.
-TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
-TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/all
-TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all: assimp/code/CMakeFiles/assimp.dir/all
-	$(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/depend
-	$(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num= "Built target TP_template_SDLtemplate"
-.PHONY : TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all
-
-# Include target in all.
-all: TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-TP_template/CMakeFiles/TP_template_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 70
-	$(MAKE) -f CMakeFiles/Makefile2 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
-.PHONY : TP_template/CMakeFiles/TP_template_SDLtemplate.dir/rule
-
-# Convenience name for target.
-TP_template_SDLtemplate: TP_template/CMakeFiles/TP_template_SDLtemplate.dir/rule
-
-.PHONY : TP_template_SDLtemplate
-
-# clean rule for target.
-TP_template/CMakeFiles/TP_template_SDLtemplate.dir/clean:
-	$(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/clean
-.PHONY : TP_template/CMakeFiles/TP_template_SDLtemplate.dir/clean
-
-# clean rule for target.
-clean: TP_template/CMakeFiles/TP_template_SDLtemplate.dir/clean
-
-.PHONY : clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

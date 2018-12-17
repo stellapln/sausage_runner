@@ -100,6 +100,16 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"assimp-bin\" \"assimp-dev\" \"libassimp4.0.1-dev\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -111,16 +121,6 @@ install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"assimp-bin\" \"assimp-dev\" \"libassimp4.0.1-dev\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -154,48 +154,6 @@ depend:
 	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-TP_template/CMakeFiles/TP_template_SDLtemplate.dir/rule:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/rule
-.PHONY : TP_template/CMakeFiles/TP_template_SDLtemplate.dir/rule
-
-# Convenience name for target.
-TP_template_SDLtemplate: TP_template/CMakeFiles/TP_template_SDLtemplate.dir/rule
-
-.PHONY : TP_template_SDLtemplate
-
-# fast build rule for target.
-TP_template_SDLtemplate/fast:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build
-.PHONY : TP_template_SDLtemplate/fast
-
-SDLtemplate.o: SDLtemplate.cpp.o
-
-.PHONY : SDLtemplate.o
-
-# target to build an object file
-SDLtemplate.cpp.o:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.o
-.PHONY : SDLtemplate.cpp.o
-
-SDLtemplate.i: SDLtemplate.cpp.i
-
-.PHONY : SDLtemplate.i
-
-# target to preprocess a source file
-SDLtemplate.cpp.i:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.i
-.PHONY : SDLtemplate.cpp.i
-
-SDLtemplate.s: SDLtemplate.cpp.s
-
-.PHONY : SDLtemplate.s
-
-# target to generate assembly for a file
-SDLtemplate.cpp.s:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.s
-.PHONY : SDLtemplate.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -204,14 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
-	@echo "... TP_template_SDLtemplate"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... install"
 	@echo "... list_install_components"
-	@echo "... SDLtemplate.o"
-	@echo "... SDLtemplate.i"
-	@echo "... SDLtemplate.s"
+	@echo "... install"
 .PHONY : help
 
 
