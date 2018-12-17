@@ -205,7 +205,7 @@ class World
 		std::vector<Tile> _tileVec; // stock the Tiles model
 
 		Render *_render;
-		TrackballCamera _aroundCam;
+		SimpleAxeCam _aroundCam;
 		EyesCam _eyesCam;
 
 		unsigned short int _activeCam = 0; 
@@ -220,7 +220,7 @@ class World
      		_eyesCam.setPosition(glm::vec3(0.0f, 0.9f,-0.1f));
 		}
 
-		TrackballCamera* cam(){
+		SimpleAxeCam* cam(){
 			if(_activeCam == 0) return &_aroundCam;
 			return &_eyesCam;
 		}
