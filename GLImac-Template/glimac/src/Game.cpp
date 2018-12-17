@@ -25,22 +25,17 @@ void World::draw() const {
     glm::mat4 MVMatrix = glm::translate(globalMVMatrix, glm::vec3(0, 0, 0));
     _render->reset();
 	glm::mat4 viewMatrix = _aroundCam.getMatrixView();
+    MVMatrix = viewMatrix*MVMatrix;
+
     _render->sendLight(viewMatrix);
 
     _render->sendMatrix(MVMatrix);
     _modelLib->perso(_currentPerso).draw();
 
-    /*viewMatrix = cam.getMatrixView(); // Get the view Matrix from the camera
-
-    render.reset();
-    render.sendLight(viewMatrix);
     // Models
-    MVMatrix = viewMatrix*MVMatrix;
-    render.sendMatrix(MVMatrix);
-
-    perso.draw();*/
+    //_render.sendMatrix(MVMatrix);
         
-	/* Affichage des tuiles */
+	/* Affichage des tuiles */ // À faire une fois que la class Tiles sera prete
 
 	/*std::function <void (const Tile &)> worldDrawTile = [MVMatrix](const Tile &t){
 		// t.draw();

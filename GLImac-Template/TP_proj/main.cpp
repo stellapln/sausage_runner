@@ -46,16 +46,38 @@ int main(int argc, char** argv) {
 
      World world;
 
-     // Model cube("assets/cube.obj"); // Loading of the cube
-     Model normalModel("assets/bloc-normal.obj");
-     //Tile normalTile(normalModel);
-
      Model saucisse("assets/saucisse.obj");
-     Model coinModel("assets/saucisse.obj");
+
+     // Loading basic tiles
+     Model normalModel("assets/bloc-normal.obj");
+     Model rightWholeModel("assets/trouDroite.obj");
+     Model leftHoleModel("assets/trouGauche.obj");
+
+     Model ketchupModel("assets/ketchup.obj");
+     Model moutardeModel("assets/moutarde.obj");
+     Model jusModel("assets/jus.obj");
+     Model conserveModel("assets/conserve.obj");
+
+     Model aimantModel("assets/aimant.obj");
+     Model bouclierModel("bouclier/bouclier.obj");
+
+     Model coinModel("assets/piece.obj");
 
      Library mainLib(coinModel);
 
      mainLib.addPerso(saucisse);
+
+     mainLib.addSupport(normalModel);
+     mainLib.addSupport(rightWholeModel);
+     mainLib.addSupport(leftHoleModel);
+
+     mainLib.addObstacle(ketchupModel);
+     mainLib.addObstacle(moutardeModel);
+     mainLib.addObstacle(conserveModel);
+     mainLib.addObstacle(jusModel);
+
+     mainLib.addBonus(aimantModel);
+     mainLib.addBonus(bouclierModel);
 
      world.setLibrary(&mainLib);
      world.setRender(&render);
