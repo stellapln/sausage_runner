@@ -3,6 +3,8 @@
 #include <glimac/glm.hpp>
 #include <random>
 #include <queue>
+#include <string>
+#include <cstring>
 #include <functional>
 #include <glimac/FreeflyCamera.hpp>
 
@@ -12,18 +14,19 @@
 
 #include <glimac/Model.hpp>
 #include <glimac/Game.hpp>
+#include <stdio.h>
 
 void World::loadFile(const std::string level){
-	FILE *file = fopen(level, "r");
+	std::string levelName = level;
+	FILE *file = fopen(levelName.c_str(), "r");
   	if(!file){
    		std::cout << "Error : load fichier" << std::endl;
   	}
 
   	int sup, obs, xo, bon, xb, yb, xp, yp;
-  	Tile new_tile;
 
 	while(fscanf(file, "%d %d %d %d %d %d %d %d", &sup, &obs, &xo, &bon, &xb, &yb, &xp, &yp) != EOF){
-    	new_tile = Tile(sup, obs, xo, bon, xb, yb, xp, yp);
+    	Tile new_tile(sup, obs, xo, bon, xb, yb, xp, yp);
     	addTile(new_tile);
 	}
 }

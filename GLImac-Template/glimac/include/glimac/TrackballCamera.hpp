@@ -2,14 +2,24 @@
 #define _LIB_IMPORT_TRACKBALLCAMERA_IMAC_LSM
 #pragma once
 
-class TrackballCamera
+class SimpleAxeCam
 {
-	private:
+	protected:
 		float _fDistance;
 		float _fAngleX;
 		float _fAngleY;
+		SimpleAxeCam(float ax=0.0f,float ay=0.0f):_fAngleX(ax),_fAngleY(ay);
+		void rotateLeft(const float degrees) = 0;
+		void rotateTop(const float degrees) = 0;
+
+};
+
+class TrackballCamera : public SimpleAxeCam
+{
+	protected:
+		float _fDistance;
 	public:
-		TrackballCamera(float d=5.0f,float ax=0.0f,float ay=0.0f):_fDistance(d),_fAngleX(ax),_fAngleY(ay){}
+		TrackballCamera(float d=5.0f,float ax=0.0f,float ay=0.0f):_fDistance(d),SimpleAxeCam(ax,ay){}
 		void moveFront(const float delta){
 			_fDistance -= delta;
 		}
@@ -28,13 +38,11 @@ class TrackballCamera
 		}
 };
 
-class EyesCam : public TrackballCamera
+class EyesCam : public SimpleAxeCam
 {
 	private:
 		float _maxAngle = 90.0f;
-		float _fAngleX;
-		float _fAngleY;
-		glm::vec3 _position = glm::vec3(0.0f,-1.0f,0.2f);
+		glm::vec3 _position = glm::vec3(0.0f,-1.2f,0.2f);
 	public:
 		EyesCam(float ax=0.0f,float ay=0.0f):TrackballCamera(0.0,ax,ay){}
 		void setMaxAngle(float m)
@@ -45,12 +53,13 @@ class EyesCam : public TrackballCamera
 		{
 			//_position = p;
 		}
-		void rotateLeft(const float degrees){
+		void rotateLeft(const float degrees) override{
 			float newAngle = _fAngleX+degrees;
+			std::cout << newAngle << std::endl;
 			if(newAngle > -_maxAngle && newAngle < _maxAngle)
 				_fAngleX = newAngle;
 		}
-		void rotateTop(const float degrees){
+		void rotateTop(const float degrees) override{
 			float newAngle = _fAngleY+degrees;
 			if(newAngle > -_maxAngle && newAngle < _maxAngle)
 				_fAngleY = newAngle;

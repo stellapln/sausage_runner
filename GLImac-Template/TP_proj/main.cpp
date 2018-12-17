@@ -54,12 +54,12 @@ int main(int argc, char** argv) {
      Model leftHoleModel("assets/trouGauche.obj");
 
      Model ketchupModel("assets/ketchup.obj");
-     Model moutardeModel("assets/moutarde.obj");
-     Model jusModel("assets/jus.obj");
-     Model conserveModel("assets/conserve.obj");
+     Model mustardModel("assets/moutarde.obj");
+     Model presrveModel("assets/conserve.obj");
+     Model juiceModel("assets/jus.obj");
 
-     Model aimantModel("assets/aimant.obj");
-     Model bouclierModel("bouclier/bouclier.obj");
+     Model magnetModel("assets/aimant.obj");
+     Model shieldModel("bouclier/bouclier.obj");
 
      Model coinModel("assets/piece.obj");
 
@@ -72,21 +72,18 @@ int main(int argc, char** argv) {
      mainLib.addSupport(leftHoleModel);
 
      mainLib.addObstacle(ketchupModel);
-     mainLib.addObstacle(moutardeModel);
-     mainLib.addObstacle(conserveModel);
-     mainLib.addObstacle(jusModel);
+     mainLib.addObstacle(mustardModel);
+     mainLib.addObstacle(presrveModel);
+     mainLib.addObstacle(juiceModel);
 
-     mainLib.addBonus(aimantModel);
-     mainLib.addBonus(bouclierModel);
+     mainLib.addBonus(magnetModel);
+     mainLib.addBonus(shieldModel);
 
      world.setLibrary(&mainLib);
      world.setRender(&render);
 
      glm::mat4 MVMatrix;
      glm::mat4 viewMatrix;
-     // Definition of the camera
-
-     FreeflyCamera cam(glm::vec3(0.0,1.0,2.0));
 
     glEnable(GL_DEPTH_TEST);
 

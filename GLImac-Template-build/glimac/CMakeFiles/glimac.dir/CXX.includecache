@@ -383,6 +383,10 @@ random
 -
 queue
 -
+string
+-
+cstring
+-
 functional
 -
 glimac/FreeflyCamera.hpp
@@ -396,6 +400,8 @@ assimp/postprocess.h
 glimac/Model.hpp
 -
 glimac/Game.hpp
+-
+stdio.h
 -
 
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Geometry.cpp
