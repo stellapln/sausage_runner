@@ -43,19 +43,24 @@ int main(int argc, char** argv) {
      * HERE SHOULD COME THE INITIALIZATION CODE
      *********************************/
 
-     World world();
+     World world;
 
      // Model cube("assets/cube.obj"); // Loading of the cube
-     Model normalModel("assets/normal.obj");
+     Model normalModel("assets/bloc-normal.obj");
      //Tile normalTile(normalModel);
 
-     Model persoModel("assets/perso.obj");
+     Model saucisse("assets/saucisse.obj");
+     Model coinModel("assets/saucisse.obj");
 
-     //Personnage perso(persoModel);*/
+     Library mainLib(coinModel);
+
+     mainLib.addPerso(saucisse);
+
+     world.setLibrary(&mainLib);
+     world.setRender(&render);
 
      glm::mat4 MVMatrix;
      glm::mat4 viewMatrix;
-
      // Definition of the camera
 
      FreeflyCamera cam(glm::vec3(0.0,1.0,2.0));
@@ -133,9 +138,9 @@ int main(int argc, char** argv) {
         if(goFront != 0) cam.moveFront(goFront*0.5);
         if(goLeft != 0) cam.moveLeft(goLeft*0.5);
 
-        //world.draw();
+        world.draw();
 
-        /*viewMatrix = cam.getMatrixView(); // Get the view Matrix from the camera
+        /* viewMatrix = cam.getMatrixView(); // Get the view Matrix from the camera
 
         render.reset();
         render.sendLight(viewMatrix);
@@ -144,9 +149,10 @@ int main(int argc, char** argv) {
         MVMatrix = viewMatrix*MVMatrix;
         render.sendMatrix(MVMatrix);
 
-        perso.draw();
+        //perso.draw();
+        world.draw();
 
-        for(unsigned int i = 0; i< 10;i++)
+        /*for(unsigned int i = 0; i< 10;i++)
         {
         	MVMatrix = glm::translate(MVMatrix,glm::vec3(0.0,0.0,-1.0));
 

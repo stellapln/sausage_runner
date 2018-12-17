@@ -23,7 +23,10 @@ void World::addTile(Tile &t){
 }
 void World::draw() const {
 	
-    glm::mat4 MVMatrix = glm::translate(glm::mat4(), glm::vec3(0, 0, 0)); 
+    glm::mat4 MVMatrix = glm::translate(glm::mat4(), glm::vec3(0, 0, 0));
+    _render->reset();
+
+    _modelLib->perso(_currentPerso).draw();
 	/*viewMatrix = cam.getMatrixView(); // Get the view Matrix from the camera
 
     render.reset();
@@ -46,3 +49,4 @@ void World::draw() const {
 void Personnage::draw() const{
 	_model.draw();
 }
+Library::Library(Model coin):_coin(coin){}

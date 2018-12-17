@@ -46,7 +46,7 @@ class Library {
 		Model _coin;
 
 	public:
-		Library();
+		Library(Model coin);
 		void addPerso(Model m){
 			_persos.push_back(m);
 		}
@@ -56,7 +56,7 @@ class Library {
 		void addBonus(Model m){
 			_bonus.push_back(m);
 		}
-		void setCoin(Model m);
+		void setCoin(Model m){_coin = m;};
 		Model perso(unsigned int i) const {return _persos[i];}
 		Model tile(unsigned int i) const {return _tiles[i];}
 		Model bonus(unsigned int i) const {return _bonus[i];}
@@ -145,12 +145,12 @@ class World
 
 		int _currentPerso = 0;
 
-		Library _modelLib;
+		Library *_modelLib;
 
 		std::vector<Bonus> _bonusVec; // stock the Bonus models
 		std::vector<Tile> _tileVec; // stock the Tiles model
 
-		//Render _render;
+		Render *_render;
 
 		void loadFile(std::string file); // Fill the vector _tiles with the file;
 	public:
@@ -164,8 +164,11 @@ class World
 		void draw() const;
 		void addBonusModel(Bonus &b){_bonusVec.push_back(b);}
 		void addTileModel(Tile &t){_tileVec.push_back(t);}
-		void setLibrary(Library lib){
+		void setLibrary(Library *lib){
 			_modelLib = lib;
+		}
+		void setRender(Render *r){
+			_render = r;
 		}
 		
 		Bonus getBonusModel(unsigned int i) const {
