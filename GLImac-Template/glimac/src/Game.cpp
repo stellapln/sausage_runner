@@ -21,9 +21,10 @@ void World::removeTile(){
 void World::addTile(Tile &t){
 	_tiles.push_back(t);
 }
-void World::draw(glm::mat4 &MVMatrix) const {
+void World::draw() const {
 	
-	viewMatrix = cam.getMatrixView(); // Get the view Matrix from the camera
+    MVMatrix = glm::translate(glm::mat4(), glm::vec3(0, 0, 0)); 
+	/*viewMatrix = cam.getMatrixView(); // Get the view Matrix from the camera
 
     render.reset();
     render.sendLight(viewMatrix);
@@ -32,7 +33,7 @@ void World::draw(glm::mat4 &MVMatrix) const {
     MVMatrix = viewMatrix*MVMatrix;
     render.sendMatrix(MVMatrix);
 
-    perso.draw();
+    perso.draw();/*
         
 	/* Affichage des tuiles */
 
