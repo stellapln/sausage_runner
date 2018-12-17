@@ -2,6 +2,7 @@
 #include <iostream>
 #include <glimac/glm.hpp>
 #include <random>
+#include <cmath>
 #include <queue>
 #include <string>
 #include <cstring>
@@ -15,6 +16,9 @@
 #include <glimac/Model.hpp>
 #include <glimac/Game.hpp>
 #include <stdio.h>
+
+#define NB_COIN_BY_TILE 3
+#define SIZE_OF_TILE 3.0
 
 void World::loadFile(const std::string level){
 	std::string levelName = level;
@@ -31,14 +35,12 @@ void World::loadFile(const std::string level){
 	}
 }
 
-void World::removeTile(){
-	_tiles.pop_front();
-}
 void World::addTile(Tile &t){
 	_tiles.push_back(t);
 }
-void World::draw() const {
-    glm::mat4 MVMatrix = glm::translate(globalMVMatrix, glm::vec3(0, 0, 0));
+void World::draw() {
+    glm::mat4 MVMatrix = _globalMVMatrix;
+    glm::mat4 MVMatrixModified;
     _render->reset();
 	glm::mat4 viewMatrix;
 	if(_activeCam == 0)
@@ -49,20 +51,73 @@ void World::draw() const {
 
     _render->sendLight(viewMatrix);
 
-    _render->sendMatrix(MVMatrix);
+    MVMatrixModified = glm::translate(MVMatrix, glm::vec3(0, fabs(sinf(_z))/2.0,0));
+
+    _render->sendMatrix(MVMatrixModified);
     _modelLib->perso(_currentPerso).draw();
 
-    _modelLib->support(2).draw();
-
+    MVMatrix = glm::translate(MVMatrix, glm::vec3(0, 0, SIZE_OF_TILE+_z));
+	MVMatrix = MVMatrix;
     // Models
-    //_render.sendMatrix(MVMatrix);
         
 	/* Affichage des tuiles */ // À faire une fois que la class Tiles sera prete
 
-	/*std::function <void (const Tile &)> worldDrawTile = [MVMatrix](const Tile &t){
-		// t.draw();
-	};
-	std::for_each(_tiles.begin(),_tiles.end(),worldDrawTile);*/
+	for(int i = 0;i < _tiles.size();i++)
+	{
+    	MVMatrix = glm::translate(MVMatrix, glm::vec3(0, 0, -SIZE_OF_TILE));
+    	_render->sendMatrix(MVMatrix);
+    	if(_tiles[i]._support < _modelLib->nSupport())
+    	{
+    		_modelLib->support(_tiles[i]._support).draw();
+    	}
+    	else if(_tiles[i]._support == _modelLib->nSupport())
+    	{
+    		_modelLib->support(0).draw();
+    		MVMatrix = glm::rotate(MVMatrix, float(-M_PI/2.0), glm::vec3(0, 1.0, 0));
+    	}
+    	else if(_tiles[i]._support == _modelLib->nSupport()+1)
+    	{
+    		_modelLib->support(0).draw();
+    		MVMatrix = glm::rotate(MVMatrix, float(M_PI/2.0), glm::vec3(0, 1.0, 0));
+    	}
+
+    	MVMatrixModified = glm::translate(MVMatrix, glm::vec3(-SIZE_OF_TILE/2.0 + float(_tiles[i]._x_obs), 0, 0));
+    	_render->sendMatrix(MVMatrixModified);
+
+    	if(_tiles[i]._obstacle < _modelLib->nObstacle())
+    		_modelLib->obstacle(_tiles[i]._obstacle).draw();
+
+    	MVMatrixModified = glm::translate(MVMatrix, glm::vec3(-SIZE_OF_TILE/2.0+ float(_tiles[i]._x_bonus), float(_tiles[i]._y_bonus),0.0));
+    	_render->sendMatrix(MVMatrixModified);
+
+    	if(_tiles[i]._bonus < _modelLib->nBonus())
+    		_modelLib->bonus(_tiles[i]._bonus).draw();
+
+    	if(_tiles[i]._x_coin != 5 && _tiles[i]._y_coin != 5)
+    	{
+	    	MVMatrixModified = glm::translate(MVMatrix, glm::vec3(-SIZE_OF_TILE/2.0 + float(_tiles[i]._x_coin), float(_tiles[i]._y_coin),-SIZE_OF_TILE/2.0));
+	    	int j = 0;
+	    	for(j = 0;j < NB_COIN_BY_TILE;j++)
+	    	{
+		    	MVMatrixModified = glm::translate(MVMatrixModified, glm::vec3(0.0,0.0,float(SIZE_OF_TILE/NB_COIN_BY_TILE)));
+	    		_render->sendMatrix(MVMatrixModified);
+	    		_modelLib->coin().draw();
+	    	}
+	    }
+
+	    unsigned int currentTile = int(_z/SIZE_OF_TILE);
+	    if(currentTile != lastTile)
+	    {
+	    	if(_tiles[currentTile]._support == _modelLib->nSupport()){
+	    		_globalMVMatrix = glm::rotate(_globalMVMatrix, float(-M_PI/2.0), glm::vec3(0, 1.0, 0));
+	    	}
+	    	else if(_tiles[currentTile]._support == _modelLib->nSupport()+1){
+	    		_globalMVMatrix = glm::rotate(_globalMVMatrix, float(M_PI/2.0), glm::vec3(0, 1.0, 0));
+	    	}
+	    	lastTile = currentTile;
+	    }
+	    _z+=0.004;
+	}
 }
 void Personnage::draw() const{
 	_model.draw();

@@ -35,7 +35,7 @@ int main(int argc, char** argv) {
 
     FilePath applicationPath(argv[0]);
     //Program prog = loadProgram(applicationPath.dirPath() + "shaders/3D.vs.glsl", applicationPath.dirPath() + "shaders/pointLight.fs.glsl");
-    Render render(applicationPath.dirPath() + "shaders/3D.vs.glsl",applicationPath.dirPath() + "shaders/pointLight.fs.glsl");
+    Render render(applicationPath.dirPath() + "shaders/3D.vs.glsl",applicationPath.dirPath() + "shaders/directionalLight.fs.glsl");
     std::cout << "OpenGL Version : " << glGetString(GL_VERSION) << std::endl;
     std::cout << "GLEW Version : " << glewGetString(GLEW_VERSION) << std::endl;
 
@@ -44,7 +44,7 @@ int main(int argc, char** argv) {
      * HERE SHOULD COME THE INITIALIZATION CODE
      *********************************/
 
-     World world;
+     World world("./levels/Level1");
 
      Model saucisse("assets/saucisse.obj");
 
@@ -59,7 +59,7 @@ int main(int argc, char** argv) {
      Model juiceModel("assets/jus.obj");
 
      Model magnetModel("assets/aimant.obj");
-     Model shieldModel("bouclier/bouclier.obj");
+     Model shieldModel("assets/bouclier.obj");
 
      Model coinModel("assets/piece.obj");
 
@@ -88,7 +88,7 @@ int main(int argc, char** argv) {
     glEnable(GL_DEPTH_TEST);
 
     bool rightClickDown = false;
-    bool edit_mode = false;
+    bool edit_mode = true;
     int goFront = 0;
     int goLeft = 0;
     int lastX = 0, lastY = 0;

@@ -67,7 +67,7 @@ class Obstacle {
 };
 
 class Tile{
-	private:
+	public:
 		int _support; // id of the model in the Library
 	
 		int _obstacle; // id of the model in the Library
@@ -79,7 +79,6 @@ class Tile{
 	
 		int _x_coin; // pos x coin
 		int _y_coin; // pos y coin
-	public:
 		Tile(int s,int o,int ox,int b,int bx,int by,int cx,int cy)
 			:_support(s),_obstacle(o), _x_obs(ox), _bonus(b), _x_bonus(bx),_y_bonus(by), 
 			_x_coin(cx), _y_coin(cy){}
@@ -118,6 +117,11 @@ class Library {
 		Model bonus(unsigned int i) const {return _bonus[i];}
 		Model obstacle(unsigned int i) const {return _obstacles[i];}
 		Model coin() const {return _coin;}
+
+		int nPerso() const {return _persos.size();}
+		int nSupport() const {return _supports.size();}
+		int nBonus() const {return _bonus.size();}
+		int nObstacle() const {return _obstacles.size();}
 };
 
 class Render {
@@ -142,7 +146,7 @@ class Render {
 		glm::vec3 _Ks = glm::vec3(0.5,0.5,0.5);
 		float _Shininess = 0.5;
 		glm::vec4 _LightPos_vs = glm::vec4(2.0,2.0,2.0,0.0);
-		glm::vec3 _LightIntensity = glm::vec3(20.0,20.0,20.0);
+		glm::vec3 _LightIntensity = glm::vec3(2.0,2.0,2.0);
 
 	public:
 
@@ -191,18 +195,16 @@ class World
 {
 	private:
 		float _z = 0; // Global position in the word
-		std::deque<Tile> _tiles;
+		unsigned int lastTile = -1;
+		std::vector<Tile> _tiles;
 		int _t = 0; // Time elapsed from the beginning of the game
 		bool _randomized = false; // True : the world will be generated, False : the world will be loaded from a file
 
-		glm::mat4 globalMVMatrix;
+		glm::mat4 _globalMVMatrix;
 
 		int _currentPerso = 0;
 
 		Library *_modelLib;
-
-		std::vector<Bonus> _bonusVec; // stock the Bonus models
-		std::vector<Tile> _tileVec; // stock the Tiles model
 
 		Render *_render;
 
@@ -216,9 +218,9 @@ class World
 		World(std::string file = ""){
 			if(file == "") _randomized = true;
 			else loadFile(file);
-			_aroundCam = new TrackballCamera(7.0f,0.0,0.0f);
+			_aroundCam = new TrackballCamera(7.0f,25.0f,0.0f);
      		_eyesCam = new EyesCam(30.0f,0.0f);
-     		_eyesCam->setPosition(glm::vec3(0.0f,-1.2f,0.2f));
+     		_eyesCam->setPosition(glm::vec3(5.0f,-1.2f,0.2f));
 		}
 
 		SimpleAxeCam* cam(){
@@ -229,25 +231,13 @@ class World
 			if(_activeCam == 0) _activeCam = 1;
 			else _activeCam = 0;
 		}
-		void removeTile(); // remove the first tile
 		void addTile(Tile &t); // add tile at the end
-		void draw() const;
-		void addBonusModel(Bonus &b){_bonusVec.push_back(b);}
-		void addTileModel(Tile &t){_tileVec.push_back(t);}
+		void draw();
 		void setLibrary(Library *lib){
 			_modelLib = lib;
 		}
 		void setRender(Render *r){
 			_render = r;
-		}
-		
-		Bonus getBonusModel(unsigned int i) const {
-			// TODO : Exception if(i > _bonusVec.size()) trow ...
-			return _bonusVec[i];
-		}
-		Tile getTileModel(unsigned int i) const {
-			// TODO : Exception if(i > _tileVec.size()) trow ...
-			return _tileVec[i];
 		}
 };
 
