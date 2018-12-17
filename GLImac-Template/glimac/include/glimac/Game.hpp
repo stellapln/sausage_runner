@@ -210,7 +210,7 @@ class World
 
 		unsigned short int _activeCam = 0; 
 
-		void loadFile(std::string file); // Fill the vector _tiles with the file;
+		void loadFile(std::string level); // Fill the vector _tiles with the file;
 	public:
 		World(std::string file = ""){
 			if(file == "") _randomized = true;
