@@ -75,6 +75,15 @@ class Tile
 	public:
 		Tile(int m, int b = -1, int c = 0):_model(m), _bonus(b), _coin(c){}
 };
+
+class Support {
+	private:
+	
+	
+	public:
+	
+};
+
 class Library {
 	private:
 		std::vector<Model> _persos;
@@ -199,9 +208,9 @@ class World
 		World(std::string file = ""){
 			if(file == "") _randomized = true;
 			else loadFile(file);
-			_aroundCam = TrackballCamera(0.0f,0.0,0.0f);
+		_aroundCam = TrackballCamera(0.0f,0.0,0.0f);
      		_eyesCam = EyesCam(7.0f,30.0f,0.0f);
-     		_eyesCam.lockScroll();
+     		_eyesCam.setPosition(glm::vec3(0.0f,0.9f,0.1f));
 		}
 
 		TrackballCamera* cam(){
