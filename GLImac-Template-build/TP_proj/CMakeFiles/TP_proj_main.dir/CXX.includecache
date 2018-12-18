@@ -287,6 +287,10 @@ glimac/glm.hpp
 -
 glimac/TrackballCamera.hpp
 -
+glimac/Library.hpp
+-
+glimac/Render.hpp
+-
 
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Image.hpp
 vector
@@ -299,6 +303,8 @@ glm.hpp
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/glm.hpp
 FilePath.hpp
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/FilePath.hpp
+
+/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Library.hpp
 
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Model.hpp
 glimac/SDLWindowManager.hpp
@@ -329,6 +335,12 @@ Shader.hpp
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Shader.hpp
 FilePath.hpp
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/FilePath.hpp
+
+/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Render.hpp
+glimac/Program.hpp
+-
+glimac/glm.hpp
+-
 
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/SDLWindowManager.hpp
 cstdint

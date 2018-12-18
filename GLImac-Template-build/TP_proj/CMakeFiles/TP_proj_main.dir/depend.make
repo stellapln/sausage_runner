@@ -34,8 +34,10 @@ TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CP
 TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/FreeflyCamera.hpp
 TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Game.hpp
 TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Image.hpp
+TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Library.hpp
 TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Model.hpp
 TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Program.hpp
+TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Render.hpp
 TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/SDLWindowManager.hpp
 TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Shader.hpp
 TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Sphere.hpp
