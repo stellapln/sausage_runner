@@ -19,7 +19,6 @@ class Personnage{
 		float _last_x = 0; // last true x location
 		float _last_y = 0; // last true y location
 		int _points = 0;
-		std::vector<int> _bbox;
 
  	public:
 
@@ -40,11 +39,16 @@ class Personnage{
 		void set_last_y(float i){
 			_last_y = i;}
 		
-		void getBbox();
-		bool collide(Obstacle obs){
-			std::vector<int> add = _bbox;
-			std::transform (add.begin(), add.end(), obs.getBbox().begin(), obs.getBbox().end(), std::plus<int>);
-			return (2 == std::max_element(add.begin(), add.end()));
+		std::vector<int> getBbox();
+		bool collide(LibElem *obs){
+			std::vector<int> persoBbox = getBbox();
+			std::vector<int> obsBbox = obs->getBbox();
+			int i = 0;
+			while(i < obsBbox.size() && i < persoBbox.size())
+			{
+				if(persoBbox[i] + obsBbox[i]) return true;
+			}
+			return false;
 		}
 };
 

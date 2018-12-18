@@ -5,16 +5,24 @@
 #include <vector>
 #include <glimac/Model.hpp>
 
+class LibElem {
+	public:
+		virtual void setBbox() = 0;
+		virtual std::vector<int> getBbox() = 0;
+		virtual int id() = 0;
+};
+
 /*! \class Bonus
    * \brief
    *	Class bonus for magnet and shield
    *  	
    */
-class Bonus {
+class Bonus : public LibElem {
 	private:
 		int _id; /*!< id of the item int the library*/
 		int _posX; /*!< Bonus position x*/
 		int _posY; /*!< Bonus position y*/
+		std::vector<int> _bbox; /*!< Bounding box*/
 	
 		// + lambda fonction pour coder le comportement
 	public:
@@ -22,9 +30,13 @@ class Bonus {
 		 *  \brief Constructor of bonus
 		 */
 		Bonus(int id, int x, int y):_id(id), _posX(x), _posY(y){}
-		int id(){return _id;}
+		int id() override{return _id;}
 		int x(){return _posX;}
 		int y(){return _posY;}
+		void setBbox() override{};
+		std::vector<int> getBbox() override{
+			return _bbox;
+		}
 };
 
 /*! \class Support
@@ -32,15 +44,24 @@ class Bonus {
    *	Class for the market aisle
    *  
    */
-class Support{
+class Support : public LibElem {
 	private:
 		int _id; /*!< id of the item int the library*/
+		std::vector<int> _bbox; /*!< Bounding box*/
 	public:
 		/*!
 		 *  \brief Constructor of support
 		 */
 		Support(int id = 0): _id(id){}
 		int id(){return _id;}
+
+		/*!
+		 *  \brief Setter for bounding box
+		 */
+		void setBbox() override{};
+		std::vector<int> getBbox() override{
+			return _bbox;
+		}
 };
 
 /*! \class Obstacle
@@ -48,7 +69,7 @@ class Support{
    *	
    *  	Class for the obstacles : juice, moustard, ketchup and knives.
    */
-class Obstacle {
+class Obstacle : public LibElem {
 	private:
 		int _id; /*!< id of the item int the library*/
 		int _posX; /*!< Obstacle position x*/
@@ -58,7 +79,7 @@ class Obstacle {
 		/*!
 		 *  \brief Setter for bounding box
 		 */
-		void setBbox();
+		void setBbox() override;
 		
 		/*!
 		 *  \brief Constructor of obstacle
@@ -68,6 +89,10 @@ class Obstacle {
 		}
 		int id(){return _id;}
 		int x(){return _posX;}
+
+		std::vector<int> getBbox() override{
+			return _bbox;
+		}
 		
 };
 

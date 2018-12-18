@@ -20,40 +20,42 @@
 #define NB_COIN_BY_TILE 3
 #define SIZE_OF_TILE 3.0
 
-void Personnage::getBbox(){
+std::vector<int> Personnage::getBbox(){
+    std::vector<int> bbox;
 	if(_x_state == -1){ 
 		if(_y_state = -1){
-			_bbox.insert(_bbox.end(),{1,0,0,0,0,0,0,0,0});	
+			bbox.insert(bbox.end(),{1,0,0,0,0,0,0,0,0});	
 		}
 		else if(_y_state = 0){
-			_bbox.insert(_bbox.end(),{1,0,0,1,0,0,0,0,0});	
+			bbox.insert(bbox.end(),{1,0,0,1,0,0,0,0,0});	
 		}
 		else {	
-			_bbox.insert(_bbox.end(),{0,0,0,0,0,0,1,0,0});
+			bbox.insert(bbox.end(),{0,0,0,0,0,0,1,0,0});
 		}
 	}
 	else if(_x_state == 0){ 
 		if(_y_state = -1){
-			_bbox.insert(_bbox.end(),{0,1,0,0,0,0,0,0,0});	
+			bbox.insert(bbox.end(),{0,1,0,0,0,0,0,0,0});	
 		}
 		else if(_y_state = 0){
-			_bbox.insert(_bbox.end(),{0,1,0,0,1,0,0,0,0});	
+			bbox.insert(bbox.end(),{0,1,0,0,1,0,0,0,0});	
 		}
 		else {	
-			_bbox.insert(_bbox.end(),{0,0,0,0,0,0,0,1,0});
+			bbox.insert(bbox.end(),{0,0,0,0,0,0,0,1,0});
 		}
 	}
 	else { 
 		if(_y_state = -1){
-			_bbox.insert(_bbox.end(),{0,0,1,0,0,0,0,0,0});	
+			bbox.insert(bbox.end(),{0,0,1,0,0,0,0,0,0});	
 		}
 		else if(_y_state = 0){
-			_bbox.insert(_bbox.end(),{0,0,1,0,0,1,0,0,0});	
+			bbox.insert(bbox.end(),{0,0,1,0,0,1,0,0,0});	
 		}
 		else {	
-			_bbox.insert(_bbox.end(),{0,0,0,0,0,0,0,0,1});
+			bbox.insert(bbox.end(),{0,0,0,0,0,0,0,0,1});
 		}
 	}
+    return bbox;
 }
 
 void World::loadFile(const std::string level){
@@ -162,7 +164,14 @@ void World::draw() {
     _t+=_speed;
     _globalPosition = glm::translate(_globalPosition, glm::vec3(0, 0, _speed));
 
-    unsigned int currentTile = int(_t/SIZE_OF_TILE - SIZE_OF_TILE/2);
+    unsigned int currentTile = int(_t/int(SIZE_OF_TILE) - int(SIZE_OF_TILE)/2);
+
+    if(_tiles[currentTile]._obstacle.id() < _modelLib->nObstacle() &&  _perso->collide(&(_tiles[currentTile]._obstacle)))
+    {
+        std::cout << "COLIDIIISSIOOOON" << std::endl;
+    }
+
+
     if(currentTile != lastTile)
     {
     	if(_tiles[currentTile]._support.id() == _modelLib->nSupport()){
