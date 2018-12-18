@@ -17,6 +17,10 @@ class Obstacle {
 		std::vector<int> _bbox;
 	
 	public:
+		Obstacle(int m,int x): _model(m), _posX(x){
+			setBbox();
+		}
+			
 		void setBbox(){
 			if(_model == 0){ //Ketchup
 				if(_posX == 0){
