@@ -12,6 +12,31 @@ class LibElem {
 		virtual int id() = 0;
 };
 
+/*! \class Coin
+   * \brief
+   *	Class for coins
+   *  	
+   */
+class Coin : public LibElem {
+	private:
+		int _posX; /*!< Bonus position x*/
+		int _posY; /*!< Bonus position y*/
+		std::vector<int> _bbox; /*!< Bounding box*/
+	
+	public:
+		/*!
+		 *  \brief Constructor of bonus
+		 */
+		Coin(int x, int y):_posX(x), _posY(y){}
+		int x(){return _posX;}
+		int y(){return _posY;}
+		void setBbox() override{};
+		std::vector<int> getBbox() override{
+			return _bbox;
+		}
+};
+
+
 /*! \class Bonus
    * \brief
    *	Class bonus for magnet and shield
@@ -24,7 +49,6 @@ class Bonus : public LibElem {
 		int _posY; /*!< Bonus position y*/
 		std::vector<int> _bbox; /*!< Bounding box*/
 	
-		// + lambda fonction pour coder le comportement
 	public:
 		/*!
 		 *  \brief Constructor of bonus
@@ -106,15 +130,13 @@ class Tile{
 		Support _support; /*!< Support of the tile */
 		Obstacle _obstacle; /*!< Obstacles on the tile */
 		Bonus _bonus; /*!< Bonus on the tile */
-	
-		int _x_coin; /*!< Pos x of the coins */
-		int _y_coin; /*!< Pos y of the coins */
+		Coin _coin; /*!< Coins on the tile */
 	
 		/*!
 		 *  \brief Constructor of tile
 		 */
 		Tile(int s,int o,int ox,int b,int bx,int by,int cx,int cy)
-			: _support(s),_obstacle(o, ox),_bonus(b, bx, by),_x_coin(cx), _y_coin(cy){}
+			: _support(s),_obstacle(o, ox),_bonus(b, bx, by),_coin(cx,cy){}
 };
 
 /*! \class Library
