@@ -25,7 +25,13 @@ class Personnage{
  		void setId(int id){ _id = id;}
  		int id()const{return _id;}
 		
-		void change_state(){}
+		void move_jump_bend(int state){
+			_y_state = state;
+		}
+	
+		void move_left_right(int state){
+			_x_state = state;
+		}
 };
 
 class World
