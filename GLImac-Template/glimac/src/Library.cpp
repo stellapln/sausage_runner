@@ -46,3 +46,8 @@ void Bonus::setBbox(){
 	_bbox.insert(_bbox.end(),{0,0,0,0,0,0,0,0,0});
 	_bbox(_posY*3 + _posX) = 1;
 }
+
+void Coin::setBbox(){
+	_bbox.insert(_bbox.end(),{0,0,0,0,0,0,0,0,0});
+	_bbox(_posY*3 + _posX) = 1;
+}
