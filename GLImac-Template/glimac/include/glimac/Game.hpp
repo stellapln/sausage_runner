@@ -13,7 +13,7 @@ class Personnage{
 	private:
 		int _id;
 		int _x_state = 0; // -1 : left, 0 : middle, 1 : right
-		int _y_state = 0; // 0 : normal, 1 : jump, 2 : down
+		int _y_state = 0; // 0 : normal, 1 : jump, -1 : down
 
 		float _last_x = 0; // last true x location
 		float _last_y = 0; // last true y location
