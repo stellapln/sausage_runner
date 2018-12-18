@@ -28,9 +28,10 @@ class Coin : public LibElem {
 		 *  \brief Constructor of bonus
 		 */
 		Coin(int x, int y):_posX(x), _posY(y){}
+		int id(){return 0;}
 		int x(){return _posX;}
 		int y(){return _posY;}
-		void setBbox() override{};
+		void setBbox() override;
 		std::vector<int> getBbox() override{
 			return _bbox;
 		}
@@ -57,7 +58,7 @@ class Bonus : public LibElem {
 		int id() override{return _id;}
 		int x(){return _posX;}
 		int y(){return _posY;}
-		void setBbox() override{};
+		void setBbox() override;
 		std::vector<int> getBbox() override{
 			return _bbox;
 		}
@@ -82,7 +83,7 @@ class Support : public LibElem {
 		/*!
 		 *  \brief Setter for bounding box
 		 */
-		void setBbox() override{};
+		void setBbox() override	;
 		std::vector<int> getBbox() override{
 			return _bbox;
 		}
