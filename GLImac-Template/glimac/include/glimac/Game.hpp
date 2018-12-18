@@ -26,12 +26,13 @@ class Personnage{
  		int id()const{return _id;}
 		
 		void move_jump_bend(int state){
-			_y_state = state;
-		}
-	
+			_y_state = state;}
 		void move_left_right(int state){
-			_x_state = state;
-		}
+			_x_state = state;}
+		int get_x_state(){
+			return _x_state;}
+		int get_y_state(){
+			return _y_state;}
 };
 
 class World
