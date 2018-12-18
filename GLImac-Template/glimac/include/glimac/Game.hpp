@@ -39,41 +39,7 @@ class Personnage{
 		void set_last_y(float i){
 			_last_y = i;}
 		
-		void getBbox(){
-			if(_x_state == -1){ 
-				if(_y_state = -1){
-					_bbox.insert(_bbox.end(),{1,0,0,0,0,0,0,0,0});	
-				}
-				else if(_y_state = 0){
-					_bbox.insert(_bbox.end(),{1,0,0,1,0,0,0,0,0});	
-				}
-				else {	
-					_bbox.insert(_bbox.end(),{0,0,0,0,0,0,1,0,0});
-				}
-			}
-			else if(_x_state == 0){ 
-				if(_y_state = -1){
-					_bbox.insert(_bbox.end(),{0,1,0,0,0,0,0,0,0});	
-				}
-				else if(_y_state = 0){
-					_bbox.insert(_bbox.end(),{0,1,0,0,1,0,0,0,0});	
-				}
-				else {	
-					_bbox.insert(_bbox.end(),{0,0,0,0,0,0,0,1,0});
-				}
-			}
-			else { 
-				if(_y_state = -1){
-					_bbox.insert(_bbox.end(),{0,0,1,0,0,0,0,0,0});	
-				}
-				else if(_y_state = 0){
-					_bbox.insert(_bbox.end(),{0,0,1,0,0,1,0,0,0});	
-				}
-				else {	
-					_bbox.insert(_bbox.end(),{0,0,0,0,0,0,0,0,1});
-				}
-			}
-		}
+		void getBbox();
 };
 
 class World
