@@ -15,8 +15,8 @@ class Personnage{
 		int _x_state = 0; // -1 : left, 0 : middle, 1 : right
 		int _y_state = 0; // 0 : normal, 1 : jump, 2 : down
 
-		float _x_real = 0; // the true x location
-		float _y_real = 0; // the true y location
+		float _last_x = 0; // last true x location
+		float _last_y = 0; // last true y location
 		int _points = 0;
 
  	public:
@@ -33,10 +33,10 @@ class Personnage{
 			return _x_state;}
 		int get_y_state(){
 			return _y_state;}
-		void set_x_real(float i){
-			_x_real = i;}
-		void set_y_real(float i){
-			_y_real = i;}
+		void set_last_x(float i){
+			_last_x = i;}
+		void set_last_y(float i){
+			_last_y = i;}
 };
 
 class World
