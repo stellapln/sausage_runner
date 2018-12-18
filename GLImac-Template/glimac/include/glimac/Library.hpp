@@ -5,7 +5,7 @@
 
 /*! \class Bonus
    * \brief
-   *	Bonus class for magnet and shield
+   *	Class bonus for magnet and shield
    *  	
    */
 class Bonus {
