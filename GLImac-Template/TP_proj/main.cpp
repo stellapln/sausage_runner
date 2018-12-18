@@ -129,8 +129,6 @@ int main(int argc, char** argv) {
 
     bool rightClickDown = false;
     bool edit_mode = true;
-    int goFront = 0;
-    int goLeft = 0;
     int lastX = 0, lastY = 0;
     int t = 0;
     
@@ -196,16 +194,16 @@ int main(int argc, char** argv) {
             else if(e.type == SDL_KEYDOWN) {
                 switch(e.key.keysym.sym) {
                     case SDLK_z: // z to jump
-                        goFront = 1;
+                         move_jump_bend(1);
                         break;
                     case SDLK_s: //s to bend
-                        goFront = -1;
+                        move_jump_bend(2);
                         break;
                     case SDLK_q: //q to go left
-                        goLeft = 1;
+                        move_left_right(-1);
                         break;
                     case SDLK_d: //d to go right
-                        goLeft = -1;
+                        move_left_right(1);
                         break;
                     case SDLK_l: //l camera edit mode
                         if(edit_mode)
