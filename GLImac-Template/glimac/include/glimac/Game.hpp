@@ -8,6 +8,7 @@
 #include <glimac/TrackballCamera.hpp>
 #include <glimac/Library.hpp>
 #include <glimac/Render.hpp>
+#include <algorithm>
 
 class Personnage{
 	private:
@@ -40,6 +41,11 @@ class Personnage{
 			_last_y = i;}
 		
 		void getBbox();
+		bool collide(Obstacle obs){
+			std::vector<int> add = _bbox;
+			std::transform (add.begin(), add.end(), obs.getBbox().begin(), obs.getBbox().end(), std::plus<int>);
+			return (2 == std::max_element(add.begin(), add.end()));
+		}
 };
 
 class World
