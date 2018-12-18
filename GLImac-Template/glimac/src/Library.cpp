@@ -29,3 +29,16 @@ void Obstacle::setBbox(){
 		_bbox.insert(_bbox.end(),{1,1,1,0,0,0,0,0,0});
 	}
 }
+
+void Support::setBbox(){
+	if(_id == 0){ //Normal
+		_bbox.insert(_bbox.end(),{0,0,0,0,0,0,0,0,0});
+	}
+	else if(_id == 1){
+		_bbox.insert(_bbox.end(),{0,1,1,0,0,0,0,0,0});
+	}
+	else if(_id == 2){
+		_bbox.insert(_bbox.end(),{1,1,0,0,0,0,0,0,0});
+	}
+
+}
