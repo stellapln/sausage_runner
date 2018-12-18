@@ -33,6 +33,10 @@ class Personnage{
 			return _x_state;}
 		int get_y_state(){
 			return _y_state;}
+		void set_x_real(float i){
+			_x_real += i;}
+		void set_y_real(float i){
+			_y_real += i;}
 };
 
 class World
