@@ -3,7 +3,11 @@
 #pragma once
 
 
-
+/*! \class Bonus
+   * \brief
+   *	Contains the id of the item in the library
+   *  	and its position (x,y)
+   */
 class Bonus {
 	private:
 		int _id;
@@ -14,6 +18,11 @@ class Bonus {
 		Bonus(int x, int y): _posX(x), _posY(y){}
 };
 
+/*! \class Support
+   * \brief
+   *	Contains the id of the item in the library
+   *  
+   */
 class Support{
 	private:
 		int _id;
@@ -21,6 +30,12 @@ class Support{
 		Support(int id = 0): _id(id){}
 };
 
+/*! \class Obstacle
+   * \brief
+   *	Contains the id of the item in the library
+   *  	and its position
+   *	and its bounding box
+   */
 class Obstacle {
 	private:
 		int _id;
@@ -61,6 +76,11 @@ class Obstacle {
 		}
 };
 
+/*! \class Tile
+ * \brief
+ *	Contains all the objects on the tile
+ *  	(support, obstacles, bonus and coins)
+ */
 class Tile{
 	public:
 		Support _support;
@@ -77,6 +97,11 @@ class Tile{
 		}
 };
 
+/*! \class Library
+   * \brief
+   *	Contains verctors of all the items of the game in vectors
+   *  
+   */
 class Library {
 	private:
 		std::vector<Model> _persos;
