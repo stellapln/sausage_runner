@@ -40,14 +40,23 @@ void Support::setBbox(){
 	else if(_id == 2){
 		_bbox.insert(_bbox.end(),{1,1,0,0,0,0,0,0,0});
 	}
+	else if(_id == 3){
+		_bbox.insert(_bbox.end(),{1,1,0,0,0,0,0,0,0});
+	}
+	else if(_id == 4){
+		_bbox.insert(_bbox.end(),{0,1,1,0,0,0,0,0,0});
+	}
+	else if(_id == 5){
+		_bbox.insert(_bbox.end(),{1,1,1,0,0,0,0,0,0});
+	}
 }
 
 void Bonus::setBbox(){
 	_bbox.insert(_bbox.end(),{0,0,0,0,0,0,0,0,0});
-	_bbox(_posY*3 + _posX) = 1;
+	_bbox[_posY*3 + _posX] = 1;
 }
 
 void Coin::setBbox(){
 	_bbox.insert(_bbox.end(),{0,0,0,0,0,0,0,0,0});
-	_bbox(_posY*3 + _posX) = 1;
+	_bbox[_posY*3 + _posX] = 1;
 }

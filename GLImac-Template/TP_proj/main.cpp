@@ -86,7 +86,7 @@ int main(int argc, char** argv) {
 
     Model coinModel("assets/piece.obj");
 
-    Model montainSkyModel("assets/sky.obj");
+    Model montainSkyModel("assets/box.obj");
     
     /*!
      *  \brief ** Libraries

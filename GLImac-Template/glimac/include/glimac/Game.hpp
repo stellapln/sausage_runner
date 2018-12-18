@@ -16,8 +16,8 @@ class Personnage{
 		int _x_state = 0; // -1 : left, 0 : middle, 1 : right
 		int _y_state = 0; // 0 : normal, 1 : jump, -1 : down
 
-		float _last_x = 0; // last true x location
-		float _last_y = 0; // last true y location
+		int _last_x = 0; // last true x location
+		int _last_y = 0; // last true y location
 		int _points = 0;
 
  	public:
@@ -34,9 +34,9 @@ class Personnage{
 			return _x_state;}
 		int get_y_state(){
 			return _y_state;}
-		void set_last_x(float i){
+		void set_last_x(int i){
 			_last_x = i;}
-		void set_last_y(float i){
+		void set_last_y(int i){
 			_last_y = i;}
 		
 		std::vector<int> getBbox();
@@ -44,9 +44,11 @@ class Personnage{
 			std::vector<int> persoBbox = getBbox();
 			std::vector<int> obsBbox = obs->getBbox();
 			int i = 0;
-			while(i < obsBbox.size() && i < persoBbox.size())
-			{
-				if(persoBbox[i] + obsBbox[i]) return true;
+			while(i < obsBbox.size() && i < persoBbox.size()){
+				
+				std::cout << persoBbox[i] + obsBbox[i] << std::endl;
+				if(persoBbox[i] + obsBbox[i] == 2) return true;
+				i++;
 			}
 			return false;
 		}

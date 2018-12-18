@@ -23,10 +23,10 @@
 std::vector<int> Personnage::getBbox(){
     std::vector<int> bbox;
 	if(_x_state == -1){ 
-		if(_y_state = -1){
+		if(_y_state == -1){
 			bbox.insert(bbox.end(),{1,0,0,0,0,0,0,0,0});	
 		}
-		else if(_y_state = 0){
+		else if(_y_state == 0){
 			bbox.insert(bbox.end(),{1,0,0,1,0,0,0,0,0});	
 		}
 		else {	
@@ -34,10 +34,10 @@ std::vector<int> Personnage::getBbox(){
 		}
 	}
 	else if(_x_state == 0){ 
-		if(_y_state = -1){
+		if(_y_state == -1){
 			bbox.insert(bbox.end(),{0,1,0,0,0,0,0,0,0});	
 		}
-		else if(_y_state = 0){
+		else if(_y_state == 0){
 			bbox.insert(bbox.end(),{0,1,0,0,1,0,0,0,0});	
 		}
 		else {	
@@ -45,13 +45,13 @@ std::vector<int> Personnage::getBbox(){
 		}
 	}
 	else { 
-		if(_y_state = -1){
+		if(_y_state == -1){
 			bbox.insert(bbox.end(),{0,0,1,0,0,0,0,0,0});	
 		}
-		else if(_y_state = 0){
+		else if(_y_state == 0){
 			bbox.insert(bbox.end(),{0,0,1,0,0,1,0,0,0});	
 		}
-		else {	
+		else {
 			bbox.insert(bbox.end(),{0,0,0,0,0,0,0,0,1});
 		}
 	}
@@ -97,7 +97,7 @@ void World::draw() {
 
     // Lights
 
-    _render->sendLight(viewMatrix);
+    _render->sendLight(viewMatrix*_globalRotation);
 
     // Personnage
 
@@ -108,9 +108,10 @@ void World::draw() {
     else if(_perso->get_y_state() == -1)
     {
         MVMatrix = glm::rotate(MVMatrix, float(M_PI/2.5),glm::vec3(1, 0,0));
-        MVMatrix = glm::translate(MVMatrix, glm::vec3(0, 0.2,0));
+        MVMatrix = glm::translate(MVMatrix, glm::vec3(0, 0.0,0));
     }
     MVMatrix = glm::translate(MVMatrix, glm::vec3(_perso->get_x_state(),_perso->get_y_state() ,0.0));
+    
     _render->sendMatrix(MVMatrix);
     _modelLib->perso(_perso->id()).draw();
 
@@ -148,9 +149,9 @@ void World::draw() {
     	if(_tiles[i]._bonus.id() < _modelLib->nBonus()) // Affichage des bonus
     		_modelLib->bonus(_tiles[i]._bonus.id()).draw();
 
-    	if(_tiles[i]._x_coin != 5 && _tiles[i]._y_coin != 5) // Affichage des pieces
+    	if(_tiles[i]._coin.x() != 5 && _tiles[i]._coin.x() != 5) // Affichage des pieces
     	{
-	    	MVMatrixModified = glm::translate(MVMatrix, glm::vec3(-SIZE_OF_TILE/2.0 + float(_tiles[i]._x_coin), float(_tiles[i]._y_coin),-SIZE_OF_TILE/2.0));
+	    	MVMatrixModified = glm::translate(MVMatrix, glm::vec3(-SIZE_OF_TILE/2.0 + float(_tiles[i]._coin.x()), float(_tiles[i]._coin.y()),-SIZE_OF_TILE/2.0));
 	    	int j = 0;
 	    	for(j = 0;j < NB_COIN_BY_TILE;j++)
 	    	{
@@ -162,26 +163,38 @@ void World::draw() {
 	}
 
     _t+=_speed;
-    _globalPosition = glm::translate(_globalPosition, glm::vec3(0, 0, _speed));
-
     unsigned int currentTile = int(_t/int(SIZE_OF_TILE) - int(SIZE_OF_TILE)/2);
-
-    if(_tiles[currentTile]._obstacle.id() < _modelLib->nObstacle() &&  _perso->collide(&(_tiles[currentTile]._obstacle)))
+    if(currentTile < _tiles.size())
     {
-        std::cout << "COLIDIIISSIOOOON" << std::endl;
-    }
+        if(_tiles[currentTile]._obstacle.id() < _modelLib->nObstacle() &&  _perso->collide(&(_tiles[currentTile]._obstacle)))
+        {
+            std::cout << "Colision obstacle" << std::endl;
+        }
+        if(_tiles[currentTile]._bonus.id() < _modelLib->nBonus() &&  _perso->collide(&(_tiles[currentTile]._bonus)))
+        {
+            std::cout << "Colision bonus" << std::endl;
+        }
+        std::cout << "********** Support **********" << std::endl;
+        
+        if(_tiles[currentTile]._support.id() < _modelLib->nSupport()+3 &&  _perso->collide(&(_tiles[currentTile]._support)))
+        {
+            std::cout << "Colision support" << std::endl;
+        }
+        std::cout << "********** Fin **********" << std::endl;
 
+        _globalPosition = glm::translate(glm::mat4(), glm::vec3(0, 0, _speed))*_globalPosition;
 
-    if(currentTile != lastTile)
-    {
-    	if(_tiles[currentTile]._support.id() == _modelLib->nSupport()){
-    		_globalPosition = glm::rotate(_globalPosition, float(M_PI/2.0), glm::vec3(0, 1.0, 0));
-    		_globalRotation = glm::rotate(_globalRotation, float(M_PI/2.0), glm::vec3(0, 1.0, 0));
-    	}
-    	else if(_tiles[currentTile]._support.id() == _modelLib->nSupport()+1){
-    		_globalPosition = glm::rotate(_globalPosition, float(-M_PI/2.0), glm::vec3(0, 1.0, 0));
-    		_globalRotation = glm::rotate(_globalRotation, float(-M_PI/2.0), glm::vec3(0, 1.0, 0));
-    	}
-    	lastTile = currentTile;
+        if(currentTile != lastTile)
+        {
+        	if(_tiles[currentTile]._support.id() == _modelLib->nSupport()){
+        		_globalPosition = glm::rotate(glm::mat4(), float(M_PI/2.0), glm::vec3(0, 1.0, 0))*_globalPosition;
+        		_globalRotation = glm::rotate(_globalRotation, float(M_PI/2.0), glm::vec3(0, 1.0, 0));
+        	}
+        	else if(_tiles[currentTile]._support.id() == _modelLib->nSupport()+1){
+        		_globalPosition = glm::rotate(glm::mat4(), float(-M_PI/2.0), glm::vec3(0, 1.0, 0))*_globalPosition;
+        		_globalRotation = glm::rotate(_globalRotation, float(-M_PI/2.0), glm::vec3(0, 1.0, 0));
+        	}
+        	lastTile = currentTile;
+        }
     }
 }
