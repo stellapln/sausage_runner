@@ -64,7 +64,6 @@ int main(int argc, char** argv) {
      */
 
     World world("./levels/Level1");
-
     Model saucisse("assets/saucisse.obj");
 
     /*!
@@ -139,6 +138,7 @@ int main(int argc, char** argv) {
      */
     
     bool done = false;
+    int global_time = 0;
     while(!done) {
         
         
@@ -232,7 +232,8 @@ int main(int argc, char** argv) {
                 }
             }
         }
-
+        
+        global_time ++;
         world.draw();
         windowManager.swapBuffers();
     }
