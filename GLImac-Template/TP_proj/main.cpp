@@ -2,7 +2,7 @@
  * \file main.cpp
  * \brief Main file of Sausage Runner.
  * \author Baptiste M. Stella P. Louise P.
- * \date 17 septembre 2018
+ * \date 17 decembre 2018
  *
  * Main program to run the game Sausage Runner.
  *
