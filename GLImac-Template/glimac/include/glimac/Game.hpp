@@ -22,8 +22,10 @@ class Personnage{
  	public:
 
  		Personnage(int id):_id(id){}
- 		void setId(int id):_id(id){}
- 		int id(){return id;}
+ 		void setId(int id){ _id = id;}
+ 		int id()const{return _id;}
+		
+		void change_state(){}
 };
 
 class World
