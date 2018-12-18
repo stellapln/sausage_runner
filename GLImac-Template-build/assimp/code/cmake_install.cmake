@@ -33,35 +33,11 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  foreach(file
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libassimp.so.4.0.1"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libassimp.so.4"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libassimp.so"
-      )
-    if(EXISTS "${file}" AND
-       NOT IS_SYMLINK "${file}")
-      file(RPATH_CHECK
-           FILE "${file}"
-           RPATH "")
-    endif()
-  endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/code/libassimp.so.4.0.1"
-    "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/code/libassimp.so.4"
-    "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/code/libassimp.so"
+    "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/code/CMakeFiles/CMakeRelink.dir/libassimp.so.4.0.1"
+    "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/code/CMakeFiles/CMakeRelink.dir/libassimp.so.4"
+    "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/code/CMakeFiles/CMakeRelink.dir/libassimp.so"
     )
-  foreach(file
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libassimp.so.4.0.1"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libassimp.so.4"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libassimp.so"
-      )
-    if(EXISTS "${file}" AND
-       NOT IS_SYMLINK "${file}")
-      if(CMAKE_INSTALL_DO_STRIP)
-        execute_process(COMMAND "/usr/bin/strip" "${file}")
-      endif()
-    endif()
-  endforeach()
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "assimp-dev" OR NOT CMAKE_INSTALL_COMPONENT)

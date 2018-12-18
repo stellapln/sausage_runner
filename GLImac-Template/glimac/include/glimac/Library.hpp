@@ -14,19 +14,26 @@ class Bonus {
 		Bonus(int x, int y): _posX(x), _posY(y){}
 };
 
+class Support{
+	private:
+		int _id;
+	public:
+		Support(int id = 0): _id(id){}
+};
+
 class Obstacle {
 	private:
-		int _model;
+		int _id;
 		int _posX;
 		std::vector<int> _bbox;
 	
 	public:
-		Obstacle(int m,int x): _model(m), _posX(x){
+		Obstacle(int m,int x): _id(m), _posX(x){
 			setBbox();
 		}
 			
 		void setBbox(){
-			if(_model == 0){ //Ketchup
+			if(_id == 0){ //Ketchup
 				if(_posX == 0){
 					_bbox.insert(_bbox.end(),{1,0,0,1,0,0,1,0,0});
 				}
@@ -37,7 +44,7 @@ class Obstacle {
 					_bbox.insert(_bbox.end(),{0,0,1,0,0,1,0,0,1});
 				}
 			}
-			else if(_model == 1){ //Moutarde
+			else if(_id == 1){ //Moutarde
 				if(_posX == 0){
 					_bbox.insert(_bbox.end(),{1,1,0,1,1,0,0,0,0});
 				}
@@ -45,10 +52,10 @@ class Obstacle {
 					_bbox.insert(_bbox.end(),{0,1,1,0,1,1,0,0,0});
 				}
 			}
-			else if(_model == 2){ //Conserve
+			else if(_id == 2){ //Conserve
 				_bbox.insert(_bbox.end(),{1,0,1,1,1,1,1,1,1});
 			}
-			else if(_model == 3){ //Jus
+			else if(_id == 3){ //Jus
 				_bbox.insert(_bbox.end(),{1,1,1,0,0,0,0,0,0});
 			}
 		}
@@ -63,18 +70,11 @@ class Tile{
 		int _x_coin; // pos x coin
 		int _y_coin; // pos y coin
 	
-		Tile(int s,int o,int ox,int b,int bx,int by,int cx,int cy): _x_coin(cx), _y_coin(cy){
-			_support = Support(s);
+		Tile(int s,int o,int ox,int b,int bx,int by,int cx,int cy): _support(s),_obstacle(o, ox),_bonus(bx, by),_x_coin(cx), _y_coin(cy){
+			/*_support = Support(s);
 			_obstacle = Obstacle(o, ox);
-			_bonus = Bonus(bx, by);
+			_bonus = Bonus(bx, by);*/
 		}
-};
-
-class Support{
-	private:
-		int _id;
-	public:
-		Support(int id): _id(id){}
 };
 
 class Library {

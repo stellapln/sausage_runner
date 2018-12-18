@@ -233,6 +233,38 @@ assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build: assimp/tools/assimp_cmd
 
 .PHONY : assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build
 
+# Object files for target assimp_cmd
+assimp_cmd_OBJECTS = \
+"CMakeFiles/assimp_cmd.dir/CompareDump.cpp.o" \
+"CMakeFiles/assimp_cmd.dir/ImageExtractor.cpp.o" \
+"CMakeFiles/assimp_cmd.dir/Main.cpp.o" \
+"CMakeFiles/assimp_cmd.dir/WriteDumb.cpp.o" \
+"CMakeFiles/assimp_cmd.dir/Info.cpp.o" \
+"CMakeFiles/assimp_cmd.dir/Export.cpp.o"
+
+# External object files for target assimp_cmd
+assimp_cmd_EXTERNAL_OBJECTS =
+
+assimp/tools/assimp_cmd/CMakeFiles/CMakeRelink.dir/assimp: assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/CompareDump.cpp.o
+assimp/tools/assimp_cmd/CMakeFiles/CMakeRelink.dir/assimp: assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/ImageExtractor.cpp.o
+assimp/tools/assimp_cmd/CMakeFiles/CMakeRelink.dir/assimp: assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Main.cpp.o
+assimp/tools/assimp_cmd/CMakeFiles/CMakeRelink.dir/assimp: assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/WriteDumb.cpp.o
+assimp/tools/assimp_cmd/CMakeFiles/CMakeRelink.dir/assimp: assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Info.cpp.o
+assimp/tools/assimp_cmd/CMakeFiles/CMakeRelink.dir/assimp: assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Export.cpp.o
+assimp/tools/assimp_cmd/CMakeFiles/CMakeRelink.dir/assimp: assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make
+assimp/tools/assimp_cmd/CMakeFiles/CMakeRelink.dir/assimp: assimp/code/libassimp.so.4.0.1
+assimp/tools/assimp_cmd/CMakeFiles/CMakeRelink.dir/assimp: /usr/lib/x86_64-linux-gnu/libz.so
+assimp/tools/assimp_cmd/CMakeFiles/CMakeRelink.dir/assimp: assimp/contrib/irrXML/libIrrXML.a
+assimp/tools/assimp_cmd/CMakeFiles/CMakeRelink.dir/assimp: /usr/lib/x86_64-linux-gnu/librt.so
+assimp/tools/assimp_cmd/CMakeFiles/CMakeRelink.dir/assimp: assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable CMakeFiles/CMakeRelink.dir/assimp"
+	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/tools/assimp_cmd && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/assimp_cmd.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/preinstall: assimp/tools/assimp_cmd/CMakeFiles/CMakeRelink.dir/assimp
+
+.PHONY : assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/preinstall
+
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/requires: assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/CompareDump.cpp.o.requires
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/requires: assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/ImageExtractor.cpp.o.requires
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/requires: assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Main.cpp.o.requires

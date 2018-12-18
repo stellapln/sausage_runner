@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Te
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-
-.PHONY : install/strip/fast
-
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -168,6 +157,11 @@ assimp_cmd: assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/rule
 assimp_cmd/fast:
 	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build
 .PHONY : assimp_cmd/fast
+
+# Manual pre-install relink rule for target.
+assimp_cmd/preinstall:
+	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/preinstall
+.PHONY : assimp_cmd/preinstall
 
 CompareDump.o: CompareDump.cpp.o
 
@@ -337,7 +331,6 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... assimp_cmd"
 	@echo "... edit_cache"
