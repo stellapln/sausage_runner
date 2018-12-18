@@ -18,6 +18,7 @@ class Personnage{
 		float _last_x = 0; // last true x location
 		float _last_y = 0; // last true y location
 		int _points = 0;
+		std::vector<int> _bbox;
 
  	public:
 
@@ -37,6 +38,42 @@ class Personnage{
 			_last_x = i;}
 		void set_last_y(float i){
 			_last_y = i;}
+		
+		void getBbox(){
+			if(_x_state == -1){ 
+				if(_y_state = -1){
+					_bbox.insert(_bbox.end(),{1,0,0,0,0,0,0,0,0});	
+				}
+				else if(_y_state = 0){
+					_bbox.insert(_bbox.end(),{1,0,0,1,0,0,0,0,0});	
+				}
+				else {	
+					_bbox.insert(_bbox.end(),{0,0,0,0,0,0,1,0,0});
+				}
+			}
+			else if(_x_state == 0){ 
+				if(_y_state = -1){
+					_bbox.insert(_bbox.end(),{0,1,0,0,0,0,0,0,0});	
+				}
+				else if(_y_state = 0){
+					_bbox.insert(_bbox.end(),{0,1,0,0,1,0,0,0,0});	
+				}
+				else {	
+					_bbox.insert(_bbox.end(),{0,0,0,0,0,0,0,1,0});
+				}
+			}
+			else { 
+				if(_y_state = -1){
+					_bbox.insert(_bbox.end(),{0,0,1,0,0,0,0,0,0});	
+				}
+				else if(_y_state = 0){
+					_bbox.insert(_bbox.end(),{0,0,1,0,0,1,0,0,0});	
+				}
+				else {	
+					_bbox.insert(_bbox.end(),{0,0,0,0,0,0,0,0,1});
+				}
+			}
+		}
 };
 
 class World
