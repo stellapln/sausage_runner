@@ -5,6 +5,12 @@
 #include <glimac/Program.hpp>
 #include <glimac/glm.hpp>
 
+/*! \class Render
+	* \brief
+	*	Contain all Matrix and values for the link between the light,
+	*	the shaders and the MVMatrix
+	*
+	*/
 class Render {
 
 	private:

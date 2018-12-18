@@ -14,6 +14,14 @@
 #include <assimp/Importer.hpp>
 #include <assimp/scene.h>
 #include <assimp/postprocess.h>
+
+/*! \struct Vertex
+   * \brief
+   *    Contains the values of a vertex : 
+   *    its position, its normal and its Texture Coordinates 
+   *    and its bounding box
+   */
+
 struct Vertex {
     glm::vec3 Position;
     glm::vec3 Normal;
