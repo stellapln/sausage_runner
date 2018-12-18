@@ -55,13 +55,15 @@ int main(int argc, char** argv) {
 
      Model ketchupModel("assets/ketchup.obj");
      Model mustardModel("assets/moutarde.obj");
-     Model presrveModel("assets/conserve.obj");
+     Model preserveModel("assets/conserve.obj");
      Model juiceModel("assets/jus.obj");
 
      Model magnetModel("assets/aimant.obj");
      Model shieldModel("assets/bouclier.obj");
 
      Model coinModel("assets/piece.obj");
+
+     Model montainSkyModel("assets/sky.obj");
 
      Library mainLib(coinModel);
 
@@ -73,11 +75,13 @@ int main(int argc, char** argv) {
 
      mainLib.addObstacle(ketchupModel);
      mainLib.addObstacle(mustardModel);
-     mainLib.addObstacle(presrveModel);
+     mainLib.addObstacle(preserveModel);
      mainLib.addObstacle(juiceModel);
 
      mainLib.addBonus(magnetModel);
      mainLib.addBonus(shieldModel);
+
+     mainLib.addSkybox(montainSkyModel);
 
      world.setLibrary(&mainLib);
      world.setRender(&render);

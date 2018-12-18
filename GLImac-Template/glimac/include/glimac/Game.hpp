@@ -95,6 +95,7 @@ class Library {
 		std::vector<Model> _supports;
 		std::vector<Model> _obstacles;
 		std::vector<Model> _bonus;
+		std::vector<Model> _skybox;
 		Model _coin;
 
 	public:
@@ -111,17 +112,23 @@ class Library {
 		void addObstacle(Model m){
 			_obstacles.push_back(m);
 		}
-		void setCoin(Model m){_coin = m;};
+		void addSkybox(Model m){
+			_skybox.push_back(m);
+		}
+		void setCoin(Model m){_coin = m;}
+
 		Model perso(unsigned int i) const {return _persos[i];}
 		Model support(unsigned int i) const {return _supports[i];}
 		Model bonus(unsigned int i) const {return _bonus[i];}
-		Model obstacle(unsigned int i) const {return _obstacles[i];}
+		Model obstacle(unsigned int i) const {return _skybox[i];}
+		Model skybox(unsigned int i) const {return _obstacles[i];}
 		Model coin() const {return _coin;}
 
 		int nPerso() const {return _persos.size();}
 		int nSupport() const {return _supports.size();}
 		int nBonus() const {return _bonus.size();}
 		int nObstacle() const {return _obstacles.size();}
+		int nSkybox() const {return _skybox.size();}
 };
 
 class Render {
@@ -194,13 +201,14 @@ class Render {
 class World
 {
 	private:
-		float _z = 0; // Global position in the word
+		float _t = 0;
+		float _speed = 0.2;
 		unsigned int lastTile = -1;
 		std::vector<Tile> _tiles;
-		int _t = 0; // Time elapsed from the beginning of the game
 		bool _randomized = false; // True : the world will be generated, False : the world will be loaded from a file
 
-		glm::mat4 _globalMVMatrix;
+		glm::mat4 _globalPosition;
+		glm::mat4 _globalRotation;
 
 		int _currentPerso = 0;
 
@@ -220,7 +228,7 @@ class World
 			else loadFile(file);
 			_aroundCam = new TrackballCamera(7.0f,25.0f,0.0f);
      		_eyesCam = new EyesCam(30.0f,0.0f);
-     		_eyesCam->setPosition(glm::vec3(5.0f,-1.2f,0.2f));
+     		_eyesCam->setPosition(glm::vec3(0.0f,-1.4f,0.2f));
 		}
 
 		SimpleAxeCam* cam(){
