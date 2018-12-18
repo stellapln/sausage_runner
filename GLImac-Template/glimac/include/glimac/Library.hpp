@@ -2,105 +2,136 @@
 #define _LIB_IMPORT_LIBRARY_IMAC_LSM
 #pragma once
 
+
 /*! \class Bonus
    * \brief
-   *	Contains the id of the item in the library
-   *  	and its position (x,y)
+   *	Bonus class for magnet and shield
+   *  	
    */
 class Bonus {
 	private:
-		int _id;
-		int _posX;
-		int _posY;
+		int _id; /*!< id of the item int the library*/
+		int _posX; /*!< Bonus position x*/
+		int _posY; /*!< Bonus position y*/
+	
 		// + lambda fonction pour coder le comportement
 	public:
+		/*!
+		 *  \brief Constructor of bonus
+		 */
 		Bonus(int x, int y): _posX(x), _posY(y){}
 };
 
 /*! \class Support
    * \brief
-   *	Contains the id of the item in the library
+   *	Class for the market aisle
    *  
    */
 class Support{
 	private:
-		int _id;
+		int _id; /*!< id of the item int the library*/
 	public:
+		/*!
+		 *  \brief Constructor of support
+		 */
 		Support(int id = 0): _id(id){}
-		int id()const {return _id;}
 };
 
 /*! \class Obstacle
    * \brief
-   *	Contains the id of the item in the library
-   *  	and its position
-   *	and its bounding box
+   *	
+   *  	Class for the obstacles : juice, moustard, ketchup and knives.
    */
 class Obstacle {
 	private:
-		int _id;
-		int _posX;
-		std::vector<int> _bbox;
+		int _id; /*!< id of the item int the library*/
+		int _posX; /*!< Obstacle position x*/
+		std::vector<int> _bbox; /*!< Bounding box*/
 	
 	public:
+		/*!
+		 *  \brief Constructor of obstacle
+		 */
 		Obstacle(int m,int x): _id(m), _posX(x){
 			setBbox();
 		}
-		int id()const {return _id;}
-		int x()const {return _posX;}
-			
-		void setBbox();
-};
-class Bonus {
-	private:
-		int _id;
-		int _posX;
-		int _posY;
-		// + lambda fonction pour coder le comportement
-	public:
-		Bonus(int x, int y): _posX(x), _posY(y){}
-		int id()const {return _id;}
-		int x()const {return _posX;}
-		int y()const {return _posX;}
+		
+		/*!
+		 *  \brief Setter for bounding box
+		 */
+		void setBbox(){
+			if(_id == 0){ //Ketchup
+				if(_posX == 0){
+					_bbox.insert(_bbox.end(),{1,0,0,1,0,0,1,0,0});
+				}
+				else if(_posX == 1){
+					_bbox.insert(_bbox.end(),{0,1,0,0,1,0,0,1,0});
+				}
+				else if(_posX == 2){
+					_bbox.insert(_bbox.end(),{0,0,1,0,0,1,0,0,1});
+				}
+			}
+			else if(_id == 1){ //Moutarde
+				if(_posX == 0){
+					_bbox.insert(_bbox.end(),{1,1,0,1,1,0,0,0,0});
+				}
+				else if(_posX == 1){
+					_bbox.insert(_bbox.end(),{0,1,1,0,1,1,0,0,0});
+				}
+			}
+			else if(_id == 2){ //Conserve
+				_bbox.insert(_bbox.end(),{1,0,1,1,1,1,1,1,1});
+			}
+			else if(_id == 3){ //Jus
+				_bbox.insert(_bbox.end(),{1,1,1,0,0,0,0,0,0});
+			}
+		}
 };
 
 /*! \class Tile
  * \brief
  *	Contains all the objects on the tile
- *  	(support, obstacles, bonus and coins)
+ *  	
  */
 class Tile{
 	public:
-		Support _support;
-		Obstacle _obstacle;
-		Bonus _bonus;
+		Support _support; /*!< Support of the tile */
+		Obstacle _obstacle; /*!< Obstacles on the tile */
+		Bonus _bonus; /*!< Bonus on the tile */
 	
-		int _x_coin; // pos x coin
-		int _y_coin; // pos y coin
+		int _x_coin; /*!< Pos x of the coins */
+		int _y_coin; /*!< Pos y of the coins */
 	
-		Tile(int s,int o,int ox,int b,int bx,int by,int cx,int cy): _support(s),_obstacle(o, ox),_bonus(bx, by),_x_coin(cx), _y_coin(cy){
-			/*_support = Support(s);
-			_obstacle = Obstacle(o, ox);
-			_bonus = Bonus(bx, by);*/
-		}
+		/*!
+		 *  \brief Constructor of tile
+		 */
+		Tile(int s,int o,int ox,int b,int bx,int by,int cx,int cy)
+			: _support(s),_obstacle(o, ox),_bonus(bx, by),_x_coin(cx), _y_coin(cy){}
 };
 
 /*! \class Library
    * \brief
-   *	Contains verctors of all the items of the game in vectors
+   *	Libraries of items in vectors
    *  
    */
 class Library {
 	private:
-		std::vector<Model> _persos;
-		std::vector<Model> _supports;
-		std::vector<Model> _obstacles;
-		std::vector<Model> _bonus;
-		std::vector<Model> _skybox;
-		Model _coin;
+		std::vector<Model> _persos; /*!< Vector countaining characters */
+		std::vector<Model> _supports; /*!< Vector countaining supports */
+		std::vector<Model> _obstacles; /*!< Vector countaining obstacles */
+		std::vector<Model> _bonus; /*!< Vector countaining bonus */
+		std::vector<Model> _skybox; /*!< Vector countaining skybox */
+		Model _coin; /*!< .obj of the coin */
 
 	public:
+		/*!
+		 *  \brief Constructor of Library
+		 */
 		Library(Model coin);
+	
+		/*!
+		 *  \brief Adding models to library
+		 */
 		void addPerso(Model m){
 			_persos.push_back(m);
 		}
