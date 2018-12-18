@@ -60,7 +60,7 @@ void World::draw() {
 
     MVMatrix = glm::translate(MVMatrix, glm::vec3(0, fabs(sinf(_t))/2.0,0));
     _render->sendMatrix(MVMatrix);
-    _modelLib->perso(_currentPerso).draw();
+    _modelLib->perso(_perso.id()).draw();
 
     MVMatrix = _globalPosition;
     MVMatrix = viewMatrix*MVMatrix;
@@ -127,7 +127,5 @@ void World::draw() {
     	lastTile = currentTile;
     }
 }
-void Personnage::draw() const{
-	_model.draw();
-}
+
 Library::Library(Model coin):_coin(coin){}

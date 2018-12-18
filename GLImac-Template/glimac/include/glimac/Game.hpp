@@ -22,7 +22,8 @@ class Personnage{
  	public:
 
  		Personnage(int id):_id(id){}
- 		void draw() const;
+ 		void setId(int id):_id(id){}
+ 		int id(){return id;}
 };
 
 class World
@@ -36,6 +37,8 @@ class World
 
 		glm::mat4 _globalPosition;
 		glm::mat4 _globalRotation;
+
+		Personnage* _perso;
 
 		Library *_modelLib;
 
@@ -54,6 +57,7 @@ class World
 			_aroundCam = new TrackballCamera(7.0f,25.0f,0.0f);
      		_eyesCam = new EyesCam(30.0f,0.0f);
      		_eyesCam->setPosition(glm::vec3(0.0f,-1.4f,0.2f));
+     		_perso = new Personnage(0);
 		}
 
 		SimpleAxeCam* cam(){
@@ -72,6 +76,7 @@ class World
 		void setRender(Render *r){
 			_render = r;
 		}
+		Personnage* perso(){return _perso;}
 };
 
 #endif
