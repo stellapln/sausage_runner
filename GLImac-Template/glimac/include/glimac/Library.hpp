@@ -6,8 +6,12 @@
 
 class Bonus {
 	private:
-		int id;
+		int _id;
+		int _posX;
+		int _posY;
 		// + lambda fonction pour coder le comportement
+	public:
+		Bonus(int x, int y): _posX(x), _posY(y){}
 };
 
 class Obstacle {
@@ -52,25 +56,25 @@ class Obstacle {
 
 class Tile{
 	public:
-		int _support; // id of the model in the Library
-	
-		int _obstacle; // id of the model in the Library
-		int _x_obs; // pos x obs
-	
-		int _bonus; // id of the model in the Library
-		int _x_bonus; // pos x bonus
-		int _y_bonus; // pos y bonus
+		Support _support;
+		Obstacle _obstacle;
+		Bonus _bonus;
 	
 		int _x_coin; // pos x coin
 		int _y_coin; // pos y coin
-		Tile(int s,int o,int ox,int b,int bx,int by,int cx,int cy)
-			:_support(s),_obstacle(o), _x_obs(ox), _bonus(b), _x_bonus(bx),_y_bonus(by), 
-			_x_coin(cx), _y_coin(cy){}
+	
+		Tile(int s,int o,int ox,int b,int bx,int by,int cx,int cy): _x_coin(cx), _y_coin(cy){
+			_support = Support(s);
+			_obstacle = Obstacle(o, ox);
+			_bonus = Bonus(bx, by);
+		}
 };
 
 class Support{
 	private:
-		int id;
+		int _id;
+	public:
+		Support(int id): _id(id){}
 };
 
 class Library {
