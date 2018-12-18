@@ -194,16 +194,16 @@ int main(int argc, char** argv) {
             else if(e.type == SDL_KEYDOWN) {
                 switch(e.key.keysym.sym) {
                     case SDLK_z: // z to jump
-                         world.perso().move_jump_bend(1);
+                         world.perso()->move_jump_bend(1);
                         break;
                     case SDLK_s: //s to bend
-                        world.perso().move_jump_bend(2);
+                        world.perso()->move_jump_bend(2);
                         break;
                     case SDLK_q: //q to go left
-                        world.perso().move_left_right(-1);
+                        world.perso()->move_left_right(-1);
                         break;
                     case SDLK_d: //d to go right
-                        world.perso().move_left_right(1);
+                        world.perso()->move_left_right(1);
                         break;
                     case SDLK_l: //l camera edit mode
                         if(edit_mode)
@@ -218,16 +218,16 @@ int main(int argc, char** argv) {
             else if(e.type == SDL_KEYUP) {
                 switch(e.key.keysym.sym) {
                     case SDLK_z:
-                        goFront = 0;
+                        world.perso()->move_jump_bend(0);
                         break;
                     case SDLK_s:
-                        goFront = 0;
+                        orld.perso()->move_jump_bend(0);
                         break;
                     case SDLK_q:
-                        goLeft = 0;
+                        world.perso()->move_left_right(0);
                         break;
                     case SDLK_d:
-                        goLeft = 0;
+                        world.perso()->move_left_right(0);
                         break;
                 }
             }
