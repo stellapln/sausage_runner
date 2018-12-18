@@ -63,7 +63,15 @@ void World::draw() {
 
     // Personnage
 
-    if(_perso->get_y_state() == 0) MVMatrix = glm::translate(MVMatrix, glm::vec3(0, fabs(sinf(_t))/2.0,0));
+    if(_perso->get_y_state() == 0)
+    {
+        MVMatrix = glm::translate(MVMatrix, glm::vec3(0, fabs(sinf(_t))/2.0,0));
+    }
+    else if(_perso->get_y_state() == -1)
+    {
+        MVMatrix = glm::rotate(MVMatrix, float(M_PI/2.5),glm::vec3(1, 0,0));
+        MVMatrix = glm::translate(MVMatrix, glm::vec3(0, 0.2,0));
+    }
     MVMatrix = glm::translate(MVMatrix, glm::vec3(_perso->get_x_state(),_perso->get_y_state() ,0.0));
     _render->sendMatrix(MVMatrix);
     _modelLib->perso(_perso->id()).draw();
@@ -114,6 +122,7 @@ void World::draw() {
 	    	}
 	    }
 	}
+
     _t+=_speed;
     _globalPosition = glm::translate(_globalPosition, glm::vec3(0, 0, _speed));
 

@@ -21,7 +21,7 @@ class Bonus {
 		/*!
 		 *  \brief Constructor of bonus
 		 */
-		Bonus(int x, int y): _posX(x), _posY(y){}
+		Bonus(int id, int x, int y):_id(id), _posX(x), _posY(y){}
 		int id(){return _id;}
 		int x(){return _posX;}
 		int y(){return _posY;}
@@ -89,7 +89,7 @@ class Tile{
 		 *  \brief Constructor of tile
 		 */
 		Tile(int s,int o,int ox,int b,int bx,int by,int cx,int cy)
-			: _support(s),_obstacle(o, ox),_bonus(bx, by),_x_coin(cx), _y_coin(cy){}
+			: _support(s),_obstacle(o, ox),_bonus(b, bx, by),_x_coin(cx), _y_coin(cy){}
 };
 
 /*! \class Library
