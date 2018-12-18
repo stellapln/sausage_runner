@@ -58,7 +58,7 @@ int main(int argc, char** argv) {
 
 
     /*!
-     *  \brief Initialization
+     *  \brief ** Initialization
      *
      *  Initialize the game
      */
@@ -68,7 +68,7 @@ int main(int argc, char** argv) {
     Model saucisse("assets/saucisse.obj");
 
     /*!
-     *  \brief Loading
+     *  \brief ** Loading
      *
      *  Loading objects from .obj
      */
@@ -90,7 +90,7 @@ int main(int argc, char** argv) {
     Model montainSkyModel("assets/sky.obj");
     
     /*!
-     *  \brief Libraries
+     *  \brief ** Libraries
      *
      *  Filling libraries with objects
      */
@@ -117,7 +117,7 @@ int main(int argc, char** argv) {
     world.setRender(&render);
 
     /*!
-     *  \brief Variables
+     *  \brief ** Variables
      *
      *  Initializing variables for the loop
      */
@@ -135,7 +135,7 @@ int main(int argc, char** argv) {
     int t = 0;
     
     /*!
-     *  \brief Main loop
+     *  \brief ** Main loop
      *
      *  Application loop for the game
      */
@@ -145,7 +145,7 @@ int main(int argc, char** argv) {
         
         
         /*!
-         *  \brief Event loop
+         *  \brief ** Event loop
          *
          *  Loop to handle mouse/keyboard events
          */
@@ -154,6 +154,12 @@ int main(int argc, char** argv) {
             if(e.type == SDL_QUIT) {
                 done = true; //Leave the loop after this iteration
             }
+            
+            /*!
+             *  \brief * Mouse
+             *
+             *  Mouse events
+             */
             else if(e.type == SDL_MOUSEMOTION && edit_mode) {
                 if(rightClickDown){
                     int x,y;
@@ -181,9 +187,15 @@ int main(int argc, char** argv) {
                     rightClickDown = false;
                 }
             }
+            
+            /*!
+             *  \brief * Keyboard
+             *
+             *  Keyboard events
+             */
             else if(e.type == SDL_KEYDOWN) {
                 switch(e.key.keysym.sym) {
-                    case SDLK_z: //z to jump
+                    case SDLK_z: // z to jump
                         goFront = 1;
                         break;
                     case SDLK_s: //s to bend
