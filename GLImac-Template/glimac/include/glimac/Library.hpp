@@ -2,6 +2,8 @@
 #define _LIB_IMPORT_LIBRARY_IMAC_LSM
 #pragma once
 
+#include <vector>
+#include <glimac/Model.hpp>
 
 /*! \class Bonus
    * \brief
@@ -54,6 +56,11 @@ class Obstacle {
 	
 	public:
 		/*!
+		 *  \brief Setter for bounding box
+		 */
+		void setBbox();
+		
+		/*!
 		 *  \brief Constructor of obstacle
 		 */
 		Obstacle(int m,int x): _id(m), _posX(x){
@@ -62,36 +69,6 @@ class Obstacle {
 		int id(){return _id;}
 		int x(){return _posX;}
 		
-		/*!
-		 *  \brief Setter for bounding box
-		 */
-		void setBbox(){
-			if(_id == 0){ //Ketchup
-				if(_posX == 0){
-					_bbox.insert(_bbox.end(),{1,0,0,1,0,0,1,0,0});
-				}
-				else if(_posX == 1){
-					_bbox.insert(_bbox.end(),{0,1,0,0,1,0,0,1,0});
-				}
-				else if(_posX == 2){
-					_bbox.insert(_bbox.end(),{0,0,1,0,0,1,0,0,1});
-				}
-			}
-			else if(_id == 1){ //Moutarde
-				if(_posX == 0){
-					_bbox.insert(_bbox.end(),{1,1,0,1,1,0,0,0,0});
-				}
-				else if(_posX == 1){
-					_bbox.insert(_bbox.end(),{0,1,1,0,1,1,0,0,0});
-				}
-			}
-			else if(_id == 2){ //Conserve
-				_bbox.insert(_bbox.end(),{1,0,1,1,1,1,1,1,1});
-			}
-			else if(_id == 3){ //Jus
-				_bbox.insert(_bbox.end(),{1,1,1,0,0,0,0,0,0});
-			}
-		}
 };
 
 /*! \class Tile

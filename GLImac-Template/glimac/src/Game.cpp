@@ -51,21 +51,25 @@ void World::draw() {
 		viewMatrix = _eyesCam->getMatrixView();
     MVMatrix = viewMatrix*MVMatrix;
 
+    // Skybox
+
  	MVMatrixModified = glm::scale(MVMatrix,glm::vec3(10.0,10.0,10.0));
     _render->sendMatrix(MVMatrixModified);
     _modelLib->skybox(0).draw();
 
+    // Lights
 
     _render->sendLight(viewMatrix);
 
-    MVMatrix = glm::translate(MVMatrix, glm::vec3(0, fabs(sinf(_t))/2.0,0));
+    // Personnage
+
+    if(_perso->get_y_state() == 0) MVMatrix = glm::translate(MVMatrix, glm::vec3(0, fabs(sinf(_t))/2.0,0));
+    MVMatrix = glm::translate(MVMatrix, glm::vec3(_perso->get_x_state(),_perso->get_y_state() ,0.0));
     _render->sendMatrix(MVMatrix);
-    _modelLib->perso(_perso.id()).draw();
+    _modelLib->perso(_perso->id()).draw();
 
     MVMatrix = _globalPosition;
     MVMatrix = viewMatrix*MVMatrix;
-
-	MVMatrix = MVMatrix;
 
 	for(int i = 0;i < _tiles.size();i++)
 	{
@@ -127,5 +131,3 @@ void World::draw() {
     	lastTile = currentTile;
     }
 }
-
-Library::Library(Model coin):_coin(coin){}

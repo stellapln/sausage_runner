@@ -221,7 +221,7 @@ int main(int argc, char** argv) {
                         world.perso()->move_jump_bend(0);
                         break;
                     case SDLK_s:
-                        orld.perso()->move_jump_bend(0);
+                        world.perso()->move_jump_bend(0);
                         break;
                     case SDLK_q:
                         world.perso()->move_left_right(0);
