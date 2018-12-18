@@ -1,3 +1,15 @@
+/**
+ * \file main.cpp
+ * \brief Main file of Sausage Runner.
+ * \author Baptiste M. Stella P. Louise P.
+ * \date 17 septembre 2018
+ *
+ * Main program to run the game Sausage Runner.
+ *
+ */
+
+
+
 #include <glimac/SDLWindowManager.hpp>
 #include <GL/glew.h>
 #include <iostream>
@@ -20,6 +32,11 @@
 #include <glimac/Game.hpp>
 
 
+/*! \namespace glimac
+ * 
+ * Namespace with all fonctions
+ * to initialise and run the game
+ */
 using namespace glimac;
 
 int main(int argc, char** argv) {
@@ -40,54 +57,73 @@ int main(int argc, char** argv) {
     std::cout << "GLEW Version : " << glewGetString(GLEW_VERSION) << std::endl;
 
 
-    /*********************************
-     * HERE SHOULD COME THE INITIALIZATION CODE
-     *********************************/
+    /*!
+     *  \brief Initialization
+     *
+     *  Initialize the game
+     */
 
-     World world("./levels/Level1");
+    World world("./levels/Level1");
 
-     Model saucisse("assets/saucisse.obj");
+    Model saucisse("assets/saucisse.obj");
 
-     // Loading basic tiles
-     Model normalModel("assets/bloc-normal.obj");
-     Model rightWholeModel("assets/trouDroite.obj");
-     Model leftHoleModel("assets/trouGauche.obj");
+    /*!
+     *  \brief Loading
+     *
+     *  Loading objects from .obj
+     */
+    
+    Model normalModel("assets/bloc-normal.obj");
+    Model rightWholeModel("assets/trouDroite.obj");
+    Model leftHoleModel("assets/trouGauche.obj");
 
-     Model ketchupModel("assets/ketchup.obj");
-     Model mustardModel("assets/moutarde.obj");
-     Model preserveModel("assets/conserve.obj");
-     Model juiceModel("assets/jus.obj");
+    Model ketchupModel("assets/ketchup.obj");
+    Model mustardModel("assets/moutarde.obj");
+    Model preserveModel("assets/conserve.obj");
+    Model juiceModel("assets/jus.obj");
 
-     Model magnetModel("assets/aimant.obj");
-     Model shieldModel("assets/bouclier.obj");
+    Model magnetModel("assets/aimant.obj");
+    Model shieldModel("assets/bouclier.obj");
 
-     Model coinModel("assets/piece.obj");
+    Model coinModel("assets/piece.obj");
 
-     Model montainSkyModel("assets/sky.obj");
+    Model montainSkyModel("assets/sky.obj");
+    
+    /*!
+     *  \brief Libraries
+     *
+     *  Filling libraries with objects
+     */
 
-     Library mainLib(coinModel);
+    Library mainLib(coinModel);
 
-     mainLib.addPerso(saucisse);
+    mainLib.addPerso(saucisse);
 
-     mainLib.addSupport(normalModel);
-     mainLib.addSupport(rightWholeModel);
-     mainLib.addSupport(leftHoleModel);
+    mainLib.addSupport(normalModel);
+    mainLib.addSupport(rightWholeModel);
+    mainLib.addSupport(leftHoleModel);
 
-     mainLib.addObstacle(ketchupModel);
-     mainLib.addObstacle(mustardModel);
-     mainLib.addObstacle(preserveModel);
-     mainLib.addObstacle(juiceModel);
+    mainLib.addObstacle(ketchupModel);
+    mainLib.addObstacle(mustardModel);
+    mainLib.addObstacle(preserveModel);
+    mainLib.addObstacle(juiceModel);
 
-     mainLib.addBonus(magnetModel);
-     mainLib.addBonus(shieldModel);
+    mainLib.addBonus(magnetModel);
+    mainLib.addBonus(shieldModel);
 
-     mainLib.addSkybox(montainSkyModel);
+    mainLib.addSkybox(montainSkyModel);
 
-     world.setLibrary(&mainLib);
-     world.setRender(&render);
+    world.setLibrary(&mainLib);
+    world.setRender(&render);
 
-     glm::mat4 MVMatrix;
-     glm::mat4 viewMatrix;
+    /*!
+     *  \brief Variables
+     *
+     *  Initializing variables for the loop
+     */
+    
+    glm::mat4 MVMatrix;
+    glm::mat4 viewMatrix;
 
     glEnable(GL_DEPTH_TEST);
 
@@ -97,14 +133,26 @@ int main(int argc, char** argv) {
     int goLeft = 0;
     int lastX = 0, lastY = 0;
     int t = 0;
-    // Application loop:
+    
+    /*!
+     *  \brief Main loop
+     *
+     *  Application loop for the game
+     */
+    
     bool done = false;
     while(!done) {
-        // Event loop:
+        
+        
+        /*!
+         *  \brief Event loop
+         *
+         *  Loop to handle mouse/keyboard events
+         */
         SDL_Event e;
         while(windowManager.pollEvent(e)) {
             if(e.type == SDL_QUIT) {
-                done = true; // Leave the loop after this iteration
+                done = true; //Leave the loop after this iteration
             }
             else if(e.type == SDL_MOUSEMOTION && edit_mode) {
                 if(rightClickDown){
@@ -135,25 +183,25 @@ int main(int argc, char** argv) {
             }
             else if(e.type == SDL_KEYDOWN) {
                 switch(e.key.keysym.sym) {
-                    case SDLK_z:
+                    case SDLK_z: //z to jump
                         goFront = 1;
                         break;
-                    case SDLK_s:
+                    case SDLK_s: //s to bend
                         goFront = -1;
                         break;
-                    case SDLK_q:
+                    case SDLK_q: //q to go left
                         goLeft = 1;
                         break;
-                    case SDLK_d:
+                    case SDLK_d: //d to go right
                         goLeft = -1;
                         break;
-                    case SDLK_l:
+                    case SDLK_l: //l camera edit mode
                         if(edit_mode)
                             edit_mode = false;
                         else
                             edit_mode = true;
                         break;
-                    case SDLK_c:
+                    case SDLK_c: //c to change camera
                         world.changeCam();
                 }
             }
@@ -176,31 +224,6 @@ int main(int argc, char** argv) {
         }
 
         world.draw();
-
-         /*viewMatrix = cam.getMatrixView(); // Get the view Matrix from the camera
-
-        render.reset();
-        render.sendLight(viewMatrix);
-        MVMatrix = glm::translate(glm::mat4(), glm::vec3(0, 0, 0)); 
-        // Models
-        MVMatrix = viewMatrix*MVMatrix;
-        render.sendMatrix(MVMatrix);
-
-        saucisse.draw();
-       // world.draw();
-
-        for(unsigned int i = 0; i< 10;i++)
-        {
-        	MVMatrix = glm::translate(MVMatrix,glm::vec3(0.0,0.0,-1.0));
-
-        	if(i == 5) MVMatrix = glm::rotate(MVMatrix,float(M_PI/2.0f),glm::vec3(0.0f,1.0f,0.0f));
-
-            render.sendMatrix(MVMatrix);
-            normalModel.draw();
-        }
-
-        t++;
-        // Update the display*/
         windowManager.swapBuffers();
     }
 
