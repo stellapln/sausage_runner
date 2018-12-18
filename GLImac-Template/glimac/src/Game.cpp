@@ -20,6 +20,42 @@
 #define NB_COIN_BY_TILE 3
 #define SIZE_OF_TILE 3.0
 
+void Personnage::getBbox(){
+	if(_x_state == -1){ 
+		if(_y_state = -1){
+			_bbox.insert(_bbox.end(),{1,0,0,0,0,0,0,0,0});	
+		}
+		else if(_y_state = 0){
+			_bbox.insert(_bbox.end(),{1,0,0,1,0,0,0,0,0});	
+		}
+		else {	
+			_bbox.insert(_bbox.end(),{0,0,0,0,0,0,1,0,0});
+		}
+	}
+	else if(_x_state == 0){ 
+		if(_y_state = -1){
+			_bbox.insert(_bbox.end(),{0,1,0,0,0,0,0,0,0});	
+		}
+		else if(_y_state = 0){
+			_bbox.insert(_bbox.end(),{0,1,0,0,1,0,0,0,0});	
+		}
+		else {	
+			_bbox.insert(_bbox.end(),{0,0,0,0,0,0,0,1,0});
+		}
+	}
+	else { 
+		if(_y_state = -1){
+			_bbox.insert(_bbox.end(),{0,0,1,0,0,0,0,0,0});	
+		}
+		else if(_y_state = 0){
+			_bbox.insert(_bbox.end(),{0,0,1,0,0,1,0,0,0});	
+		}
+		else {	
+			_bbox.insert(_bbox.end(),{0,0,0,0,0,0,0,0,1});
+		}
+	}
+}
+
 void World::loadFile(const std::string level){
 	std::string levelName = level;
 	FILE *file = fopen(levelName.c_str(), "r");
