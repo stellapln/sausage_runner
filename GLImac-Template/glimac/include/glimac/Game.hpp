@@ -11,17 +11,17 @@
 
 class Personnage{
 	private:
-		Model _model;
+		int _id;
 		int _x_state = 0; // -1 : left, 0 : middle, 1 : right
+		int _y_state = 0; // 0 : normal, 1 : jump, 2 : down
 
 		float _x_real = 0; // the true x location
 		float _y_real = 0; // the true y location
-		float _state = 0; // 0 : normal, 1 : jump, 2 : down
 		int _points = 0;
 
  	public:
 
- 		Personnage(Model m):_model(m){}
+ 		Personnage(int id):_id(id){}
  		void draw() const;
 };
 
@@ -36,8 +36,6 @@ class World
 
 		glm::mat4 _globalPosition;
 		glm::mat4 _globalRotation;
-
-		int _currentPerso = 0;
 
 		Library *_modelLib;
 

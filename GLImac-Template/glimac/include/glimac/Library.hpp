@@ -20,6 +20,9 @@ class Bonus {
 		 *  \brief Constructor of bonus
 		 */
 		Bonus(int x, int y): _posX(x), _posY(y){}
+		int id(){return _id;}
+		int x(){return _posX;}
+		int y(){return _posY;}
 };
 
 /*! \class Support
@@ -35,6 +38,7 @@ class Support{
 		 *  \brief Constructor of support
 		 */
 		Support(int id = 0): _id(id){}
+		int id(){return _id;}
 };
 
 /*! \class Obstacle
@@ -55,6 +59,8 @@ class Obstacle {
 		Obstacle(int m,int x): _id(m), _posX(x){
 			setBbox();
 		}
+		int id(){return _id;}
+		int x(){return _posX;}
 		
 		/*!
 		 *  \brief Setter for bounding box
