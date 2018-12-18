@@ -52,7 +52,7 @@ void World::draw() {
     MVMatrix = viewMatrix*MVMatrix;
 
  	MVMatrixModified = glm::scale(MVMatrix,glm::vec3(10.0,10.0,10.0));
-    _render->sendMatrix(MVMatrix);
+    _render->sendMatrix(MVMatrixModified);
     _modelLib->skybox(0).draw();
 
 
@@ -88,7 +88,6 @@ void World::draw() {
 
     	MVMatrixModified = glm::translate(MVMatrix, glm::vec3(-SIZE_OF_TILE/2.0 + float(_tiles[i]._x_obs), 0, 0));
     	_render->sendMatrix(MVMatrixModified);
-    	std::cout << i << " : "<<_tiles[i]._obstacle << " < " << _modelLib->nObstacle() << std::endl;
 
     	if(_tiles[i]._obstacle < _modelLib->nObstacle()) // Affichage des obstacles
     		_modelLib->obstacle(_tiles[i]._obstacle).draw();
