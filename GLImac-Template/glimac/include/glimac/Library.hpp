@@ -2,7 +2,6 @@
 #define _LIB_IMPORT_LIBRARY_IMAC_LSM
 #pragma once
 
-<<<<<<< Updated upstream
 #include <vector>
 #include <glimac/Model.hpp>
 
@@ -19,29 +18,6 @@ class LibElem {
    *  	
    */
 class Coin : public LibElem {
-=======
-/*! \class Bonus
-   * \brief
-   *	Contains the id of the item in the library
-   *  	and its position (x,y)
-   */
-class Bonus {
-	private:
-		int _id;
-		int _posX;
-		int _posY;
-		// + lambda fonction pour coder le comportement
-	public:
-		Bonus(int x, int y): _posX(x), _posY(y){}
-};
-
-/*! \class Support
-   * \brief
-   *	Contains the id of the item in the library
-   *  
-   */
-class Support{
->>>>>>> Stashed changes
 	private:
 		int _posX; /*!< Bonus position x*/
 		int _posY; /*!< Bonus position y*/
@@ -52,16 +28,14 @@ class Support{
 		 *  \brief Constructor of bonus
 		 */
 		Coin(int x, int y):_posX(x), _posY(y){}
-		int id() override{return 0;}
 		int x(){return _posX;}
 		int y(){return _posY;}
-		void setBbox() override;
+		void setBbox() override{};
 		std::vector<int> getBbox() override{
 			return _bbox;
 		}
 };
 
-<<<<<<< Updated upstream
 
 /*! \class Bonus
    * \brief
@@ -69,15 +43,6 @@ class Support{
    *  	
    */
 class Bonus : public LibElem {
-=======
-/*! \class Obstacle
-   * \brief
-   *	Contains the id of the item in the library
-   *  	and its position
-   *	and its bounding box
-   */
-class Obstacle {
->>>>>>> Stashed changes
 	private:
 		int _id; /*!< id of the item int the library*/
 		int _posX; /*!< Bonus position x*/
@@ -92,7 +57,7 @@ class Obstacle {
 		int id() override{return _id;}
 		int x(){return _posX;}
 		int y(){return _posY;}
-		void setBbox() override;
+		void setBbox() override{};
 		std::vector<int> getBbox() override{
 			return _bbox;
 		}
@@ -117,13 +82,12 @@ class Support : public LibElem {
 		/*!
 		 *  \brief Setter for bounding box
 		 */
-		void setBbox() override;
+		void setBbox() override{};
 		std::vector<int> getBbox() override{
 			return _bbox;
 		}
 };
 
-<<<<<<< Updated upstream
 /*! \class Obstacle
    * \brief
    *	
@@ -160,12 +124,6 @@ class Obstacle : public LibElem {
  * \brief
  *	Contains all the objects on the tile
  *  	
-=======
-/*! \class Tile
- * \brief
- *	Contains all the objects on the tile
- *  	(support, obstacles, bonus and coins)
->>>>>>> Stashed changes
  */
 class Tile{
 	public:
@@ -183,11 +141,7 @@ class Tile{
 
 /*! \class Library
    * \brief
-<<<<<<< Updated upstream
    *	Libraries of items in vectors
-=======
-   *	Contains verctors of all the items of the game in vectors
->>>>>>> Stashed changes
    *  
    */
 class Library {
