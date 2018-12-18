@@ -436,6 +436,10 @@ stb_image.h
 iostream
 -
 
+/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Library.cpp
+glimac/Library.hpp
+-
+
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Model.cpp
 glimac/SDLWindowManager.hpp
 -

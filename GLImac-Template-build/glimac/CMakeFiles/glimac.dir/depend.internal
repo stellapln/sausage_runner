@@ -423,6 +423,9 @@ glimac/CMakeFiles/glimac.dir/src/Image.cpp.o
  /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/third-party/include/glm/vec3.hpp
  /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/third-party/include/glm/vec4.hpp
  /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/third-party/include/glm/vector_relational.hpp
+glimac/CMakeFiles/glimac.dir/src/Library.cpp.o
+ /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Library.hpp
+ /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Library.cpp
 glimac/CMakeFiles/glimac.dir/src/Model.cpp.o
  /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
  /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h

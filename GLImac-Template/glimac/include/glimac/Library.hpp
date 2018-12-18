@@ -2,23 +2,12 @@
 #define _LIB_IMPORT_LIBRARY_IMAC_LSM
 #pragma once
 
-
-
-class Bonus {
-	private:
-		int _id;
-		int _posX;
-		int _posY;
-		// + lambda fonction pour coder le comportement
-	public:
-		Bonus(int x, int y): _posX(x), _posY(y){}
-};
-
 class Support{
 	private:
 		int _id;
 	public:
 		Support(int id = 0): _id(id){}
+		int id()const {return _id;}
 };
 
 class Obstacle {
@@ -31,34 +20,22 @@ class Obstacle {
 		Obstacle(int m,int x): _id(m), _posX(x){
 			setBbox();
 		}
+		int id()const {return _id;}
+		int x()const {return _posX;}
 			
-		void setBbox(){
-			if(_id == 0){ //Ketchup
-				if(_posX == 0){
-					_bbox.insert(_bbox.end(),{1,0,0,1,0,0,1,0,0});
-				}
-				else if(_posX == 1){
-					_bbox.insert(_bbox.end(),{0,1,0,0,1,0,0,1,0});
-				}
-				else if(_posX == 2){
-					_bbox.insert(_bbox.end(),{0,0,1,0,0,1,0,0,1});
-				}
-			}
-			else if(_id == 1){ //Moutarde
-				if(_posX == 0){
-					_bbox.insert(_bbox.end(),{1,1,0,1,1,0,0,0,0});
-				}
-				else if(_posX == 1){
-					_bbox.insert(_bbox.end(),{0,1,1,0,1,1,0,0,0});
-				}
-			}
-			else if(_id == 2){ //Conserve
-				_bbox.insert(_bbox.end(),{1,0,1,1,1,1,1,1,1});
-			}
-			else if(_id == 3){ //Jus
-				_bbox.insert(_bbox.end(),{1,1,1,0,0,0,0,0,0});
-			}
-		}
+		void setBbox();
+};
+class Bonus {
+	private:
+		int _id;
+		int _posX;
+		int _posY;
+		// + lambda fonction pour coder le comportement
+	public:
+		Bonus(int x, int y): _posX(x), _posY(y){}
+		int id()const {return _id;}
+		int x()const {return _posX;}
+		int y()const {return _posX;}
 };
 
 class Tile{

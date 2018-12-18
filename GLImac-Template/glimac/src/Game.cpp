@@ -71,32 +71,32 @@ void World::draw() {
 	{
     	MVMatrix = glm::translate(MVMatrix, glm::vec3(0, 0, -SIZE_OF_TILE));
     	_render->sendMatrix(MVMatrix);
-    	if(_tiles[i]._support < _modelLib->nSupport()) // Affichage des supports
+    	if(_tiles[i]._support.id() < _modelLib->nSupport()) // Affichage des supports
     	{
-    		_modelLib->support(_tiles[i]._support).draw();
+    		_modelLib->support(_tiles[i]._support.id()).draw();
     	}
-    	else if(_tiles[i]._support == _modelLib->nSupport()) // Virage à droite
+    	else if(_tiles[i]._support.id() == _modelLib->nSupport()) // Virage à droite
     	{
     		_modelLib->support(0).draw();
     		MVMatrix = glm::rotate(MVMatrix, float(-M_PI/2.0), glm::vec3(0, 1.0, 0));
     	}
-    	else if(_tiles[i]._support == _modelLib->nSupport()+1) // Virage à gauche
+    	else if(_tiles[i]._support.id() == _modelLib->nSupport()+1) // Virage à gauche
     	{
     		_modelLib->support(0).draw();
     		MVMatrix = glm::rotate(MVMatrix, float(M_PI/2.0), glm::vec3(0, 1.0, 0));
     	}
 
-    	MVMatrixModified = glm::translate(MVMatrix, glm::vec3(-SIZE_OF_TILE/2.0 + float(_tiles[i]._x_obs), 0, 0));
+    	MVMatrixModified = glm::translate(MVMatrix, glm::vec3(-SIZE_OF_TILE/2.0 + float(_tiles[i]._obstacle.x()), 0, 0));
     	_render->sendMatrix(MVMatrixModified);
 
-    	if(_tiles[i]._obstacle < _modelLib->nObstacle()) // Affichage des obstacles
-    		_modelLib->obstacle(_tiles[i]._obstacle).draw();
+    	if(_tiles[i]._obstacle.id() < _modelLib->nObstacle()) // Affichage des obstacles
+    		_modelLib->obstacle(_tiles[i]._obstacle.id()).draw();
 
-    	MVMatrixModified = glm::translate(MVMatrix, glm::vec3(-SIZE_OF_TILE/2.0+ float(_tiles[i]._x_bonus), float(_tiles[i]._y_bonus),0.0));
+    	MVMatrixModified = glm::translate(MVMatrix, glm::vec3(-SIZE_OF_TILE/2.0+ float(_tiles[i]._bonus.x()), float(_tiles[i]._bonus.y()),0.0));
     	_render->sendMatrix(MVMatrixModified);
 
-    	if(_tiles[i]._bonus < _modelLib->nBonus()) // Affichage des bonus
-    		_modelLib->bonus(_tiles[i]._bonus).draw();
+    	if(_tiles[i]._bonus.id() < _modelLib->nBonus()) // Affichage des bonus
+    		_modelLib->bonus(_tiles[i]._bonus.id()).draw();
 
     	if(_tiles[i]._x_coin != 5 && _tiles[i]._y_coin != 5) // Affichage des pieces
     	{
@@ -116,11 +116,11 @@ void World::draw() {
     unsigned int currentTile = int(_t/SIZE_OF_TILE - SIZE_OF_TILE/2);
     if(currentTile != lastTile)
     {
-    	if(_tiles[currentTile]._support == _modelLib->nSupport()){
+    	if(_tiles[currentTile]._support.id() == _modelLib->nSupport()){
     		_globalPosition = glm::rotate(_globalPosition, float(M_PI/2.0), glm::vec3(0, 1.0, 0));
     		_globalRotation = glm::rotate(_globalRotation, float(M_PI/2.0), glm::vec3(0, 1.0, 0));
     	}
-    	else if(_tiles[currentTile]._support == _modelLib->nSupport()+1){
+    	else if(_tiles[currentTile]._support.id() == _modelLib->nSupport()+1){
     		_globalPosition = glm::rotate(_globalPosition, float(-M_PI/2.0), glm::vec3(0, 1.0, 0));
     		_globalRotation = glm::rotate(_globalRotation, float(-M_PI/2.0), glm::vec3(0, 1.0, 0));
     	}

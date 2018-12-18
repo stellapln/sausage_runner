@@ -266,6 +266,33 @@ src/Image.cpp.s:
 	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Image.cpp.s
 .PHONY : src/Image.cpp.s
 
+src/Library.o: src/Library.cpp.o
+
+.PHONY : src/Library.o
+
+# target to build an object file
+src/Library.cpp.o:
+	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Library.cpp.o
+.PHONY : src/Library.cpp.o
+
+src/Library.i: src/Library.cpp.i
+
+.PHONY : src/Library.i
+
+# target to preprocess a source file
+src/Library.cpp.i:
+	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Library.cpp.i
+.PHONY : src/Library.cpp.i
+
+src/Library.s: src/Library.cpp.s
+
+.PHONY : src/Library.s
+
+# target to generate assembly for a file
+src/Library.cpp.s:
+	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Library.cpp.s
+.PHONY : src/Library.cpp.s
+
 src/Model.o: src/Model.cpp.o
 
 .PHONY : src/Model.o
@@ -452,6 +479,9 @@ help:
 	@echo "... src/Image.o"
 	@echo "... src/Image.i"
 	@echo "... src/Image.s"
+	@echo "... src/Library.o"
+	@echo "... src/Library.i"
+	@echo "... src/Library.s"
 	@echo "... src/Model.o"
 	@echo "... src/Model.i"
 	@echo "... src/Model.s"
