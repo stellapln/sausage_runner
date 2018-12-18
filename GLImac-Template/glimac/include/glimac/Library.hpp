@@ -2,6 +2,26 @@
 #define _LIB_IMPORT_LIBRARY_IMAC_LSM
 #pragma once
 
+/*! \class Bonus
+   * \brief
+   *	Contains the id of the item in the library
+   *  	and its position (x,y)
+   */
+class Bonus {
+	private:
+		int _id;
+		int _posX;
+		int _posY;
+		// + lambda fonction pour coder le comportement
+	public:
+		Bonus(int x, int y): _posX(x), _posY(y){}
+};
+
+/*! \class Support
+   * \brief
+   *	Contains the id of the item in the library
+   *  
+   */
 class Support{
 	private:
 		int _id;
@@ -10,6 +30,12 @@ class Support{
 		int id()const {return _id;}
 };
 
+/*! \class Obstacle
+   * \brief
+   *	Contains the id of the item in the library
+   *  	and its position
+   *	and its bounding box
+   */
 class Obstacle {
 	private:
 		int _id;
@@ -38,6 +64,11 @@ class Bonus {
 		int y()const {return _posX;}
 };
 
+/*! \class Tile
+ * \brief
+ *	Contains all the objects on the tile
+ *  	(support, obstacles, bonus and coins)
+ */
 class Tile{
 	public:
 		Support _support;
@@ -54,6 +85,11 @@ class Tile{
 		}
 };
 
+/*! \class Library
+   * \brief
+   *	Contains verctors of all the items of the game in vectors
+   *  
+   */
 class Library {
 	private:
 		std::vector<Model> _persos;
