@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template
+CMAKE_SOURCE_DIR = /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build
+CMAKE_BINARY_DIR = /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/TP_proj/CMakeFiles/progress.marks
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP_proj/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/CMakeFiles /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/TP_proj/CMakeFiles/progress.marks
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP_proj/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP_proj/clean
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP_proj/clean
 .PHONY : clean
 
 # The main clean target
@@ -130,22 +130,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP_proj/preinstall
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP_proj/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP_proj/preinstall
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP_proj/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/rule:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/rule
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/rule
 .PHONY : TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/rule
 
 # Convenience name for target.
@@ -155,12 +155,12 @@ TP_proj_SDLtemplate: TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/rule
 
 # fast build rule for target.
 TP_proj_SDLtemplate/fast:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/build.make TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/build
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/build.make TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/build
 .PHONY : TP_proj_SDLtemplate/fast
 
 # Convenience name for target.
 TP_proj/CMakeFiles/TP_proj_ex_1.dir/rule:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP_proj/CMakeFiles/TP_proj_ex_1.dir/rule
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP_proj/CMakeFiles/TP_proj_ex_1.dir/rule
 .PHONY : TP_proj/CMakeFiles/TP_proj_ex_1.dir/rule
 
 # Convenience name for target.
@@ -170,12 +170,12 @@ TP_proj_ex_1: TP_proj/CMakeFiles/TP_proj_ex_1.dir/rule
 
 # fast build rule for target.
 TP_proj_ex_1/fast:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_ex_1.dir/build.make TP_proj/CMakeFiles/TP_proj_ex_1.dir/build
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_ex_1.dir/build.make TP_proj/CMakeFiles/TP_proj_ex_1.dir/build
 .PHONY : TP_proj_ex_1/fast
 
 # Convenience name for target.
 TP_proj/CMakeFiles/TP_proj_ex_2.dir/rule:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP_proj/CMakeFiles/TP_proj_ex_2.dir/rule
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP_proj/CMakeFiles/TP_proj_ex_2.dir/rule
 .PHONY : TP_proj/CMakeFiles/TP_proj_ex_2.dir/rule
 
 # Convenience name for target.
@@ -185,12 +185,12 @@ TP_proj_ex_2: TP_proj/CMakeFiles/TP_proj_ex_2.dir/rule
 
 # fast build rule for target.
 TP_proj_ex_2/fast:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_ex_2.dir/build.make TP_proj/CMakeFiles/TP_proj_ex_2.dir/build
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_ex_2.dir/build.make TP_proj/CMakeFiles/TP_proj_ex_2.dir/build
 .PHONY : TP_proj_ex_2/fast
 
 # Convenience name for target.
 TP_proj/CMakeFiles/TP_proj_main.dir/rule:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP_proj/CMakeFiles/TP_proj_main.dir/rule
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP_proj/CMakeFiles/TP_proj_main.dir/rule
 .PHONY : TP_proj/CMakeFiles/TP_proj_main.dir/rule
 
 # Convenience name for target.
@@ -200,7 +200,7 @@ TP_proj_main: TP_proj/CMakeFiles/TP_proj_main.dir/rule
 
 # fast build rule for target.
 TP_proj_main/fast:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_main.dir/build.make TP_proj/CMakeFiles/TP_proj_main.dir/build
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_main.dir/build.make TP_proj/CMakeFiles/TP_proj_main.dir/build
 .PHONY : TP_proj_main/fast
 
 SDLtemplate.o: SDLtemplate.cpp.o
@@ -209,7 +209,7 @@ SDLtemplate.o: SDLtemplate.cpp.o
 
 # target to build an object file
 SDLtemplate.cpp.o:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/build.make TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/SDLtemplate.cpp.o
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/build.make TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/SDLtemplate.cpp.o
 .PHONY : SDLtemplate.cpp.o
 
 SDLtemplate.i: SDLtemplate.cpp.i
@@ -218,7 +218,7 @@ SDLtemplate.i: SDLtemplate.cpp.i
 
 # target to preprocess a source file
 SDLtemplate.cpp.i:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/build.make TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/SDLtemplate.cpp.i
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/build.make TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/SDLtemplate.cpp.i
 .PHONY : SDLtemplate.cpp.i
 
 SDLtemplate.s: SDLtemplate.cpp.s
@@ -227,7 +227,7 @@ SDLtemplate.s: SDLtemplate.cpp.s
 
 # target to generate assembly for a file
 SDLtemplate.cpp.s:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/build.make TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/SDLtemplate.cpp.s
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/build.make TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/SDLtemplate.cpp.s
 .PHONY : SDLtemplate.cpp.s
 
 ex_1.o: ex_1.cpp.o
@@ -236,7 +236,7 @@ ex_1.o: ex_1.cpp.o
 
 # target to build an object file
 ex_1.cpp.o:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_ex_1.dir/build.make TP_proj/CMakeFiles/TP_proj_ex_1.dir/ex_1.cpp.o
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_ex_1.dir/build.make TP_proj/CMakeFiles/TP_proj_ex_1.dir/ex_1.cpp.o
 .PHONY : ex_1.cpp.o
 
 ex_1.i: ex_1.cpp.i
@@ -245,7 +245,7 @@ ex_1.i: ex_1.cpp.i
 
 # target to preprocess a source file
 ex_1.cpp.i:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_ex_1.dir/build.make TP_proj/CMakeFiles/TP_proj_ex_1.dir/ex_1.cpp.i
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_ex_1.dir/build.make TP_proj/CMakeFiles/TP_proj_ex_1.dir/ex_1.cpp.i
 .PHONY : ex_1.cpp.i
 
 ex_1.s: ex_1.cpp.s
@@ -254,7 +254,7 @@ ex_1.s: ex_1.cpp.s
 
 # target to generate assembly for a file
 ex_1.cpp.s:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_ex_1.dir/build.make TP_proj/CMakeFiles/TP_proj_ex_1.dir/ex_1.cpp.s
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_ex_1.dir/build.make TP_proj/CMakeFiles/TP_proj_ex_1.dir/ex_1.cpp.s
 .PHONY : ex_1.cpp.s
 
 ex_2.o: ex_2.cpp.o
@@ -263,7 +263,7 @@ ex_2.o: ex_2.cpp.o
 
 # target to build an object file
 ex_2.cpp.o:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_ex_2.dir/build.make TP_proj/CMakeFiles/TP_proj_ex_2.dir/ex_2.cpp.o
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_ex_2.dir/build.make TP_proj/CMakeFiles/TP_proj_ex_2.dir/ex_2.cpp.o
 .PHONY : ex_2.cpp.o
 
 ex_2.i: ex_2.cpp.i
@@ -272,7 +272,7 @@ ex_2.i: ex_2.cpp.i
 
 # target to preprocess a source file
 ex_2.cpp.i:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_ex_2.dir/build.make TP_proj/CMakeFiles/TP_proj_ex_2.dir/ex_2.cpp.i
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_ex_2.dir/build.make TP_proj/CMakeFiles/TP_proj_ex_2.dir/ex_2.cpp.i
 .PHONY : ex_2.cpp.i
 
 ex_2.s: ex_2.cpp.s
@@ -281,7 +281,7 @@ ex_2.s: ex_2.cpp.s
 
 # target to generate assembly for a file
 ex_2.cpp.s:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_ex_2.dir/build.make TP_proj/CMakeFiles/TP_proj_ex_2.dir/ex_2.cpp.s
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_ex_2.dir/build.make TP_proj/CMakeFiles/TP_proj_ex_2.dir/ex_2.cpp.s
 .PHONY : ex_2.cpp.s
 
 main.o: main.cpp.o
@@ -290,7 +290,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_main.dir/build.make TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_main.dir/build.make TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -299,7 +299,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_main.dir/build.make TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.i
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_main.dir/build.make TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -308,7 +308,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_main.dir/build.make TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.s
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f TP_proj/CMakeFiles/TP_proj_main.dir/build.make TP_proj/CMakeFiles/TP_proj_main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -349,6 +349,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
