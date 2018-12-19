@@ -152,7 +152,7 @@ bool World::draw(int global_time) {
 
     	if(_tiles[i]._coin.x() != 5 && _tiles[i]._coin.x() != 5) // Affichage des pieces
     	{
-	    	MVMatrixModified = glm::translate(MVMatrix, glm::vec3(-SIZE_OF_TILE/2.0 + float(_tiles[i]._coin.x()), float(_tiles[i]._coin.y()),-SIZE_OF_TILE/2.0));
+	    	MVMatrixModified = glm::translate(MVMatrix, glm::vec3(-SIZE_OF_TILE/2.0 + float(_tiles[i]._coin.x()), float(_tiles[i]._coin.y()),-SIZE_OF_TILE));
 	    	int j = 0;
 	    	for(j = 0;j < NB_COIN_BY_TILE;j++)
 	    	{
