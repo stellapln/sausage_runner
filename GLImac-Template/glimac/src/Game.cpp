@@ -125,10 +125,10 @@ int World::draw(int global_time) {
     MVMatrix = viewMatrix*MVMatrix;
 
     int currentTile = int(_t/int(SIZE_OF_TILE) - 0.5);
-    int firstTile = min(0,currentTile - TILE_DELETE_BEFORE);
-    int lastTile = min(currentTile + TILE_SEE_AFTER, _tiles.size());
+    int i = std::min(0,currentTile - TILE_DELETE_BEFORE);
+    int lastTileDisplay = std::min(currentTile + TILE_SEE_AFTER, int(_tiles.size()));
 
-	for(int i = 0;i < _tiles.size();i++)
+	for(;i < lastTileDisplay;i++)
 	{
     	MVMatrix = glm::translate(MVMatrix, glm::vec3(0, 0, -SIZE_OF_TILE));
         /* FIN JUST DEBUG */
