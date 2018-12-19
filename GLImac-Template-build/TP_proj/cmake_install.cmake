@@ -1,4 +1,4 @@
-# Install script for directory: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/TP_proj
+# Install script for directory: /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/TP_proj
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

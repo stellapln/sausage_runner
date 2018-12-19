@@ -4,23 +4,23 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/TP_proj/SDLtemplate.cpp" "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/SDLtemplate.cpp.o"
+  "/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/TP_proj/SDLtemplate.cpp" "/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/SDLtemplate.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/SDL"
-  "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include"
-  "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/third-party/include"
-  "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include"
+  "/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/glimac/include"
+  "/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/third-party/include"
+  "/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/DependInfo.cmake"
-  "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/code/CMakeFiles/assimp.dir/DependInfo.cmake"
-  "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/DependInfo.cmake"
+  "/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/DependInfo.cmake"
+  "/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/assimp/code/CMakeFiles/assimp.dir/DependInfo.cmake"
+  "/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
