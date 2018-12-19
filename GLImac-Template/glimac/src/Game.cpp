@@ -108,7 +108,7 @@ bool World::draw(int global_time) {
     }
     else if(_perso->get_y_state() == -1)
     {
-        MVMatrix = glm::rotate(MVMatrix, glm::radians(80),glm::vec3(1, 0,0));
+        MVMatrix = glm::rotate(MVMatrix, glm::radians(80.0f),glm::vec3(1, 0,0));
         MVMatrix = glm::translate(MVMatrix, glm::vec3(0, 0.0,0));
     }
     MVMatrix = glm::translate(MVMatrix, glm::vec3(_perso->get_x_state(),_perso->get_y_state() ,0.0));
@@ -130,12 +130,12 @@ bool World::draw(int global_time) {
     	else if(_tiles[i]._support.id() == _modelLib->nSupport()) // Virage à droite
     	{
     		_modelLib->support(0).draw();
-    		MVMatrix = glm::rotate(MVMatrix, glm::radians(90), glm::vec3(0, 1.0, 0));
+    		MVMatrix = glm::rotate(MVMatrix, glm::radians(-90.0f), glm::vec3(0, 1.0, 0));
     	}
     	else if(_tiles[i]._support.id() == _modelLib->nSupport()+1) // Virage à gauche
     	{
     		_modelLib->support(0).draw();
-    		MVMatrix = glm::rotate(MVMatrix, glm::radians(90), glm::vec3(0, 1.0, 0));
+    		MVMatrix = glm::rotate(MVMatrix, glm::radians(90.0f), glm::vec3(0, 1.0, 0));
     	}
 
     	MVMatrixModified = glm::translate(MVMatrix, glm::vec3(-SIZE_OF_TILE/2.0 + float(_tiles[i]._obstacle.x()), 0, 0));
@@ -188,15 +188,15 @@ bool World::draw(int global_time) {
         if(currentTile != lastTile)
         {
         	if(_tiles[currentTile]._support.id() == _modelLib->nSupport()){
-        		_globalPosition = glm::rotate(glm::mat4(), glm::radians(90), glm::vec3(0, 1.0, 0))*_globalPosition;
-        		_globalRotation = glm::rotate(_globalRotation, glm::radians(90), glm::vec3(0, 1.0, 0));
+        		_globalPosition = glm::rotate(glm::mat4(), glm::radians(90.0f), glm::vec3(0, 1.0, 0))*_globalPosition;
+        		_globalRotation = glm::rotate(_globalRotation, glm::radians(90.0f), glm::vec3(0, 1.0, 0));
         	}
         	else if(_tiles[currentTile]._support.id() == _modelLib->nSupport()+1){
-        		_globalPosition = glm::rotate(glm::mat4(), glm::radians(90), glm::vec3(0, 1.0, 0))*_globalPosition;
-        		_globalRotation = glm::rotate(_globalRotation, glm::radians(90), glm::vec3(0, 1.0, 0));
+        		_globalPosition = glm::rotate(glm::mat4(), glm::radians(-90.0f), glm::vec3(0, 1.0, 0))*_globalPosition;
+        		_globalRotation = glm::rotate(_globalRotation, glm::radians(-90.0f), glm::vec3(0, 1.0, 0));
         	}
         	lastTile = currentTile;
         }
     }
     return true;
-}
+} //https://github.com/stellapln/sausage_runner

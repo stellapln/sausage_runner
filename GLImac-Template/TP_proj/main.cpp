@@ -52,7 +52,7 @@ int main(int argc, char** argv) {
 
     FilePath applicationPath(argv[0]);
     //Program prog = loadProgram(applicationPath.dirPath() + "shaders/3D.vs.glsl", applicationPath.dirPath() + "shaders/pointLight.fs.glsl");
-    Render render(applicationPath.dirPath() + "shaders/3D.vs.glsl",applicationPath.dirPath() + "shaders/directionalLight.fs.glsl");
+    Render* render = new Render(applicationPath.dirPath() + "shaders/3D.vs.glsl",applicationPath.dirPath() + "shaders/directionalLight.fs.glsl");
     std::cout << "OpenGL Version : " << glGetString(GL_VERSION) << std::endl;
     std::cout << "GLEW Version : " << glewGetString(GLEW_VERSION) << std::endl;
 
@@ -94,26 +94,26 @@ int main(int argc, char** argv) {
      *  Filling libraries with objects
      */
 
-    Library mainLib(coinModel);
+    Library *mainLib = new Library(coinModel);
 
-    mainLib.addPerso(saucisse);
+    mainLib->addPerso(saucisse);
 
-    mainLib.addSupport(normalModel);
-    mainLib.addSupport(rightWholeModel);
-    mainLib.addSupport(leftHoleModel);
+    mainLib->addSupport(normalModel);
+    mainLib->addSupport(rightWholeModel);
+    mainLib->addSupport(leftHoleModel);
 
-    mainLib.addObstacle(ketchupModel);
-    mainLib.addObstacle(mustardModel);
-    mainLib.addObstacle(preserveModel);
-    mainLib.addObstacle(juiceModel);
+    mainLib->addObstacle(ketchupModel);
+    mainLib->addObstacle(mustardModel);
+    mainLib->addObstacle(preserveModel);
+    mainLib->addObstacle(juiceModel);
 
-    mainLib.addBonus(magnetModel);
-    mainLib.addBonus(shieldModel);
+    mainLib->addBonus(magnetModel);
+    mainLib->addBonus(shieldModel);
 
-    mainLib.addSkybox(montainSkyModel);
+    mainLib->addSkybox(montainSkyModel);
 
-    world.setLibrary(&mainLib);
-    world.setRender(&render);
+    world.setLibrary(mainLib);
+    world.setRender(render);
 
     /*!
      *  \brief ** Variables
@@ -180,9 +180,9 @@ int main(int argc, char** argv) {
         {
         	// Affichage du menu
         }
-        else if(game_statut == 1 && !world.draw(global_time))
+        else if(game_statut == 1)
         {
-            game_statut = 0;
+            game_statut = world.draw(global_time);
         }
         else if(game_statut == 2){
             // Pause

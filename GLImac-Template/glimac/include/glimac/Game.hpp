@@ -69,8 +69,8 @@ class World
 		Library *_modelLib;
 		Render *_render;
 
-		SimpleAxeCam* _aroundCam;
-		SimpleAxeCam* _eyesCam;
+		SimpleAxeCam *_aroundCam;
+		SimpleAxeCam *_eyesCam;
 
 		unsigned short int _activeCam = 0;
 	    bool rightClickDown = false;
