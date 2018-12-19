@@ -2,6 +2,7 @@
 #define _LIB_IMPORT_GAME_IMAC_LSM
 #pragma once
 
+#include <glimac/SDLWindowManager.hpp>
 #include <GL/glew.h>
 #include <glimac/Program.hpp>
 #include <glimac/glm.hpp>
@@ -45,8 +46,6 @@ class Personnage{
 			std::vector<int> obsBbox = obs->getBbox();
 			int i = 0;
 			while(i < obsBbox.size() && i < persoBbox.size()){
-				
-				std::cout << persoBbox[i] + obsBbox[i] << std::endl;
 				if(persoBbox[i] + obsBbox[i] == 2) return true;
 				i++;
 			}
@@ -67,17 +66,21 @@ class World
 		glm::mat4 _globalRotation;
 
 		Personnage* _perso;
-
 		Library *_modelLib;
-
 		Render *_render;
 
 		SimpleAxeCam* _aroundCam;
 		SimpleAxeCam* _eyesCam;
 
-		unsigned short int _activeCam = 0; 
+		unsigned short int _activeCam = 0;
+	    bool rightClickDown = false;
+	    bool edit_mode = true;
+	    int lastX = 0, lastY = 0;
 
 		void loadFile(std::string level); // Fill the vector _tiles with the file;
+
+
+
 	public:
 		World(std::string file = ""){
 			if(file == "") _randomized = true;
@@ -96,14 +99,15 @@ class World
 			if(_activeCam == 0) _activeCam = 1;
 			else _activeCam = 0;
 		}
-		void addTile(Tile &t); // add tile at the end
-		void draw();
+		void addTile(Tile &t); // add tile at the endcqjkcdhsqhs hdgzusgz  zsgyzgs nina la meilleure de toutev
+		bool draw(int global_time);
 		void setLibrary(Library *lib){
 			_modelLib = lib;
 		}
 		void setRender(Render *r){
 			_render = r;
 		}
+		void event();
 		Personnage* perso(){return _perso;}
 };
 

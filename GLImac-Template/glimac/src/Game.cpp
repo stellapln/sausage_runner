@@ -76,7 +76,8 @@ void World::loadFile(const std::string level){
 void World::addTile(Tile &t){
 	_tiles.push_back(t);
 }
-void World::draw() {
+
+bool World::draw(int global_time) {
     glm::mat4 MVMatrix = glm::translate(glm::mat4(), glm::vec3(0,0,0));
     glm::mat4 MVMatrixModified;
 	glm::mat4 viewMatrix;
@@ -166,21 +167,21 @@ void World::draw() {
     unsigned int currentTile = int(_t/int(SIZE_OF_TILE) - int(SIZE_OF_TILE)/2);
     if(currentTile < _tiles.size())
     {
-        if(_tiles[currentTile]._obstacle.id() < _modelLib->nObstacle() &&  _perso->collide(&(_tiles[currentTile]._obstacle)))
-        {
-            std::cout << "Colision obstacle" << std::endl;
+        if(_tiles[currentTile]._obstacle.id() < _modelLib->nObstacle() &&  _perso->collide(&(_tiles[currentTile]._obstacle))){
+            return false;
         }
-        if(_tiles[currentTile]._bonus.id() < _modelLib->nBonus() &&  _perso->collide(&(_tiles[currentTile]._bonus)))
-        {
-            std::cout << "Colision bonus" << std::endl;
+
+        if(_tiles[currentTile]._bonus.id() < _modelLib->nBonus() &&  _perso->collide(&(_tiles[currentTile]._bonus))){
+            //bonus
         }
-        std::cout << "********** Support **********" << std::endl;
+
+        if(_perso->collide(&(_tiles[currentTile]._coin))){
+            //pieces++
+        }
         
-        if(_tiles[currentTile]._support.id() < _modelLib->nSupport()+3 &&  _perso->collide(&(_tiles[currentTile]._support)))
-        {
-            std::cout << "Colision support" << std::endl;
+        if(_tiles[currentTile]._support.id() < _modelLib->nSupport()+3 &&  _perso->collide(&(_tiles[currentTile]._support))){
+            return false;
         }
-        std::cout << "********** Fin **********" << std::endl;
 
         _globalPosition = glm::translate(glm::mat4(), glm::vec3(0, 0, _speed))*_globalPosition;
 
@@ -195,6 +196,101 @@ void World::draw() {
         		_globalRotation = glm::rotate(_globalRotation, float(-M_PI/2.0), glm::vec3(0, 1.0, 0));
         	}
         	lastTile = currentTile;
+        }
+    }
+    return true;
+}
+
+
+void World::event(){ 
+    /*!
+     *  \brief ** Event loop
+     *
+     *  Loop to handle mouse/keyboard events
+     */
+    SDL_Event e;
+    while(SDL_PollEvent(&e)) {
+        if(e.type == SDL_QUIT) {
+             //Leave the loop after this iteration
+        }
+        
+        /*!
+         *  \brief * Mouse
+         *
+         *  Mouse events
+         */
+        else if(e.type == SDL_MOUSEMOTION && edit_mode) {
+            if(rightClickDown){
+                int x,y;
+                SDL_GetMouseState(&x, &y);
+                cam()->rotateLeft(y-lastY);
+                cam()->rotateTop(x-lastX);
+                lastX = x;
+                lastY = y;
+            }
+        }
+       else if(e.type == SDL_MOUSEBUTTONDOWN) {
+            if(e.button.button == SDL_BUTTON_RIGHT) {
+                rightClickDown = true;
+                SDL_GetMouseState(&lastX, &lastY);
+            }
+            else if(e.button.button == SDL_BUTTON_WHEELUP && edit_mode){
+                cam()->moveFront(0.3);
+            }
+            else if(e.button.button == SDL_BUTTON_WHEELDOWN && edit_mode){
+                cam()->moveFront(-0.3);
+            }
+        }
+        else if(e.type == SDL_MOUSEBUTTONUP) {
+            if(e.button.button == SDL_BUTTON_RIGHT) {
+                rightClickDown = false;
+            }
+        }
+        
+        /*!
+         *  \brief * Keyboard
+         *
+         *  Keyboard events
+         */
+        else if(e.type == SDL_KEYDOWN) {
+            switch(e.key.keysym.sym) {
+                case SDLK_z: // z to jump
+                     _perso->move_jump_bend(1);
+                    break;
+                case SDLK_s: //s to bend
+                    _perso->move_jump_bend(-1);
+                    break;
+                case SDLK_q: //q to go left
+                    _perso->move_left_right(-1);
+                    break;
+                case SDLK_d: //d to go right
+                    _perso->move_left_right(1);
+                    break;
+                case SDLK_l: //l camera edit mode
+                    if(edit_mode)
+                        edit_mode = false;
+                    else
+                        edit_mode = true;
+                    break;
+                case SDLK_c: //c to change camera
+                    changeCam();
+            }
+        }
+        else if(e.type == SDL_KEYUP) {
+            switch(e.key.keysym.sym) {
+                case SDLK_z:
+                    _perso->move_jump_bend(0);
+                    break;
+                case SDLK_s:
+                    _perso->move_jump_bend(0);
+                    break;
+                case SDLK_q:
+                    _perso->move_left_right(0);
+                    break;
+                case SDLK_d:
+                    _perso->move_left_right(0);
+                    break;
+            }
         }
     }
 }

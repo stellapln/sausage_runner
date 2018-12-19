@@ -251,6 +251,8 @@ string
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/FreeflyCamera.hpp
 
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Game.hpp
+glimac/SDLWindowManager.hpp
+-
 GL/glew.h
 -
 glimac/Program.hpp

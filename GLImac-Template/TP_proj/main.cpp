@@ -126,10 +126,6 @@ int main(int argc, char** argv) {
 
     glEnable(GL_DEPTH_TEST);
 
-    bool rightClickDown = false;
-    bool edit_mode = true;
-    int lastX = 0, lastY = 0;
-    int t = 0;
     
     /*!
      *  \brief ** Main loop
@@ -137,104 +133,20 @@ int main(int argc, char** argv) {
      *  Application loop for the game
      */
     
+    //TTF_Init(); 
+    
     bool done = false;
     int global_time = 0;
+    int game_statut = 0;
+
     while(!done) {
+        world.event();
         
-        
-        /*!
-         *  \brief ** Event loop
-         *
-         *  Loop to handle mouse/keyboard events
-         */
-        SDL_Event e;
-        while(windowManager.pollEvent(e)) {
-            if(e.type == SDL_QUIT) {
-                done = true; //Leave the loop after this iteration
-            }
-            
-            /*!
-             *  \brief * Mouse
-             *
-             *  Mouse events
-             */
-            else if(e.type == SDL_MOUSEMOTION && edit_mode) {
-                if(rightClickDown){
-                    int x,y;
-                    SDL_GetMouseState(&x, &y);
-                    world.cam()->rotateLeft(y-lastY);
-                    world.cam()->rotateTop(x-lastX);
-                    lastX = x;
-                    lastY = y;
-                }
-            }
-           else if(e.type == SDL_MOUSEBUTTONDOWN) {
-                if(e.button.button == SDL_BUTTON_RIGHT) {
-                    rightClickDown = true;
-                    SDL_GetMouseState(&lastX, &lastY);
-                }
-                else if(e.button.button == SDL_BUTTON_WHEELUP && edit_mode){
-                   world.cam()->moveFront(0.3);
-                }
-                else if(e.button.button == SDL_BUTTON_WHEELDOWN && edit_mode){
-                    world.cam()->moveFront(-0.3);
-                }
-            }
-            else if(e.type == SDL_MOUSEBUTTONUP) {
-                if(e.button.button == SDL_BUTTON_RIGHT) {
-                    rightClickDown = false;
-                }
-            }
-            
-            /*!
-             *  \brief * Keyboard
-             *
-             *  Keyboard events
-             */
-            else if(e.type == SDL_KEYDOWN) {
-                switch(e.key.keysym.sym) {
-                    case SDLK_z: // z to jump
-                         world.perso()->move_jump_bend(1);
-                        break;
-                    case SDLK_s: //s to bend
-                        world.perso()->move_jump_bend(-1);
-                        break;
-                    case SDLK_q: //q to go left
-                        world.perso()->move_left_right(-1);
-                        break;
-                    case SDLK_d: //d to go right
-                        world.perso()->move_left_right(1);
-                        break;
-                    case SDLK_l: //l camera edit mode
-                        if(edit_mode)
-                            edit_mode = false;
-                        else
-                            edit_mode = true;
-                        break;
-                    case SDLK_c: //c to change camera
-                        world.changeCam();
-                }
-            }
-            else if(e.type == SDL_KEYUP) {
-                switch(e.key.keysym.sym) {
-                    case SDLK_z:
-                        world.perso()->move_jump_bend(0);
-                        break;
-                    case SDLK_s:
-                        world.perso()->move_jump_bend(0);
-                        break;
-                    case SDLK_q:
-                        world.perso()->move_left_right(0);
-                        break;
-                    case SDLK_d:
-                        world.perso()->move_left_right(0);
-                        break;
-                }
-            }
+        if(!world.draw(global_time)){
+            game_statut = 0;
         }
         
-        global_time ++;
-        world.draw();
+        global_time++;
         windowManager.swapBuffers();
     }
 
