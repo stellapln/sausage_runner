@@ -57,7 +57,7 @@ class World
 {
 	private:
 		float _t = 0;
-		float _speed = 0.2;
+		float _speed = 0.1;
 		unsigned int lastTile = -1;
 		std::vector<Tile> _tiles;
 		bool _randomized = false; // True : the world will be generated, False : the world will be loaded from a file
@@ -79,13 +79,11 @@ class World
 
 		void loadFile(std::string level); // Fill the vector _tiles with the file;
 
-
-
 	public:
 		World(std::string file = ""){
 			if(file == "") _randomized = true;
 			else loadFile(file);
-			_aroundCam = new TrackballCamera(7.0f,25.0f,0.0f);
+			_aroundCam = new TrackballCamera(5.0f,25.0f,0.0f);
      		_eyesCam = new EyesCam(30.0f,0.0f);
      		_eyesCam->setPosition(glm::vec3(0.0f,-1.4f,0.2f));
      		_perso = new Personnage(0);

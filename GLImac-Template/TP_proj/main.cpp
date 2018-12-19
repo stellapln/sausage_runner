@@ -189,6 +189,9 @@ int main(int argc, char** argv) {
         else if(game_statut == 2){
             // Pause
         }
+        else if(game_statut == 3){
+            // End + Score
+        }
         
         global_time++;
         windowManager.swapBuffers();

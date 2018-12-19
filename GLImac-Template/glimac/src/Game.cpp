@@ -164,25 +164,29 @@ bool World::draw(int global_time) {
 	}
 
     _t+=_speed;
-    unsigned int currentTile = int(_t/int(SIZE_OF_TILE) - int(SIZE_OF_TILE)/2);
+    unsigned int currentTile = int(_t/int(SIZE_OF_TILE) - int(SIZE_OF_TILE));
     if(currentTile < _tiles.size())
     {
-        if(_tiles[currentTile]._obstacle.id() < _modelLib->nObstacle() &&  _perso->collide(&(_tiles[currentTile]._obstacle))){
-            return false;
-        }
+        float posInTile = _t-(currentTile*SIZE_OF_TILE);
+        std::cout << posInTile << " = " << _t << " " std::endl;
+        if(posInTile > 1.0 && posInTile < 2.0)
+        {
+            if(_tiles[currentTile]._obstacle.id() < _modelLib->nObstacle() &&  _perso->collide(&(_tiles[currentTile]._obstacle))){
+                return false;
+            }
 
-        if(_tiles[currentTile]._bonus.id() < _modelLib->nBonus() &&  _perso->collide(&(_tiles[currentTile]._bonus))){
-            //bonus
-        }
+            if(_tiles[currentTile]._bonus.id() < _modelLib->nBonus() &&  _perso->collide(&(_tiles[currentTile]._bonus))){
+                //bonus
+            }
 
-        if(_perso->collide(&(_tiles[currentTile]._coin))){
-            //pieces++
+            if(_perso->collide(&(_tiles[currentTile]._coin))){
+                //pieces++
+            }
+            
+            if(_tiles[currentTile]._support.id() < _modelLib->nSupport()+3 &&  _perso->collide(&(_tiles[currentTile]._support))){
+                return false;
+            }
         }
-        
-        if(_tiles[currentTile]._support.id() < _modelLib->nSupport()+3 &&  _perso->collide(&(_tiles[currentTile]._support))){
-            return false;
-        }
-
         _globalPosition = glm::translate(glm::mat4(), glm::vec3(0, 0, _speed))*_globalPosition;
 
         if(currentTile != lastTile)
