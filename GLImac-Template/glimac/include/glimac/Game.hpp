@@ -107,8 +107,24 @@ class World
 		void setRender(Render *r){
 			_render = r;
 		}
-		void event();
 		Personnage* perso(){return _perso;}
+
+		void mouseMotion(int x,int y){
+            if(rightClickDown){
+                cam()->rotateLeft(y-lastY);
+                cam()->rotateTop(x-lastX);
+                lastX = x;
+                lastY = y;
+            }
+		}
+		void buttonDown(int x,int y){
+            if(rightClickDown){
+                cam()->rotateLeft(y-lastY);
+                cam()->rotateTop(x-lastX);
+                lastX = x;
+                lastY = y;
+            }
+		}
 };
 
 #endif
