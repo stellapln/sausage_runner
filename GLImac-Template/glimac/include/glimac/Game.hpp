@@ -106,20 +106,19 @@ class World
 			_render = r;
 		}
 
-		void init(std::string file = "")
+		void init()
 		{
-			if(file == "") _randomized = true;
-			else loadFile(file);
 			_globalPosition = glm::mat4();
 			_globalRotation = glm::mat4();
 			_t = 0;
 			lastTile = -1;
 			_activeCam = 0;
 			glEnable(GL_DEPTH_TEST);
+			_render->use();
 		}
 		void close()
 		{
-			glEnable(GL_DEPTH_TEST);
+			glDisable(GL_DEPTH_TEST);
 		}
 		Personnage* perso(){return _perso;}
 

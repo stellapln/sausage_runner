@@ -43,6 +43,8 @@ glimac/Model.hpp
 -
 glimac/Game.hpp
 -
+glimac/Interfaces2D.hpp
+-
 
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 
@@ -307,6 +309,36 @@ glm.hpp
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/glm.hpp
 FilePath.hpp
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/FilePath.hpp
+
+/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Interfaces2D.hpp
+iostream
+-
+numeric
+-
+string
+-
+cstdlib
+-
+fstream
+-
+vector
+-
+algorithm
+-
+functional
+-
+cctype
+-
+GL/glew.h
+-
+glimac/Image.hpp
+-
+glimac/glm.hpp
+-
+glimac/Program.hpp
+-
+glimac/SDLWindowManager.hpp
+-
 
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Library.hpp
 vector

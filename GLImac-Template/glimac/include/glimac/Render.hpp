@@ -76,6 +76,10 @@ class Render {
 	    	glUniformMatrix4fv(_uMVMatrix,1,GL_FALSE,glm::value_ptr(MVMatrix));
 	    	glUniformMatrix4fv(_uNormalMatrix,1,GL_FALSE,glm::value_ptr(glm::transpose(glm::inverse(MVMatrix))));
 		}
+		void use()
+		{
+			_prog.use();
+		}
 };
 
 #endif

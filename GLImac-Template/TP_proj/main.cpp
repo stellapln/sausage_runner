@@ -62,6 +62,15 @@ int main(int argc, char** argv) {
     GLuint sampler2D = glGetUniformLocation(program2D.getGLId(), "uTexture");
     GLuint matrixLocation = glGetUniformLocation(program2D.getGLId(), "uModelMatrix");
 
+
+    /*!
+     *  \brief ** Initialization
+     *
+     *  Initialize the game
+     */
+
+    World world("./levels/Level1");
+
     /*!
      *  \brief ** Initialization 
      *
@@ -223,8 +232,10 @@ int main(int argc, char** argv) {
     
     // MENU WINDOW
     Window menu(&menuImage);
-    Button play_menu(&playImageMenu, &playImageHoverMenu,[]()-> int{
+    Button play_menu(&playImageMenu, &playImageHoverMenu,[&world]()-> int{
+                world.init();
 				return 1; // start the game
+
 			},152,427,217/2,348/2);
     Button quit_menu(&quitImageMenu, &quitImageHoverMenu,[]()-> int {
 				return 4; // quit the game
@@ -238,7 +249,8 @@ int main(int argc, char** argv) {
 
     // PAUSE WINDOW
     Window pause(&pauseImage);
-    Button replay_pause(&replayImagePause, &replayImageHoverPause,[]()-> int{
+    Button replay_pause(&replayImagePause, &replayImageHoverPause,[&world]()-> int{
+                world.init();
                 return 1; // replay the game
                 // back to play + reset world
             },499,426,140,173);
@@ -280,15 +292,6 @@ int main(int argc, char** argv) {
     {
     	std::cerr << err << std::endl;
     }
-
-
-    /*!
-     *  \brief ** Initialization
-     *
-     *  Initialize the game
-     */
-
-    World world("./levels/Level1");
 
     /*!
      *  \brief ** Loading
@@ -350,7 +353,7 @@ int main(int argc, char** argv) {
     glm::mat4 MVMatrix;
     glm::mat4 viewMatrix;
 
-	glEnable(GL_DEPTH_TEST);
+	//glEnable(GL_DEPTH_TEST);
 
     /*!
      *  \brief ** Main loop
@@ -458,6 +461,9 @@ int main(int argc, char** argv) {
 	        }
 	        // draw score window
 	        score.drawWindow();
+        }
+        else if(game_statut == 4){
+            done = true;
         }
         
         global_time++;
