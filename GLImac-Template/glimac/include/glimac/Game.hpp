@@ -65,7 +65,7 @@ class World
 		glm::mat4 _globalPosition;
 		glm::mat4 _globalRotation;
 
-		Personnage* _perso;
+		Personnage *_perso;
 		Library *_modelLib;
 		Render *_render;
 
@@ -76,6 +76,10 @@ class World
 	    bool rightClickDown = false;
 	    bool edit_mode = true;
 	    int lastX = 0, lastY = 0;
+	    int _currentBonus = -1;
+	    int _lastTimeBonus = 0;
+	    
+	    int _nCoin = 0;
 
 		void loadFile(std::string level); // Fill the vector _tiles with the file;
 
@@ -98,7 +102,7 @@ class World
 			else _activeCam = 0;
 		}
 		void addTile(Tile* t); // add tile at the endcqjkcdhsqhs hdgzusgz  zsgyzgs nina la meilleure de toutev
-		bool draw(int global_time);
+		int draw(int global_time);
 		void setLibrary(Library *lib){
 			_modelLib = lib;
 		}
@@ -119,6 +123,10 @@ class World
 		void close()
 		{
 			glDisable(GL_DEPTH_TEST);
+		}
+		void addCoin(int n)
+		{
+			_nCoin += n;
 		}
 		Personnage* perso(){return _perso;}
 

@@ -138,12 +138,27 @@ class Tile{
 		Obstacle _obstacle; /*!< Obstacles on the tile */
 		Bonus _bonus; /*!< Bonus on the tile */
 		Coin _coin; /*!< Coins on the tile */
+
+		bool bonusTaken = false;
+		bool coinTaken = false;
 	
 		/*!
 		 *  \brief Constructor of tile
 		 */
 		Tile(int s,int o,int ox,int b,int bx,int by,int cx,int cy)
 			: _support(s),_obstacle(o, ox),_bonus(b, bx, by),_coin(cx,cy){}
+		bool haveBonus(){
+			return !bonusTaken;
+		}
+		bool haveCoin(){
+			return (!coinTaken && _coin.x() != 5 && _coin.y() != 5);
+		}
+		void takeBonus(){
+			bonusTaken = true;
+		}
+		void takeCoin(){
+			coinTaken = true;
+		}
 };
 
 /*! \class Library

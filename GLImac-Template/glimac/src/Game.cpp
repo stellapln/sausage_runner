@@ -20,6 +20,9 @@
 #define NB_COIN_BY_TILE 3
 #define SIZE_OF_TILE 3.0
 
+#define TILE_DELETE_BEFORE 10
+#define TILE_SEE_AFTER 20
+
 std::vector<int> Personnage::getBbox(){
     std::vector<int> bbox;
 	if(_x_state == -1){ 
@@ -77,7 +80,7 @@ void World::addTile(Tile* t){
 	_tiles.push_back(*t);
 }
 
-bool World::draw(int global_time) {
+int World::draw(int global_time) {
     glm::mat4 MVMatrix = glm::translate(glm::mat4(), glm::vec3(0,0,0));
     glm::mat4 MVMatrixModified;
     glm::mat4 MVMatrixModifiedM;
@@ -121,22 +124,13 @@ bool World::draw(int global_time) {
 
     MVMatrix = viewMatrix*MVMatrix;
 
-    int hitMiddle = int(_t/int(SIZE_OF_TILE) - SIZE_OF_TILE);
-    int currentTile = int(_t/int(SIZE_OF_TILE) - SIZE_OF_TILE*0.5);
+    int currentTile = int(_t/int(SIZE_OF_TILE) - 0.5);
+    int firstTile = min(0,currentTile - TILE_DELETE_BEFORE);
+    int lastTile = min(currentTile + TILE_SEE_AFTER, _tiles.size());
 
 	for(int i = 0;i < _tiles.size();i++)
 	{
     	MVMatrix = glm::translate(MVMatrix, glm::vec3(0, 0, -SIZE_OF_TILE));
-
-        /* JUST DEBUG */
-
-        MVMatrixModified = glm::translate(MVMatrix, glm::vec3(0, 0.2, 0));
-        _render->sendMatrix(MVMatrixModified);
-        if(i == currentTile)
-        {
-            _modelLib->support(0).draw();
-        }
-
         /* FIN JUST DEBUG */
 
     	_render->sendMatrix(MVMatrix);
@@ -166,12 +160,12 @@ bool World::draw(int global_time) {
 
         _render->sendMatrix(MVMatrixModified);
 
-    	if(_tiles[i]._bonus.id() < _modelLib->nBonus()) // Affichage des bonus
+    	if(_tiles[i].haveBonus() && _tiles[i]._bonus.id() < _modelLib->nBonus()) // Affichage des bonus
         { 
     		_modelLib->bonus(_tiles[i]._bonus.id()).draw();
         }
 
-    	if(_tiles[i]._coin.x() != 5 && _tiles[i]._coin.x() != 5) // Affichage des pieces
+    	if(_tiles[i].haveCoin()) // Affichage des pieces
     	{
 	    	MVMatrixModified = glm::translate(MVMatrix, glm::vec3(-SIZE_OF_TILE/2.0 + float(_tiles[i]._coin.x())+0.5, float(_tiles[i]._coin.y()),-SIZE_OF_TILE/2.0));
 	    	int j = 0;
@@ -185,38 +179,43 @@ bool World::draw(int global_time) {
 	    }
 	}
 
+    _t+=_speed;
+    int middleHit = int(_t/int(SIZE_OF_TILE)-1);
+
     if(currentTile < _tiles.size())
     {
         if(_tiles[currentTile]._obstacle.id() < _modelLib->nObstacle() &&  _perso->collide(&(_tiles[currentTile]._obstacle))){
-            return false;
+            return 2;
         }
 
         if(_tiles[currentTile]._bonus.id() < _modelLib->nBonus() &&  _perso->collide(&(_tiles[currentTile]._bonus))){
-            //bonus
+            _currentBonus = _tiles[currentTile]._bonus.id();
+            _lastTimeBonus = global_time;
+            _tiles[i].takeBonus();
         }
 
-        if(_perso->collide(&(_tiles[currentTile]._coin))){
-            //pieces++
+        if(_tiles[i].haveCoin() && _perso->collide(&(_tiles[currentTile]._coin))){
+
+            _tiles[i].takeBonus();
         }
         
         if(_tiles[currentTile]._support.id() < _modelLib->nSupport()+3 &&  _perso->collide(&(_tiles[currentTile]._support))){
-            return false;
+            return 2;
         }
         _globalPosition = glm::translate(glm::mat4(), glm::vec3(0, 0, _speed))*_globalPosition;
 
-        if(hitMiddle != lastTile)
+        if(middleHit != lastTile)
         {
-        	if(_tiles[hitMiddle]._support.id() == _modelLib->nSupport()){
+        	if(_tiles[middleHit]._support.id() == _modelLib->nSupport()){
         		_globalPosition = glm::rotate(glm::mat4(), glm::radians(90.0f), glm::vec3(0, 1.0, 0))*_globalPosition;
         		_globalRotation = glm::rotate(_globalRotation, glm::radians(90.0f), glm::vec3(0, 1.0, 0));
         	}
-        	else if(_tiles[hitMiddle]._support.id() == _modelLib->nSupport()+1){
+        	else if(_tiles[middleHit]._support.id() == _modelLib->nSupport()+1){
         		_globalPosition = glm::rotate(glm::mat4(), glm::radians(-90.0f), glm::vec3(0, 1.0, 0))*_globalPosition;
         		_globalRotation = glm::rotate(_globalRotation, glm::radians(-90.0f), glm::vec3(0, 1.0, 0));
         	}
-        	lastTile = hitMiddle;
+        	lastTile = middleHit;
         }
     }
-    _t+=_speed;
-    return true;
-} //https://github.com/stellapln/sausage_runner
+    return 1;
+}
