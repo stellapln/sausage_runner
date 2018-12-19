@@ -151,27 +151,16 @@ int main(int argc, char** argv) {
 	         *
 	         *  Mouse events
 	         */
-	        else if(e.type == SDL_MOUSEMOTION && edit_mode) {
+	        else if(e.type == SDL_MOUSEMOTION) {
                 int x,y;
                 SDL_GetMouseState(&x, &y);
                 world.mouseMotion(x,y);
 	        }
 	       else if(e.type == SDL_MOUSEBUTTONDOWN) {
-	            if(e.button.button == SDL_BUTTON_RIGHT) {
-	                rightClickDown = true;
-	                SDL_GetMouseState(&lastX, &lastY);
-	            }
-	            else if(e.button.button == SDL_BUTTON_WHEELUP && edit_mode){
-	                cam()->moveFront(0.3);
-	            }
-	            else if(e.button.button == SDL_BUTTON_WHEELDOWN && edit_mode){
-	                cam()->moveFront(-0.3);
-	            }
+	            world.mouseButtonDown(e.button.button);
 	        }
 	        else if(e.type == SDL_MOUSEBUTTONUP) {
-	            if(e.button.button == SDL_BUTTON_RIGHT) {
-	                rightClickDown = false;
-	            }
+	            world.mouseButtonUp(e.button.button);
 	        }
 	        
 	        /*!
@@ -180,44 +169,10 @@ int main(int argc, char** argv) {
 	         *  Keyboard events
 	         */
 	        else if(e.type == SDL_KEYDOWN) {
-	            switch(e.key.keysym.sym) {
-	                case SDLK_z: // z to jump
-	                     _perso->move_jump_bend(1);
-	                    break;
-	                case SDLK_s: //s to bend
-	                    _perso->move_jump_bend(-1);
-	                    break;
-	                case SDLK_q: //q to go left
-	                    _perso->move_left_right(-1);
-	                    break;
-	                case SDLK_d: //d to go right
-	                    _perso->move_left_right(1);
-	                    break;
-	                case SDLK_l: //l camera edit mode
-	                    if(edit_mode)
-	                        edit_mode = false;
-	                    else
-	                        edit_mode = true;
-	                    break;
-	                case SDLK_c: //c to change camera
-	                    changeCam();
-	            }
+	        	world.keyDown(e.key.keysym.sym);
 	        }
-	        else if(e->type == SDL_KEYUP) {
-	            switch(e->key.keysym.sym) {
-	                case SDLK_z:
-	                    _perso->move_jump_bend(0);
-	                    break;
-	                case SDLK_s:
-	                    _perso->move_jump_bend(0);
-	                    break;
-	                case SDLK_q:
-	                    _perso->move_left_right(0);
-	                    break;
-	                case SDLK_d:
-	                    _perso->move_left_right(0);
-	                    break;
-	            }
+	        else if(e.type == SDL_KEYUP) {
+	        	world.keyUp(e.key.keysym.sym);
 	        }
 	    }
         

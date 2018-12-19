@@ -110,21 +110,70 @@ class World
 		Personnage* perso(){return _perso;}
 
 		void mouseMotion(int x,int y){
-            if(rightClickDown){
+            if(rightClickDown && edit_mode){
                 cam()->rotateLeft(y-lastY);
                 cam()->rotateTop(x-lastX);
                 lastX = x;
                 lastY = y;
             }
 		}
-		void buttonDown(int x,int y){
-            if(rightClickDown){
-                cam()->rotateLeft(y-lastY);
-                cam()->rotateTop(x-lastX);
-                lastX = x;
-                lastY = y;
+		void mouseButtonDown(Uint8 btn){
+            if(btn == SDL_BUTTON_RIGHT) {
+                rightClickDown = true;
+                SDL_GetMouseState(&lastX, &lastY);
+            }
+            else if(btn == SDL_BUTTON_WHEELUP && edit_mode){
+                cam()->moveFront(0.3);
+            }
+            else if(btn == SDL_BUTTON_WHEELDOWN && edit_mode){
+                cam()->moveFront(-0.3);
             }
 		}
+		void mouseButtonUp(Uint8 btn){
+            if(btn == SDL_BUTTON_RIGHT) {
+                rightClickDown = false;
+            }
+		}
+		void keyDown(Uint8 key){
+            switch(key) {
+                case SDLK_z: // z to jump
+                     _perso->move_jump_bend(1);
+                    break;
+                case SDLK_s: //s to bend
+                    _perso->move_jump_bend(-1);
+                    break;
+                case SDLK_q: //q to go left
+                    _perso->move_left_right(-1);
+                    break;
+                case SDLK_d: //d to go right
+                    _perso->move_left_right(1);
+                    break;
+                case SDLK_l: //l camera edit mode
+                    if(edit_mode)
+                        edit_mode = false;
+                    else
+                        edit_mode = true;
+                    break;
+                case SDLK_c: //c to change camera
+                    changeCam();
+            }
+		}
+		void keyUp(Uint8 key){
+            switch(key) {
+	                case SDLK_z:
+	                    _perso->move_jump_bend(0);
+	                    break;
+	                case SDLK_s:
+	                    _perso->move_jump_bend(0);
+	                    break;
+	                case SDLK_q:
+	                    _perso->move_left_right(0);
+	                    break;
+	                case SDLK_d:
+	                    _perso->move_left_right(0);
+	                    break;
+            }
+        }
 };
 
 #endif
