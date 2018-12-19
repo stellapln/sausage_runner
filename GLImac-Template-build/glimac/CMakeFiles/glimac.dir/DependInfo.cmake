@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Game.cpp" "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/Game.cpp.o"
   "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Geometry.cpp" "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.o"
   "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Image.cpp" "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/Image.cpp.o"
+  "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Interfaces2D.cpp" "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/Interfaces2D.cpp.o"
   "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Library.cpp" "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/Library.cpp.o"
   "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Model.cpp" "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/Model.cpp.o"
   "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Program.cpp" "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/Program.cpp.o"

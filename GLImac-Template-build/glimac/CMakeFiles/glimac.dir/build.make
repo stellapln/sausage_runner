@@ -153,9 +153,33 @@ glimac/CMakeFiles/glimac.dir/src/Image.cpp.o.provides: glimac/CMakeFiles/glimac.
 glimac/CMakeFiles/glimac.dir/src/Image.cpp.o.provides.build: glimac/CMakeFiles/glimac.dir/src/Image.cpp.o
 
 
+glimac/CMakeFiles/glimac.dir/src/Interfaces2D.cpp.o: glimac/CMakeFiles/glimac.dir/flags.make
+glimac/CMakeFiles/glimac.dir/src/Interfaces2D.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Interfaces2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object glimac/CMakeFiles/glimac.dir/src/Interfaces2D.cpp.o"
+	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/glimac && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glimac.dir/src/Interfaces2D.cpp.o -c /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Interfaces2D.cpp
+
+glimac/CMakeFiles/glimac.dir/src/Interfaces2D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/src/Interfaces2D.cpp.i"
+	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/glimac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Interfaces2D.cpp > CMakeFiles/glimac.dir/src/Interfaces2D.cpp.i
+
+glimac/CMakeFiles/glimac.dir/src/Interfaces2D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/Interfaces2D.cpp.s"
+	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/glimac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Interfaces2D.cpp -o CMakeFiles/glimac.dir/src/Interfaces2D.cpp.s
+
+glimac/CMakeFiles/glimac.dir/src/Interfaces2D.cpp.o.requires:
+
+.PHONY : glimac/CMakeFiles/glimac.dir/src/Interfaces2D.cpp.o.requires
+
+glimac/CMakeFiles/glimac.dir/src/Interfaces2D.cpp.o.provides: glimac/CMakeFiles/glimac.dir/src/Interfaces2D.cpp.o.requires
+	$(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Interfaces2D.cpp.o.provides.build
+.PHONY : glimac/CMakeFiles/glimac.dir/src/Interfaces2D.cpp.o.provides
+
+glimac/CMakeFiles/glimac.dir/src/Interfaces2D.cpp.o.provides.build: glimac/CMakeFiles/glimac.dir/src/Interfaces2D.cpp.o
+
+
 glimac/CMakeFiles/glimac.dir/src/Library.cpp.o: glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/src/Library.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Library.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object glimac/CMakeFiles/glimac.dir/src/Library.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object glimac/CMakeFiles/glimac.dir/src/Library.cpp.o"
 	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/glimac && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glimac.dir/src/Library.cpp.o -c /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Library.cpp
 
 glimac/CMakeFiles/glimac.dir/src/Library.cpp.i: cmake_force
@@ -179,7 +203,7 @@ glimac/CMakeFiles/glimac.dir/src/Library.cpp.o.provides.build: glimac/CMakeFiles
 
 glimac/CMakeFiles/glimac.dir/src/Model.cpp.o: glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/src/Model.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Model.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object glimac/CMakeFiles/glimac.dir/src/Model.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object glimac/CMakeFiles/glimac.dir/src/Model.cpp.o"
 	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/glimac && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glimac.dir/src/Model.cpp.o -c /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Model.cpp
 
 glimac/CMakeFiles/glimac.dir/src/Model.cpp.i: cmake_force
@@ -203,7 +227,7 @@ glimac/CMakeFiles/glimac.dir/src/Model.cpp.o.provides.build: glimac/CMakeFiles/g
 
 glimac/CMakeFiles/glimac.dir/src/Program.cpp.o: glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/src/Program.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Program.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object glimac/CMakeFiles/glimac.dir/src/Program.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object glimac/CMakeFiles/glimac.dir/src/Program.cpp.o"
 	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/glimac && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glimac.dir/src/Program.cpp.o -c /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Program.cpp
 
 glimac/CMakeFiles/glimac.dir/src/Program.cpp.i: cmake_force
@@ -227,7 +251,7 @@ glimac/CMakeFiles/glimac.dir/src/Program.cpp.o.provides.build: glimac/CMakeFiles
 
 glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.o: glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/SDLWindowManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.o"
 	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/glimac && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.o -c /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/SDLWindowManager.cpp
 
 glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.i: cmake_force
@@ -251,7 +275,7 @@ glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.o.provides.build: glimac/C
 
 glimac/CMakeFiles/glimac.dir/src/Shader.cpp.o: glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/src/Shader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Shader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object glimac/CMakeFiles/glimac.dir/src/Shader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object glimac/CMakeFiles/glimac.dir/src/Shader.cpp.o"
 	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/glimac && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glimac.dir/src/Shader.cpp.o -c /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Shader.cpp
 
 glimac/CMakeFiles/glimac.dir/src/Shader.cpp.i: cmake_force
@@ -275,7 +299,7 @@ glimac/CMakeFiles/glimac.dir/src/Shader.cpp.o.provides.build: glimac/CMakeFiles/
 
 glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.o: glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Sphere.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.o"
 	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/glimac && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glimac.dir/src/Sphere.cpp.o -c /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Sphere.cpp
 
 glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.i: cmake_force
@@ -299,7 +323,7 @@ glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.o.provides.build: glimac/CMakeFiles/
 
 glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.o: glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.o: /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/tiny_obj_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.o"
 	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/glimac && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.o -c /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/tiny_obj_loader.cpp
 
 glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.i: cmake_force
@@ -327,6 +351,7 @@ glimac_OBJECTS = \
 "CMakeFiles/glimac.dir/src/Game.cpp.o" \
 "CMakeFiles/glimac.dir/src/Geometry.cpp.o" \
 "CMakeFiles/glimac.dir/src/Image.cpp.o" \
+"CMakeFiles/glimac.dir/src/Interfaces2D.cpp.o" \
 "CMakeFiles/glimac.dir/src/Library.cpp.o" \
 "CMakeFiles/glimac.dir/src/Model.cpp.o" \
 "CMakeFiles/glimac.dir/src/Program.cpp.o" \
@@ -342,6 +367,7 @@ glimac/libglimac.so: glimac/CMakeFiles/glimac.dir/src/Cone.cpp.o
 glimac/libglimac.so: glimac/CMakeFiles/glimac.dir/src/Game.cpp.o
 glimac/libglimac.so: glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.o
 glimac/libglimac.so: glimac/CMakeFiles/glimac.dir/src/Image.cpp.o
+glimac/libglimac.so: glimac/CMakeFiles/glimac.dir/src/Interfaces2D.cpp.o
 glimac/libglimac.so: glimac/CMakeFiles/glimac.dir/src/Library.cpp.o
 glimac/libglimac.so: glimac/CMakeFiles/glimac.dir/src/Model.cpp.o
 glimac/libglimac.so: glimac/CMakeFiles/glimac.dir/src/Program.cpp.o
@@ -351,7 +377,7 @@ glimac/libglimac.so: glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.o
 glimac/libglimac.so: glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.o
 glimac/libglimac.so: glimac/CMakeFiles/glimac.dir/build.make
 glimac/libglimac.so: glimac/CMakeFiles/glimac.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared library libglimac.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX shared library libglimac.so"
 	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/glimac && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glimac.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -363,6 +389,7 @@ glimac/CMakeFiles/glimac.dir/requires: glimac/CMakeFiles/glimac.dir/src/Cone.cpp
 glimac/CMakeFiles/glimac.dir/requires: glimac/CMakeFiles/glimac.dir/src/Game.cpp.o.requires
 glimac/CMakeFiles/glimac.dir/requires: glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.o.requires
 glimac/CMakeFiles/glimac.dir/requires: glimac/CMakeFiles/glimac.dir/src/Image.cpp.o.requires
+glimac/CMakeFiles/glimac.dir/requires: glimac/CMakeFiles/glimac.dir/src/Interfaces2D.cpp.o.requires
 glimac/CMakeFiles/glimac.dir/requires: glimac/CMakeFiles/glimac.dir/src/Library.cpp.o.requires
 glimac/CMakeFiles/glimac.dir/requires: glimac/CMakeFiles/glimac.dir/src/Model.cpp.o.requires
 glimac/CMakeFiles/glimac.dir/requires: glimac/CMakeFiles/glimac.dir/src/Program.cpp.o.requires

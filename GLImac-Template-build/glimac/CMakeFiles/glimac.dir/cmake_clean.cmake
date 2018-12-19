@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/glimac.dir/src/Game.cpp.o"
   "CMakeFiles/glimac.dir/src/Geometry.cpp.o"
   "CMakeFiles/glimac.dir/src/Image.cpp.o"
+  "CMakeFiles/glimac.dir/src/Interfaces2D.cpp.o"
   "CMakeFiles/glimac.dir/src/Library.cpp.o"
   "CMakeFiles/glimac.dir/src/Model.cpp.o"
   "CMakeFiles/glimac.dir/src/Program.cpp.o"

@@ -105,6 +105,22 @@ class World
 		void setRender(Render *r){
 			_render = r;
 		}
+
+		void init(std::string file = "")
+		{
+			if(file == "") _randomized = true;
+			else loadFile(file);
+			_globalPosition = glm::mat4();
+			_globalRotation = glm::mat4();
+			_t = 0;
+			lastTile = -1;
+			_activeCam = 0;
+			glEnable(GL_DEPTH_TEST);
+		}
+		void close()
+		{
+			glEnable(GL_DEPTH_TEST);
+		}
 		Personnage* perso(){return _perso;}
 
 		void mouseMotion(int x,int y){
