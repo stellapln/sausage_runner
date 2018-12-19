@@ -164,11 +164,10 @@ bool World::draw(int global_time) {
 	}
 
     _t+=_speed;
-    unsigned int currentTile = int(_t/int(SIZE_OF_TILE) - int(SIZE_OF_TILE));
+    int currentTile = int(_t/int(SIZE_OF_TILE) - SIZE_OF_TILE);
     if(currentTile < _tiles.size())
     {
-        float posInTile = _t-(currentTile*SIZE_OF_TILE);
-        std::cout << posInTile << " = " << _t << " " std::endl;
+        float posInTile = _t-((currentTile-1)*SIZE_OF_TILE);
         if(posInTile > 1.0 && posInTile < 2.0)
         {
             if(_tiles[currentTile]._obstacle.id() < _modelLib->nObstacle() &&  _perso->collide(&(_tiles[currentTile]._obstacle))){
