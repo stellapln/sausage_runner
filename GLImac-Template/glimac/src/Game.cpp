@@ -125,10 +125,9 @@ int World::draw(int global_time) {
     MVMatrix = viewMatrix*MVMatrix;
 
     int currentTile = int(_t/int(SIZE_OF_TILE) - 0.5);
-    int i = std::min(0,currentTile - TILE_DELETE_BEFORE);
     int lastTileDisplay = std::min(currentTile + TILE_SEE_AFTER, int(_tiles.size()));
 
-	for(;i < lastTileDisplay;i++)
+	for(int i = 0;i < lastTileDisplay;i++)
 	{
     	MVMatrix = glm::translate(MVMatrix, glm::vec3(0, 0, -SIZE_OF_TILE));
         /* FIN JUST DEBUG */
@@ -191,12 +190,12 @@ int World::draw(int global_time) {
         if(_tiles[currentTile]._bonus.id() < _modelLib->nBonus() &&  _perso->collide(&(_tiles[currentTile]._bonus))){
             _currentBonus = _tiles[currentTile]._bonus.id();
             _lastTimeBonus = global_time;
-            _tiles[i].takeBonus();
+            _tiles[currentTile].takeBonus();
         }
 
-        if(_tiles[i].haveCoin() && _perso->collide(&(_tiles[currentTile]._coin))){
+        if(_tiles[currentTile].haveCoin() && _perso->collide(&(_tiles[currentTile]._coin))){
 
-            _tiles[i].takeBonus();
+            _tiles[currentTile].takeBonus();
         }
         
         if(_tiles[currentTile]._support.id() < _modelLib->nSupport()+3 &&  _perso->collide(&(_tiles[currentTile]._support))){
