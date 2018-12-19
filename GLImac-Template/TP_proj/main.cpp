@@ -64,13 +64,14 @@ int main(int argc, char** argv) {
      */
 
     World world("./levels/Level1");
-    Model saucisse("assets/saucisse.obj");
 
     /*!
      *  \brief ** Loading
      *
      *  Loading objects from .obj
      */
+
+    Model saucisse("assets/saucisse.obj");
     
     Model normalModel("assets/bloc-normal.obj");
     Model rightWholeModel("assets/trouDroite.obj");
@@ -137,7 +138,7 @@ int main(int argc, char** argv) {
     
     bool done = false;
     int global_time = 0;
-    int game_statut = 1;
+    int game_statut = 1; // 0 : menu, 1 : game, 2 : pause, 3 : end;
 
     while(!done) {
     	SDL_Event e;
@@ -172,7 +173,8 @@ int main(int argc, char** argv) {
 	        	world.keyDown(e.key.keysym.sym);
 	        }
 	        else if(e.type == SDL_KEYUP) {
-	        	world.keyUp(e.key.keysym.sym);
+               if(e.key.keysym.sym == SDLK_ESCAPE) done = true;
+	           else world.keyUp(e.key.keysym.sym);
 	        }
 	    }
         

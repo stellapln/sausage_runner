@@ -66,15 +66,15 @@ void World::loadFile(const std::string level){
   	}
 
   	int sup, obs, xo, bon, xb, yb, xp, yp;
-
 	while(fscanf(file, "%d %d %d %d %d %d %d %d", &sup, &obs, &xo, &bon, &xb, &yb, &xp, &yp) != EOF){
-    	Tile new_tile(sup, obs, xo, bon, xb, yb, xp, yp);
-    	addTile(new_tile);
+    	//Tile* new_tile = new Tile(sup, obs, xo, bon, xb, yb, xp, yp);
+    	addTile(new Tile(sup, obs, xo, bon, xb, yb, xp, yp));
 	}
+    fclose(file);
 }
 
-void World::addTile(Tile &t){
-	_tiles.push_back(t);
+void World::addTile(Tile* t){
+	_tiles.push_back(*t);
 }
 
 bool World::draw(int global_time) {

@@ -99,7 +99,7 @@ class World
 			if(_activeCam == 0) _activeCam = 1;
 			else _activeCam = 0;
 		}
-		void addTile(Tile &t); // add tile at the endcqjkcdhsqhs hdgzusgz  zsgyzgs nina la meilleure de toutev
+		void addTile(Tile* t); // add tile at the endcqjkcdhsqhs hdgzusgz  zsgyzgs nina la meilleure de toutev
 		bool draw(int global_time);
 		void setLibrary(Library *lib){
 			_modelLib = lib;
