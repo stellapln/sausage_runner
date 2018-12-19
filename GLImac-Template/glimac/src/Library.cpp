@@ -41,10 +41,10 @@ void Support::setBbox(){
 		_bbox.insert(_bbox.end(),{1,1,0,0,0,0,0,0,0});
 	}
 	else if(_id == 3){
-		_bbox.insert(_bbox.end(),{1,1,0,0,0,0,0,0,0});
+		_bbox.insert(_bbox.end(),{1,1,0,1,1,0,1,1,0});
 	}
 	else if(_id == 4){
-		_bbox.insert(_bbox.end(),{0,1,1,0,0,0,0,0,0});
+		_bbox.insert(_bbox.end(),{0,1,1,0,1,1,0,1,1});
 	}
 	else if(_id == 5){
 		_bbox.insert(_bbox.end(),{1,1,1,0,0,0,0,0,0});
