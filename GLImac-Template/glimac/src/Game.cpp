@@ -23,6 +23,10 @@
 #define TILE_DELETE_BEFORE 10
 #define TILE_SEE_AFTER 20
 
+#define BONUS_AIMANT 0
+#define BONUS_SHIELD 1
+#define BONUS_X2 2
+
 std::vector<int> Personnage::getBbox(){
     std::vector<int> bbox;
 	if(_x_state == -1){ 
@@ -80,6 +84,52 @@ void World::addTile(Tile* t){
 	_tiles.push_back(*t);
 }
 
+int World::collision(int global_time, int currentTile)
+{
+    int middleHit = int(_t/int(SIZE_OF_TILE)-1);
+    if(currentTile < _tiles.size())
+    {
+        if(_currentBonus != BONUS_SHIELD){
+            if(_tiles[currentTile]._obstacle.id() < _modelLib->nObstacle() &&  _perso->collide(&(_tiles[currentTile]._obstacle))){
+                return 3;
+            }
+        }
+
+        if(_tiles[currentTile]._bonus.id() < _modelLib->nBonus() &&  _perso->collide(&(_tiles[currentTile]._bonus))){
+            _currentBonus = _tiles[currentTile]._bonus.id();
+            _lastTimeBonus = global_time;
+            _tiles[currentTile].takeBonus();
+        }
+
+        if(_tiles[currentTile].haveCoin() && _perso->collide(&(_tiles[currentTile]._coin))){
+            int factorCoins = 1;
+            if(_currentBonus == BONUS_X2) factorCoins = 2;
+            addCoin(NB_COIN_BY_TILE * factorCoins);
+            _tiles[currentTile].takeCoin();
+        }
+        _globalPosition = glm::translate(glm::mat4(), glm::vec3(0, 0, _speed))*_globalPosition;
+
+        if(middleHit != lastTile)
+        {
+            if(_currentBonus != BONUS_SHIELD) {
+                if(_tiles[currentTile]._support.id() < _modelLib->nSupport()+3 &&  _perso->collide(&(_tiles[currentTile]._support))){
+                    return 3;
+                }
+            }
+            if(_tiles[middleHit]._support.id() == _modelLib->nSupport()){
+                _globalPosition = glm::rotate(glm::mat4(), glm::radians(90.0f), glm::vec3(0, 1.0, 0))*_globalPosition;
+                _globalRotation = glm::rotate(_globalRotation, glm::radians(90.0f), glm::vec3(0, 1.0, 0));
+            }
+            else if(_tiles[middleHit]._support.id() == _modelLib->nSupport()+1){
+                _globalPosition = glm::rotate(glm::mat4(), glm::radians(-90.0f), glm::vec3(0, 1.0, 0))*_globalPosition;
+                _globalRotation = glm::rotate(_globalRotation, glm::radians(-90.0f), glm::vec3(0, 1.0, 0));
+            }
+            lastTile = middleHit;
+        }
+    }
+    return 1;
+}
+
 int World::draw(int global_time) {
     glm::mat4 MVMatrix = glm::translate(glm::mat4(), glm::vec3(0,0,0));
     glm::mat4 MVMatrixModified;
@@ -111,7 +161,7 @@ int World::draw(int global_time) {
 
     if(_perso->get_y_state() == 0)
     {
-        MVMatrix = glm::translate(MVMatrix, glm::vec3(0, fabs(sinf(_t))/2.0,0));
+        MVMatrix = glm::translate(MVMatrix, glm::vec3(0, fabs(sinf(_t))*0.3,0));
     }
     else if(_perso->get_y_state() == -1)
     {
@@ -133,7 +183,6 @@ int World::draw(int global_time) {
 	for(int i = 0;i < lastTileDisplay;i++)
 	{
     	MVMatrix = glm::translate(MVMatrix, glm::vec3(0, 0, -SIZE_OF_TILE));
-        /* FIN JUST DEBUG */
 
     	_render->sendMatrix(MVMatrix);
     	if(_tiles[i]._support.id() < _modelLib->nSupport()) // Affichage des supports
@@ -182,41 +231,6 @@ int World::draw(int global_time) {
 	}
 
     _t+=_speed;
-    int middleHit = int(_t/int(SIZE_OF_TILE)-1);
 
-    if(currentTile < _tiles.size())
-    {
-        if(_tiles[currentTile]._obstacle.id() < _modelLib->nObstacle() &&  _perso->collide(&(_tiles[currentTile]._obstacle))){
-            return 3;
-        }
-
-        if(_tiles[currentTile]._bonus.id() < _modelLib->nBonus() &&  _perso->collide(&(_tiles[currentTile]._bonus))){
-            _currentBonus = _tiles[currentTile]._bonus.id();
-            _lastTimeBonus = global_time;
-            _tiles[currentTile].takeBonus();
-        }
-
-        if(_tiles[currentTile].haveCoin() && _perso->collide(&(_tiles[currentTile]._coin))){
-            addCoin(NB_COIN_BY_TILE);
-            _tiles[currentTile].takeCoin();
-        }
-        _globalPosition = glm::translate(glm::mat4(), glm::vec3(0, 0, _speed))*_globalPosition;
-
-        if(middleHit != lastTile)
-        {
-            if(_tiles[currentTile]._support.id() < _modelLib->nSupport()+3 &&  _perso->collide(&(_tiles[currentTile]._support))){
-                return 3;
-            }
-        	if(_tiles[middleHit]._support.id() == _modelLib->nSupport()){
-        		_globalPosition = glm::rotate(glm::mat4(), glm::radians(90.0f), glm::vec3(0, 1.0, 0))*_globalPosition;
-        		_globalRotation = glm::rotate(_globalRotation, glm::radians(90.0f), glm::vec3(0, 1.0, 0));
-        	}
-        	else if(_tiles[middleHit]._support.id() == _modelLib->nSupport()+1){
-        		_globalPosition = glm::rotate(glm::mat4(), glm::radians(-90.0f), glm::vec3(0, 1.0, 0))*_globalPosition;
-        		_globalRotation = glm::rotate(_globalRotation, glm::radians(-90.0f), glm::vec3(0, 1.0, 0));
-        	}
-        	lastTile = middleHit;
-        }
-    }
-    return 1;
+    return collision(global_time, currentTile);
 }

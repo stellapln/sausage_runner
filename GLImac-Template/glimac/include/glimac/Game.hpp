@@ -17,12 +17,14 @@ class Personnage{
 		int _x_state = 0; // -1 : left, 0 : middle, 1 : right
 		int _y_state = 0; // 0 : normal, 1 : jump, -1 : down
 
+		int _last_x_state = 0;
+
 		int _last_x = 0; // last true x location
 		int _last_y = 0; // last true y location
 		int _points = 0;
 
 		int nbFrameForSmoothTranslation = 50;
-		int jumpTime = 100;
+		int jumpTime = 60;
 
  	public:
 
@@ -39,6 +41,7 @@ class Personnage{
 			}
 		}
 		void move_left_right(int state, int t){
+			_last_x_state = _x_state;
 			_x_state = state;
 			_last_x = t;}
 		int get_x_state(){
@@ -52,8 +55,8 @@ class Personnage{
 
 		float getRealX(int t)
 		{
-			int deltaT = t-_last_x;
-			if(deltaT < nbFrameForSmoothTranslation) return _x_state*sin(deltaT/float(nbFrameForSmoothTranslation) * M_PI/2);
+			int deltaT = t - _last_x;
+			if(deltaT < nbFrameForSmoothTranslation) return (_x_state - _last_x_state)*sin(deltaT/float(nbFrameForSmoothTranslation) * M_PI/2) +_last_x_state;
 			return _x_state;
 		}
 		float getRealY(int t)
@@ -61,7 +64,7 @@ class Personnage{
 			int deltaT = t-_last_y;
 			if(deltaT < jumpTime)
 			{
-				if(_y_state == 1) return _y_state*sin(deltaT/float(nbFrameForSmoothTranslation) * M_PI/2);
+				if(_y_state == 1) return _y_state*sin(deltaT/float(jumpTime) * M_PI);
 			}
 			else
 				_y_state = 0;
@@ -85,7 +88,7 @@ class World
 {
 	private:
 		float _t = 0;
-		float _speed = 0.1;
+		float _speed = 0.15;
 		unsigned int lastTile = -1;
 		std::vector<Tile> _tiles;
 		bool _randomized = false; // True : the world will be generated, False : the world will be loaded from a file
@@ -132,6 +135,7 @@ class World
 		}
 		void addTile(Tile* t); // add tile at the endcqjkcdhsqhs hdgzusgz  zsgyzgs nina la meilleure de toutev
 		int draw(int global_time);
+		int collision(int global_time, int currentTile);
 		void setLibrary(Library *lib){
 			_modelLib = lib;
 		}
