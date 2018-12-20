@@ -100,11 +100,11 @@ int World::collision(int global_time, int currentTile)
         }
 
         if(_tiles[currentTile]._bonus.id() < _modelLib->nBonus() &&  _perso->collide(&(_tiles[currentTile]._bonus))){
-            setBonus(_tiles[currentTile]._bonus.id(),global_time);
-            _tiles[currentTile].takeBonus();
+            if(setBonus(_tiles[currentTile]._bonus.id(),global_time))
+                _tiles[currentTile].takeBonus();
         }
 
-        if(_tiles[currentTile].haveCoin() && _perso->collide(&(_tiles[currentTile]._coin))){
+        if(_tiles[currentTile].haveCoin() && (_perso->collide(&(_tiles[currentTile]._coin)) || _currentBonus == BONUS_AIMANT)){
             int factorCoins = 1;
             if(_currentBonus == BONUS_X2) factorCoins = 2;
             addCoin(NB_COIN_BY_TILE * factorCoins);
@@ -122,10 +122,12 @@ int World::collision(int global_time, int currentTile)
             if(_tiles[middleHit]._support.id() == _modelLib->nSupport()){
                 _globalPosition = glm::rotate(glm::mat4(), glm::radians(90.0f), glm::vec3(0, 1.0, 0))*_globalPosition;
                 _globalRotation = glm::rotate(_globalRotation, glm::radians(90.0f), glm::vec3(0, 1.0, 0));
+                setLastRotation(1,global_time);
             }
             else if(_tiles[middleHit]._support.id() == _modelLib->nSupport()+1){
                 _globalPosition = glm::rotate(glm::mat4(), glm::radians(-90.0f), glm::vec3(0, 1.0, 0))*_globalPosition;
                 _globalRotation = glm::rotate(_globalRotation, glm::radians(-90.0f), glm::vec3(0, 1.0, 0));
+                setLastRotation(-1,global_time);
             }
             lastTile = middleHit;
         }
@@ -142,10 +144,19 @@ int World::draw(int global_time) {
     _render->reset();
 
 	if(_activeCam == 0)
-		viewMatrix = _aroundCam->getMatrixView();
+		viewMatrix = _aroundCam->getMatrixView() * getSmoothCamAngle(global_time);
 	else
 		viewMatrix = _eyesCam->getMatrixView();
+
     MVMatrix = viewMatrix*MVMatrix;
+
+    if(_currentBonus >= 0)
+    {
+        MVMatrixModified = glm::translate(MVMatrix,glm::vec3(0,2.0,0));
+        MVMatrixModified = glm::rotate(MVMatrixModified,sinf(_t*0.2),glm::vec3(0,1.0,0));
+        _render->sendMatrix(MVMatrixModified);
+        _modelLib->bonus(_currentBonus).draw();
+    }
 
     // Skybox
 
@@ -202,7 +213,7 @@ int World::draw(int global_time) {
     		_modelLib->support(0).draw();
     		MVMatrix = glm::rotate(MVMatrix, glm::radians(90.0f), glm::vec3(0, 1.0, 0));
     	}
-        if(_tiles[i]._support.id() > 0 && _currentBonus == BONUS_SHIELD) _modelLib->special(SPECIAL_POIRE).draw();
+        if(_tiles[i]._support.id() > 0 && _currentBonus == BONUS_SHIELD) _modelLib->special(0).draw();
 
 
     	MVMatrixModified = glm::translate(MVMatrix, glm::vec3(-SIZE_OF_TILE/2.0 + float(_tiles[i]._obstacle.x()), 0, 0));
@@ -240,13 +251,15 @@ int World::draw(int global_time) {
     return collision(global_time, currentTile);
 }
 
-void World::setBonus(int b, int global_time)
+bool World::setBonus(int b, int global_time)
 {
     if(_currentBonus == -1)
     {
         _currentBonus = b;
         _lastTimeBonus = global_time;
+        return true;
     }
+    return false;
 }
 void World::checkBonus(int global_time){
     if(global_time - _lastTimeBonus > _bonusInfluenceTime)

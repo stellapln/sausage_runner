@@ -24,8 +24,8 @@ class Personnage{
 		int _last_y = 0; // last true y location
 		int _points = 0;
 
-		int nbFrameForSmoothTranslation = 50;
-		int jumpTime = 60;
+		int nbFrameForSmoothTranslation = 10;
+		int jumpTime = 50;
 
  	public:
 
@@ -112,6 +112,10 @@ class World
 	    int _currentBonus = -1;
 	    int _lastTimeBonus = 0;
 
+	    int _lastRotation = 0;
+	    int _lastTimeRotation = 0;
+	    int _timeToSmoothCamRotation = 30;
+
 	    int _bonusInfluenceTime = 300;
 
 	    int _nCoin = 0;
@@ -146,7 +150,7 @@ class World
 			_render = r;
 		}
 		void checkBonus(int global_time);
-		void setBonus(int b, int global_time);
+		bool setBonus(int b, int global_time);
 
 		void init()
 		{
@@ -240,6 +244,17 @@ class World
 	                    _perso->move_left_right(0, t);
 	                    break;
             }
+        }
+        void setLastRotation(int way, int global_time)
+        {
+	    	_lastRotation = way;
+	    	_lastTimeRotation = global_time;
+        }
+        float getSmoothCamAngle(int global_time)
+        {
+        	int detlaT = global_time - _lastTimeRotation;
+        	if(detlaT > _timeToSmoothCamRotation) return 0.0;
+        	return (M_PI/2.0) * (1.0 - float(detlaT)/float(_timeToSmoothCamRotation));
         }
 };
 
