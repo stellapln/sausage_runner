@@ -130,7 +130,7 @@ class World
 		World(std::string file = ""){
 			if(file == "") _randomized = true;
 			else loadFile(file);
-			_aroundCam = new TrackballCamera(5.0f + _zoomBeginningAnimation,30.0f,0.0f);
+			_aroundCam = new TrackballCamera(5.0f + _zoomBeginningAnimation,25.0f,0.0f);
      		_eyesCam = new EyesCam(30.0f,0.0f);
      		_eyesCam->setPosition(glm::vec3(0.0f,-1.4f,0.2f));
      		_perso = new Personnage(0);

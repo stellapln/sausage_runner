@@ -130,6 +130,11 @@ int World::collision(int global_time, int currentTile)
                 setLastRotation(-1,global_time);
             }
             lastTile = middleHit;
+
+            if(currentTile == _tiles.size()-1)
+            {
+                return 3;
+            }
         }
     }
     return 1;
@@ -269,7 +274,8 @@ int World::draw(int global_time) {
     	    }
             if(i == _tiles.size()-1)
             {
-                _modelLib.special(SPECIAL_ARRIVE).draw();
+                _render->sendMatrix(MVMatrix);
+                _modelLib->special(SPECIAL_ARRIVE).draw();
             }
         }
 	}
