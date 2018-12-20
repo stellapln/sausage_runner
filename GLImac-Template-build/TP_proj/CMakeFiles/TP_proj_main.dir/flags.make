@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/include/SDL -I/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/glimac/include -I/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/third-party/include -I/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include 
+CXX_INCLUDES = -I/usr/include/SDL -I/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include -I/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/third-party/include -I/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include 
 

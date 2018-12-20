@@ -49,7 +49,6 @@ int main(int argc, char** argv) {
     }
 
     FilePath applicationPath(argv[0]);
-    Program prog = loadProgram(applicationPath.dirPath() + "shaders/3D.vs.glsl", applicationPath.dirPath() + "shaders/pointLight.fs.glsl");
     Render* render = new Render(applicationPath.dirPath() + "shaders/3D.vs.glsl",applicationPath.dirPath() + "shaders/directionalLight.fs.glsl");
     std::cout << "OpenGL Version : " << glGetString(GL_VERSION) << std::endl;
     std::cout << "GLEW Version : " << glewGetString(GLEW_VERSION) << std::endl;
@@ -344,15 +343,6 @@ int main(int argc, char** argv) {
     world.setLibrary(mainLib);
     world.setRender(render);
 
-    /*!
-     *  \brief ** Variables
-     *
-     *  Initializing variables for the loop
-     */
-    
-    glm::mat4 MVMatrix;
-    glm::mat4 viewMatrix;
-
 	//glEnable(GL_DEPTH_TEST);
 
     /*!
@@ -425,11 +415,17 @@ int main(int argc, char** argv) {
 	         *  Keyboard events
 	         */
 	        else if(e.type == SDL_KEYDOWN) {
-	        	world.keyDown(e.key.keysym.sym);
+	        	world.keyDown(e.key.keysym.sym, global_time);
 	        }
 	        else if(e.type == SDL_KEYUP) {
                if(e.key.keysym.sym == SDLK_ESCAPE) done = true;
-	           else world.keyUp(e.key.keysym.sym);
+               else if(e.key.keysym.sym == SDLK_p && game_statut == 1)
+               {
+                    game_statut = 2;
+                    program2D.use();
+
+               }
+	           else world.keyUp(e.key.keysym.sym, global_time);
 	        }
 	    }
         
@@ -445,6 +441,11 @@ int main(int argc, char** argv) {
         else if(game_statut == 1)
         {
             game_statut = world.draw(global_time);
+            if(game_statut != 1)
+            {
+                world.close();
+                program2D.use();
+            }
         }
         else if(game_statut == 2){
         	Button* bpause = pause.activeButton(mouse_x,mouse_y);

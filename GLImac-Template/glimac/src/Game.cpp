@@ -106,6 +106,9 @@ int World::draw(int global_time) {
 
     // Personnage
 
+    float persoRealX = _perso->getRealX(global_time);
+    float persoRealY = _perso->getRealY(global_time);
+
     if(_perso->get_y_state() == 0)
     {
         MVMatrix = glm::translate(MVMatrix, glm::vec3(0, fabs(sinf(_t))/2.0,0));
@@ -114,13 +117,13 @@ int World::draw(int global_time) {
     {
         MVMatrix = glm::rotate(MVMatrix, glm::radians(80.0f),glm::vec3(1, 0,0));
     }
-    if(_activeCam == 0) MVMatrix = glm::translate(MVMatrix, glm::vec3(_perso->get_x_state(),_perso->get_y_state() ,0.0));
+    if(_activeCam == 0) MVMatrix = glm::translate(MVMatrix, glm::vec3(persoRealX,persoRealY ,0.0));
     
     _render->sendMatrix(MVMatrix);
     _modelLib->perso(_perso->id()).draw();
 
     MVMatrix = _globalPosition;
-    if(_activeCam == 1)viewMatrix = glm::translate(viewMatrix, glm::vec3(-_perso->get_x_state(),-_perso->get_y_state() ,0.0));
+    if(_activeCam == 1)viewMatrix = glm::translate(viewMatrix, glm::vec3(-persoRealX,-persoRealY,0.0));
 
     MVMatrix = viewMatrix*MVMatrix;
 
@@ -155,8 +158,8 @@ int World::draw(int global_time) {
     		_modelLib->obstacle(_tiles[i]._obstacle.id()).draw();
 
     	MVMatrixModified = glm::translate(MVMatrix, glm::vec3(-SIZE_OF_TILE/2.0+ float(_tiles[i]._bonus.x())+0.5, float(_tiles[i]._bonus.y()),0.0));
-        //MVMatrixModified = glm::rotate(MVMatrixModified, global_time*0.1f,glm::vec3(0.0,1.0,0.0));
-
+        MVMatrixModified = glm::rotate(MVMatrixModified, global_time*0.05f,glm::vec3(0.0,1.0,0.0));
+       // MVMatrixModified = glm::translate(MVMatrixModified, global_time*0.05f,glm::vec3(0.0,1.0,0.0)); /* ICI */
         _render->sendMatrix(MVMatrixModified);
 
     	if(_tiles[i].haveBonus() && _tiles[i]._bonus.id() < _modelLib->nBonus()) // Affichage des bonus
@@ -184,7 +187,7 @@ int World::draw(int global_time) {
     if(currentTile < _tiles.size())
     {
         if(_tiles[currentTile]._obstacle.id() < _modelLib->nObstacle() &&  _perso->collide(&(_tiles[currentTile]._obstacle))){
-            return 2;
+            return 3;
         }
 
         if(_tiles[currentTile]._bonus.id() < _modelLib->nBonus() &&  _perso->collide(&(_tiles[currentTile]._bonus))){
@@ -194,17 +197,16 @@ int World::draw(int global_time) {
         }
 
         if(_tiles[currentTile].haveCoin() && _perso->collide(&(_tiles[currentTile]._coin))){
-
-            _tiles[currentTile].takeBonus();
-        }
-        
-        if(_tiles[currentTile]._support.id() < _modelLib->nSupport()+3 &&  _perso->collide(&(_tiles[currentTile]._support))){
-            return 2;
+            addCoin(NB_COIN_BY_TILE);
+            _tiles[currentTile].takeCoin();
         }
         _globalPosition = glm::translate(glm::mat4(), glm::vec3(0, 0, _speed))*_globalPosition;
 
         if(middleHit != lastTile)
         {
+            if(_tiles[currentTile]._support.id() < _modelLib->nSupport()+3 &&  _perso->collide(&(_tiles[currentTile]._support))){
+                return 3;
+            }
         	if(_tiles[middleHit]._support.id() == _modelLib->nSupport()){
         		_globalPosition = glm::rotate(glm::mat4(), glm::radians(90.0f), glm::vec3(0, 1.0, 0))*_globalPosition;
         		_globalRotation = glm::rotate(_globalRotation, glm::radians(90.0f), glm::vec3(0, 1.0, 0));

@@ -21,16 +21,20 @@ class Personnage{
 		int _last_y = 0; // last true y location
 		int _points = 0;
 
+		int nbFrameForSmoothTranslation = 50;
+
  	public:
 
  		Personnage(int id):_id(id){}
  		void setId(int id){ _id = id;}
  		int id()const{return _id;}
 		
-		void move_jump_bend(int state){
-			_y_state = state;}
-		void move_left_right(int state){
-			_x_state = state;}
+		void move_jump_bend(int state, int t){
+			_y_state = state;
+			_last_y = t;}
+		void move_left_right(int state, int t){
+			_x_state = state;
+			_last_x = t;}
 		int get_x_state(){
 			return _x_state;}
 		int get_y_state(){
@@ -39,6 +43,19 @@ class Personnage{
 			_last_x = i;}
 		void set_last_y(int i){
 			_last_y = i;}
+
+		float getRealX(int t)
+		{
+			int deltaT = t-_last_x;
+			if(deltaT < nbFrameForSmoothTranslation) return _x_state*sin(deltaT/float(nbFrameForSmoothTranslation) * M_PI/2);
+			return _x_state;
+		}
+		float getRealY(int t)
+		{
+			int deltaT = t-_last_y;
+			if(deltaT < nbFrameForSmoothTranslation) return _y_state*sin(deltaT/float(nbFrameForSmoothTranslation) * M_PI/2);
+			return _y_state;
+		}
 		
 		std::vector<int> getBbox();
 		bool collide(LibElem *obs){
@@ -78,7 +95,7 @@ class World
 	    int lastX = 0, lastY = 0;
 	    int _currentBonus = -1;
 	    int _lastTimeBonus = 0;
-	    
+
 	    int _nCoin = 0;
 
 		void loadFile(std::string level); // Fill the vector _tiles with the file;
@@ -112,13 +129,17 @@ class World
 
 		void init()
 		{
+			resume();
 			_globalPosition = glm::mat4();
 			_globalRotation = glm::mat4();
 			_t = 0;
 			lastTile = -1;
 			_activeCam = 0;
-			glEnable(GL_DEPTH_TEST);
+		}
+		void resume()
+		{
 			_render->use();
+			glEnable(GL_DEPTH_TEST);
 		}
 		void close()
 		{
@@ -155,19 +176,19 @@ class World
                 rightClickDown = false;
             }
 		}
-		void keyDown(Uint8 key){
+		void keyDown(Uint8 key, int t){
             switch(key) {
                 case SDLK_z: // z to jump
-                     _perso->move_jump_bend(1);
+                     _perso->move_jump_bend(1, t);
                     break;
                 case SDLK_s: //s to bend
-                    _perso->move_jump_bend(-1);
+                    _perso->move_jump_bend(-1, t);
                     break;
                 case SDLK_q: //q to go left
-                    _perso->move_left_right(-1);
+                    _perso->move_left_right(-1, t);
                     break;
                 case SDLK_d: //d to go right
-                    _perso->move_left_right(1);
+                    _perso->move_left_right(1, t);
                     break;
                 case SDLK_l: //l camera edit mode
                     if(edit_mode)
@@ -179,19 +200,19 @@ class World
                     changeCam();
             }
 		}
-		void keyUp(Uint8 key){
+		void keyUp(Uint8 key, int t){
             switch(key) {
 	                case SDLK_z:
-	                    _perso->move_jump_bend(0);
+	                    _perso->move_jump_bend(0, t);
 	                    break;
 	                case SDLK_s:
-	                    _perso->move_jump_bend(0);
+	                    _perso->move_jump_bend(0, t);
 	                    break;
 	                case SDLK_q:
-	                    _perso->move_left_right(0);
+	                    _perso->move_left_right(0, t);
 	                    break;
 	                case SDLK_d:
-	                    _perso->move_left_right(0);
+	                    _perso->move_left_right(0, t);
 	                    break;
             }
         }
