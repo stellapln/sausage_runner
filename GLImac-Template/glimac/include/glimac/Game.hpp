@@ -22,6 +22,7 @@ class Personnage{
 		int _points = 0;
 
 		int nbFrameForSmoothTranslation = 50;
+		int jumpTime = 100;
 
  	public:
 
@@ -30,8 +31,13 @@ class Personnage{
  		int id()const{return _id;}
 		
 		void move_jump_bend(int state, int t){
-			_y_state = state;
-			_last_y = t;}
+			int deltaT = t-_last_y;
+			if(deltaT > jumpTime)
+			{
+				_y_state = state;
+				_last_y = t;
+			}
+		}
 		void move_left_right(int state, int t){
 			_x_state = state;
 			_last_x = t;}
@@ -53,7 +59,12 @@ class Personnage{
 		float getRealY(int t)
 		{
 			int deltaT = t-_last_y;
-			if(deltaT < nbFrameForSmoothTranslation) return _y_state*sin(deltaT/float(nbFrameForSmoothTranslation) * M_PI/2);
+			if(deltaT < jumpTime)
+			{
+				if(_y_state == 1) return _y_state*sin(deltaT/float(nbFrameForSmoothTranslation) * M_PI/2);
+			}
+			else
+				_y_state = 0;
 			return _y_state;
 		}
 		
@@ -81,6 +92,7 @@ class World
 
 		glm::mat4 _globalPosition;
 		glm::mat4 _globalRotation;
+		glm::mat4 _firstTileMatrix;
 
 		Personnage *_perso;
 		Library *_modelLib;
