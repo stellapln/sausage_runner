@@ -249,7 +249,7 @@ int main(int argc, char** argv) {
     // PAUSE WINDOW
     Window pause(&pauseImage);
     Button replay_pause(&replayImagePause, &replayImageHoverPause,[&world]()-> int{
-                world.init();
+                world.resume();
                 return 1; // replay the game
                 // back to play + reset world
             },499,426,140,173);
@@ -311,6 +311,7 @@ int main(int argc, char** argv) {
 
     Model magnetModel("assets/aimant.obj");
     Model shieldModel("assets/bouclier.obj");
+    Model bonusX2Model("assets/bonusX2.obj");
 
     Model coinModel("assets/piece.obj");
 
@@ -337,6 +338,7 @@ int main(int argc, char** argv) {
 
     mainLib->addBonus(magnetModel);
     mainLib->addBonus(shieldModel);
+    mainLib->addBonus(bonusX2Model);
 
     mainLib->addSkybox(montainSkyModel);
 
@@ -423,6 +425,7 @@ int main(int argc, char** argv) {
                {
                     game_statut = 2;
                     program2D.use();
+                    world.close();
 
                }
 	           else world.keyUp(e.key.keysym.sym, global_time);
