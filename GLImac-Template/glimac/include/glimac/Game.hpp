@@ -254,7 +254,7 @@ class World
         {
         	int detlaT = global_time - _lastTimeRotation;
         	if(detlaT > _timeToSmoothCamRotation) return 0.0;
-        	return (M_PI/2.0) * (1.0 - float(detlaT)/float(_timeToSmoothCamRotation));
+        	return -_lastRotation * (M_PI/2.0) * (1.0 - float(detlaT)/float(_timeToSmoothCamRotation));
         }
 };
 

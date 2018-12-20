@@ -144,9 +144,11 @@ int World::draw(int global_time) {
     _render->reset();
 
 	if(_activeCam == 0)
-		viewMatrix = _aroundCam->getMatrixView() * getSmoothCamAngle(global_time);
-	else
-		viewMatrix = _eyesCam->getMatrixView();
+    {
+		viewMatrix = _aroundCam->getMatrixView();// * getSmoothCamAngle(global_time);
+        viewMatrix = glm::rotate(viewMatrix, getSmoothCamAngle(global_time),glm::vec3(0.0,1.0,0.0));
+    }
+	else viewMatrix = _eyesCam->getMatrixView();
 
     MVMatrix = viewMatrix*MVMatrix;
 
@@ -192,6 +194,7 @@ int World::draw(int global_time) {
     MVMatrix = viewMatrix*MVMatrix;
 
     int currentTile = int(_t/int(SIZE_OF_TILE) - 0.5);
+    int firstTileDisplay = std::max(0,currentTile - TILE_SEE_BEFORE);
     int lastTileDisplay = std::min(currentTile + TILE_SEE_AFTER, int(_tiles.size()));
 
 	for(int i = 0;i < lastTileDisplay;i++)
@@ -244,6 +247,7 @@ int World::draw(int global_time) {
 	    		_modelLib->coin().draw();
 	    	}
 	    }
+        if()
 	}
 
     _t+=_speed;

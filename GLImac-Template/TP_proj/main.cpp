@@ -29,6 +29,7 @@
 #include <glimac/Model.hpp>
 #include <glimac/Game.hpp>
 #include <glimac/Interfaces2D.hpp>
+#include <glimac/Except.hpp>
 
 /*! \namespace glimac
  * 

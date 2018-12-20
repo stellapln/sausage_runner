@@ -3,6 +3,7 @@
 #pragma once
 
 #include <vector>
+#include <iostream>
 #include <glimac/Model.hpp>
 
 class LibElem {
@@ -10,6 +11,10 @@ class LibElem {
 		virtual void setBbox() = 0;
 		virtual std::vector<int> getBbox() = 0;
 		virtual int id() = 0;
+		virtual void descr()
+		{
+			std::cout << "Lib Elem" << std::endl;
+		}
 };
 
 /*! \class Coin
@@ -36,6 +41,10 @@ class Coin : public LibElem {
 		void setBbox() override;
 		std::vector<int> getBbox() override{
 			return _bbox;
+		}
+		void descr()
+		{
+			std::cout << "Coin Elem" << std::endl;
 		}
 };
 
