@@ -330,6 +330,7 @@ std::cout << "5" << std::endl;
 
     Model protectModel("assets/bloc-bleu.obj");
     Model poireModel("assets/PoireDeLavement.obj");
+    Model donutModel("assets/donut.obj");
 
     Model montainSkyModel("assets/skydome.obj");
     
@@ -361,6 +362,7 @@ std::cout << "6" << std::endl;
 
     mainLib->addSpecial(protectModel);
     mainLib->addSpecial(poireModel);
+    mainLib->addSpecial(donutModel);
 
     world.setLibrary(mainLib);
     world.setRender(render);

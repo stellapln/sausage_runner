@@ -154,10 +154,13 @@ int World::draw(int global_time) {
 
     MVMatrix = viewMatrix*MVMatrix;
 
+    // Current Bonus
+
     if(_currentBonus >= 0)
     {
         MVMatrixModified = glm::translate(MVMatrix,glm::vec3(0,2.0,0));
         MVMatrixModified = glm::rotate(MVMatrixModified,sinf(_t*0.2),glm::vec3(0,1.0,0));
+        MVMatrixModified = glm::scale(MVMatrixModified,glm::vec3(0.5,0.5,0.5));
         _render->sendMatrix(MVMatrixModified);
         _modelLib->bonus(_currentBonus).draw();
     }
@@ -264,6 +267,10 @@ int World::draw(int global_time) {
     	    		_modelLib->coin().draw();
     	    	}
     	    }
+            if(i == _tiles.size()-1)
+            {
+                _modelLib.special(SPECIAL_ARRIVE).draw();
+            }
         }
 	}
     if(deltaT < _beginningAnimDuration)_aroundCam->moveFront(_zoomBeginningAnimation/_beginningAnimDuration);

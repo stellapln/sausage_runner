@@ -124,15 +124,13 @@ class World
 	    int _beginningAnimDuration = 100;
 	    float _zoomBeginningAnimation = 10;
 
-	    float _beginOffset = 6.0;
-
 		void loadFile(std::string level); // Fill the vector _tiles with the file;
 
 	public:
 		World(std::string file = ""){
 			if(file == "") _randomized = true;
 			else loadFile(file);
-			_aroundCam = new TrackballCamera(6.0f + _zoomBeginningAnimation,25.0f,0.0f);
+			_aroundCam = new TrackballCamera(5.0f + _zoomBeginningAnimation,30.0f,0.0f);
      		_eyesCam = new EyesCam(30.0f,0.0f);
      		_eyesCam->setPosition(glm::vec3(0.0f,-1.4f,0.2f));
      		_perso = new Personnage(0);
@@ -166,9 +164,10 @@ class World
 			};
 			for_each(_tiles.begin(), _tiles.end(),resetTile);
 			resume();
-			_globalPosition = glm::translate(glm::mat4(),glm::vec3(0.0,0.0,_beginOffset));
+			_aroundCam->reset(5.0f + _zoomBeginningAnimation,35.0f,0.0f);
+			_globalPosition = glm::mat4();
 			_globalRotation = glm::mat4();
-			_t = _beginOffset;
+			_t = 0.0;
 			lastTile = -1;
 			_activeCam = 0;
 		}

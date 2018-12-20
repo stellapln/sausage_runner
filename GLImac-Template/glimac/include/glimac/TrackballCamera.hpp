@@ -15,6 +15,7 @@ class SimpleAxeCam
 		virtual void moveFront(const float delta) = 0;
 		virtual glm::mat4 getMatrixView() const = 0;
 		virtual void setPosition(const glm::vec3 &p) = 0;
+		virtual void reset(float d,float ax,float ay) = 0;
 };
 
 class TrackballCamera : public SimpleAxeCam
@@ -23,6 +24,12 @@ class TrackballCamera : public SimpleAxeCam
 		float _fDistance;
 	public:
 		TrackballCamera(float d=5.0f,float ax=0.0f,float ay=0.0f):_fDistance(d),SimpleAxeCam(ax,ay){}
+
+		void reset(float d,float ax,float ay){
+			_fDistance = d;
+			_fAngleX = ax;
+			_fAngleY = ay;
+		}
 		void moveFront(const float delta) override{
 			_fDistance -= delta;
 		}
@@ -49,6 +56,10 @@ class EyesCam : public SimpleAxeCam
 		glm::vec3 _position = glm::vec3(0.0f,-1.2f,0.2f);
 	public:
 		EyesCam(float ax=0.0f,float ay=0.0f):SimpleAxeCam(ax,ay){}
+		void reset(float d,float ax,float ay){
+			_fAngleX = ax;
+			_fAngleY = ay;
+		}
 		void setMaxAngle(float m)
 		{
 			_maxAngle = m;
