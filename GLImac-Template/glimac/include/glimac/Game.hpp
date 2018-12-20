@@ -115,10 +115,16 @@ class World
 	    int _lastRotation = 0;
 	    int _lastTimeRotation = 0;
 	    int _timeToSmoothCamRotation = 30;
+	    int _timeStartGame = 0;
 
 	    int _bonusInfluenceTime = 300;
 
 	    int _nCoin = 0;
+
+	    int _beginningAnimDuration = 100;
+	    float _zoomBeginningAnimation = 10;
+
+	    float _beginOffset = 6.0;
 
 		void loadFile(std::string level); // Fill the vector _tiles with the file;
 
@@ -126,7 +132,7 @@ class World
 		World(std::string file = ""){
 			if(file == "") _randomized = true;
 			else loadFile(file);
-			_aroundCam = new TrackballCamera(5.0f,25.0f,0.0f);
+			_aroundCam = new TrackballCamera(6.0f + _zoomBeginningAnimation,25.0f,0.0f);
      		_eyesCam = new EyesCam(30.0f,0.0f);
      		_eyesCam->setPosition(glm::vec3(0.0f,-1.4f,0.2f));
      		_perso = new Personnage(0);
@@ -152,16 +158,17 @@ class World
 		void checkBonus(int global_time);
 		bool setBonus(int b, int global_time);
 
-		void init()
+		void init(int global_time)
 		{
+			_timeStartGame = global_time;
 			std::function<void(Tile t)> resetTile = [](Tile t){
 				t.reset();
 			};
 			for_each(_tiles.begin(), _tiles.end(),resetTile);
 			resume();
-			_globalPosition = glm::mat4();
+			_globalPosition = glm::translate(glm::mat4(),glm::vec3(0.0,0.0,_beginOffset));
 			_globalRotation = glm::mat4();
-			_t = 0;
+			_t = _beginOffset;
 			lastTile = -1;
 			_activeCam = 0;
 		}

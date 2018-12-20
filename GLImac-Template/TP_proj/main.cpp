@@ -48,6 +48,7 @@ int main(int argc, char** argv) {
         std::cerr << glewGetErrorString(glewInitError) << std::endl;
         return EXIT_FAILURE;
     }
+std::cout << "1" << std::endl;
 
     FilePath applicationPath(argv[0]);
     Render* render = new Render(applicationPath.dirPath() + "shaders/3D.vs.glsl",applicationPath.dirPath() + "shaders/directionalLight.fs.glsl");
@@ -62,6 +63,13 @@ int main(int argc, char** argv) {
     GLuint sampler2D = glGetUniformLocation(program2D.getGLId(), "uTexture");
     GLuint matrixLocation = glGetUniformLocation(program2D.getGLId(), "uModelMatrix");
 
+    bool done = false;
+    int global_time = 0;
+    // 0 : menu, 1 : game, 2 : pause, 3 : end (score), 4 : quit the game, 5 : change character, 6 : settings;
+    int game_statut = 0;
+    int mouse_x,mouse_y;
+
+std::cout << "2" << std::endl;
 
     /*!
      *  \brief ** Initialization
@@ -149,6 +157,7 @@ int main(int argc, char** argv) {
     const FilePath menupathhoverscore = applicationPath.dirPath() + "assets/textures/MENU_BUTTON_FOR_SCORE_BRIGHT.png";
     Image2D menuImageHoverScore(menupathhoverscore, "menuImageHoverScore");
 
+std::cout << "3" << std::endl;
     try
     {
     	// MENU WINDOW
@@ -229,11 +238,12 @@ int main(int argc, char** argv) {
     {
     	std::cerr << err << std::endl;
     }
+std::cout << "4" << std::endl;
     
     // MENU WINDOW
     Window menu(&menuImage);
-    Button play_menu(&playImageMenu, &playImageHoverMenu,[&world]()-> int{
-                world.init();
+    Button play_menu(&playImageMenu, &playImageHoverMenu,[&world, &global_time]()-> int{
+                world.init(global_time);
 				return 1; // start the game
 
 			},152,427,217/2,348/2);
@@ -272,6 +282,8 @@ int main(int argc, char** argv) {
     Button change_score(&changeImageScore, &changeImageHoverScore,[]()-> int{
                 return 5; // change character
             },454,460,193,140);
+
+std::cout << "5" << std::endl;
 
 	try
     {
@@ -319,13 +331,14 @@ int main(int argc, char** argv) {
     Model protectModel("assets/bloc-bleu.obj");
     Model poireModel("assets/PoireDeLavement.obj");
 
-    Model montainSkyModel("assets/box.obj");
+    Model montainSkyModel("assets/skydome.obj");
     
     /*!
      *  \brief ** Libraries
      *
      *  Filling libraries with objects
      */
+std::cout << "6" << std::endl;
 
     Library *mainLib = new Library(coinModel);
 
@@ -361,12 +374,7 @@ int main(int argc, char** argv) {
      */
     
     // TTF_Init(); 
-    
-    bool done = false;
-    int global_time = 0;
-    // 0 : menu, 1 : game, 2 : pause, 3 : end (score), 4 : quit the game, 5 : change character, 6 : settings;
-    int game_statut = 0;
-    int mouse_x,mouse_y;
+std::cout << "7" << std::endl;
 
     while(!done) {
     	SDL_Event e;

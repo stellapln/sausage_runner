@@ -20,7 +20,7 @@
 #define NB_COIN_BY_TILE 3
 #define SIZE_OF_TILE 3.0
 
-#define TILE_DELETE_BEFORE 10
+#define TILE_DELETE_BEFORE 2
 #define TILE_SEE_AFTER 20
 
 #define BONUS_AIMANT 0
@@ -141,6 +141,8 @@ int World::draw(int global_time) {
     glm::mat4 MVMatrixModifiedM;
 	glm::mat4 viewMatrix;
 
+    int deltaT = global_time - _timeStartGame;
+
     _render->reset();
 
 	if(_activeCam == 0)
@@ -162,13 +164,20 @@ int World::draw(int global_time) {
 
     // Skybox
 
- 	MVMatrixModified = glm::scale(MVMatrix,glm::vec3(10.0,10.0,10.0));
+ 	MVMatrixModified = glm::scale(MVMatrix,glm::vec3(30.0,30.0,30.0));
     _render->sendMatrix(MVMatrixModified);
     _modelLib->skybox(0).draw();
 
     // Lights
 
     _render->sendLight(viewMatrix*_globalRotation);
+
+    // Poire
+
+    MVMatrixModified = glm::translate(MVMatrix,glm::vec3(0.0,0.0,4.5));
+    if(deltaT > _beginningAnimDuration) MVMatrixModified = glm::rotate(MVMatrixModified,sinf(global_time*0.1),glm::vec3(0.0,1.0,0.5));
+    _render->sendMatrix(MVMatrixModified);
+    _modelLib->special(SPECIAL_POIRE).draw();
 
     // Personnage
 
@@ -188,68 +197,76 @@ int World::draw(int global_time) {
     _render->sendMatrix(MVMatrix);
     _modelLib->perso(_perso->id()).draw();
 
+
     MVMatrix = _globalPosition;
     if(_activeCam == 1)viewMatrix = glm::translate(viewMatrix, glm::vec3(-persoRealX,-persoRealY,0.0));
 
     MVMatrix = viewMatrix*MVMatrix;
 
     int currentTile = int(_t/int(SIZE_OF_TILE) - 0.5);
-    int firstTileDisplay = std::max(0,currentTile - TILE_SEE_BEFORE);
+    int firstTileDisplay = std::max(0,currentTile - TILE_DELETE_BEFORE);
     int lastTileDisplay = std::min(currentTile + TILE_SEE_AFTER, int(_tiles.size()));
 
 	for(int i = 0;i < lastTileDisplay;i++)
 	{
     	MVMatrix = glm::translate(MVMatrix, glm::vec3(0, 0, -SIZE_OF_TILE));
 
-    	_render->sendMatrix(MVMatrix);
-    	if(_tiles[i]._support.id() < _modelLib->nSupport()) // Affichage des supports
-    	{
-    		_modelLib->support(_tiles[i]._support.id()).draw();
-    	}
-    	else if(_tiles[i]._support.id() == _modelLib->nSupport()) // Virage à droite
-    	{
-    		_modelLib->support(0).draw();
-    		MVMatrix = glm::rotate(MVMatrix, glm::radians(-90.0f), glm::vec3(0, 1.0, 0));
-    	}
-    	else if(_tiles[i]._support.id() == _modelLib->nSupport()+1) // Virage à gauche
-    	{
-    		_modelLib->support(0).draw();
-    		MVMatrix = glm::rotate(MVMatrix, glm::radians(90.0f), glm::vec3(0, 1.0, 0));
-    	}
-        if(_tiles[i]._support.id() > 0 && _currentBonus == BONUS_SHIELD) _modelLib->special(0).draw();
-
-
-    	MVMatrixModified = glm::translate(MVMatrix, glm::vec3(-SIZE_OF_TILE/2.0 + float(_tiles[i]._obstacle.x()), 0, 0));
-    	_render->sendMatrix(MVMatrixModified);
-
-    	if(_tiles[i]._obstacle.id() < _modelLib->nObstacle()) // Affichage des obstacles
-    		_modelLib->obstacle(_tiles[i]._obstacle.id()).draw();
-
-    	MVMatrixModified = glm::translate(MVMatrix, glm::vec3(-SIZE_OF_TILE/2.0+ float(_tiles[i]._bonus.x())+0.5, float(_tiles[i]._bonus.y()),0.0));
-        MVMatrixModified = glm::rotate(MVMatrixModified, global_time*0.05f,glm::vec3(0.0,1.0,0.0));
-       // MVMatrixModified = glm::translate(MVMatrixModified, global_time*0.05f,glm::vec3(0.0,1.0,0.0)); /* ICI */
-        _render->sendMatrix(MVMatrixModified);
-
-    	if(_tiles[i].haveBonus() && _tiles[i]._bonus.id() < _modelLib->nBonus()) // Affichage des bonus
-        { 
-    		_modelLib->bonus(_tiles[i]._bonus.id()).draw();
+        if(i <= firstTileDisplay)
+        {
+            if(_tiles[i]._support.id() == _modelLib->nSupport()) MVMatrix = glm::rotate(MVMatrix, glm::radians(-90.0f), glm::vec3(0, 1.0, 0));
+            else if(_tiles[i]._support.id() == _modelLib->nSupport()+1) MVMatrix = glm::rotate(MVMatrix, glm::radians(90.0f), glm::vec3(0, 1.0, 0));
         }
+        else
+        {
+        	_render->sendMatrix(MVMatrix);
+        	if(_tiles[i]._support.id() < _modelLib->nSupport()) // Affichage des supports
+        	{
+        		_modelLib->support(_tiles[i]._support.id()).draw();
+        	}
+        	else if(_tiles[i]._support.id() == _modelLib->nSupport()) // Virage à droite
+        	{
+        		_modelLib->support(0).draw();
+        		MVMatrix = glm::rotate(MVMatrix, glm::radians(-90.0f), glm::vec3(0, 1.0, 0));
+        	}
+        	else if(_tiles[i]._support.id() == _modelLib->nSupport()+1) // Virage à gauche
+        	{
+        		_modelLib->support(0).draw();
+        		MVMatrix = glm::rotate(MVMatrix, glm::radians(90.0f), glm::vec3(0, 1.0, 0));
+        	}
+            if(_tiles[i]._support.id() > 0 && _currentBonus == BONUS_SHIELD) _modelLib->special(0).draw();
 
-    	if(_tiles[i].haveCoin()) // Affichage des pieces
-    	{
-	    	MVMatrixModified = glm::translate(MVMatrix, glm::vec3(-SIZE_OF_TILE/2.0 + float(_tiles[i]._coin.x())+0.5, float(_tiles[i]._coin.y()),-SIZE_OF_TILE/2.0));
-	    	int j = 0;
-	    	for(j = 0;j < NB_COIN_BY_TILE;j++)
-	    	{
-		    	MVMatrixModified = glm::translate(MVMatrixModified, glm::vec3(0.0,0.0,float(SIZE_OF_TILE/NB_COIN_BY_TILE)));
-	    		MVMatrixModifiedM = glm::rotate(MVMatrixModified, global_time*0.1f,glm::vec3(0.0,1.0,0.0));
-                _render->sendMatrix(MVMatrixModifiedM);
-	    		_modelLib->coin().draw();
-	    	}
-	    }
-        if()
+
+        	MVMatrixModified = glm::translate(MVMatrix, glm::vec3(-SIZE_OF_TILE/2.0 + float(_tiles[i]._obstacle.x()), 0, 0));
+        	_render->sendMatrix(MVMatrixModified);
+
+        	if(_tiles[i]._obstacle.id() < _modelLib->nObstacle()) // Affichage des obstacles
+        		_modelLib->obstacle(_tiles[i]._obstacle.id()).draw();
+
+        	MVMatrixModified = glm::translate(MVMatrix, glm::vec3(-SIZE_OF_TILE/2.0+ float(_tiles[i]._bonus.x())+0.5, float(_tiles[i]._bonus.y()),0.0));
+            MVMatrixModified = glm::rotate(MVMatrixModified, global_time*0.05f,glm::vec3(0.0,1.0,0.0));
+           // MVMatrixModified = glm::translate(MVMatrixModified, global_time*0.05f,glm::vec3(0.0,1.0,0.0)); /* ICI */
+            _render->sendMatrix(MVMatrixModified);
+
+        	if(_tiles[i].haveBonus() && _tiles[i]._bonus.id() < _modelLib->nBonus()) // Affichage des bonus
+            { 
+        		_modelLib->bonus(_tiles[i]._bonus.id()).draw();
+            }
+
+        	if(_tiles[i].haveCoin()) // Affichage des pieces
+        	{
+    	    	MVMatrixModified = glm::translate(MVMatrix, glm::vec3(-SIZE_OF_TILE/2.0 + float(_tiles[i]._coin.x())+0.5, float(_tiles[i]._coin.y()),-SIZE_OF_TILE/2.0));
+    	    	int j = 0;
+    	    	for(j = 0;j < NB_COIN_BY_TILE;j++)
+    	    	{
+    		    	MVMatrixModified = glm::translate(MVMatrixModified, glm::vec3(0.0,0.0,float(SIZE_OF_TILE/NB_COIN_BY_TILE)));
+    	    		MVMatrixModifiedM = glm::rotate(MVMatrixModified, global_time*0.1f,glm::vec3(0.0,1.0,0.0));
+                    _render->sendMatrix(MVMatrixModifiedM);
+    	    		_modelLib->coin().draw();
+    	    	}
+    	    }
+        }
 	}
-
+    if(deltaT < _beginningAnimDuration)_aroundCam->moveFront(_zoomBeginningAnimation/_beginningAnimDuration);
     _t+=_speed;
     checkBonus(global_time);
     return collision(global_time, currentTile);
