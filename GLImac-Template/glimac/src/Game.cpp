@@ -27,6 +27,10 @@
 #define BONUS_SHIELD 1
 #define BONUS_X2 2
 
+#define SPECIAL_PROTECT 0
+#define SPECIAL_POIRE 1
+#define SPECIAL_ARRIVE 2
+
 std::vector<int> Personnage::getBbox(){
     std::vector<int> bbox;
 	if(_x_state == -1){ 
@@ -96,8 +100,7 @@ int World::collision(int global_time, int currentTile)
         }
 
         if(_tiles[currentTile]._bonus.id() < _modelLib->nBonus() &&  _perso->collide(&(_tiles[currentTile]._bonus))){
-            _currentBonus = _tiles[currentTile]._bonus.id();
-            _lastTimeBonus = global_time;
+            setBonus(_tiles[currentTile]._bonus.id(),global_time);
             _tiles[currentTile].takeBonus();
         }
 
@@ -199,6 +202,8 @@ int World::draw(int global_time) {
     		_modelLib->support(0).draw();
     		MVMatrix = glm::rotate(MVMatrix, glm::radians(90.0f), glm::vec3(0, 1.0, 0));
     	}
+        if(_tiles[i]._support.id() > 0 && _currentBonus == BONUS_SHIELD) _modelLib->special(SPECIAL_POIRE).draw();
+
 
     	MVMatrixModified = glm::translate(MVMatrix, glm::vec3(-SIZE_OF_TILE/2.0 + float(_tiles[i]._obstacle.x()), 0, 0));
     	_render->sendMatrix(MVMatrixModified);
@@ -231,6 +236,21 @@ int World::draw(int global_time) {
 	}
 
     _t+=_speed;
-
+    checkBonus(global_time);
     return collision(global_time, currentTile);
+}
+
+void World::setBonus(int b, int global_time)
+{
+    if(_currentBonus == -1)
+    {
+        _currentBonus = b;
+        _lastTimeBonus = global_time;
+    }
+}
+void World::checkBonus(int global_time){
+    if(global_time - _lastTimeBonus > _bonusInfluenceTime)
+    {
+        _currentBonus = -1;
+    }
 }

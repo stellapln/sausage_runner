@@ -10,6 +10,7 @@
 #include <glimac/Library.hpp>
 #include <glimac/Render.hpp>
 #include <algorithm>
+#include <functional>
 
 class Personnage{
 	private:
@@ -111,6 +112,8 @@ class World
 	    int _currentBonus = -1;
 	    int _lastTimeBonus = 0;
 
+	    int _bonusInfluenceTime = 300;
+
 	    int _nCoin = 0;
 
 		void loadFile(std::string level); // Fill the vector _tiles with the file;
@@ -142,9 +145,15 @@ class World
 		void setRender(Render *r){
 			_render = r;
 		}
+		void checkBonus(int global_time);
+		void setBonus(int b, int global_time);
 
 		void init()
 		{
+			std::function<void(Tile t)> resetTile = [](Tile t){
+				t.reset();
+			};
+			for_each(_tiles.begin(), _tiles.end(),resetTile);
 			resume();
 			_globalPosition = glm::mat4();
 			_globalRotation = glm::mat4();

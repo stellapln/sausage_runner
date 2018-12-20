@@ -159,6 +159,10 @@ class Tile{
 		void takeCoin(){
 			coinTaken = true;
 		}
+		void reset(){
+			bonusTaken = false;
+			coinTaken = false;
+		}
 };
 
 /*! \class Library
@@ -173,6 +177,7 @@ class Library {
 		std::vector<Model> _obstacles; /*!< Vector countaining obstacles */
 		std::vector<Model> _bonus; /*!< Vector countaining bonus */
 		std::vector<Model> _skybox; /*!< Vector countaining skybox */
+		std::vector<Model> _specials; /*!< Vector countaining specials objects */
 		Model _coin; /*!< .obj of the coin */
 
 	public:
@@ -199,6 +204,9 @@ class Library {
 		void addSkybox(Model m){
 			_skybox.push_back(m);
 		}
+		void addSpecial(Model m){
+			_specials.push_back(m);
+		}
 		void setCoin(Model m){_coin = m;}
 
 		Model perso(unsigned int i) const {return _persos[i];}
@@ -206,6 +214,7 @@ class Library {
 		Model bonus(unsigned int i) const {return _bonus[i];}
 		Model obstacle(unsigned int i) const {return _obstacles[i];}
 		Model skybox(unsigned int i) const {return _skybox[i];}
+		Model special(unsigned int i) const {return _specials[i];}
 		Model coin() const {return _coin;}
 
 		int nPerso() const {return _persos.size();}
@@ -213,6 +222,7 @@ class Library {
 		int nBonus() const {return _bonus.size();}
 		int nObstacle() const {return _obstacles.size();}
 		int nSkybox() const {return _skybox.size();}
+		int nSpecial() const {return _specials.size();}
 };
 
 #endif

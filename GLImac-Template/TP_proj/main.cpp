@@ -315,6 +315,9 @@ int main(int argc, char** argv) {
 
     Model coinModel("assets/piece.obj");
 
+    Model protectModel("assets/bloc-bleu.obj");
+    Model poireModel("assets/PoireDeLavement.obj");
+
     Model montainSkyModel("assets/box.obj");
     
     /*!
@@ -341,6 +344,9 @@ int main(int argc, char** argv) {
     mainLib->addBonus(bonusX2Model);
 
     mainLib->addSkybox(montainSkyModel);
+
+    mainLib->addSpecial(protectModel);
+    mainLib->addSpecial(poireModel);
 
     world.setLibrary(mainLib);
     world.setRender(render);

@@ -297,6 +297,8 @@ glimac/Render.hpp
 -
 algorithm
 -
+functional
+-
 
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Image.hpp
 vector
