@@ -31,6 +31,13 @@
 #include <glimac/Interfaces2D.hpp>
 #include <glimac/Except.hpp>
 
+#define START_MENU 0
+#define RUNNING_SAUSAGE 1
+#define PAUSE_MENU 2
+#define SCORE_MENU 3
+#define QUIT_VALUE 4 
+
+
 /*! \namespace glimac
  * 
  * Namespace with all fonctions
@@ -50,7 +57,6 @@ namespace sausageRunner {
             std::cerr << glewGetErrorString(glewInitError) << std::endl;
             return EXIT_FAILURE;
         }
-    std::cout << "1" << std::endl;
 
         FilePath applicationPath(argv[0]);
         Render* render = new Render(applicationPath.dirPath() + "shaders/3D.vs.glsl",applicationPath.dirPath() + "shaders/directionalLight.fs.glsl");
@@ -71,7 +77,6 @@ namespace sausageRunner {
         int game_statut = 0;
         int mouse_x,mouse_y;
 
-    std::cout << "2" << std::endl;
 
         /*!
          *  \brief ** Initialization
@@ -87,79 +92,57 @@ namespace sausageRunner {
          *  Initialize Windows (2D)
          */
 
-         // Menu Image
-        const FilePath menupath = applicationPath.dirPath() + "assets/textures/MENU_WINDOW.png";
-        Image2D menuImage(menupath, "menuImage");
+        Image2D menuImage("assets/textures/MENU_WINDOW.png", "menuImage");
         // Play Button
         const FilePath playpathmenu = applicationPath.dirPath() + "assets/textures/PLAY_BUTTON_FOR_MENU.png";
-        Image2D playImageMenu(playpathmenu, "playImageMenu");
+        Image2D playImageMenu("assets/textures/PLAY_BUTTON_FOR_MENU.png", "playImageMenu");
         // Play Button Bright (hover)
-        const FilePath playpathhovermenu = applicationPath.dirPath() + "assets/textures/PLAY_BUTTON_FOR_MENU_BRIGHT.png";
-        Image2D playImageHoverMenu(playpathhovermenu, "playImageHoverMenu");
+        Image2D playImageHoverMenu("assets/textures/PLAY_BUTTON_FOR_MENU_BRIGHT.png", "playImageHoverMenu");
     	// Quit Button
-        const FilePath quitpathmenu = applicationPath.dirPath() + "assets/textures/QUIT_BUTTON_FOR_MENU.png";
-        Image2D quitImageMenu(quitpathmenu, "quitImageMenu");
+        Image2D quitImageMenu("assets/textures/QUIT_BUTTON_FOR_MENU.png", "quitImageMenu");
     	// Quit Button Bright (hover)
-        const FilePath quitpathhovermenu = applicationPath.dirPath() + "assets/textures/QUIT_BUTTON_FOR_MENU_BRIGHT.png";
-        Image2D quitImageHoverMenu(quitpathhovermenu, "quitImageHoverMenu");
+        Image2D quitImageHoverMenu("assets/textures/QUIT_BUTTON_FOR_MENU_BRIGHT.png", "quitImageHoverMenu");
         // Change Button
-        const FilePath changepathmenu = applicationPath.dirPath() + "assets/textures/CHANGE_BUTTON_FOR_MENU.png";
-        Image2D changeImageMenu(changepathmenu, "changeImageMenu");
+        Image2D changeImageMenu("assets/textures/CHANGE_BUTTON_FOR_MENU.png", "changeImageMenu");
         // Change Button Bright (hover)
-        const FilePath changepathhovermenu = applicationPath.dirPath() + "assets/textures/CHANGE_BUTTON_FOR_MENU_BRIGHT.png";
-        Image2D changeImageHoverMenu(changepathhovermenu, "changeImageHoverMenu");
+        Image2D changeImageHoverMenu("assets/textures/CHANGE_BUTTON_FOR_MENU_BRIGHT.png", "changeImageHoverMenu");
         // Settings Button
-        const FilePath settingspathmenu = applicationPath.dirPath() + "assets/textures/SETTINGS_BUTTON_FOR_MENU.png";
-        Image2D settingsImageMenu(settingspathmenu, "settingsImageMenu");
+        Image2D settingsImageMenu("assets/textures/SETTINGS_BUTTON_FOR_MENU.png", "settingsImageMenu");
         // Settings Button Bright (hover)
-        const FilePath settingspathhovermenu = applicationPath.dirPath() + "assets/textures/SETTINGS_BUTTON_FOR_MENU_BRIGHT.png";
-        Image2D settingsImageHoverMenu(settingspathhovermenu, "settingsImageHoverMenu");
+        Image2D settingsImageHoverMenu("assets/textures/SETTINGS_BUTTON_FOR_MENU_BRIGHT.png", "settingsImageHoverMenu");
 
         // Pause Image
-        const FilePath pausepath = applicationPath.dirPath() + "assets/textures/PAUSE_WINDOW.png";
-        Image2D pauseImage(pausepath, "pauseImage");
+        Image2D pauseImage("assets/textures/PAUSE_WINDOW.png", "pauseImage");
         // Replay Button
-        const FilePath replaypathpause = applicationPath.dirPath() + "assets/textures/REPLAY_BUTTON_FOR_PAUSE.png";
-        Image2D replayImagePause(replaypathpause, "replayImagePause");
+        Image2D replayImagePause("assets/textures/REPLAY_BUTTON_FOR_PAUSE.png", "replayImagePause");
         // Replay Button Bright (hover)
-        const FilePath replaypathhoverpause = applicationPath.dirPath() + "assets/textures/REPLAY_BUTTON_FOR_PAUSE_BRIGHT.png";
-        Image2D replayImageHoverPause(replaypathhoverpause, "replayImageHoverPause");
+        Image2D replayImageHoverPause("assets/textures/REPLAY_BUTTON_FOR_PAUSE_BRIGHT.png", "replayImageHoverPause");
         // Quit Button
-        const FilePath quitpathpause = applicationPath.dirPath() + "assets/textures/QUIT_BUTTON_FOR_PAUSE.png";
-        Image2D quitImagePause(quitpathpause, "quitImagePause");
+        Image2D quitImagePause("assets/textures/QUIT_BUTTON_FOR_PAUSE.png", "quitImagePause");
         // Quit Button Bright (hover)
-        const FilePath quitpathhoverpause = applicationPath.dirPath() + "assets/textures/QUIT_BUTTON_FOR_PAUSE_BRIGHT.png";
-        Image2D quitImageHoverPause(quitpathhoverpause, "quitImageHoverPause");
+        Image2D quitImageHoverPause("assets/textures/QUIT_BUTTON_FOR_PAUSE_BRIGHT.png", "quitImageHoverPause");
         // Change Button
-        const FilePath menupathpause = applicationPath.dirPath() + "assets/textures/MENU_BUTTON_FOR_PAUSE.png";
-        Image2D menuImagePause(menupathpause, "menuImagePause");
+        Image2D menuImagePause("assets/textures/MENU_BUTTON_FOR_PAUSE.png", "menuImagePause");
         // Change Button Bright (hover)
-        const FilePath menupathhoverpause = applicationPath.dirPath() + "assets/textures/MENU_BUTTON_FOR_PAUSE_BRIGHT.png";
-        Image2D menuImageHoverPause(menupathhoverpause, "menuImageHoverPause");
+        Image2D menuImageHoverPause("assets/textures/MENU_BUTTON_FOR_PAUSE.png", "menuImageHoverPause");
 
         // Score Image
-        const FilePath scorepath = applicationPath.dirPath() + "assets/textures/SCORE_WINDOW.png";
-        Image2D scoreImage(scorepath, "scoreImage");
+        Image2D scoreImage("assets/textures/SCORE_WINDOW.png", "scoreImage");
         // Quit Button
-        const FilePath quitpathscore = applicationPath.dirPath() + "assets/textures/QUIT_BUTTON_FOR_SCORE.png";
-        Image2D quitImageScore(quitpathscore, "quitImageScore");
+        Image2D quitImageScore("assets/textures/QUIT_BUTTON_FOR_SCORE.png", "quitImageScore");
         // Quit Button Bright (hover)
-        const FilePath quitpathhoverscore = applicationPath.dirPath() + "assets/textures/QUIT_BUTTON_FOR_SCORE_BRIGHT.png";
-        Image2D quitImageHoverScore(quitpathhoverscore, "quitImageHoverScore");
+        Image2D quitImageHoverScore("assets/textures/QUIT_BUTTON_FOR_SCORE_BRIGHT.png", "quitImageHoverScore");
         // Change Button
-        const FilePath changepathscore = applicationPath.dirPath() + "assets/textures/CHANGE_BUTTON_FOR_SCORE.png";
-        Image2D changeImageScore(changepathscore, "changeImageScore");
+        Image2D changeImageScore("assets/textures/CHANGE_BUTTON_FOR_SCORE.png", "changeImageScore");
         // Change Button Bright (hover)
-        const FilePath changepathhoverscore = applicationPath.dirPath() + "assets/textures/CHANGE_BUTTON_FOR_SCORE_BRIGHT.png";
-        Image2D changeImageHoverScore(changepathhoverscore, "changeImageHoverScore");
+        Image2D changeImageHoverScore("assets/textures/CHANGE_BUTTON_FOR_SCORE_BRIGHT.png", "changeImageHoverScore");
         // Menu Button
-        const FilePath menupathscore = applicationPath.dirPath() + "assets/textures/MENU_BUTTON_FOR_SCORE.png";
-        Image2D menuImageScore(menupathscore, "menuImageScore");
+        Image2D menuImageScore("assets/textures/MENU_BUTTON_FOR_SCORE.png", "menuImageScore");
         // Menu Button Bright (hover)
-        const FilePath menupathhoverscore = applicationPath.dirPath() + "assets/textures/MENU_BUTTON_FOR_SCORE_BRIGHT.png";
-        Image2D menuImageHoverScore(menupathhoverscore, "menuImageHoverScore");
+        Image2D menuImageHoverScore("assets/textures/MENU_BUTTON_FOR_SCORE_BRIGHT.png", "menuImageHoverScore"); 
+        // VALUE SCORE        
+        Image2D valuesScore("assets/textures/numbers.png", "valueScores");
 
-    std::cout << "3" << std::endl;
         try
         {
         	// MENU WINDOW
@@ -235,12 +218,16 @@ namespace sausageRunner {
             std::unique_ptr<glimac::Image> menuImageHoverPtrScore = menuImageHoverScore.createImage();
             menuImageHoverScore.textureInitialization(sampler2D, matrixLocation, menuImageHoverPtrScore);
 
+            // Score
+            std::unique_ptr<glimac::Image> scoreNumberImagePtr = valuesScore.createImage();
+            menuImageHoverScore.textureInitialization(sampler2D, matrixLocation, scoreNumberImagePtr);
+
+
         }
         catch (std::string err)
         {
         	std::cerr << err << std::endl;
         }
-    std::cout << "4" << std::endl;
         
         // MENU WINDOW
         Window menu(&menuImage);
@@ -285,7 +272,6 @@ namespace sausageRunner {
                     return 5; // change character
                 },454,460,193,140);
 
-    std::cout << "5" << std::endl;
 
     	try
         {
@@ -341,7 +327,6 @@ namespace sausageRunner {
          *
          *  Filling libraries with objects
          */
-    std::cout << "6" << std::endl;
 
         Library *mainLib = new Library(coinModel);
 
@@ -376,9 +361,7 @@ namespace sausageRunner {
          *
          *  Application loop for the game
          */
-        
-        // TTF_Init(); 
-    std::cout << "7" << std::endl;
+        //Score score;
 
         while(!done) {
         	SDL_Event e;
@@ -394,31 +377,31 @@ namespace sausageRunner {
     	         */
     	        else if(e.type == SDL_MOUSEMOTION) {
                     SDL_GetMouseState(&mouse_x, &mouse_y);
-                    if(game_statut == 1)
+                    if(game_statut == RUNNING_SAUSAGE)
                     {
                     	world.mouseMotion(mouse_x,mouse_y);
                     }
     	        }
     	       else if(e.type == SDL_MOUSEBUTTONDOWN) {
-    	       		if(game_statut == 0)
+    	       		if(game_statut == START_MENU)
     	       		{
                     	Button* bmenu = menu.activeButton(mouse_x,mouse_y);
                     	if(bmenu != nullptr){
                 			game_statut = bmenu->action()();
                 		}
     	       		}
-    	       		else if(game_statut == 1)
+    	       		else if(game_statut == RUNNING_SAUSAGE)
     	       		{
     	           		world.mouseButtonDown(e.button.button);	
     	       		}
-    	       		else if(game_statut == 2)
+    	       		else if(game_statut == PAUSE_MENU)
     	       		{
                     	Button* bpause = pause.activeButton(mouse_x,mouse_y);
                     	if(bpause != nullptr){
     	                    game_statut = bpause->action()();
     	                }
     	       		}
-    	       		else if(game_statut == 3)
+    	       		else if(game_statut == SCORE_MENU)
     	       		{
                 		Button* bscore = score.activeButton(mouse_x,mouse_y);
                 		if(bscore != nullptr){
@@ -440,9 +423,9 @@ namespace sausageRunner {
     	        }
     	        else if(e.type == SDL_KEYUP) {
                    if(e.key.keysym.sym == SDLK_ESCAPE) done = true;
-                   else if(e.key.keysym.sym == SDLK_p && game_statut == 1)
+                   else if(e.key.keysym.sym == SDLK_p && game_statut == RUNNING_SAUSAGE)
                    {
-                        game_statut = 2;
+                        game_statut = PAUSE_MENU;
                         program2D.use();
                         world.close();
 
@@ -451,7 +434,7 @@ namespace sausageRunner {
     	        }
     	    }
             
-            if(game_statut == 0)
+            if(game_statut == START_MENU)
             {
             	Button* bmenu = menu.activeButton(mouse_x,mouse_y);
     			if(bmenu != nullptr){
@@ -460,16 +443,16 @@ namespace sausageRunner {
             	// draw menu window
             	menu.drawWindow();
             }
-            else if(game_statut == 1)
+            else if(game_statut == RUNNING_SAUSAGE)
             {
                 game_statut = world.draw(global_time);
-                if(game_statut != 1)
+                if(game_statut != RUNNING_SAUSAGE)
                 {
                     world.close();
                     program2D.use();
                 }
             }
-            else if(game_statut == 2){
+            else if(game_statut == PAUSE_MENU){
             	Button* bpause = pause.activeButton(mouse_x,mouse_y);
     	        if(bpause != nullptr){
     	            bpause->Is_Hover(true);
@@ -477,7 +460,7 @@ namespace sausageRunner {
     	        // draw pause window
     	        pause.drawWindow();
             }
-            else if(game_statut == 3){
+            else if(game_statut == SCORE_MENU){
             	Button* bscore = score.activeButton(mouse_x,mouse_y);
     			if(bscore != nullptr){
     	            bscore->Is_Hover(true);
@@ -485,10 +468,11 @@ namespace sausageRunner {
     	        // draw score window
     	        score.drawWindow();
             }
-            else if(game_statut == 4){
+            else if(game_statut == QUIT_VALUE){
                 done = true;
             }
-            
+            world.getScore();
+
             global_time++;
             windowManager.swapBuffers();
         }

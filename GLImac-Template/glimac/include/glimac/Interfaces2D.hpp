@@ -35,7 +35,7 @@ class Image2D {
         GLuint _vbo;
 
     public:
-        Image2D(glimac::FilePath p, std::string name)
+        Image2D(std::string p, std::string name)
             : _path(p), _name(name){};
 
         ~Image2D()
@@ -207,6 +207,72 @@ class Window
         Button* activeButton(const int x, const int y);
         // Calls the drawImage method
         void drawWindow();
+};
+
+class Score{
+    private:
+        int _x;
+        int _y;
+        int _width;
+        int _height;
+        int point;
+        std::vector<Image2D*> _images;
+
+    public:
+        Score(std::vector<Image2D*> i, int x = 0, int y = 0, int w = 0, int h = 0)
+            : _images(i), _x(x), _y(y), _width(w), _height(h){};
+        ~Score(){};
+        // Getters
+        inline int width() const
+        { 
+            return _width; 
+        }
+        inline int height() const
+        { 
+            return _height; 
+        }
+        inline int x() const
+        { 
+            return _x; 
+        }
+        inline int y() const
+        { 
+            return _y; 
+        }
+        inline std::vector<Image2D*> images() const
+        { 
+            return _images; 
+        }
+        // Setters
+        inline void Width(const int w)
+        {
+            _width = w;
+        }
+        inline void Height(const int h)
+        {
+            _height = h;
+        }
+        inline void X(const int x)
+        {
+            _x = x;
+        }
+        inline void Y(const int y)
+        {
+            _y = y;
+        }
+        inline void setImages(std::vector<Image2D*> &i)
+        {
+            _images = i;
+        }
+        inline void addImage(Image2D *i)
+        {
+            _images.push_back(i);
+        }
+
+        // Calls the draw method
+        void scoreToTab(int points);
+        void drawScore();
+
 };
 
 #endif

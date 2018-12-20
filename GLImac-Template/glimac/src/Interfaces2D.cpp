@@ -206,3 +206,50 @@ void Window::drawWindow()
     };
     for_each(_buttons.begin(), _buttons.end(), drawButton);
 }
+
+void Score::scoreToTab(int points){
+    std::vector<int> tab(5);
+    /* unité */
+    if(points >= 0){
+        tab[0] = points;
+        /* décimal */
+        if(points >= 10){
+            tab[1] = points/10;
+            tab[0] = points-tab[1]*10;
+            /* centimal */
+            if(points >= 100){
+                tab[2] = points/100;
+                tab[1] = tab[1]-tab[2]*10;
+                /* millimal */
+                if(points >= 1000){
+                    tab[3] = points/1000;
+                    tab[2] = tab[2]-tab[3]*10;
+                    /* dix-millimal */
+                    if(points >= 10000){
+                        tab[4] = points/10000;
+                        tab[3] = tab[3]-tab[4]*10;
+                    }
+                    else{
+                        tab[4] =0;
+                    }
+                }
+                else{
+                    tab[3] = 0;
+                    tab[4] = 0;
+                }
+            }
+            else{
+                tab[2] = 0;
+                tab[3] = 0;
+                tab[4] = 0;
+            }
+        }
+        else{
+            tab[1] = 0;
+            tab[2] = 0;
+            tab[3] = 0;
+            tab[4] = 0;
+        }
+    }
+    std::cout << points << std::endl;
+}

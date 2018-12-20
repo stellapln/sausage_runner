@@ -17,6 +17,8 @@
 #include <glimac/Game.hpp>
 #include <stdio.h>
 
+using namespace sausageRunner;
+
 #define NB_COIN_BY_TILE 3
 #define SIZE_OF_TILE 3.0
 

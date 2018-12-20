@@ -1,5 +1,7 @@
 #include <glimac/Library.hpp>
 
+using namespace sausageRunner;
+
 Library::Library(Model coin):_coin(coin){}
 
 void Obstacle::setBbox(){
