@@ -45,11 +45,22 @@
  */
 using namespace glimac;
 
+
+/* \namespace sausageRunner
+ *
+ * Name space with all the functions
+ * of the game
+ */
 namespace sausageRunner {
 
+    /* \main
+     * main function of the game
+     * with loaders and render loop
+     */
     int main(int argc, char** argv) {
         // Initialize SDL and open a window
-        SDLWindowManager windowManager(800, 600, "Sausage Runner");
+        //! Window manager of the SDL
+        SDLWindowManager windowManager(800, 600, "Sausage Runner"); 
 
         // Initialize glew for OpenGL3+ support
         GLenum glewInitError = glewInit();
@@ -58,24 +69,24 @@ namespace sausageRunner {
             return EXIT_FAILURE;
         }
 
-        FilePath applicationPath(argv[0]);
-        Render* render = new Render(applicationPath.dirPath() + "shaders/3D.vs.glsl",applicationPath.dirPath() + "shaders/directionalLight.fs.glsl");
+        FilePath applicationPath(argv[0]); //!< File path to get the current folder of the executable
+        Render* render = new Render(applicationPath.dirPath() + "shaders/3D.vs.glsl",applicationPath.dirPath() + "shaders/directionalLight.fs.glsl"); //!< Render manager for the 3D shaders
         std::cout << "OpenGL Version : " << glGetString(GL_VERSION) << std::endl;
         std::cout << "GLEW Version : " << glewGetString(GLEW_VERSION) << std::endl;
 
     	Program program2D = loadProgram(applicationPath.dirPath() + "shaders/interfaces2D.vs.glsl",
                                     applicationPath.dirPath() + "shaders/interfaces2D.fs.glsl");
-    	program2D.use();
+    	program2D.use(); //!< Program for the 2D renders
 
 
-        GLuint sampler2D = glGetUniformLocation(program2D.getGLId(), "uTexture");
-        GLuint matrixLocation = glGetUniformLocation(program2D.getGLId(), "uModelMatrix");
+        GLuint sampler2D = glGetUniformLocation(program2D.getGLId(), "uTexture"); //!< Uniform value to send the 2D textures
+        GLuint matrixLocation = glGetUniformLocation(program2D.getGLId(), "uModelMatrix"); //!< Uniforme value to send the matrix the location in 2D
 
-        bool done = false;
-        int global_time = 0;
+        bool done = false; //!< Boolean to specify the End of the main loop
+        int global_time = 0; //!< global number of frame from the beginning of the exection of the game
         // 0 : menu, 1 : game, 2 : pause, 3 : end (score), 4 : quit the game, 5 : change character, 6 : settings;
-        int game_statut = 0;
-        int mouse_x,mouse_y;
+        int game_statut = 0; //!< Status of the game (to make a difference between 2Ds interfaces and 3D game time
+        int mouse_x,mouse_y; //!< Intergers to save the postion of the mouse
 
 
         /*!
@@ -351,7 +362,9 @@ namespace sausageRunner {
         mainLib->addSpecial(poireModel);
         mainLib->addSpecial(donutModel);
 
+        //! Set the library use in the world
         world.setLibrary(mainLib);
+        //! Set the render manager of the world
         world.setRender(render);
 
     	//glEnable(GL_DEPTH_TEST);
@@ -446,7 +459,7 @@ namespace sausageRunner {
             else if(game_statut == RUNNING_SAUSAGE)
             {
                 game_statut = world.draw(global_time);
-                if(game_statut != RUNNING_SAUSAGE)
+                if(game_statut != RUNNING_SAUSAGE) 
                 {
                     world.close();
                     program2D.use();
