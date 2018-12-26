@@ -8,6 +8,11 @@
 
 
 namespace sausageRunner {
+	/*! \class LibElem
+	   * \brief
+	   *	Mother class for elements
+	   *  	and functions
+	   */
 	class LibElem {
 		public:
 			virtual void setBbox() = 0;
@@ -37,15 +42,14 @@ namespace sausageRunner {
 			Coin(int x, int y):_posX(x), _posY(y){
 				setBbox();
 			}
-			int id(){return 0;}
-			int x(){return _posX;}
-			int y(){return _posY;}
-			void setBbox() override;
+			int id(){return 0;} /*!< ID getter */
+			int x(){return _posX;} /*!< Pos getter */
+			int y(){return _posY;} /*!< Pos getter */
+			void setBbox() override; /*!< Bounding box setter */
 			std::vector<int> getBbox() override{
 				return _bbox;
-			}
-			void descr()
-			{
+			} /*!< Bounding box getter */
+			void descr(){
 				std::cout << "Coin Elem" << std::endl;
 			}
 	};
@@ -70,13 +74,13 @@ namespace sausageRunner {
 			Bonus(int id, int x, int y):_id(id), _posX(x), _posY(y){
 				setBbox();
 			}
-			int id() override{return _id;}
-			int x(){return _posX;}
-			int y(){return _posY;}
-			void setBbox() override;
+			int id() override{return _id;} /*!< ID getter */
+			int x(){return _posX;} /*!< Pos getter */
+			int y(){return _posY;} /*!< Pos getter */
+			void setBbox() override; /*!< Bounding box setter */
 			std::vector<int> getBbox() override{
 				return _bbox;
-			}
+			} /*!< Bounding box getter */
 	};
 
 	/*! \class Support
@@ -114,7 +118,7 @@ namespace sausageRunner {
 	class Obstacle : public LibElem {
 		private:
 			int _id; /*!< id of the item int the library*/
-			int _posX; /*!< Obstacle position x*/
+			int _posX; /*!< Obstacle position */
 			std::vector<int> _bbox; /*!< Bounding box*/
 		
 		public:
@@ -150,8 +154,8 @@ namespace sausageRunner {
 			Bonus _bonus; /*!< Bonus on the tile */
 			Coin _coin; /*!< Coins on the tile */
 
-			bool bonusTaken = false;
-			bool coinTaken = false;
+			bool bonusTaken = false; /*!< Bool variable : bonus taken ? */
+			bool coinTaken = false; /*!< Bool variable : coin taken ? */
 		
 			/*!
 			 *  \brief Constructor of tile
@@ -160,20 +164,20 @@ namespace sausageRunner {
 				: _support(s),_obstacle(o, ox),_bonus(b, bx, by),_coin(cx,cy){}
 			bool haveBonus(){
 				return !bonusTaken;
-			}
+			} /*!< Bool variable : tile have bonus ? */
 			bool haveCoin(){
 				return (!coinTaken && _coin.x() != 5 && _coin.y() != 5);
-			}
+			} /*!< Bool variable : tile have coin ? */
 			void takeBonus(){
 				bonusTaken = true;
-			}
+			} /*!< Player taking bonus */
 			void takeCoin(){
 				coinTaken = true;
-			}
+			} /*!< Player taking coin */
 			void reset(){
 				bonusTaken = false;
 				coinTaken = false;
-			}
+			} /*!< Reset coin and bonus on a tile */
 	};
 
 	/*! \class Library
