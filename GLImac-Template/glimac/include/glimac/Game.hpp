@@ -23,18 +23,18 @@ namespace sausageRunner {
 	   */
 	class Personnage{
 		private:
-			int _id; //!< id of the model in the vector _persos of the game lib
-			int _x_state = 0; // -1 : left, 0 : middle, 1 : right //!< State in X axis of the character in the game
-			int _y_state = 0; // 0 : normal, 1 : jump, -1 : down //!< State in Y axis of the main character in the game
+			int _id; /*!< id of the model in the vector _persos of the game lib*/
+			int _x_state = 0; // -1 : left, 0 : middle, 1 : right /*!< State in X axis of the character in the game*/
+			int _y_state = 0; // 0 : normal, 1 : jump, -1 : down /*!< State in Y axis of the main character in the game*/
 
-			int _last_x_state = 0; //!< Stock the last x state
+			int _last_x_state = 0; /*!< Stock the last x state*/
 
-			int _last_x = 0; //!< Stock the global time of the last state changement ion the X axis
-			int _last_y = 0; //!< Stock the global time of the last state changement ion the X axis
+			int _last_x = 0; /*!< Stock the global time of the last state changement ion the X axis*/
+			int _last_y = 0; /*!< Stock the global time of the last state changement ion the X axis*/
 			int _points = 0;
 
-			int nbFrameForSmoothTranslation = 10; //!< Number of frames to visually go from the current X state to the asked X state
-			int jumpTime = 50; //!< Number of frames of a jump
+			int nbFrameForSmoothTranslation = 10; /*!< Number of frames to visually go from the current X state to the asked X state*/
+			int jumpTime = 50; /*!< Number of frames of a jump*/
 
 	 	public:
 
@@ -115,41 +115,41 @@ namespace sausageRunner {
 	class World
 	{
 		private:
-			float _t = 0; //!< advance of the world
-			float _speed = 0.15; //!< Speed of the world
-			unsigned int lastTile = -1; //!< Save the last collided tile
-			std::vector<Tile> _tiles; //!< Vector of all tiles
-			bool _randomized = false; // True : the world will be generated, False : the world will be loaded from a file
+			float _t = 0; /*!< advance of the world*/
+			float _speed = 0.15; /*!< Speed of the world*/
+			unsigned int lastTile = -1; /*!< Save the last collided tile*/
+			std::vector<Tile> _tiles; /*!< Vector of all tiles*/
+			bool _randomized = false; /* True : the world will be generated, False : the world will be loaded from a file*/
 
-			glm::mat4 _globalPosition; //!< Save the global position of the world (because we choose to move the world and not the character
-			glm::mat4 _globalRotation; //!< Save the global rotation of the world, to update light position
+			glm::mat4 _globalPosition; /*!< Save the global position of the world (because we choose to move the world and not the character*/
+			glm::mat4 _globalRotation; /*!< Save the global rotation of the world, to update light position*/
 			glm::mat4 _firstTileMatrix;
 
 			Personnage *_perso;
 			Library *_modelLib;
 			Render *_render;
 
-			SimpleAxeCam *_aroundCam; //!< Camera to see around the character
-			SimpleAxeCam *_eyesCam; //!< First Person camera
+			SimpleAxeCam *_aroundCam; /*!< Camera to see around the character*/
+			SimpleAxeCam *_eyesCam; /*!< First Person camera*/
 
-			unsigned short int _activeCam = 0; //!< Save the active Cam
-		    bool rightClickDown = false; //!< Keep the current state of the right click of the mouse to update cam
-		    bool edit_mode = true; //!< Used to lock or unlock the Camera edition
-		    int lastX = 0, lastY = 0; //!< Save the last mouse position to calculate the motion of the camera
-		    int _currentBonus = -1; //!< The current bonus
-		    int _lastTimeBonus = 0; //!< The global time of the last bonus taken
+			unsigned short int _activeCam = 0; /*!< Save the active Cam*/
+		    bool rightClickDown = false; /*!< Keep the current state of the right click of the mouse to update cam/
+		    bool edit_mode = true; /*!< Used to lock or unlock the Camera edition*/
+		    int lastX = 0, lastY = 0; /*!< Save the last mouse position to calculate the motion of the camera*/
+		    int _currentBonus = -1; /*!< The current bonus*/
+		    int _lastTimeBonus = 0; /*!< The global time of the last bonus taken*/
 
-		    int _lastRotation = 0; //!< The last rotation of the character, to smooth the camera movement
-		    int _lastTimeRotation = 0;	//!< The global time of the last rotation
-		    int _timeToSmoothCamRotation = 30; //!< Duration of camera smoothing for the rotation
-		    int _timeStartGame = 0; //!< The global time of the beginning of the last game
+		    int _lastRotation = 0; /*!< The last rotation of the character, to smooth the camera movement*/
+		    int _lastTimeRotation = 0;	/*!< The global time of the last rotation*/
+		    int _timeToSmoothCamRotation = 30; /*!< Duration of camera smoothing for the rotation*/
+		    int _timeStartGame = 0; /*!< The global time of the beginning of the last game*/
 
-		    int _bonusInfluenceTime = 300; //!< The time of the influence of the current bonus
+		    int _bonusInfluenceTime = 300; /*!< The time of the influence of the current bonus*/
 
-		    int _nCoin = 0; //!< Number of coin collected
+		    int _nCoin = 0; /*!< Number of coin collected*/
 
-		    int _beginningAnimDuration = 100; //!< Duration of the beginning animation
-		    float _zoomBeginningAnimation = 10; //!< Value of the camera zoom during the beginning animation
+		    int _beginningAnimDuration = 100; /*!< Duration of the beginning animation*/
+		    float _zoomBeginningAnimation = 10; /*!< Value of the camera zoom during the beginning animation*/
 
 			void loadFile(std::string level); // Fill the vector _tiles with the file;
 
