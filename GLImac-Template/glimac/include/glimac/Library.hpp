@@ -15,11 +15,25 @@ namespace sausageRunner {
 	   */
 	class LibElem {
 		public:
+			/*!
+			 *  \brief Bounding box setter
+			 */
 			virtual void setBbox() = 0;
+		
+			/*!
+			 *  \brief Bounding box getter
+			 */
 			virtual std::vector<int> getBbox() = 0;
+		
+			/*!
+			 *  \brief ID getter
+			 */
 			virtual int id() = 0;
-			virtual void descr()
-			{
+		
+			/*!
+			 *  \brief Describer
+			 */
+			virtual void descr() {
 				std::cout << "Lib Elem" << std::endl;
 			}
 	};
@@ -28,7 +42,7 @@ namespace sausageRunner {
 	   * \brief
 	   *	Class for coins
 	   *  	
-	   */
+	 */
 	class Coin : public LibElem {
 		private:
 			int _posX; /*!< Bonus position x*/
@@ -42,16 +56,40 @@ namespace sausageRunner {
 			Coin(int x, int y):_posX(x), _posY(y){
 				setBbox();
 			}
-			int id(){return 0;} /*!< ID getter */
-			int x(){return _posX;} /*!< Pos getter */
-			int y(){return _posY;} /*!< Pos getter */
-			void setBbox() override; /*!< Bounding box setter */
+		
+			/*!
+			 *  \brief ID getter
+			 */
+			int id(){return 0;}
+		
+			/*!
+			 *  \brief Pos getter
+			 */
+			int x(){return _posX;}
+		
+			/*!
+			 *  \brief Pos getter
+			 */
+			int y(){return _posY;}
+		
+			/*!
+			 *  \brief Bounding box setter
+			 */
+			void setBbox() override;
+		
+			/*!
+			 *  \brief Bounding box getter
+			 */
 			std::vector<int> getBbox() override{
 				return _bbox;
-			} /*!< Bounding box getter */
+			} 
+		
+			/*!
+			 *  \brief Describer
+			 */
 			void descr(){
 				std::cout << "Coin Elem" << std::endl;
-			}
+			} 
 	};
 
 
@@ -74,13 +112,28 @@ namespace sausageRunner {
 			Bonus(int id, int x, int y):_id(id), _posX(x), _posY(y){
 				setBbox();
 			}
-			int id() override{return _id;} /*!< ID getter */
-			int x(){return _posX;} /*!< Pos getter */
-			int y(){return _posY;} /*!< Pos getter */
-			void setBbox() override; /*!< Bounding box setter */
+			/*!
+			 *  \brief ID getter
+			 */
+			int id() override{return _id;}
+			/*!
+			 *  \brief Pos getter
+			 */
+			int x(){return _posX;}
+			/*!
+			 *  \brief Pos getter
+			 */
+			int y(){return _posY;}
+			/*!
+			 *  \brief Bounding box setter
+			 */
+			void setBbox() override;
+			/*!
+			 *  \brief Bounding box getter
+			 */
 			std::vector<int> getBbox() override{
 				return _bbox;
-			} /*!< Bounding box getter */
+			}
 	};
 
 	/*! \class Support
@@ -99,12 +152,20 @@ namespace sausageRunner {
 			Support(int id = 0): _id(id){
 				setBbox();
 			}
+		
+			/*!
+			 *  \brief ID getter
+			 */
 			int id(){return _id;}
 
 			/*!
 			 *  \brief Setter for bounding box
 			 */
 			void setBbox() override;
+		
+			/*!
+			 *  \brief Getter for bounding box
+			 */
 			std::vector<int> getBbox() override{
 				return _bbox;
 			}
@@ -133,9 +194,20 @@ namespace sausageRunner {
 			Obstacle(int m,int x): _id(m), _posX(x){
 				setBbox();
 			}
+		
+			/*!
+			 *  \brief ID getter
+			 */
 			int id(){return _id;}
+		
+			/*!
+			 *  \brief Position getter
+			 */
 			int x(){return _posX;}
 
+			/*!
+			 *  \brief Getter for bounding box
+			 */
 			std::vector<int> getBbox() override{
 				return _bbox;
 			}
@@ -162,22 +234,42 @@ namespace sausageRunner {
 			 */
 			Tile(int s,int o,int ox,int b,int bx,int by,int cx,int cy)
 				: _support(s),_obstacle(o, ox),_bonus(b, bx, by),_coin(cx,cy){}
+			
+			/*!
+			 *  \brief Bool : tile have bonus ?
+			 */
 			bool haveBonus(){
 				return !bonusTaken;
-			} /*!< Bool variable : tile have bonus ? */
+			}
+		
+			/*!
+			 *  \brief Bool : tile have coin ?
+			 */
 			bool haveCoin(){
 				return (!coinTaken && _coin.x() != 5 && _coin.y() != 5);
-			} /*!< Bool variable : tile have coin ? */
+			}
+		
+			/*!
+			 *  \brief Player takes bonus
+			 */
 			void takeBonus(){
 				bonusTaken = true;
-			} /*!< Player taking bonus */
+			}
+		
+			/*!
+			 *  \brief Player takes coin
+			 */
 			void takeCoin(){
 				coinTaken = true;
-			} /*!< Player taking coin */
+			}
+		
+			/*!
+			 *  \brief Reset coin and bonus on a tile
+			 */
 			void reset(){
 				bonusTaken = false;
 				coinTaken = false;
-			} /*!< Reset coin and bonus on a tile */
+			}
 	};
 
 	/*! \class Library
@@ -224,6 +316,9 @@ namespace sausageRunner {
 			}
 			void setCoin(Model m){_coin = m;}
 
+			/*!
+			 *  \brief Getters for libraries
+			 */
 			Model perso(unsigned int i) const {return _persos[i];}
 			Model support(unsigned int i) const {return _supports[i];}
 			Model bonus(unsigned int i) const {return _bonus[i];}
@@ -232,6 +327,9 @@ namespace sausageRunner {
 			Model special(unsigned int i) const {return _specials[i];}
 			Model coin() const {return _coin;}
 
+			/*!
+			 *  \brief Get numbers of models
+			 */
 			int nPerso() const {return _persos.size();}
 			int nSupport() const {return _supports.size();}
 			int nBonus() const {return _bonus.size();}
