@@ -10,3 +10,20 @@ git init
 ```
 git clone https://github.com/stellapln/sausage_runner.git
 ```
+### How to play?
+Once you have download the game on github, open a new console, go to the /GLImac-Template-build directory.
+Then, tap on the console:
+```
+cmake ../GLImac-Template
+```
+```
+make
+```
+```
+cd ./TD_proj
+```
+```
+./do.sh
+```
+
+Have fun!
