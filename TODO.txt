@@ -1,1 +1,10 @@
-  -  Re-use our exception class
+Trucs à faire pour respecter les consignes
+  - enregistrement des X meilleurs scores
+  - affichage su score
+  - pause sur Echap
+  - plusieurs lumières
+  - RAPPORT :
+    -
+    - Préparer la SOUTENANCE
+Trucs à faire en plus pour grapiller des points
+  - Génération aléatoie
