@@ -1,4 +1,5 @@
 Trucs à faire pour respecter les consignes
+  - utiliser la class d'exeption
   - enregistrement des X meilleurs scores
   - affichage su score
   - pause sur Echap
@@ -13,4 +14,4 @@ Trucs à faire pour respecter les consignes
     - les résultats
   - Préparer la SOUTENANCE
 Trucs à faire en plus pour grapiller des points
-  - Génération aléatoie
+  - Génération aléatoire
