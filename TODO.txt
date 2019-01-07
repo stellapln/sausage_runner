@@ -8,5 +8,6 @@ X - pause sur Echap
   - for_each + lambda pour l'affichage
   - Résoudre de problème de texture
   - Préparer la SOUTENANCE
+  - Bouton hover menu
 Trucs à faire en plus pour grapiller des points
   - Génération aléatoire
