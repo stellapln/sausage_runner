@@ -6,6 +6,7 @@ X - enregistrement des meilleurs scores
   - plusieurs lumières
   - ajouter des asserts
   - for_each + lambda pour l'affichage
+  - Résoudre de problème de texture
   - Préparer la SOUTENANCE
 Trucs à faire en plus pour grapiller des points
   - Génération aléatoire
