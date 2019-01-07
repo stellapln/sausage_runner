@@ -1,5 +1,6 @@
 #include "glimac/Interfaces2D.hpp"
 
+using namespace sausageRunner;
 
 // Fucntions for transformations matrices (rotation, translate, scale)
 glm::mat3 rotate(float angle)
@@ -34,7 +35,7 @@ std::unique_ptr<glimac::Image> Image2D::createImage()
     std::unique_ptr<glimac::Image> image = loadImage(_path);
     if(image == NULL){
         std::string message = std::string(_name) + std::string(" image not loaded correctly (null pointer)");
-        throw message;
+        throw Except(message,__FILE__,__LINE__);
     }
     return image;
 }
@@ -175,7 +176,7 @@ void Window::addButton(const Button &b)
     }
     else
     {
-        throw "Not addable into the window, coordinates not included";
+        throw Except("Not addable into the window, coordinates not included",__FILE__,__LINE__);
     }                
 }
 Button* Window::activeButton(const int x, const int y)

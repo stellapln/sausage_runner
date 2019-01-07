@@ -84,7 +84,7 @@ glimac/preinstall:
 glimac/CMakeFiles/glimac.dir/all:
 	$(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/depend
 	$(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=71,72,73,74,75 "Built target glimac"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=72,73,74,75 "Built target glimac"
 .PHONY : glimac/CMakeFiles/glimac.dir/all
 
 # Include target in all.
@@ -94,7 +94,7 @@ all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 glimac/CMakeFiles/glimac.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 glimac/CMakeFiles/glimac.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : glimac/CMakeFiles/glimac.dir/rule
@@ -328,7 +328,7 @@ assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/all: assimp/contrib/irrXML/CMa
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/all: assimp/code/CMakeFiles/assimp.dir/all
 	$(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/depend
 	$(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=69,70 "Built target assimp_cmd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles --progress-num=69,70,71 "Built target assimp_cmd"
 .PHONY : assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/all
 
 # Include target in all.
@@ -338,7 +338,7 @@ all: assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/all
 
 # Build rule for subdir invocation for target.
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 67
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 68
 	$(MAKE) -f CMakeFiles/Makefile2 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/rule
@@ -1401,7 +1401,7 @@ all: TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/all
 
 # Build rule for subdir invocation for target.
 TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 71
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 70
 	$(MAKE) -f CMakeFiles/Makefile2 TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP_proj/CMakeFiles/TP_proj_SDLtemplate.dir/rule
@@ -1440,7 +1440,7 @@ all: TP_proj/CMakeFiles/TP_proj_ex_1.dir/all
 
 # Build rule for subdir invocation for target.
 TP_proj/CMakeFiles/TP_proj_ex_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 70
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 69
 	$(MAKE) -f CMakeFiles/Makefile2 TP_proj/CMakeFiles/TP_proj_ex_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP_proj/CMakeFiles/TP_proj_ex_1.dir/rule
@@ -1479,7 +1479,7 @@ all: TP_proj/CMakeFiles/TP_proj_ex_2.dir/all
 
 # Build rule for subdir invocation for target.
 TP_proj/CMakeFiles/TP_proj_ex_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 71
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 70
 	$(MAKE) -f CMakeFiles/Makefile2 TP_proj/CMakeFiles/TP_proj_ex_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP_proj/CMakeFiles/TP_proj_ex_2.dir/rule
@@ -1518,7 +1518,7 @@ all: TP_proj/CMakeFiles/TP_proj_main.dir/all
 
 # Build rule for subdir invocation for target.
 TP_proj/CMakeFiles/TP_proj_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 71
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 70
 	$(MAKE) -f CMakeFiles/Makefile2 TP_proj/CMakeFiles/TP_proj_main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP_proj/CMakeFiles/TP_proj_main.dir/rule

@@ -169,33 +169,6 @@ glimac/fast:
 	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/build
 .PHONY : glimac/fast
 
-src/Cone.o: src/Cone.cpp.o
-
-.PHONY : src/Cone.o
-
-# target to build an object file
-src/Cone.cpp.o:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Cone.cpp.o
-.PHONY : src/Cone.cpp.o
-
-src/Cone.i: src/Cone.cpp.i
-
-.PHONY : src/Cone.i
-
-# target to preprocess a source file
-src/Cone.cpp.i:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Cone.cpp.i
-.PHONY : src/Cone.cpp.i
-
-src/Cone.s: src/Cone.cpp.s
-
-.PHONY : src/Cone.s
-
-# target to generate assembly for a file
-src/Cone.cpp.s:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Cone.cpp.s
-.PHONY : src/Cone.cpp.s
-
 src/Game.o: src/Game.cpp.o
 
 .PHONY : src/Game.o
@@ -506,9 +479,6 @@ help:
 	@echo "... list_install_components"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... src/Cone.o"
-	@echo "... src/Cone.i"
-	@echo "... src/Cone.s"
 	@echo "... src/Game.o"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"

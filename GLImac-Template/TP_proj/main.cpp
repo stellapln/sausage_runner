@@ -94,7 +94,6 @@ namespace sausageRunner {
          *
          *  Initialize the game
          */
-
         World world("./levels/Level1");
 
         /*!
@@ -235,9 +234,9 @@ namespace sausageRunner {
 
 
         }
-        catch (std::string err)
+        catch (Except err)
         {
-        	std::cerr << err << std::endl;
+        	std::cerr << err.what() << std::endl;
         }
         
         // MENU WINDOW
@@ -299,9 +298,9 @@ namespace sausageRunner {
             score.addButton(menu_score);
             score.addButton(change_score);
         }
-        catch (std::string err)
+        catch (Except err)
         {
-        	std::cerr << err << std::endl;
+        	std::cerr << err.what() << std::endl;
         }
 
         /*!
@@ -332,7 +331,6 @@ namespace sausageRunner {
         Model donutModel("assets/donut.obj");
 
         Model montainSkyModel("assets/skydome.obj");
-        
         /*!
          *  \brief ** Libraries
          *
@@ -435,8 +433,7 @@ namespace sausageRunner {
     	        	world.keyDown(e.key.keysym.sym, global_time);
     	        }
     	        else if(e.type == SDL_KEYUP) {
-                   if(e.key.keysym.sym == SDLK_ESCAPE) done = true;
-                   else if(e.key.keysym.sym == SDLK_p && game_statut == RUNNING_SAUSAGE)
+                   if((e.key.keysym.sym == SDLK_p || e.key.keysym.sym == SDLK_ESCAPE) && game_statut == RUNNING_SAUSAGE)
                    {
                         game_statut = PAUSE_MENU;
                         program2D.use();
@@ -480,11 +477,13 @@ namespace sausageRunner {
     	        }
     	        // draw score window
     	        score.drawWindow();
+
+                int currentScore = world.getScore();
+                world.saveScore();
             }
             else if(game_statut == QUIT_VALUE){
                 done = true;
             }
-            world.getScore();
 
             global_time++;
             windowManager.swapBuffers();

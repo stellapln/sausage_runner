@@ -303,6 +303,8 @@ glimac/glm.hpp
 -
 glimac/TrackballCamera.hpp
 -
+glimac/Except.hpp
+-
 glimac/Library.hpp
 -
 glimac/Render.hpp
@@ -347,6 +349,8 @@ GL/glew.h
 -
 glimac/Image.hpp
 -
+glimac/Except.hpp
+-
 glimac/glm.hpp
 -
 glimac/Program.hpp
@@ -368,6 +372,8 @@ glimac/SDLWindowManager.hpp
 iostream
 -
 glimac/glm.hpp
+-
+glimac/Except.hpp
 -
 random
 -

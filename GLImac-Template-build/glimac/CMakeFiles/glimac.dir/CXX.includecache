@@ -238,11 +238,15 @@ cmath
 glm.hpp
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/glm.hpp
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Cone.hpp
-vector
+/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/Except.hpp
+iostream
 -
-common.hpp
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/common.hpp
+string
+-
+sstream
+-
+exception
+-
 
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include/glimac/FilePath.hpp
 string
@@ -260,6 +264,8 @@ glimac/Program.hpp
 glimac/glm.hpp
 -
 glimac/TrackballCamera.hpp
+-
+glimac/Except.hpp
 -
 glimac/Library.hpp
 -
@@ -319,6 +325,8 @@ GL/glew.h
 -
 glimac/Image.hpp
 -
+glimac/Except.hpp
+-
 glimac/glm.hpp
 -
 glimac/Program.hpp
@@ -340,6 +348,8 @@ glimac/SDLWindowManager.hpp
 iostream
 -
 glimac/glm.hpp
+-
+glimac/Except.hpp
 -
 random
 -
@@ -413,18 +423,6 @@ glm/gtx/io.hpp
 -
 glm/gtc/random.hpp
 -
-
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Cone.cpp
-cmath
--
-vector
--
-iostream
--
-glimac/common.hpp
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/glimac/common.hpp
-glimac/Cone.hpp
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/glimac/Cone.hpp
 
 /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/src/Game.cpp
 glimac/SDLWindowManager.hpp

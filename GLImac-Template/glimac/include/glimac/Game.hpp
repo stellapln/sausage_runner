@@ -7,6 +7,7 @@
 #include <glimac/Program.hpp>
 #include <glimac/glm.hpp>
 #include <glimac/TrackballCamera.hpp>
+#include <glimac/Except.hpp>
 #include <glimac/Library.hpp>
 #include <glimac/Render.hpp>
 #include <algorithm>
@@ -133,7 +134,7 @@ namespace sausageRunner {
 			SimpleAxeCam *_eyesCam; /*!< First Person camera*/
 
 			unsigned short int _activeCam = 0; /*!< Save the active Cam*/
-		    bool rightClickDown = false; /*!< Keep the current state of the right click of the mouse to update cam/
+		    bool rightClickDown = false; /*!< Keep the current state of the right click of the mouse to update cam*/
 		    bool edit_mode = true; /*!< Used to lock or unlock the Camera edition*/
 		    int lastX = 0, lastY = 0; /*!< Save the last mouse position to calculate the motion of the camera*/
 		    int _currentBonus = -1; /*!< The current bonus*/
@@ -151,12 +152,24 @@ namespace sausageRunner {
 		    int _beginningAnimDuration = 100; /*!< Duration of the beginning animation*/
 		    float _zoomBeginningAnimation = 10; /*!< Value of the camera zoom during the beginning animation*/
 
+		    std::vector<int> _bestScores;
+
 			void loadFile(std::string level); // Fill the vector _tiles with the file;
 
 		public:
 			World(std::string file = ""){
 				if(file == "") _randomized = true;
-				else loadFile(file);
+				else
+				{
+					try
+					{
+						loadFile(file);
+					}
+					catch(Except err)
+					{
+						std::cerr << err.what() << std::endl;
+					}
+				}
 				_aroundCam = new TrackballCamera(5.0f + _zoomBeginningAnimation,25.0f,0.0f);
 	     		_eyesCam = new EyesCam(30.0f,0.0f);
 	     		_eyesCam->setPosition(glm::vec3(0.0f,-1.4f,0.2f));
@@ -277,6 +290,17 @@ namespace sausageRunner {
 			int getScore()
 			{
 				return int(_t) * 100;
+			}
+			
+			/*!
+			 * \brief Save the score in vector
+			 */
+			int saveScore()
+			{
+				int currentScore = getScore();
+				int i = 0;
+				while(i < _bestScores.size() && currentScore < _bestScores[i]) i++;
+				_bestScores.insert(_bestScores.begin()+i,currentScore);
 			}
 			
 			/*!

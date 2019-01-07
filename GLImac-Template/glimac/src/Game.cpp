@@ -75,7 +75,7 @@ void World::loadFile(const std::string level){
 	std::string levelName = level;
 	FILE *file = fopen(levelName.c_str(), "r");
   	if(!file){
-   		std::cout << "Error : load fichier" << std::endl;
+   		throw Except("Level file not loaded",__FILE__,__LINE__);
   	}
 
   	int sup, obs, xo, bon, xb, yb, xp, yp;
@@ -258,7 +258,7 @@ int World::draw(int global_time) {
             _render->sendMatrix(MVMatrixModified);
 
         	if(_tiles[i].haveBonus() && _tiles[i]._bonus.id() < _modelLib->nBonus()) // Affichage des bonus
-            { 
+            {
         		_modelLib->bonus(_tiles[i]._bonus.id()).draw();
             }
 

@@ -16,6 +16,7 @@
 
 #include <glimac/Model.hpp>
 using namespace glimac;
+using namespace sausageRunner;
 
 void Model::draw() const{
     for(unsigned int i = 0;i < meshes.size();i++)
@@ -75,6 +76,8 @@ unsigned int TextureFromFile(std::string file,std::string dir){
         unsigned int tex;
         glimac::FilePath texturePath(file);
    		std::unique_ptr<Image> img = loadImage(dir+"/"+texturePath.file());
+
+        if(img == nullptr) throw Except("Image de texture non trouvée", __FILE__, __LINE__);
 
         glGenTextures(1, &tex);
         glBindTexture(GL_TEXTURE_2D,tex);
@@ -163,8 +166,7 @@ void Model::loadModel(std::string path){
 
     if(!scene || scene->mFlags & AI_SCENE_FLAGS_INCOMPLETE || !scene->mRootNode)
     {
-        std::cout << "ERROR::ASSIMP::"<< import.GetErrorString()<<std::endl;
-        return;
+        throw Except(import.GetErrorString(), __FILE__, __LINE__);
     }
     directory = path.substr(0, path.find_last_of('/'));
 

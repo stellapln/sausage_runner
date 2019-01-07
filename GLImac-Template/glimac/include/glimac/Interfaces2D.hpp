@@ -13,6 +13,7 @@
 #include <cctype>
 #include <GL/glew.h>
 #include <glimac/Image.hpp>
+#include <glimac/Except.hpp>
 #include <glimac/glm.hpp>
 #include <glimac/Program.hpp>
 #include <glimac/SDLWindowManager.hpp>
@@ -24,418 +25,421 @@
 using namespace glm;
 using namespace glimac;
 
-class Image2D
-{
-    /*! \class Image2D
-    * \brief
-    *	class for 2D Interface Images
-    *  	attributes and functions
-    */
-    private:
-        unsigned int _nb_vertices = 6; /*!< Number of vertices: each square has 6 vertices */
-        glimac::FilePath _path; /*!< Image path */
-        std::string _name;/*!< Image name */
-        GLuint _sampler2D; /*!< Image sampler2D for the shader assets */
-        GLuint _matrixLocation; /*!< Location used for the image */
-        GLuint _texture; /*!< Texture linked to the image */
-        GLuint _vao; /*!< Image vao */
-        GLuint _vbo; /*!< Image vbo */
 
-    public:
-        Image2D(std::string p, std::string name)
-            : _path(p), _name(name){};
-        ~Image2D()
-        {
-            glDeleteBuffers(1, &_vbo);
-            glDeleteVertexArrays(1, &_vao);
-            glDeleteTextures(1, &_texture);
-        }
-        /*!
-         *  \brief Getters
-         */
-        /*!
-         *  \brief Path file getter
-         */
-        inline glimac::FilePath path() const
-        {
-            return _path;
-        }
-        /*!
-         *  \brief GLuint sampler2D getter for the Uniform value in shader
-         */
-        inline GLuint sampler2D() const
-        {
-            return _sampler2D;
-        }
-        /*!
-         *  \brief Get the location of the used matrix for the texture
-         */
-        inline GLuint Location() 
-        {
-            return _matrixLocation;
-        }
-        /*!
-         *  \brief Get the GLuint texture
-         */
-        inline GLuint texture() const
-        {
-            return _texture;
-        }
-        /*!
-         *  \brief To get and/or set the texture GLuint
-         */
-        inline GLuint& texture() 
-        {
-            return _texture;
-        }
-        /*!
-         *  \brief Get the name of the image
-         */
-        inline std::string name() const
-        {
-            return _name;
-        }
-        /*!
-         *  \brief Setters
-         */
-        /*!
-         *  \brief To set the image path
-         */
-        inline void Path(const glimac::FilePath &p)
-        {
-            _path = p;
-        }
-        /*!
-         *  \brief Set the sampler 2D GLuint
-         */
-        inline void Sampler2D(const GLuint &s)
-        {
-            _sampler2D = s;
-        }
-        /*!
-         *  \brief Set the location of the used matrix
-         */
-        inline void Location(const GLuint &l)
-        {
-            _matrixLocation = l;
-        }       
-        /*!
-         *  \brief Set the texture
-         */
-        inline void Texture(const GLuint &t)
-        {
-            _texture = t;
-        }
-        /*!
-         *  \brief Functions load image with _path attributes -try catch added around it when called -> exceptions used-
-         */
-        std::unique_ptr<glimac::Image> createImage();
-        /*!
-         *  \brief <Texture initialization with program, samplerPath, matrixLocationPath and the image loaded
-         */
-        void textureInitialization(GLuint sampler, GLuint matrixLocation, std::unique_ptr<glimac::Image> &i);
-        /*!
-         *  \brief Config the VAO and VBO of the current object
-         */
-        void setVAO();
-        /*!
-         *  \brief Config the Image settings to display it 
-         */
-        void drawImage();
-};
+namespace sausageRunner {
+    class Image2D
+    {
+        /*! \class Image2D
+        * \brief
+        *	class for 2D Interface Images
+        *  	attributes and functions
+        */
+        private:
+            unsigned int _nb_vertices = 6; /*!< Number of vertices: each square has 6 vertices */
+            glimac::FilePath _path; /*!< Image path */
+            std::string _name;/*!< Image name */
+            GLuint _sampler2D; /*!< Image sampler2D for the shader assets */
+            GLuint _matrixLocation; /*!< Location used for the image */
+            GLuint _texture; /*!< Texture linked to the image */
+            GLuint _vao; /*!< Image vao */
+            GLuint _vbo; /*!< Image vbo */
 
-class Button
-{
-    /*! \class Button
-    * \brief
-    *	Each interface 2D has buttons
-    *  	Here are attributes and functions dedicated each button
-    */
-    private:
-        int _x; /*!< Positon x*/
-        int _y; /*!< Position y*/
-        int _width; /*!< Button Width */
-        int _height; /*!< Button Height */
-        Image2D* _image; /*!< Image corresponding to the button */
-        Image2D* _hover_image; /*!< Image corresponding to the button when hovering */
-        bool _is_hover = false; /*!< Indicator of the hover mouse event */
-        std::function <int()> _action; /*!< Lambda function to get the active button */
+        public:
+            Image2D(std::string p, std::string name)
+                : _path(p), _name(name){};
+            ~Image2D()
+            {
+                glDeleteBuffers(1, &_vbo);
+                glDeleteVertexArrays(1, &_vao);
+                glDeleteTextures(1, &_texture);
+            }
+            /*!
+             *  \brief Getters
+             */
+            /*!
+             *  \brief Path file getter
+             */
+            inline glimac::FilePath path() const
+            {
+                return _path;
+            }
+            /*!
+             *  \brief GLuint sampler2D getter for the Uniform value in shader
+             */
+            inline GLuint sampler2D() const
+            {
+                return _sampler2D;
+            }
+            /*!
+             *  \brief Get the location of the used matrix for the texture
+             */
+            inline GLuint Location() 
+            {
+                return _matrixLocation;
+            }
+            /*!
+             *  \brief Get the GLuint texture
+             */
+            inline GLuint texture() const
+            {
+                return _texture;
+            }
+            /*!
+             *  \brief To get and/or set the texture GLuint
+             */
+            inline GLuint& texture() 
+            {
+                return _texture;
+            }
+            /*!
+             *  \brief Get the name of the image
+             */
+            inline std::string name() const
+            {
+                return _name;
+            }
+            /*!
+             *  \brief Setters
+             */
+            /*!
+             *  \brief To set the image path
+             */
+            inline void Path(const glimac::FilePath &p)
+            {
+                _path = p;
+            }
+            /*!
+             *  \brief Set the sampler 2D GLuint
+             */
+            inline void Sampler2D(const GLuint &s)
+            {
+                _sampler2D = s;
+            }
+            /*!
+             *  \brief Set the location of the used matrix
+             */
+            inline void Location(const GLuint &l)
+            {
+                _matrixLocation = l;
+            }       
+            /*!
+             *  \brief Set the texture
+             */
+            inline void Texture(const GLuint &t)
+            {
+                _texture = t;
+            }
+            /*!
+             *  \brief Functions load image with _path attributes -try catch added around it when called -> exceptions used-
+             */
+            std::unique_ptr<glimac::Image> createImage();
+            /*!
+             *  \brief <Texture initialization with program, samplerPath, matrixLocationPath and the image loaded
+             */
+            void textureInitialization(GLuint sampler, GLuint matrixLocation, std::unique_ptr<glimac::Image> &i);
+            /*!
+             *  \brief Config the VAO and VBO of the current object
+             */
+            void setVAO();
+            /*!
+             *  \brief Config the Image settings to display it 
+             */
+            void drawImage();
+    };
 
-    public:
-        Button(Image2D *i, Image2D* hi, std::function <int()> f, int x = 0, int y = 0, int w = 0, int h = 0)
-            : _image(i), _hover_image(hi), _action(f), _x(x), _y(y), _width(w), _height(h){};
-        ~Button(){};
-        /*!
-         *  \brief Getters
-         */
-        /*!
-         *  \brief Get the button width
-         */
-        inline int width() const
-        { 
-            return _width; 
-        }
-        /*!
-         *  \brief Get the image height
-         */
-        inline int height() const
-        { 
-            return _height; 
-        }
-        /*!
-         *  \brief Get the x button position
-         */
-        inline int x() const
-        { 
-            return _x; 
-        }        
-        /*!
-         *  \brief Get the y button position 
-         */
-        inline int y() const
-        { 
-            return _y; 
-        }       
-        /*!
-         *  \brief Get the image button
-         */
-        inline Image2D* image() const
-        { 
-            return _image; 
-        }        
-        /*!
-         *  \brief Get the action/lambda function of the button
-         */
-        inline std::function <int()> action() const
-        { 
-            return _action; 
-        }
-        /*!
-         *  \brief Get the hover event as a bool -active or not-
-         */
-        inline bool isHover() const
-        { 
-            return _is_hover;
-        }
-        /*!
-         *  \brief Setters 
-         */
-        /*!
-         *  \brief Set the Width
-         */
-        inline void Width(const int w)
-        {
-            _width = w;
-        }
-        /*!
-         *  \brief Set the Height
-         */
-        inline void Height(const int h)
-        {
-            _height = h;
-        }
-        /*!
-         *  \brief Set the X position
-         */
-        inline void X(const int x)
-        {
-            _x = x;
-        }
-        /*!
-         *  \brief Set the Y position
-         */
-        inline void Y(const int y)
-        {
-            _y = y;
-        }
-        /*!
-         *  \brief Set the image button
-         */
-        inline void setImage(Image2D *i)
-        {
-            _image = i;
-        }
-        /*!
-         *  \brief Set the hover state
-         */
-        inline void Is_Hover(bool b)
-        {
-            _is_hover = b;
-        }
-        /*!
-         *  \brief Is the mouse on the button? True or false return
-         */
-        bool mouseOn(const int x, const int y) const;
-        inline friend std::ostream &operator<<(std::ostream &os, const Button btn) 
-        {
-            os << "( " ;
-            os << btn.x() << " " << btn.y() << " " ;
-            os << ")";
-            return os;
-        }
-        /*!
-         *  \brief Draw each button image and calls the drawImage method
-         */
-        void drawButton();
-};
+    class Button
+    {
+        /*! \class Button
+        * \brief
+        *	Each interface 2D has buttons
+        *  	Here are attributes and functions dedicated each button
+        */
+        private:
+            int _x; /*!< Positon x*/
+            int _y; /*!< Position y*/
+            int _width; /*!< Button Width */
+            int _height; /*!< Button Height */
+            Image2D* _image; /*!< Image corresponding to the button */
+            Image2D* _hover_image; /*!< Image corresponding to the button when hovering */
+            bool _is_hover = false; /*!< Indicator of the hover mouse event */
+            std::function <int()> _action; /*!< Lambda function to get the active button */
 
-class Window
-{
-    /*! \class Window
-    * \brief
-    *	Each interface2D is a Window
-    *  	Here are attributes and functions dedicated each window
-    */
-    private:
-        std::vector <Button> _buttons; /*!< Vector of buttons which are in the window */
-        Image2D* _image; /*!< Window image/background */
+        public:
+            Button(Image2D *i, Image2D* hi, std::function <int()> f, int x = 0, int y = 0, int w = 0, int h = 0)
+                : _image(i), _hover_image(hi), _action(f), _x(x), _y(y), _width(w), _height(h){};
+            ~Button(){};
+            /*!
+             *  \brief Getters
+             */
+            /*!
+             *  \brief Get the button width
+             */
+            inline int width() const
+            { 
+                return _width; 
+            }
+            /*!
+             *  \brief Get the image height
+             */
+            inline int height() const
+            { 
+                return _height; 
+            }
+            /*!
+             *  \brief Get the x button position
+             */
+            inline int x() const
+            { 
+                return _x; 
+            }        
+            /*!
+             *  \brief Get the y button position 
+             */
+            inline int y() const
+            { 
+                return _y; 
+            }       
+            /*!
+             *  \brief Get the image button
+             */
+            inline Image2D* image() const
+            { 
+                return _image; 
+            }        
+            /*!
+             *  \brief Get the action/lambda function of the button
+             */
+            inline std::function <int()> action() const
+            { 
+                return _action; 
+            }
+            /*!
+             *  \brief Get the hover event as a bool -active or not-
+             */
+            inline bool isHover() const
+            { 
+                return _is_hover;
+            }
+            /*!
+             *  \brief Setters 
+             */
+            /*!
+             *  \brief Set the Width
+             */
+            inline void Width(const int w)
+            {
+                _width = w;
+            }
+            /*!
+             *  \brief Set the Height
+             */
+            inline void Height(const int h)
+            {
+                _height = h;
+            }
+            /*!
+             *  \brief Set the X position
+             */
+            inline void X(const int x)
+            {
+                _x = x;
+            }
+            /*!
+             *  \brief Set the Y position
+             */
+            inline void Y(const int y)
+            {
+                _y = y;
+            }
+            /*!
+             *  \brief Set the image button
+             */
+            inline void setImage(Image2D *i)
+            {
+                _image = i;
+            }
+            /*!
+             *  \brief Set the hover state
+             */
+            inline void Is_Hover(bool b)
+            {
+                _is_hover = b;
+            }
+            /*!
+             *  \brief Is the mouse on the button? True or false return
+             */
+            bool mouseOn(const int x, const int y) const;
+            inline friend std::ostream &operator<<(std::ostream &os, const Button btn) 
+            {
+                os << "( " ;
+                os << btn.x() << " " << btn.y() << " " ;
+                os << ")";
+                return os;
+            }
+            /*!
+             *  \brief Draw each button image and calls the drawImage method
+             */
+            void drawButton();
+    };
 
-    public:
-        Window(Image2D *i)
-            : _image(i){};
-        ~Window(){};
-        /*!
-         *  \brief Getters
-         */
-        /*!
-         *  \brief Get the window buttons
-         */
-        inline std::vector <Button> buttons()
-        {
-            return _buttons;
-        }
-        /*!
-         *  \brief Get the window image
-         */
-        inline Image2D* image() const
-        { 
-            return _image; 
-        }
-        /*!
-         *  \brief Fill the vector _buttons
-         */
-        void addButton(const Button &b);
-        /*!
-         *  \brief Returns the button on which the mouse is
-         */
-        Button* activeButton(const int x, const int y);
-        /*!
-         *  \brief Draw the window background image -> calls the drawButton method & drawImage method for the background
-         */
-        void drawWindow();
-};
+    class Window
+    {
+        /*! \class Window
+        * \brief
+        *	Each interface2D is a Window
+        *  	Here are attributes and functions dedicated each window
+        */
+        private:
+            std::vector <Button> _buttons; /*!< Vector of buttons which are in the window */
+            Image2D* _image; /*!< Window image/background */
 
-class Score 
-{       
-    /*! \class Score
-    * \brief
-    *	Each player has a score
-    *  	Here are attributes and functions dedicated the score during the game/its diplay
-    */
-    private:
-        int _x; /*!< Position x of the score */
-        int _y; /*!< Position y of the score */
-        int _width;  /*!< Width of the score */
-        int _height;  /*!< Height x of the score */
-        int point;  /*!< Value of the score corresponding to the points of the player */
-        std::vector<Image2D*> _images; /*!< Score images is made of images numbers from 0 to 9 */
+        public:
+            Window(Image2D *i)
+                : _image(i){};
+            ~Window(){};
+            /*!
+             *  \brief Getters
+             */
+            /*!
+             *  \brief Get the window buttons
+             */
+            inline std::vector <Button> buttons()
+            {
+                return _buttons;
+            }
+            /*!
+             *  \brief Get the window image
+             */
+            inline Image2D* image() const
+            { 
+                return _image; 
+            }
+            /*!
+             *  \brief Fill the vector _buttons
+             */
+            void addButton(const Button &b);
+            /*!
+             *  \brief Returns the button on which the mouse is
+             */
+            Button* activeButton(const int x, const int y);
+            /*!
+             *  \brief Draw the window background image -> calls the drawButton method & drawImage method for the background
+             */
+            void drawWindow();
+    };
 
-    public:
-        Score(std::vector<Image2D*> i, int x = 0, int y = 0, int w = 0, int h = 0)
-            : _images(i), _x(x), _y(y), _width(w), _height(h){};
-        ~Score(){};
-        /*!
-         *  \brief Getters
-         */        
-        /*!
-         *  \brief Get the width of the score
-         */
-        inline int width() const
-        { 
-            return _width; 
-        }        
-        /*!
-         *  \brief Get the height of the score
-         */
-        inline int height() const
-        { 
-            return _height; 
-        }        
-        /*!
-         *  \brief Get the x position
-         */
-        inline int x() const
-        { 
-            return _x; 
-        }        
-        /*!
-         *  \brief Get the y position
-         */
-        inline int y() const
-        { 
-            return _y; 
-        }        
-        /*!
-         *  \brief Get all the images into the vector
-         */
-        inline std::vector<Image2D*> images() const
-        { 
-            return _images; 
-        }
-        /*!
-         *  \brief Setters
-         */
-        /*!
-         *  \brief Set the score width
-         */
-        inline void Width(const int w)
-        {
-            _width = w;
-        }        
-        /*!
-         *  \brief Set the score height
-         */
-        inline void Height(const int h)
-        {
-            _height = h;
-        }       
-        /*!
-         *  \brief Set the x position
-         */
-        inline void X(const int x)
-        {
-            _x = x;
-        }        
-        /*!
-         *  \brief Set the y position
-         */
-        inline void Y(const int y)
-        {
-            _y = y;
-        }
-        /*!
-         *  \brief Set the images vector
-         */
-        inline void setImages(std::vector<Image2D*> &i)
-        {
-            _images = i;
-        }
-        /*!
-         *  \brief Fill the images vector
-         */
-        inline void addImage(Image2D *i)
-        {
-            _images.push_back(i);
-        }
-        /*!
-         *  \brief Manage the score to draw it then
-         */
-        void scoreToTab(int points);
-        /*!
-         *  \brief Call the drawImage method to draw the score
-         */
-        void drawScore();
+    class Score 
+    {       
+        /*! \class Score
+        * \brief
+        *	Each player has a score
+        *  	Here are attributes and functions dedicated the score during the game/its diplay
+        */
+        private:
+            int _x; /*!< Position x of the score */
+            int _y; /*!< Position y of the score */
+            int _width;  /*!< Width of the score */
+            int _height;  /*!< Height x of the score */
+            int point;  /*!< Value of the score corresponding to the points of the player */
+            std::vector<Image2D*> _images; /*!< Score images is made of images numbers from 0 to 9 */
 
-};
+        public:
+            Score(std::vector<Image2D*> i, int x = 0, int y = 0, int w = 0, int h = 0)
+                : _images(i), _x(x), _y(y), _width(w), _height(h){};
+            ~Score(){};
+            /*!
+             *  \brief Getters
+             */        
+            /*!
+             *  \brief Get the width of the score
+             */
+            inline int width() const
+            { 
+                return _width; 
+            }        
+            /*!
+             *  \brief Get the height of the score
+             */
+            inline int height() const
+            { 
+                return _height; 
+            }        
+            /*!
+             *  \brief Get the x position
+             */
+            inline int x() const
+            { 
+                return _x; 
+            }        
+            /*!
+             *  \brief Get the y position
+             */
+            inline int y() const
+            { 
+                return _y; 
+            }        
+            /*!
+             *  \brief Get all the images into the vector
+             */
+            inline std::vector<Image2D*> images() const
+            { 
+                return _images; 
+            }
+            /*!
+             *  \brief Setters
+             */
+            /*!
+             *  \brief Set the score width
+             */
+            inline void Width(const int w)
+            {
+                _width = w;
+            }        
+            /*!
+             *  \brief Set the score height
+             */
+            inline void Height(const int h)
+            {
+                _height = h;
+            }       
+            /*!
+             *  \brief Set the x position
+             */
+            inline void X(const int x)
+            {
+                _x = x;
+            }        
+            /*!
+             *  \brief Set the y position
+             */
+            inline void Y(const int y)
+            {
+                _y = y;
+            }
+            /*!
+             *  \brief Set the images vector
+             */
+            inline void setImages(std::vector<Image2D*> &i)
+            {
+                _images = i;
+            }
+            /*!
+             *  \brief Fill the images vector
+             */
+            inline void addImage(Image2D *i)
+            {
+                _images.push_back(i);
+            }
+            /*!
+             *  \brief Manage the score to draw it then
+             */
+            void scoreToTab(int points);
+            /*!
+             *  \brief Call the drawImage method to draw the score
+             */
+            void drawScore();
+
+    };
+}
 
 #endif
