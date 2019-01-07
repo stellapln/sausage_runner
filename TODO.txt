@@ -2,7 +2,7 @@ Trucs à faire pour respecter les consignes
 X - utiliser la class d'exeption
 X - enregistrement des meilleurs scores
   - affichage du score
-  - pause sur Echap
+X - pause sur Echap
   - plusieurs lumières
   - ajouter des asserts
   - for_each + lambda pour l'affichage
