@@ -9,5 +9,6 @@ X - pause sur Echap
 X - Résoudre de problème de texture
   - Préparer la SOUTENANCE
   - Bouton hover menu
+  - Mettre des destructeurs à toutes les classes
 Trucs à faire en plus pour grapiller des points
   - Génération aléatoire
