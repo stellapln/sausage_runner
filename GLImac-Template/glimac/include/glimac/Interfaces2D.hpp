@@ -17,6 +17,9 @@
 #include <glimac/glm.hpp>
 #include <glimac/Program.hpp>
 #include <glimac/SDLWindowManager.hpp>
+#include <SDL/SDL_ttf.h>
+
+#include <SDL/SDL_image.h>
 
 #define WINDOW_WIDTH 800
 #define WINDOW_HEIGHT 600
@@ -338,32 +341,15 @@ namespace sausageRunner {
         private:
             int _x; /*!< Position x of the score */
             int _y; /*!< Position y of the score */
-            int _width;  /*!< Width of the score */
-            int _height;  /*!< Height x of the score */
-            int point;  /*!< Value of the score corresponding to the points of the player */
-            std::vector<Image2D*> _images; /*!< Score images is made of images numbers from 0 to 9 */
+            int _value;  /*!< Value of the score corresponding to the points of the player */
 
         public:
-            Score(std::vector<Image2D*> i, int x = 0, int y = 0, int w = 0, int h = 0)
-                : _images(i), _x(x), _y(y), _width(w), _height(h){};
+            Score(int x = 0, int y = 0)
+                : _x(x), _y(y), _value(0){};
             ~Score(){};
             /*!
              *  \brief Getters
-             */        
-            /*!
-             *  \brief Get the width of the score
-             */
-            inline int width() const
-            { 
-                return _width; 
-            }        
-            /*!
-             *  \brief Get the height of the score
-             */
-            inline int height() const
-            { 
-                return _height; 
-            }        
+             */            
             /*!
              *  \brief Get the x position
              */
@@ -377,31 +363,14 @@ namespace sausageRunner {
             inline int y() const
             { 
                 return _y; 
-            }        
-            /*!
-             *  \brief Get all the images into the vector
-             */
-            inline std::vector<Image2D*> images() const
-            { 
-                return _images; 
-            }
-            /*!
-             *  \brief Setters
-             */
-            /*!
-             *  \brief Set the score width
-             */
-            inline void Width(const int w)
-            {
-                _width = w;
-            }        
-            /*!
-             *  \brief Set the score height
-             */
-            inline void Height(const int h)
-            {
-                _height = h;
             }       
+            /*!
+             *  \brief Get the value
+             */
+            inline int value() const
+            { 
+                return _value; 
+            }        
             /*!
              *  \brief Set the x position
              */
@@ -415,25 +384,18 @@ namespace sausageRunner {
             inline void Y(const int y)
             {
                 _y = y;
-            }
+            }       
             /*!
-             *  \brief Set the images vector
+             *  \brief Set the value
              */
-            inline void setImages(std::vector<Image2D*> &i)
+            inline void Value(const int value)
             {
-                _images = i;
-            }
-            /*!
-             *  \brief Fill the images vector
-             */
-            inline void addImage(Image2D *i)
-            {
-                _images.push_back(i);
+                _value = value;
             }
             /*!
              *  \brief Manage the score to draw it then
              */
-            void scoreTTF(int points);
+            // void scoreTTF(int points, SDL_Surface* screen, TTF_Font *font);
             /*!
              *  \brief Call the drawImage method to draw the score
              */
@@ -441,5 +403,66 @@ namespace sausageRunner {
 
     };
 }
+
+/*
+
+namespace Text {
+    class RenderText{
+    private:
+        SDL_Surface* m_scoreSurface;
+        GLuint m_scoreImg;
+        SDL_Surface* m_timeSurface;
+        GLuint m_timeImg;
+
+        SDL_Surface* m_SP_titleSurface;
+        SDL_Surface* m_SP_pointsSurface;
+        SDL_Surface* m_SP_timeSurface;
+        SDL_Surface* m_SP_pointsScoreSurface;
+        SDL_Surface* m_SP_timeScoreSurface;
+        SDL_Surface* m_SP_Surface;
+        GLuint m_SP_titleImg;
+        GLuint m_SP_pointsImg;
+        GLuint m_SP_timeImg;
+        GLuint m_SP_pointsScoreImg;
+        GLuint m_SP_timeScoreImg;
+
+        glm::mat4 m_ProjMatrix;
+        glm::mat4 m_MVMatrix;
+        glm::mat4 m_NormalMatrix;
+        glm::mat4 m_OriginalMatrix;
+
+        std::string m_time;
+
+        TTF_Font* m_font;
+        GLuint m_planeVBO;
+        GLuint m_planeIBO;
+        GLuint m_planeVAO;
+
+        SDLWindowManager* m_windowManager;
+        SDL_Surface* m_screen;
+
+
+
+    public:
+        void initText();
+
+        TTF_Font* loadFont(int size);
+
+        SDL_Surface* createTextTexture(GLuint* textImg, std::string text, SDL_Color color);
+
+        void clean();
+
+        SDL_Surface* createTextTexture(GLuint* textImg, std::string text, SDL_Color color);
+
+        void drawText(SDL_Surface* textSurface, GLuint textImg, float size, float x, float y);
+
+        void drawText(SDL_Surface* textSurface, GLuint textImg, float size, glm::mat4 matrix);
+
+        void createScorePanel(int points);
+
+        void drawScorePanel(int points);
+
+    };
+}*/
 
 #endif

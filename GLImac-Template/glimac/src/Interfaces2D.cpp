@@ -1,7 +1,4 @@
 #include "glimac/Interfaces2D.hpp"
-#include <SDL/SDL_ttf.h>
-#include <cassert>
-#include "glimac/SDLWindowManager.hpp"
 
 using namespace sausageRunner;
 
@@ -205,11 +202,8 @@ void Window::drawWindow()
     };
     for_each(_buttons.begin(), _buttons.end(), drawButton);
 }
-
-void Score::scoreTTF(int points){
-    assert(TTF_Init() != -1);
-    TTF_Font *font = nullptr;
-    SDL_Surface *text = nullptr;
+/*
+void Score::scoreTTF(int points, SDL_Surface* screen, TTF_Font *font){
     font = TTF_OpenFont("../../../GLImac-Template-build/TP_proj/assets/fonts/arial.ttf", 65);
     SDL_Color redColor = {214,27,20};
     text = TTF_RenderText_Blended(font, "PROUT", redColor);
@@ -217,11 +211,160 @@ void Score::scoreTTF(int points){
     SDL_Rect position;
     position.x = 0;
     position.y = 0;
-    // SDL_BlitSurface(text, NULL, )
+    SDL_BlitSurface(text, NULL, screen, &position);
+    SDL_Flip(screen);
+}
 
-
+void Score::drawScore(int size)
+{  
+    TTF_Font *font = TTF_OpenFont("./assets/fonts/arial.ttf", size);
+    SDL_Color redColor = {255,0,0};
+    SDL_Surface *text = TTF_RenderText_Blended(font, "PROUT", redColor);
 
     TTF_CloseFont(font);
- 
-    TTF_Quit();
 }
+
+namespace Text {
+
+  void RenderText::initText()
+  {
+    if (TTF_Init() < 0) {
+        std::cout << "SDL_TTF library could not be load" << std::endl;
+    }
+  }
+
+  TTF_Font* RenderText::loadFont(int size)
+  {
+    TTF_Font* font = TTF_OpenFont("./assets/fonts/arial.ttf", size);
+    if (font == NULL)
+    {
+      TTF_SetError("Loading failed :( (code: %d)", 142);
+      std::cout << "Error: " << TTF_GetError() << std::endl;
+      return NULL;
+    }
+    return font;
+  }
+
+  void RenderText::clean()
+  {
+    TTF_Quit();
+  }
+
+  SDL_Surface* RenderText::createTextTexture(GLuint* textImg, std::string text, SDL_Color color){
+      m_SP_Surface = SDL_DisplayFormatAlpha(TTF_RenderUTF8_Solid( m_font, text.data(), color ));
+      int colors = m_SP_Surface->format->BytesPerPixel;
+      SDL_Rect area;
+      area.x = 0; area.y = 0; area.w = m_SP_Surface->w; area.h = m_SP_Surface->h;
+      GLenum texture_format = GL_RGBA;
+
+      glDisable(GL_TEXTURE);
+      glDisable(GL_TEXTURE_2D);
+      glEnable(GL_BLEND);
+      GLuint img;
+
+      glGenTextures(1, &img);
+      glBindTexture(GL_TEXTURE_2D, img);
+      glTexImage2D( GL_TEXTURE_2D,
+                    0,
+                    colors,
+                    m_SP_Surface->w,
+                    m_SP_Surface->h,
+                    0,
+                    texture_format,
+                    GL_UNSIGNED_BYTE,
+                    m_SP_Surface->pixels
+                  );
+      glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+      glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+      glBindTexture(GL_TEXTURE_2D, 0);
+      glDisable(GL_BLEND);
+      *textImg = img;
+
+      return m_SP_Surface;
+    }
+
+
+    void RenderText::drawText(SDL_Surface* textSurface, GLuint textImg, float size, float x, float y)
+    {
+      useProgram(TEXTURE);
+      glm::mat4 matrix = glm::translate(glm::mat4(1.0f), glm::vec3(x, y, -5.0f));
+      float ratio = floatDivision(textSurface->w, textSurface->h);
+      matrix = glm::scale(matrix, glm::vec3(size * ratio, size, 1.f));
+      applyTransformations(TEXTURE, matrix);
+      glActiveTexture(GL_TEXTURE0);
+      glBindTexture(GL_TEXTURE_2D, textImg);
+      glEnable(GL_BLEND);
+      glEnable(GL_TEXTURE_2D);
+      disableTexture(TEXTURE, false);
+      glDisable(GL_TEXTURE_2D);
+      glDisable(GL_BLEND);
+      debindVAO();
+    }
+
+    void RenderText::drawText(SDL_Surface* textSurface, GLuint textImg, float size, glm::mat4 matrix)
+    {
+      useProgram(TEXTURE);
+      bindPlaneVAO();
+      float ratio = floatDivision(textSurface->w, textSurface->h);
+      matrix = glm::scale(matrix, glm::vec3(size * ratio, size, 1.f));
+      applyTransformations(TEXTURE, matrix);
+      glActiveTexture(GL_TEXTURE0);
+      glBindTexture(GL_TEXTURE_2D, textImg);
+      glEnable(GL_TEXTURE_2D);
+      m_plane.drawPlane();
+      disableTexture(TEXTURE, false);
+      glDisable(GL_TEXTURE_2D);
+      debindVAO();
+    }
+
+    void RenderText::createScorePanel(int points)
+    {
+      if (m_SP_titleSurface == NULL)
+      {
+        m_SP_titleSurface = createTextTexture(&m_SP_titleImg, "SCORE", {255,255,255});
+        m_SP_pointsSurface = createTextTexture(&m_SP_pointsImg, "Points:", {255,255,255});
+        m_SP_timeSurface = createTextTexture(&m_SP_timeImg, "Time:", {255,255,255});
+        m_SP_pointsScoreSurface = createTextTexture(&m_SP_pointsScoreImg, std::to_string(points), {255,255,255});
+        m_SP_timeScoreSurface = createTextTexture(&m_SP_timeScoreImg, m_time, {255,255,255});
+      }
+    }
+
+    void RenderText::drawScorePanel(int points)
+    {
+      useProgram(TEXTURE);
+      glBlendFunc(GL_ONE, GL_ONE_MINUS_SRC_ALPHA);
+      glEnable(GL_BLEND);
+      glm::mat4 original_matrix = m_MVMatrix;
+      original_matrix = glm::translate(original_matrix, glm::vec3(-3.5f, -0.6f, 2.0f));  // Some values set to adjust the plane
+      original_matrix = glm::rotate(original_matrix, (float)-90 * glm::pi<float>()/180, glm::vec3(1, 0, 0));
+      original_matrix = glm::scale(original_matrix, glm::vec3(-1.f, 1.f, 1.f));
+
+      glm::mat4 matrix = glm::translate(original_matrix, glm::vec3(0.f, 10.0f, 0.f));
+      if (m_SP_titleSurface == NULL)
+        m_SP_titleSurface = createTextTexture(&m_SP_titleImg, "SCORE", {255,255,255});
+      drawText(m_SP_titleSurface, m_SP_titleImg, 5.f, matrix);
+
+      matrix = glm::translate(original_matrix, glm::vec3(0.f, 6.0f, -0.1f));
+      if (m_SP_pointsSurface == NULL)
+        m_SP_pointsSurface = createTextTexture(&m_SP_pointsImg, "Points:", {255,255,255});
+      drawText(m_SP_pointsSurface, m_SP_pointsImg, 2.f, matrix);
+
+      matrix = glm::translate(original_matrix, glm::vec3(0.f, 3.5f, -0.1f));
+      if (m_SP_pointsScoreSurface == NULL)
+        m_SP_pointsScoreSurface = createTextTexture(&m_SP_pointsScoreImg, std::to_string(points), {255,255,255});
+      drawText(m_SP_pointsScoreSurface, m_SP_pointsScoreImg, 3.5f, matrix);
+
+      matrix = glm::translate(original_matrix, glm::vec3(0.f, 0.f, -0.0f));
+      if (m_SP_timeSurface == NULL)
+        m_SP_timeSurface = createTextTexture(&m_SP_timeImg, "Time:", {255,255,255});
+      drawText(m_SP_timeSurface, m_SP_timeImg, 2.f, matrix);
+
+      matrix = glm::translate(original_matrix, glm::vec3(0.f, -2.5f, -0.1f));
+      if (m_SP_timeScoreSurface == NULL)
+        m_SP_timeScoreSurface = createTextTexture(&m_SP_timeScoreImg, m_time, {255,255,255});
+      drawText(m_SP_timeScoreSurface, m_SP_timeScoreImg, 3.5f, matrix);
+      glDisable(GL_BLEND);
+    }
+
+}
+*/

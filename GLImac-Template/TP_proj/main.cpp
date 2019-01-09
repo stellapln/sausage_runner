@@ -20,7 +20,10 @@
 #include <glimac/Image.hpp>
 #include <random>
 #include <glimac/FreeflyCamera.hpp>
+#include <SDL/SDL_ttf.h>
 #include <glimac/TrackballCamera.hpp>
+#include <SDL/SDL_mixer.h>
+#include <time.h>
 
 #include <assimp/Importer.hpp>
 #include <assimp/scene.h>
@@ -29,6 +32,7 @@
 #include <glimac/Model.hpp>
 #include <glimac/Game.hpp>
 #include <glimac/Interfaces2D.hpp>
+#include "glimac/SDLWindowManager.hpp"
 #include <glimac/Except.hpp>
 
 #define START_MENU 0
@@ -58,6 +62,8 @@ namespace sausageRunner {
      * with loaders and render loop
      */
     int main(int argc, char** argv) {
+        srand(time(NULL));
+
         // Initialize SDL and open a window
         //! Window manager of the SDL
         SDLWindowManager windowManager(800, 600, "Sausage Runner"); 
@@ -95,6 +101,22 @@ namespace sausageRunner {
          *  Initialize the game
          */
         World world("./levels/Level1");
+
+
+        /*!
+         *  \brief ** Music stuff
+         *
+         *  
+         */
+
+        int random_music = (rand()%3)+1;
+        std::string random_str = "./assets/musics/"+ std::to_string(random_music)+".mp3";
+        
+        if(Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, MIX_DEFAULT_CHANNELS, 1024) == -1){
+            return EXIT_FAILURE;
+        }
+        Mix_Music *game_music = Mix_LoadMUS(random_str.c_str());
+        Mix_PlayMusic(game_music, -1);
 
         /*!
          *  \brief ** Initialization 
@@ -359,6 +381,19 @@ namespace sausageRunner {
         mainLib->addSpecial(poireModel);
         mainLib->addSpecial(donutModel);
 
+        /*!
+         *  \brief ** Score stuff
+         *
+         *  Score call & draw
+         *
+        
+
+        Score points();
+        SDL_Rect position;
+        Text::initText();
+        */
+
+
         //! Set the library use in the world
         world.setLibrary(mainLib);
         //! Set the render manager of the world
@@ -371,9 +406,9 @@ namespace sausageRunner {
          *
          *  Application loop for the game
          */
-        //Score score;
 
         while(!done) {
+
         	SDL_Event e;
     	    while(windowManager.pollEvent(e)) {
     	        if(e.type == SDL_QUIT) {
@@ -449,6 +484,7 @@ namespace sausageRunner {
     			if(bmenu != nullptr){
     	            bmenu->Is_Hover(true);
     	        }
+
             	// draw menu window
             	menu.drawWindow();
             }
@@ -484,10 +520,16 @@ namespace sausageRunner {
                 done = true;
             }
 
+            else{
+                game_statut = START_MENU;
+            }
+
             global_time++;
             windowManager.swapBuffers();
-        }
 
+
+               
+        }
         return EXIT_SUCCESS;
     }
 }
