@@ -71,6 +71,26 @@ std::vector<int> Personnage::getBbox(){
     return bbox;
 }
 
+
+World::World(std::string file){
+    if(file == "") _randomized = true;
+    else
+    {
+        try
+        {
+            loadFile(file);
+        }
+        catch(Except err)
+        {
+            std::cerr << err.what() << std::endl;
+        }
+    }
+    _aroundCam = new TrackballCamera(5.0f + _zoomBeginningAnimation,25.0f,0.0f);
+    _eyesCam = new EyesCam(30.0f,0.0f);
+    _eyesCam->setPosition(glm::vec3(0.0f,-1.4f,0.2f));
+    _perso = new Personnage(0);
+}
+
 void World::loadFile(const std::string level){
 	std::string levelName = level;
 	FILE *file = fopen(levelName.c_str(), "r");
@@ -89,6 +109,7 @@ void World::loadFile(const std::string level){
 void World::addTile(Tile* t){
 	_tiles.push_back(*t);
 }
+
 
 int World::collision(int global_time, int currentTile)
 {
@@ -148,6 +169,8 @@ int World::draw(int global_time) {
     glm::mat4 MVMatrixModifiedM;
 	glm::mat4 viewMatrix;
 
+    //if(global_time%200 == 0) _render->addLight(new Light(glm::vec3(0.0,1.0,0.0),50.0,1));
+
     int deltaT = global_time - _timeStartGame;
 
     _render->reset();
@@ -185,7 +208,7 @@ int World::draw(int global_time) {
     // Poire
 
     MVMatrixModified = glm::translate(MVMatrix,glm::vec3(0.0,0.0,4.5));
-    if(deltaT > _beginningAnimDuration) MVMatrixModified = glm::rotate(MVMatrixModified,sinf(global_time*0.1),glm::vec3(0.0,1.0,0.5));
+    MVMatrixModified = glm::rotate(MVMatrixModified,sinf(global_time*0.1),glm::vec3(0.0,1.0,0.5));
     _render->sendMatrix(MVMatrixModified);
     _modelLib->special(SPECIAL_POIRE).draw();
 

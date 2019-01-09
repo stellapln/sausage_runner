@@ -157,29 +157,12 @@ namespace sausageRunner {
 			void loadFile(std::string level); // Fill the vector _tiles with the file;
 
 		public:
-			World(std::string file = ""){
-				if(file == "") _randomized = true;
-				else
-				{
-					try
-					{
-						loadFile(file);
-					}
-					catch(Except err)
-					{
-						std::cerr << err.what() << std::endl;
-					}
-				}
-				_aroundCam = new TrackballCamera(5.0f + _zoomBeginningAnimation,25.0f,0.0f);
-	     		_eyesCam = new EyesCam(30.0f,0.0f);
-	     		_eyesCam->setPosition(glm::vec3(0.0f,-1.4f,0.2f));
-	     		_perso = new Personnage(0);
-			}
+			World(std::string file = "");
 			
 			/*!
 			 * \brief Return a pointer of the current camera
 			 */
-			SimpleAxeCam* cam(){
+			SimpleAxeCam* cam() const{
 				if(_activeCam == 0) return _aroundCam;
 				return _eyesCam;
 			}
@@ -237,8 +220,9 @@ namespace sausageRunner {
 			 */
 			void init(int global_time)
 			{
+				_render->reset();
 				_timeStartGame = global_time;
-				std::function<void(Tile t)> resetTile = [](Tile t){
+				std::function<void(Tile &t)> resetTile = [](Tile &t){
 					t.reset();
 				};
 				for_each(_tiles.begin(), _tiles.end(),resetTile);
@@ -254,17 +238,19 @@ namespace sausageRunner {
 			/*!
 			 * \brief Resume the game
 			 */
-			void resume()
+			void resume() const
 			{
 				_render->use();
 				glEnable(GL_DEPTH_TEST);
+				_render->reset();
 			}
 			
 			/*!
 			 * \brief Close the game
 			 */
-			void close()
+			void close() const
 			{
+				_render->reset();
 				glDisable(GL_DEPTH_TEST);
 			}
 			
@@ -279,7 +265,7 @@ namespace sausageRunner {
 			/*!
 			 * \brief Return the number of coins collected
 			 */
-			int getCoin()
+			int getCoin() const
 			{
 				return _nCoin;
 			}
@@ -287,7 +273,7 @@ namespace sausageRunner {
 			/*!
 			 * \brief Return the last score
 			 */
-			int getScore()
+			int getScore() const
 			{
 				return int(_t) * 100;
 			}
@@ -341,7 +327,7 @@ namespace sausageRunner {
 			 */
 			void mouseButtonUp(Uint8 btn){
 			    if(btn == SDL_BUTTON_RIGHT) {
-				rightClickDown = false;
+					rightClickDown = false;
 			    }
 			}
 			
@@ -405,7 +391,7 @@ namespace sausageRunner {
 			/*!
 			 * \brief Return an angle to rotation the view matrix to smooth the camera motion at the world rotations
 			 */
-			float getSmoothCamAngle(int global_time)
+			float getSmoothCamAngle(int global_time) const
 			{
 				int detlaT = global_time - _lastTimeRotation;
 				if(detlaT > _timeToSmoothCamRotation) return 0.0;
