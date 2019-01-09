@@ -24,7 +24,7 @@ uniform sampler2D uTexture;
 struct Light
 {
 	vec3 pos;
-	float intensity;
+	vec3 intensity;
 	int type;
 };
 
@@ -57,7 +57,7 @@ void main(){
 	Light globalLight;
 	globalLight.pos = uLightPos_vs;
 	globalLight.intensity = uLightIntensity;
-	globalLight.type = DIRECTIONNAL;
+	globalLight.type = POINT;
 
 	blPh = blinnPhong(globalLight);
 
@@ -68,5 +68,5 @@ void main(){
 	blPh.x = clamp(blPh.x,0.0,1.0);
 	blPh.y = clamp(blPh.y,0.0,1.0);
 	blPh.z = clamp(blPh.z,0.0,1.0);
-	fFragColor = texture*0.5 + texture*blPh*0.5;
+	fFragColor = texture*0.2 + texture*blPh*0.8;
 };

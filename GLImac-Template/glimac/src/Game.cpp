@@ -197,7 +197,7 @@ int World::draw(int global_time) {
 
     // Skybox
 
- 	MVMatrixModified = glm::scale(MVMatrix,glm::vec3(30.0,30.0,30.0));
+ 	MVMatrixModified = glm::scale(MVMatrix,glm::vec3(50.0,50.0,50.0));
     _render->sendMatrix(MVMatrixModified);
     _modelLib->skybox(0).draw();
 

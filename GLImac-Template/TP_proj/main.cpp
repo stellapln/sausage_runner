@@ -303,6 +303,10 @@ namespace sausageRunner {
                     return 5; // change character
                 },454,460,193,140);
 
+        render->addLight(new Light(glm::vec3(0.0,1.0,0.0),glm::vec3(50.0,50.0,0.0),1));
+        render->addLight(new Light(glm::vec3(0.0,1.0,0.0),glm::vec3(50.0,0.0,50.0),1));
+        render->addLight(new Light(glm::vec3(0.0,1.0,-1.0),glm::vec3(0.0,50.0,50.0),1));
+
 
     	try
         {

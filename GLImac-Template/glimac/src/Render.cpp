@@ -10,8 +10,9 @@ void Light::sendUniform(GLuint progGLId, int i) const {
     GLuint uIntensity = glGetUniformLocation(progGLId,("secondaryLights["+std::to_string(i)+"].intensity").c_str());
     GLuint uType = glGetUniformLocation(progGLId,("secondaryLights["+std::to_string(i)+"].type").c_str());
 
+    std::cout << _pos << std::endl;
     glUniform3fv(uPos,1,glm::value_ptr(_pos));
-    glUniform1f(uIntensity, _intensity);
+    glUniform3fv(uPos,1,glm::value_ptr(_intensity));
     glUniform1i(uType,_type);
 }
 
