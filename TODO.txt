@@ -5,7 +5,7 @@ X - enregistrement des meilleurs scores
 X - pause sur Echap
   - plusieurs lumières
   - ajouter des asserts
-  - for_each + lambda pour l'affichage
+/ - for_each + lambda pour l'affichage
 X - Résoudre de problème de texture
   - Préparer la SOUTENANCE
   - Bouton hover menu
