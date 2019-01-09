@@ -7,6 +7,8 @@
 namespace glimac {
 
 class SDLWindowManager {
+private:
+    SDL_Surface *_screen;
 public:
     SDLWindowManager(uint32_t width, uint32_t height, const char* title);
 
@@ -25,6 +27,11 @@ public:
 
     // Return the time in seconds
     float getTime() const;
+
+    SDL_Surface* getScreen()
+    {
+        return _screen;
+    }
 };
 
 }
