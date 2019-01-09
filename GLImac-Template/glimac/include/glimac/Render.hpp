@@ -55,7 +55,7 @@ namespace sausageRunner {
 			glm::vec3 _Kd = glm::vec3(0.5,0.5,0.5);
 			glm::vec3 _Ks = glm::vec3(0.5,0.5,0.5);
 			float _Shininess = 0.5;
-			glm::vec4 _LightPos_vs = glm::vec4(2.0,0.0,2.0,0.0);
+			glm::vec4 _LightPos_vs = glm::vec4(2.0,2.0,0.0,0.0);
 			glm::vec3 _LightIntensity = glm::vec3(50.0,50.0,50.0);
 
 			std::deque<Light> _secondaryLights; 

@@ -303,9 +303,9 @@ namespace sausageRunner {
                     return 5; // change character
                 },454,460,193,140);
 
-        render->addLight(new Light(glm::vec3(0.0,1.0,0.0),glm::vec3(50.0,50.0,0.0),1));
-        render->addLight(new Light(glm::vec3(0.0,1.0,0.0),glm::vec3(50.0,0.0,50.0),1));
-        render->addLight(new Light(glm::vec3(0.0,1.0,-1.0),glm::vec3(0.0,50.0,50.0),1));
+        //render->addLight(new Light(glm::vec3(1.0,1.0,3.0),glm::vec3(30.0,0.0,0.0),1));
+        //render->addLight(new Light(glm::vec3(0.0,1.0,-5.0),glm::vec3(20.0,20.0,20.0),1));
+        //render->addLight(new Light(glm::vec3(0.0,0.0,-10.0),glm::vec3(20.0,20.0,20.0),1));
 
 
     	try

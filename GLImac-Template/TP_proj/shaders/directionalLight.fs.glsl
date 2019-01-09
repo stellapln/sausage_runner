@@ -52,14 +52,13 @@ vec3 blinnPhong(Light light)
 
 void main(){
 	vec3 texture = vec3(texture(uTexture,vFragTexCoords));
-	vec3 blPh = vec3(0.0);
 
 	Light globalLight;
 	globalLight.pos = uLightPos_vs;
 	globalLight.intensity = uLightIntensity;
 	globalLight.type = POINT;
 
-	blPh = blinnPhong(globalLight);
+	vec3 blPh = blinnPhong(globalLight);
 
 	for(int i = 0;i < numberOfSecondaryLights && i < MAX_N_LIGHT;i++)
 	{
@@ -68,5 +67,5 @@ void main(){
 	blPh.x = clamp(blPh.x,0.0,1.0);
 	blPh.y = clamp(blPh.y,0.0,1.0);
 	blPh.z = clamp(blPh.z,0.0,1.0);
-	fFragColor = texture*0.2 + texture*blPh*0.8;
+	fFragColor = texture*0.3 + texture*blPh*0.7;
 };
