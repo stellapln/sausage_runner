@@ -58,6 +58,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.7/Modules/FindPackageMessage.cmake"
   "/usr/share/cmake-3.7/Modules/FindPkgConfig.cmake"
   "/usr/share/cmake-3.7/Modules/FindSDL.cmake"
+  "/usr/share/cmake-3.7/Modules/FindSDL_ttf.cmake"
   "/usr/share/cmake-3.7/Modules/FindThreads.cmake"
   "/usr/share/cmake-3.7/Modules/GNUInstallDirs.cmake"
   "/usr/share/cmake-3.7/Modules/Platform/Linux-GNU-C.cmake"

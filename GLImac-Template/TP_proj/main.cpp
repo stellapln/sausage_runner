@@ -134,7 +134,7 @@ namespace sausageRunner {
         // Change Button
         Image2D menuImagePause("assets/textures/MENU_BUTTON_FOR_PAUSE.png", "menuImagePause");
         // Change Button Bright (hover)
-        Image2D menuImageHoverPause("assets/textures/MENU_BUTTON_FOR_PAUSE.png", "menuImageHoverPause");
+        Image2D menuImageHoverPause("assets/textures/MENU_BUTTON_FOR_PAUSE_BRIGHT.png", "menuImageHoverPause");
 
         // Score Image
         Image2D scoreImage("assets/textures/SCORE_WINDOW.png", "scoreImage");

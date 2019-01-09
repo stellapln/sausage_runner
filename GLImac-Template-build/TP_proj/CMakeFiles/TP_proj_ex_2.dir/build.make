@@ -96,6 +96,7 @@ TP_proj/TP_proj_ex_2: /usr/lib/x86_64-linux-gnu/libSDLmain.a
 TP_proj/TP_proj_ex_2: /usr/lib/x86_64-linux-gnu/libSDL.so
 TP_proj/TP_proj_ex_2: /usr/lib/x86_64-linux-gnu/libGL.so.1
 TP_proj/TP_proj_ex_2: /usr/lib/x86_64-linux-gnu/libGLEW.so
+TP_proj/TP_proj_ex_2: /usr/lib/x86_64-linux-gnu/libSDL_ttf.so
 TP_proj/TP_proj_ex_2: /usr/lib/x86_64-linux-gnu/libz.so
 TP_proj/TP_proj_ex_2: assimp/contrib/irrXML/libIrrXML.a
 TP_proj/TP_proj_ex_2: /usr/lib/x86_64-linux-gnu/librt.so
