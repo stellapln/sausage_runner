@@ -8,7 +8,8 @@ X - pause sur Echap
 / - for_each + lambda pour l'affichage
 X - Résoudre de problème de texture
   - Préparer la SOUTENANCE
-  - Bouton hover menu
+X - Bouton hover menu
   - Mettre des destructeurs à toutes les classes
+  - Remettre les pièces à la seconde partie
 Trucs à faire en plus pour grapiller des points
   - Génération aléatoire
