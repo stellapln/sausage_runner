@@ -433,7 +433,7 @@ namespace sausageRunner {
             /*!
              *  \brief Manage the score to draw it then
              */
-            void scoreToTab(int points);
+            void scoreTTF(int points);
             /*!
              *  \brief Call the drawImage method to draw the score
              */

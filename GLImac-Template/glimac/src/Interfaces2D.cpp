@@ -1,13 +1,11 @@
 #include "glimac/Interfaces2D.hpp"
+#include <SDL/SDL_ttf.h>
+#include <cassert>
+#include "glimac/SDLWindowManager.hpp"
 
 using namespace sausageRunner;
 
-// Fucntions for transformations matrices (rotation, translate, scale)
-glm::mat3 rotate(float angle)
-{
-    float a = radians(angle);
-    return mat3 (vec3(cos(a), sin(a), 0), vec3(-sin(a),cos(a),0), vec3(0,0,1));
-};
+// Fucntions for transformations matrices (translate, scale)
 
 glm::mat3 translate(float x, float y)
 {
@@ -208,49 +206,22 @@ void Window::drawWindow()
     for_each(_buttons.begin(), _buttons.end(), drawButton);
 }
 
-void Score::scoreToTab(int points){
-    std::vector<int> tab(5);
-    /* unité */
-    if(points >= 0){
-        tab[0] = points;
-        /* décimal */
-        if(points >= 10){
-            tab[1] = points/10;
-            tab[0] = points-tab[1]*10;
-            /* centimal */
-            if(points >= 100){
-                tab[2] = points/100;
-                tab[1] = tab[1]-tab[2]*10;
-                /* millimal */
-                if(points >= 1000){
-                    tab[3] = points/1000;
-                    tab[2] = tab[2]-tab[3]*10;
-                    /* dix-millimal */
-                    if(points >= 10000){
-                        tab[4] = points/10000;
-                        tab[3] = tab[3]-tab[4]*10;
-                    }
-                    else{
-                        tab[4] =0;
-                    }
-                }
-                else{
-                    tab[3] = 0;
-                    tab[4] = 0;
-                }
-            }
-            else{
-                tab[2] = 0;
-                tab[3] = 0;
-                tab[4] = 0;
-            }
-        }
-        else{
-            tab[1] = 0;
-            tab[2] = 0;
-            tab[3] = 0;
-            tab[4] = 0;
-        }
-    }
-    std::cout << points << std::endl;
+void Score::scoreTTF(int points){
+    assert(TTF_Init() != -1);
+    TTF_Font *font = nullptr;
+    SDL_Surface *text = nullptr;
+    font = TTF_OpenFont("../../../GLImac-Template-build/TP_proj/assets/fonts/arial.ttf", 65);
+    SDL_Color redColor = {214,27,20};
+    text = TTF_RenderText_Blended(font, "PROUT", redColor);
+
+    SDL_Rect position;
+    position.x = 0;
+    position.y = 0;
+    // SDL_BlitSurface(text, NULL, )
+
+
+
+    TTF_CloseFont(font);
+ 
+    TTF_Quit();
 }

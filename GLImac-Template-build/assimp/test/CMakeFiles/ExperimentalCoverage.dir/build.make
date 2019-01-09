@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template
+CMAKE_SOURCE_DIR = /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build
+CMAKE_BINARY_DIR = /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build
 
 # Utility rule file for ExperimentalCoverage.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Te
 include assimp/test/CMakeFiles/ExperimentalCoverage.dir/progress.make
 
 assimp/test/CMakeFiles/ExperimentalCoverage:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/test && /usr/bin/ctest -D ExperimentalCoverage
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/assimp/test && /usr/bin/ctest -D ExperimentalCoverage
 
 ExperimentalCoverage: assimp/test/CMakeFiles/ExperimentalCoverage
 ExperimentalCoverage: assimp/test/CMakeFiles/ExperimentalCoverage.dir/build.make
@@ -67,10 +67,10 @@ assimp/test/CMakeFiles/ExperimentalCoverage.dir/build: ExperimentalCoverage
 .PHONY : assimp/test/CMakeFiles/ExperimentalCoverage.dir/build
 
 assimp/test/CMakeFiles/ExperimentalCoverage.dir/clean:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/test && $(CMAKE_COMMAND) -P CMakeFiles/ExperimentalCoverage.dir/cmake_clean.cmake
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/assimp/test && $(CMAKE_COMMAND) -P CMakeFiles/ExperimentalCoverage.dir/cmake_clean.cmake
 .PHONY : assimp/test/CMakeFiles/ExperimentalCoverage.dir/clean
 
 assimp/test/CMakeFiles/ExperimentalCoverage.dir/depend:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/test /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/test/CMakeFiles/ExperimentalCoverage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/test /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/assimp/test /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/assimp/test/CMakeFiles/ExperimentalCoverage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : assimp/test/CMakeFiles/ExperimentalCoverage.dir/depend
 

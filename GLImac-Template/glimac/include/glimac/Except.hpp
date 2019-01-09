@@ -7,8 +7,6 @@
 #include <sstream>
 #include <exception>
 
-
-
 namespace sausageRunner {
 	class Except : public std::exception {
 		private:

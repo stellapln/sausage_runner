@@ -48,24 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template
+CMAKE_SOURCE_DIR = /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build
+CMAKE_BINARY_DIR = /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-
-.PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -124,9 +113,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/CMakeFiles /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -206,6 +195,11 @@ assimp/fast:
 	$(MAKE) -f assimp/code/CMakeFiles/assimp.dir/build.make assimp/code/CMakeFiles/assimp.dir/build
 .PHONY : assimp/fast
 
+# Manual pre-install relink rule for target.
+assimp/preinstall:
+	$(MAKE) -f assimp/code/CMakeFiles/assimp.dir/build.make assimp/code/CMakeFiles/assimp.dir/preinstall
+.PHONY : assimp/preinstall
+
 #=============================================================================
 # Target rules for targets named assimp_cmd
 
@@ -218,6 +212,11 @@ assimp_cmd: cmake_check_build_system
 assimp_cmd/fast:
 	$(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build
 .PHONY : assimp_cmd/fast
+
+# Manual pre-install relink rule for target.
+assimp_cmd/preinstall:
+	$(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/preinstall
+.PHONY : assimp_cmd/preinstall
 
 #=============================================================================
 # Target rules for targets named unit
@@ -654,7 +653,6 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"

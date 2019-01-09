@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template
+CMAKE_SOURCE_DIR = /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build
+CMAKE_BINARY_DIR = /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build
 
 # Utility rule file for ContinuousStart.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Te
 include assimp/test/CMakeFiles/ContinuousStart.dir/progress.make
 
 assimp/test/CMakeFiles/ContinuousStart:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/test && /usr/bin/ctest -D ContinuousStart
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/assimp/test && /usr/bin/ctest -D ContinuousStart
 
 ContinuousStart: assimp/test/CMakeFiles/ContinuousStart
 ContinuousStart: assimp/test/CMakeFiles/ContinuousStart.dir/build.make
@@ -67,10 +67,10 @@ assimp/test/CMakeFiles/ContinuousStart.dir/build: ContinuousStart
 .PHONY : assimp/test/CMakeFiles/ContinuousStart.dir/build
 
 assimp/test/CMakeFiles/ContinuousStart.dir/clean:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/test && $(CMAKE_COMMAND) -P CMakeFiles/ContinuousStart.dir/cmake_clean.cmake
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/assimp/test && $(CMAKE_COMMAND) -P CMakeFiles/ContinuousStart.dir/cmake_clean.cmake
 .PHONY : assimp/test/CMakeFiles/ContinuousStart.dir/clean
 
 assimp/test/CMakeFiles/ContinuousStart.dir/depend:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/test /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/test /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/test/CMakeFiles/ContinuousStart.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/test /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/assimp/test /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/assimp/test/CMakeFiles/ContinuousStart.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : assimp/test/CMakeFiles/ContinuousStart.dir/depend
 

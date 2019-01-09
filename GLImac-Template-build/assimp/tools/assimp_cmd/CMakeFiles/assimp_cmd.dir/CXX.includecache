@@ -6,37 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 map
 -
 GenericProperty.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/code/GenericProperty.h
 assimp/Importer.hpp
 -
 assimp/ai_assert.h
 -
 Hash.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Hash.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/code/Hash.h
 map
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/Hash.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/code/Hash.h
 stdint.h
 -
 string.h
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ParsingUtils.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/code/ParsingUtils.h
 StringComparison.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StringComparison.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/code/StringComparison.h
 StringUtils.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StringUtils.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/code/StringUtils.h
 assimp/defs.h
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ProcessHelper.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/code/ProcessHelper.h
 assimp/postprocess.h
 -
 assimp/anim.h
@@ -50,25 +50,25 @@ assimp/DefaultLogger.hpp
 assimp/scene.h
 -
 SpatialSort.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/SpatialSort.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/code/SpatialSort.h
 BaseProcess.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/code/BaseProcess.h
 ParsingUtils.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/ParsingUtils.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/code/ParsingUtils.h
 list
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/SpatialSort.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/code/SpatialSort.h
 vector
 -
 assimp/types.h
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StringComparison.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/code/StringComparison.h
 assimp/ai_assert.h
 -
 StringComparison.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StringComparison.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/code/StringComparison.h
 string.h
 -
 stdint.h
@@ -76,7 +76,7 @@ stdint.h
 string
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StringUtils.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/code/StringUtils.h
 sstream
 -
 stdarg.h
@@ -84,9 +84,9 @@ stdarg.h
 cstdlib
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/assbin_chunks.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/code/assbin_chunks.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/fast_atof.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/code/fast_atof.h
 cmath
 -
 limits
@@ -98,7 +98,7 @@ stdexcept
 assimp/defs.h
 -
 StringComparison.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/StringComparison.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/code/StringComparison.h
 assimp/DefaultLogger.hpp
 -
 stdint.h
@@ -106,17 +106,17 @@ stdint.h
 assimp/Compiler/pstdint.h
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/contrib/zlib/zlib.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/contrib/zlib/zlib.h
 zconf.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/contrib/zlib/zconf.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/contrib/zlib/zconf.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/Compiler/poppack1.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/Compiler/poppack1.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/Compiler/pstdint.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/Compiler/pstdint.h
 stddef.h
 -
 limits.h
@@ -136,95 +136,95 @@ stdio.h
 string.h
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/Compiler/pushpack1.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/Compiler/pushpack1.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/DefaultLogger.hpp
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/DefaultLogger.hpp
 Logger.hpp
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/Logger.hpp
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/Logger.hpp
 LogStream.hpp
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/LogStream.hpp
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/LogStream.hpp
 NullLogger.hpp
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/NullLogger.hpp
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/NullLogger.hpp
 vector
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/Exporter.hpp
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/Exporter.hpp
 cexport.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cexport.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/cexport.h
 map
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/Importer.hpp
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/Importer.hpp
 assimp/types.h
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/LogStream.hpp
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/LogStream.hpp
 types.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/types.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/types.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/Logger.hpp
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/Logger.hpp
 types.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/types.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/types.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/NullLogger.hpp
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/NullLogger.hpp
 Logger.hpp
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/Logger.hpp
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/Logger.hpp
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 assert.h
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/anim.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/anim.h
 assimp/types.h
 -
 assimp/quaternion.h
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 types.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/types.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/types.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/cexport.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/cexport.h
 assimp/types.h
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 defs.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
 color4.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 assimp/config.h
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 types.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/types.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/types.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
 types.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/types.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/types.h
 ./Compiler/pushpack1.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
 ./Compiler/poppack1.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 material.inl
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.inl
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/material.inl
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.inl
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/material.inl
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
 defs.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.inl
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.inl
 matrix3x3.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
 matrix4x4.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix4x4.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/matrix4x4.h
 algorithm
 -
 cmath
@@ -232,19 +232,19 @@ cmath
 limits
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix4x4.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/matrix4x4.h
 vector3.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 defs.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix4x4.inl
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/matrix4x4.inl
 matrix4x4.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix4x4.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/matrix4x4.h
 matrix3x3.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
 quaternion.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/quaternion.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/quaternion.h
 algorithm
 -
 limits
@@ -252,59 +252,59 @@ limits
 cmath
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/mesh.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/mesh.h
 types.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/types.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/types.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/metadata.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/metadata.h
 Compiler/pstdint.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/Compiler/pstdint.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/Compiler/pstdint.h
 stdint.h
 -
 string
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/postprocess.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/postprocess.h
 types.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/types.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/types.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/quaternion.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/quaternion.h
 defs.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/quaternion.inl
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/quaternion.inl
 quaternion.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/quaternion.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/quaternion.h
 cmath
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/scene.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/scene.h
 types.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/types.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/types.h
 texture.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/texture.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/texture.h
 mesh.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/mesh.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/mesh.h
 light.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/light.h
 camera.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/camera.h
 material.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/material.h
 anim.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/anim.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/anim.h
 metadata.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/metadata.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/metadata.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/texture.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/texture.h
 types.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/types.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/types.h
 ./Compiler/pushpack1.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
 ./Compiler/poppack1.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/types.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/types.h
 sys/types.h
 -
 stddef.h
@@ -314,19 +314,19 @@ string.h
 limits.h
 -
 defs.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 vector3.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 vector2.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.h
 color4.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/color4.h
 matrix3x3.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.h
 matrix4x4.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix4x4.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/matrix4x4.h
 quaternion.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/quaternion.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/quaternion.h
 cstring
 -
 new
@@ -334,61 +334,61 @@ new
 string
 -
 vector2.inl
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 vector3.inl
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
 color4.inl
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/color4.inl
 quaternion.inl
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/quaternion.inl
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/quaternion.inl
 matrix3x3.inl
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.inl
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/matrix3x3.inl
 matrix4x4.inl
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/matrix4x4.inl
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/matrix4x4.inl
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.h
 cmath
 -
 math.h
 -
 ./Compiler/pushpack1.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/pushpack1.h
 defs.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 ./Compiler/poppack1.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/./Compiler/poppack1.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.inl
 vector2.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/vector2.h
 cmath
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 cmath
 -
 math.h
 -
 defs.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.inl
 vector3.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/vector3.h
 cmath
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/version.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/version.h
 defs.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/defs.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/CompareDump.cpp
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/CompareDump.cpp
 Main.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Main.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Main.h
 ../../code/assbin_chunks.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/assbin_chunks.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/code/assbin_chunks.h
 generic_inserter.hpp
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/generic_inserter.hpp
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/generic_inserter.hpp
 map
 -
 deque
@@ -400,15 +400,15 @@ sstream
 iostream
 -
 ../../include/assimp/ai_assert.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include/assimp/ai_assert.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Export.cpp
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Export.cpp
 Main.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Main.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Main.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/ImageExtractor.cpp
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/ImageExtractor.cpp
 Main.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Main.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Main.h
 ../code/fast_atof.h
 -
 ../code/StringComparison.h
@@ -418,15 +418,15 @@ assimp/Compiler/pushpack1.h
 assimp/Compiler/poppack1.h
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Info.cpp
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Info.cpp
 Main.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Main.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Main.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Main.cpp
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Main.cpp
 Main.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Main.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Main.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Main.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Main.h
 stdio.h
 -
 string.h
@@ -452,15 +452,15 @@ zlib.h
 ../contrib/zlib/zlib.h
 -
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/WriteDumb.cpp
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/WriteDumb.cpp
 Main.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Main.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/Main.h
 ../code/ProcessHelper.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/code/ProcessHelper.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/tools/code/ProcessHelper.h
 ../../code/assbin_chunks.h
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/code/assbin_chunks.h
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/code/assbin_chunks.h
 
-/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/generic_inserter.hpp
+/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/tools/assimp_cmd/generic_inserter.hpp
 ostream
 -
 new

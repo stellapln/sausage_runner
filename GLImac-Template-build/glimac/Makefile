@@ -48,24 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template
+CMAKE_SOURCE_DIR = /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build
+CMAKE_BINARY_DIR = /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-
-.PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -124,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/glimac/CMakeFiles/progress.marks
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 glimac/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/CMakeFiles /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/glimac/CMakeFiles/progress.marks
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 glimac/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 glimac/clean
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 glimac/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +130,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 glimac/preinstall
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 glimac/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 glimac/preinstall
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 glimac/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 glimac/CMakeFiles/glimac.dir/rule:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 glimac/CMakeFiles/glimac.dir/rule
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 glimac/CMakeFiles/glimac.dir/rule
 .PHONY : glimac/CMakeFiles/glimac.dir/rule
 
 # Convenience name for target.
@@ -166,7 +155,7 @@ glimac: glimac/CMakeFiles/glimac.dir/rule
 
 # fast build rule for target.
 glimac/fast:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/build
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/build
 .PHONY : glimac/fast
 
 src/Game.o: src/Game.cpp.o
@@ -175,7 +164,7 @@ src/Game.o: src/Game.cpp.o
 
 # target to build an object file
 src/Game.cpp.o:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Game.cpp.o
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Game.cpp.o
 .PHONY : src/Game.cpp.o
 
 src/Game.i: src/Game.cpp.i
@@ -184,7 +173,7 @@ src/Game.i: src/Game.cpp.i
 
 # target to preprocess a source file
 src/Game.cpp.i:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Game.cpp.i
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Game.cpp.i
 .PHONY : src/Game.cpp.i
 
 src/Game.s: src/Game.cpp.s
@@ -193,7 +182,7 @@ src/Game.s: src/Game.cpp.s
 
 # target to generate assembly for a file
 src/Game.cpp.s:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Game.cpp.s
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Game.cpp.s
 .PHONY : src/Game.cpp.s
 
 src/Geometry.o: src/Geometry.cpp.o
@@ -202,7 +191,7 @@ src/Geometry.o: src/Geometry.cpp.o
 
 # target to build an object file
 src/Geometry.cpp.o:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.o
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.o
 .PHONY : src/Geometry.cpp.o
 
 src/Geometry.i: src/Geometry.cpp.i
@@ -211,7 +200,7 @@ src/Geometry.i: src/Geometry.cpp.i
 
 # target to preprocess a source file
 src/Geometry.cpp.i:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.i
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.i
 .PHONY : src/Geometry.cpp.i
 
 src/Geometry.s: src/Geometry.cpp.s
@@ -220,7 +209,7 @@ src/Geometry.s: src/Geometry.cpp.s
 
 # target to generate assembly for a file
 src/Geometry.cpp.s:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.s
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.s
 .PHONY : src/Geometry.cpp.s
 
 src/Image.o: src/Image.cpp.o
@@ -229,7 +218,7 @@ src/Image.o: src/Image.cpp.o
 
 # target to build an object file
 src/Image.cpp.o:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Image.cpp.o
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Image.cpp.o
 .PHONY : src/Image.cpp.o
 
 src/Image.i: src/Image.cpp.i
@@ -238,7 +227,7 @@ src/Image.i: src/Image.cpp.i
 
 # target to preprocess a source file
 src/Image.cpp.i:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Image.cpp.i
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Image.cpp.i
 .PHONY : src/Image.cpp.i
 
 src/Image.s: src/Image.cpp.s
@@ -247,7 +236,7 @@ src/Image.s: src/Image.cpp.s
 
 # target to generate assembly for a file
 src/Image.cpp.s:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Image.cpp.s
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Image.cpp.s
 .PHONY : src/Image.cpp.s
 
 src/Interfaces2D.o: src/Interfaces2D.cpp.o
@@ -256,7 +245,7 @@ src/Interfaces2D.o: src/Interfaces2D.cpp.o
 
 # target to build an object file
 src/Interfaces2D.cpp.o:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Interfaces2D.cpp.o
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Interfaces2D.cpp.o
 .PHONY : src/Interfaces2D.cpp.o
 
 src/Interfaces2D.i: src/Interfaces2D.cpp.i
@@ -265,7 +254,7 @@ src/Interfaces2D.i: src/Interfaces2D.cpp.i
 
 # target to preprocess a source file
 src/Interfaces2D.cpp.i:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Interfaces2D.cpp.i
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Interfaces2D.cpp.i
 .PHONY : src/Interfaces2D.cpp.i
 
 src/Interfaces2D.s: src/Interfaces2D.cpp.s
@@ -274,7 +263,7 @@ src/Interfaces2D.s: src/Interfaces2D.cpp.s
 
 # target to generate assembly for a file
 src/Interfaces2D.cpp.s:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Interfaces2D.cpp.s
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Interfaces2D.cpp.s
 .PHONY : src/Interfaces2D.cpp.s
 
 src/Library.o: src/Library.cpp.o
@@ -283,7 +272,7 @@ src/Library.o: src/Library.cpp.o
 
 # target to build an object file
 src/Library.cpp.o:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Library.cpp.o
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Library.cpp.o
 .PHONY : src/Library.cpp.o
 
 src/Library.i: src/Library.cpp.i
@@ -292,7 +281,7 @@ src/Library.i: src/Library.cpp.i
 
 # target to preprocess a source file
 src/Library.cpp.i:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Library.cpp.i
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Library.cpp.i
 .PHONY : src/Library.cpp.i
 
 src/Library.s: src/Library.cpp.s
@@ -301,7 +290,7 @@ src/Library.s: src/Library.cpp.s
 
 # target to generate assembly for a file
 src/Library.cpp.s:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Library.cpp.s
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Library.cpp.s
 .PHONY : src/Library.cpp.s
 
 src/Model.o: src/Model.cpp.o
@@ -310,7 +299,7 @@ src/Model.o: src/Model.cpp.o
 
 # target to build an object file
 src/Model.cpp.o:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Model.cpp.o
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Model.cpp.o
 .PHONY : src/Model.cpp.o
 
 src/Model.i: src/Model.cpp.i
@@ -319,7 +308,7 @@ src/Model.i: src/Model.cpp.i
 
 # target to preprocess a source file
 src/Model.cpp.i:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Model.cpp.i
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Model.cpp.i
 .PHONY : src/Model.cpp.i
 
 src/Model.s: src/Model.cpp.s
@@ -328,7 +317,7 @@ src/Model.s: src/Model.cpp.s
 
 # target to generate assembly for a file
 src/Model.cpp.s:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Model.cpp.s
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Model.cpp.s
 .PHONY : src/Model.cpp.s
 
 src/Program.o: src/Program.cpp.o
@@ -337,7 +326,7 @@ src/Program.o: src/Program.cpp.o
 
 # target to build an object file
 src/Program.cpp.o:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Program.cpp.o
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Program.cpp.o
 .PHONY : src/Program.cpp.o
 
 src/Program.i: src/Program.cpp.i
@@ -346,7 +335,7 @@ src/Program.i: src/Program.cpp.i
 
 # target to preprocess a source file
 src/Program.cpp.i:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Program.cpp.i
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Program.cpp.i
 .PHONY : src/Program.cpp.i
 
 src/Program.s: src/Program.cpp.s
@@ -355,7 +344,7 @@ src/Program.s: src/Program.cpp.s
 
 # target to generate assembly for a file
 src/Program.cpp.s:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Program.cpp.s
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Program.cpp.s
 .PHONY : src/Program.cpp.s
 
 src/SDLWindowManager.o: src/SDLWindowManager.cpp.o
@@ -364,7 +353,7 @@ src/SDLWindowManager.o: src/SDLWindowManager.cpp.o
 
 # target to build an object file
 src/SDLWindowManager.cpp.o:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.o
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.o
 .PHONY : src/SDLWindowManager.cpp.o
 
 src/SDLWindowManager.i: src/SDLWindowManager.cpp.i
@@ -373,7 +362,7 @@ src/SDLWindowManager.i: src/SDLWindowManager.cpp.i
 
 # target to preprocess a source file
 src/SDLWindowManager.cpp.i:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.i
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.i
 .PHONY : src/SDLWindowManager.cpp.i
 
 src/SDLWindowManager.s: src/SDLWindowManager.cpp.s
@@ -382,7 +371,7 @@ src/SDLWindowManager.s: src/SDLWindowManager.cpp.s
 
 # target to generate assembly for a file
 src/SDLWindowManager.cpp.s:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.s
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.s
 .PHONY : src/SDLWindowManager.cpp.s
 
 src/Shader.o: src/Shader.cpp.o
@@ -391,7 +380,7 @@ src/Shader.o: src/Shader.cpp.o
 
 # target to build an object file
 src/Shader.cpp.o:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Shader.cpp.o
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Shader.cpp.o
 .PHONY : src/Shader.cpp.o
 
 src/Shader.i: src/Shader.cpp.i
@@ -400,7 +389,7 @@ src/Shader.i: src/Shader.cpp.i
 
 # target to preprocess a source file
 src/Shader.cpp.i:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Shader.cpp.i
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Shader.cpp.i
 .PHONY : src/Shader.cpp.i
 
 src/Shader.s: src/Shader.cpp.s
@@ -409,7 +398,7 @@ src/Shader.s: src/Shader.cpp.s
 
 # target to generate assembly for a file
 src/Shader.cpp.s:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Shader.cpp.s
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Shader.cpp.s
 .PHONY : src/Shader.cpp.s
 
 src/Sphere.o: src/Sphere.cpp.o
@@ -418,7 +407,7 @@ src/Sphere.o: src/Sphere.cpp.o
 
 # target to build an object file
 src/Sphere.cpp.o:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.o
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.o
 .PHONY : src/Sphere.cpp.o
 
 src/Sphere.i: src/Sphere.cpp.i
@@ -427,7 +416,7 @@ src/Sphere.i: src/Sphere.cpp.i
 
 # target to preprocess a source file
 src/Sphere.cpp.i:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.i
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.i
 .PHONY : src/Sphere.cpp.i
 
 src/Sphere.s: src/Sphere.cpp.s
@@ -436,7 +425,7 @@ src/Sphere.s: src/Sphere.cpp.s
 
 # target to generate assembly for a file
 src/Sphere.cpp.s:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.s
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.s
 .PHONY : src/Sphere.cpp.s
 
 src/tiny_obj_loader.o: src/tiny_obj_loader.cpp.o
@@ -445,7 +434,7 @@ src/tiny_obj_loader.o: src/tiny_obj_loader.cpp.o
 
 # target to build an object file
 src/tiny_obj_loader.cpp.o:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.o
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.o
 .PHONY : src/tiny_obj_loader.cpp.o
 
 src/tiny_obj_loader.i: src/tiny_obj_loader.cpp.i
@@ -454,7 +443,7 @@ src/tiny_obj_loader.i: src/tiny_obj_loader.cpp.i
 
 # target to preprocess a source file
 src/tiny_obj_loader.cpp.i:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.i
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.i
 .PHONY : src/tiny_obj_loader.cpp.i
 
 src/tiny_obj_loader.s: src/tiny_obj_loader.cpp.s
@@ -463,7 +452,7 @@ src/tiny_obj_loader.s: src/tiny_obj_loader.cpp.s
 
 # target to generate assembly for a file
 src/tiny_obj_loader.cpp.s:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.s
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.s
 .PHONY : src/tiny_obj_loader.cpp.s
 
 # Help Target
@@ -472,7 +461,6 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... glimac"
 	@echo "... install"
@@ -523,6 +511,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

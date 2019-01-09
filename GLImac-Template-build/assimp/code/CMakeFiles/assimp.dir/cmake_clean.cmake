@@ -199,6 +199,10 @@ file(REMOVE_RECURSE
   "libassimp.so"
   "libassimp.so.4.0.1"
   "libassimp.so.4"
+  "libassimp.pdb"
+  "CMakeFiles/CMakeRelink.dir/libassimp.so"
+  "CMakeFiles/CMakeRelink.dir/libassimp.so.4.0.1"
+  "CMakeFiles/CMakeRelink.dir/libassimp.so.4"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -48,24 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template
+CMAKE_SOURCE_DIR = /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build
+CMAKE_BINARY_DIR = /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-
-.PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -124,14 +113,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/contrib/irrXML/CMakeFiles/progress.marks
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 assimp/contrib/irrXML/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/CMakeFiles /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/assimp/contrib/irrXML/CMakeFiles/progress.marks
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 assimp/contrib/irrXML/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 assimp/contrib/irrXML/clean
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 assimp/contrib/irrXML/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +130,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 assimp/contrib/irrXML/preinstall
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 assimp/contrib/irrXML/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 assimp/contrib/irrXML/preinstall
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 assimp/contrib/irrXML/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/rule:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/rule
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/rule
 .PHONY : assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/rule
 
 # Convenience name for target.
@@ -166,7 +155,7 @@ IrrXML: assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/rule
 
 # fast build rule for target.
 IrrXML/fast:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/build.make assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/build
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/build.make assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/build
 .PHONY : IrrXML/fast
 
 irrXML.o: irrXML.cpp.o
@@ -175,7 +164,7 @@ irrXML.o: irrXML.cpp.o
 
 # target to build an object file
 irrXML.cpp.o:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/build.make assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/irrXML.cpp.o
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/build.make assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/irrXML.cpp.o
 .PHONY : irrXML.cpp.o
 
 irrXML.i: irrXML.cpp.i
@@ -184,7 +173,7 @@ irrXML.i: irrXML.cpp.i
 
 # target to preprocess a source file
 irrXML.cpp.i:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/build.make assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/irrXML.cpp.i
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/build.make assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/irrXML.cpp.i
 .PHONY : irrXML.cpp.i
 
 irrXML.s: irrXML.cpp.s
@@ -193,7 +182,7 @@ irrXML.s: irrXML.cpp.s
 
 # target to generate assembly for a file
 irrXML.cpp.s:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/build.make assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/irrXML.cpp.s
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/build.make assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/irrXML.cpp.s
 .PHONY : irrXML.cpp.s
 
 # Help Target
@@ -202,7 +191,6 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... edit_cache"
 	@echo "... IrrXML"
@@ -223,6 +211,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

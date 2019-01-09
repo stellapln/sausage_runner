@@ -48,24 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template
+CMAKE_SOURCE_DIR = /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build
+CMAKE_BINARY_DIR = /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-
-.PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -124,14 +113,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/tools/assimp_cmd/CMakeFiles/progress.marks
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 assimp/tools/assimp_cmd/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/CMakeFiles 0
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/CMakeFiles /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/assimp/tools/assimp_cmd/CMakeFiles/progress.marks
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 assimp/tools/assimp_cmd/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 assimp/tools/assimp_cmd/clean
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 assimp/tools/assimp_cmd/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +130,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 assimp/tools/assimp_cmd/preinstall
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 assimp/tools/assimp_cmd/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 assimp/tools/assimp_cmd/preinstall
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 assimp/tools/assimp_cmd/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/rule:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/rule
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/rule
 .PHONY : assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/rule
 
 # Convenience name for target.
@@ -166,8 +155,13 @@ assimp_cmd: assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/rule
 
 # fast build rule for target.
 assimp_cmd/fast:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build
 .PHONY : assimp_cmd/fast
+
+# Manual pre-install relink rule for target.
+assimp_cmd/preinstall:
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/preinstall
+.PHONY : assimp_cmd/preinstall
 
 CompareDump.o: CompareDump.cpp.o
 
@@ -175,7 +169,7 @@ CompareDump.o: CompareDump.cpp.o
 
 # target to build an object file
 CompareDump.cpp.o:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/CompareDump.cpp.o
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/CompareDump.cpp.o
 .PHONY : CompareDump.cpp.o
 
 CompareDump.i: CompareDump.cpp.i
@@ -184,7 +178,7 @@ CompareDump.i: CompareDump.cpp.i
 
 # target to preprocess a source file
 CompareDump.cpp.i:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/CompareDump.cpp.i
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/CompareDump.cpp.i
 .PHONY : CompareDump.cpp.i
 
 CompareDump.s: CompareDump.cpp.s
@@ -193,7 +187,7 @@ CompareDump.s: CompareDump.cpp.s
 
 # target to generate assembly for a file
 CompareDump.cpp.s:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/CompareDump.cpp.s
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/CompareDump.cpp.s
 .PHONY : CompareDump.cpp.s
 
 Export.o: Export.cpp.o
@@ -202,7 +196,7 @@ Export.o: Export.cpp.o
 
 # target to build an object file
 Export.cpp.o:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Export.cpp.o
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Export.cpp.o
 .PHONY : Export.cpp.o
 
 Export.i: Export.cpp.i
@@ -211,7 +205,7 @@ Export.i: Export.cpp.i
 
 # target to preprocess a source file
 Export.cpp.i:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Export.cpp.i
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Export.cpp.i
 .PHONY : Export.cpp.i
 
 Export.s: Export.cpp.s
@@ -220,7 +214,7 @@ Export.s: Export.cpp.s
 
 # target to generate assembly for a file
 Export.cpp.s:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Export.cpp.s
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Export.cpp.s
 .PHONY : Export.cpp.s
 
 ImageExtractor.o: ImageExtractor.cpp.o
@@ -229,7 +223,7 @@ ImageExtractor.o: ImageExtractor.cpp.o
 
 # target to build an object file
 ImageExtractor.cpp.o:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/ImageExtractor.cpp.o
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/ImageExtractor.cpp.o
 .PHONY : ImageExtractor.cpp.o
 
 ImageExtractor.i: ImageExtractor.cpp.i
@@ -238,7 +232,7 @@ ImageExtractor.i: ImageExtractor.cpp.i
 
 # target to preprocess a source file
 ImageExtractor.cpp.i:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/ImageExtractor.cpp.i
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/ImageExtractor.cpp.i
 .PHONY : ImageExtractor.cpp.i
 
 ImageExtractor.s: ImageExtractor.cpp.s
@@ -247,7 +241,7 @@ ImageExtractor.s: ImageExtractor.cpp.s
 
 # target to generate assembly for a file
 ImageExtractor.cpp.s:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/ImageExtractor.cpp.s
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/ImageExtractor.cpp.s
 .PHONY : ImageExtractor.cpp.s
 
 Info.o: Info.cpp.o
@@ -256,7 +250,7 @@ Info.o: Info.cpp.o
 
 # target to build an object file
 Info.cpp.o:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Info.cpp.o
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Info.cpp.o
 .PHONY : Info.cpp.o
 
 Info.i: Info.cpp.i
@@ -265,7 +259,7 @@ Info.i: Info.cpp.i
 
 # target to preprocess a source file
 Info.cpp.i:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Info.cpp.i
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Info.cpp.i
 .PHONY : Info.cpp.i
 
 Info.s: Info.cpp.s
@@ -274,7 +268,7 @@ Info.s: Info.cpp.s
 
 # target to generate assembly for a file
 Info.cpp.s:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Info.cpp.s
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Info.cpp.s
 .PHONY : Info.cpp.s
 
 Main.o: Main.cpp.o
@@ -283,7 +277,7 @@ Main.o: Main.cpp.o
 
 # target to build an object file
 Main.cpp.o:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Main.cpp.o
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Main.cpp.o
 .PHONY : Main.cpp.o
 
 Main.i: Main.cpp.i
@@ -292,7 +286,7 @@ Main.i: Main.cpp.i
 
 # target to preprocess a source file
 Main.cpp.i:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Main.cpp.i
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Main.cpp.i
 .PHONY : Main.cpp.i
 
 Main.s: Main.cpp.s
@@ -301,7 +295,7 @@ Main.s: Main.cpp.s
 
 # target to generate assembly for a file
 Main.cpp.s:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Main.cpp.s
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/Main.cpp.s
 .PHONY : Main.cpp.s
 
 WriteDumb.o: WriteDumb.cpp.o
@@ -310,7 +304,7 @@ WriteDumb.o: WriteDumb.cpp.o
 
 # target to build an object file
 WriteDumb.cpp.o:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/WriteDumb.cpp.o
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/WriteDumb.cpp.o
 .PHONY : WriteDumb.cpp.o
 
 WriteDumb.i: WriteDumb.cpp.i
@@ -319,7 +313,7 @@ WriteDumb.i: WriteDumb.cpp.i
 
 # target to preprocess a source file
 WriteDumb.cpp.i:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/WriteDumb.cpp.i
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/WriteDumb.cpp.i
 .PHONY : WriteDumb.cpp.i
 
 WriteDumb.s: WriteDumb.cpp.s
@@ -328,7 +322,7 @@ WriteDumb.s: WriteDumb.cpp.s
 
 # target to generate assembly for a file
 WriteDumb.cpp.s:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/WriteDumb.cpp.s
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(MAKE) -f assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/build.make assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir/WriteDumb.cpp.s
 .PHONY : WriteDumb.cpp.s
 
 # Help Target
@@ -337,7 +331,6 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... assimp_cmd"
 	@echo "... edit_cache"
@@ -373,6 +366,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

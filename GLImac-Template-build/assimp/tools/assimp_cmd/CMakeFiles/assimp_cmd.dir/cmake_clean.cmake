@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/assimp_cmd.dir/Export.cpp.o"
   "assimp.pdb"
   "assimp"
+  "assimp.pdb"
+  "CMakeFiles/CMakeRelink.dir/assimp"
 )
 
 # Per-language clean rules from dependency scanning.

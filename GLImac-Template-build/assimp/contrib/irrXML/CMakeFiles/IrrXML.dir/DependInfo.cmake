@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/contrib/irrXML/irrXML.cpp" "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template-build/assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/irrXML.cpp.o"
+  "/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/contrib/irrXML/irrXML.cpp" "/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template-build/assimp/contrib/irrXML/CMakeFiles/IrrXML.dir/irrXML.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,10 +18,10 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/SDL"
-  "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/glimac/include"
-  "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/third-party/include"
-  "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/include"
-  "/home/6im2/bmantova/Documents/CPP-S3/sausage_runner/GLImac-Template/assimp/."
+  "/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/glimac/include"
+  "/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/third-party/include"
+  "/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/include"
+  "/home/6im2/spoula02/Documents/sausage_runner/GLImac-Template/assimp/."
   "assimp"
   "assimp/include"
   )
