@@ -4,9 +4,11 @@
 
 #include <glimac/Program.hpp>
 #include <glimac/glm.hpp>
+#include <queue>
 
 #define DIRECTIONNAL 0
 #define POINT 1
+#define MAX_LIGHT 50
 
 
 namespace sausageRunner {
@@ -53,8 +55,6 @@ namespace sausageRunner {
 		    GLuint _uLightIntensity;
 		    GLuint _uNumberOfSecondaryLights;
 
-		    unsigned int _max_light = 50;
-
 			// Light parameters
 
 			glm::vec3 _Kd = glm::vec3(0.5,0.5,0.5);
@@ -98,8 +98,12 @@ namespace sausageRunner {
 	        }
 	        void addLight(Light &l)
 	        {
-	        	if(_secondaryLights.size() < _max_light)
+	        	if(_secondaryLights.size() < MAX_LIGHT)
 	        		_secondaryLights.push_back(&l);
+	        }
+	        void removeLight()
+	        {
+	        	//_secondaryLights.pop_front();
 	        }
 	        void sendLight(glm::mat4 viewMatrix) const {
 		        glUniform3fv(_uKd,1,glm::value_ptr(_Kd));

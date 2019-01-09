@@ -230,7 +230,6 @@ namespace sausageRunner {
 
             // Score
             std::unique_ptr<glimac::Image> scoreNumberImagePtr = valuesScore.createImage();
-            menuImageHoverScore.textureInitialization(sampler2D, matrixLocation, scoreNumberImagePtr);
 
 
         }
