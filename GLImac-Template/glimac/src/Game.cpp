@@ -93,6 +93,7 @@ World::World(std::string file){
 
 void World::loadFile(const std::string level){
 	std::string levelName = level;
+    std::cout << levelName << std::endl;
 	FILE *file = fopen(levelName.c_str(), "r");
   	if(!file){
    		throw Except("Level file not loaded",__FILE__,__LINE__);

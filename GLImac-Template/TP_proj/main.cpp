@@ -34,6 +34,7 @@
 #include <glimac/Interfaces2D.hpp>
 #include "glimac/SDLWindowManager.hpp"
 #include <glimac/Except.hpp>
+#include <glimac/RandomMap.hpp>
 
 #define START_MENU 0
 #define RUNNING_SAUSAGE 1
@@ -100,8 +101,9 @@ namespace sausageRunner {
          *
          *  Initialize the game
          */
-        World world("./levels/Level1");
-
+        //World world("./levels/Level1");
+        World world("./levels/LevelRandom");
+        random_map();
 
         /*!
          *  \brief ** Music stuff

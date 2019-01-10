@@ -1,5 +1,5 @@
-#ifndef _LIB_IMPORT_GAME_IMAC_LSM
-#define _LIB_IMPORT_GAME_IMAC_LSM
+#ifndef _LIB_IMPORT_RANDOM_IMAC_LSM
+#define _LIB_IMPORT_RANDOM_IMAC_LSM
 #pragma once
 
 #include <stdio.h>
@@ -24,7 +24,7 @@ namespace sausageRunner {
 
 	std::string random_xcoin(std::string bloc, std::string obs, std::string xobs);
 
-	std::string random_ycoin(std::string bonus, std::string bloc, std::string obs);
+	std::string random_ycoin(std::string xcoin, std::string bloc, std::string obs);
 
 	void random_map();
 }
