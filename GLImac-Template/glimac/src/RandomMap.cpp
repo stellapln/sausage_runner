@@ -35,6 +35,7 @@ namespace sausageRunner {
 			int_rand = rand()%2 + 3;
 			*last_virage = 9;
 			*last_mob = 3;
+			*last_broken = 2;
 		}
 		else if(*last_broken == 0){
 			int_rand = rand()%4;
