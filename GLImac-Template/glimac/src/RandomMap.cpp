@@ -1,4 +1,4 @@
-
+#include <glimac/RandomMap.hpp>
 
 using namespace sausageRunner;
 
