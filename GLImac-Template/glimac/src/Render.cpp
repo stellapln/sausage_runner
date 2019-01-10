@@ -15,7 +15,7 @@ void Light::sendUniform(GLuint progGLId, int i) const {
     glUniform1i(uType,_type);
 }
 
-Render::Render(std::string vertexShader, std::string fragmentShader){
+Render::Render(const std::string &vertexShader, const std::string &fragmentShader){
 
 	_prog = glimac::loadProgram(vertexShader, fragmentShader);
 
@@ -37,7 +37,7 @@ Render::Render(std::string vertexShader, std::string fragmentShader){
 }
 
 
-void Render::sendLight(glm::mat4 viewMatrix) const {
+void Render::sendLight(const glm::mat4 &viewMatrix) const {
     glUniform3fv(_uKd,1,glm::value_ptr(_Kd));
     glUniform3fv(_uKs,1,glm::value_ptr(_Ks));
     glUniform1f(_uShininess,_Shininess);
@@ -53,7 +53,7 @@ void Render::sendLight(glm::mat4 viewMatrix) const {
 }
 
 
-void Render::sendMatrix(glm::mat4 MVMatrix) const {
+void Render::sendMatrix(const glm::mat4 &MVMatrix) const {
 	glUniformMatrix4fv(_uMVPMatrix,1,GL_FALSE,glm::value_ptr(_projMatrix*MVMatrix));
 	glUniformMatrix4fv(_uMVMatrix,1,GL_FALSE,glm::value_ptr(MVMatrix));
 	glUniformMatrix4fv(_uNormalMatrix,1,GL_FALSE,glm::value_ptr(glm::transpose(glm::inverse(MVMatrix))));

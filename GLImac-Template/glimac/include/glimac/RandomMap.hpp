@@ -33,22 +33,22 @@ namespace sausageRunner {
 	/*!
 	 * \brief Give the bonus a right x position
 	 */
-	std::string random_xbon(std::string bonus, std::string obs, std::string xobs);
+	std::string random_xbon(const std::string bonus, const std::string obs, const std::string xobs);
 
 	/*!
 	 * \brief Give the bonus a right y position
 	 */
-	std::string random_ybon(std::string bonus, std::string bloc, std::string obs);
+	std::string random_ybon(const std::string bonus, const std::string bloc, const std::string obs);
 
 	/*!
 	 * \brief Create a random coin, paying attention to other elements
 	 */
-	std::string random_xcoin(std::string bonus, std::string bloc, std::string obs, std::string xobs);
+	std::string random_xcoin(const std::string bonus, const std::string bloc, const std::string obs, const std::string xobs);
 
 	/*!
 	 * \brief Give the coin an appropriate y position according to the other elements
 	 */
-	std::string random_ycoin(std::string xcoin, std::string bloc, std::string obs);
+	std::string random_ycoin(const std::string xcoin, const std::string bloc, const std::string obs);
 
 	/*!
 	 * \brief Calling the differents fonctions to create the random map

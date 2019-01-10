@@ -72,7 +72,7 @@ std::vector<int> Personnage::getBbox(){
 }
 
 
-World::World(std::string file){
+World::World(const std::string file){
     if(file == "")
     {  
         _randomized = true;
@@ -104,7 +104,7 @@ void World::loadFile(const std::string level){
   	int sup, obs, xo, bon, xb, yb, xp, yp;
 	while(fscanf(file, "%d %d %d %d %d %d %d %d", &sup, &obs, &xo, &bon, &xb, &yb, &xp, &yp) != EOF){
     	//Tile* new_tile = new Tile(sup, obs, xo, bon, xb, yb, xp, yp);
-        std::cout << i++ << std::endl;
+        // std::cout << i++ << std::endl;
     	addTile(new Tile(sup, obs, xo, bon, xb, yb, xp, yp));
 	}
     fclose(file);
@@ -115,7 +115,7 @@ void World::addTile(Tile* t){
 }
 
 
-int World::collision(int global_time, int currentTile)
+int World::collision(const int global_time, const int currentTile)
 {
     int middleHit = int(_t/int(SIZE_OF_TILE)-1);
     if(currentTile < _tiles.size())
@@ -167,7 +167,7 @@ int World::collision(int global_time, int currentTile)
     return 1;
 }
 
-int World::draw(int global_time) {
+int World::draw(const int global_time) {
     glm::mat4 MVMatrix = glm::translate(glm::mat4(), glm::vec3(0,0,0));
     glm::mat4 MVMatrixModified;
     glm::mat4 MVMatrixModifiedM;
@@ -216,6 +216,12 @@ int World::draw(int global_time) {
     _render->sendMatrix(MVMatrixModified);
     _modelLib->special(SPECIAL_POIRE).draw();
 
+    // Current tile
+
+    int currentTile = int(_t/int(SIZE_OF_TILE) - 0.5);
+    int firstTileDisplay = std::max(0,currentTile - TILE_DELETE_BEFORE);
+    int lastTileDisplay = std::min(currentTile + TILE_SEE_AFTER, int(_tiles.size()));
+
     // Personnage
 
     float persoRealX = _perso->getRealX(global_time);
@@ -231,6 +237,17 @@ int World::draw(int global_time) {
     }
     if(_activeCam == 0) MVMatrix = glm::translate(MVMatrix, glm::vec3(persoRealX,persoRealY ,0.0));
     
+    if(!_endAnimationStart && currentTile > int(_tiles.size()) - SIZE_OF_TILE*1.5)
+    {
+        _endAnimationStart = true;
+        _beginningEndAnimation = global_time;
+    }
+    if(_endAnimationStart)
+    {
+        MVMatrix = glm::translate(MVMatrix, glm::vec3(0, 1.0,0));
+        MVMatrix = glm::rotate(MVMatrix, glm::radians(getEndAnimation(global_time)),glm::vec3(1, 0,0));
+    }
+
     _render->sendMatrix(MVMatrix);
     _modelLib->perso(_perso->id()).draw();
 
@@ -239,10 +256,6 @@ int World::draw(int global_time) {
     if(_activeCam == 1)viewMatrix = glm::translate(viewMatrix, glm::vec3(-persoRealX,-persoRealY,0.0));
 
     MVMatrix = viewMatrix*MVMatrix;
-
-    int currentTile = int(_t/int(SIZE_OF_TILE) - 0.5);
-    int firstTileDisplay = std::max(0,currentTile - TILE_DELETE_BEFORE);
-    int lastTileDisplay = std::min(currentTile + TILE_SEE_AFTER, int(_tiles.size()));
 
 	for(int i = 0;i < lastTileDisplay;i++)
 	{
@@ -314,7 +327,7 @@ int World::draw(int global_time) {
     return collision(global_time, currentTile);
 }
 
-bool World::setBonus(int b, int global_time)
+bool World::setBonus(const int b, const int global_time)
 {
     if(_currentBonus == -1)
     {
@@ -324,7 +337,7 @@ bool World::setBonus(int b, int global_time)
     }
     return false;
 }
-void World::checkBonus(int global_time){
+void World::checkBonus(const int global_time){
     if(global_time - _lastTimeBonus > _bonusInfluenceTime)
     {
         _currentBonus = -1;

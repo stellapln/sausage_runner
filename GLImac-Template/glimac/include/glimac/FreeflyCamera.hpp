@@ -18,23 +18,23 @@ class FreeflyCamera
 			_UpVector = glm::cross(_FrontVector,_LeftVector);
 		}
 
-		FreeflyCamera(glm::vec3 pos = glm::vec3(0.0f,0.0f,0.0f),float phi = M_PI,float theta = 0.0)
+		FreeflyCamera(const glm::vec3 pos = glm::vec3(0.0f,0.0f,0.0f),const float phi = M_PI,const float theta = 0.0)
 		:_Position(pos),_fPhi(phi),_fTheta(theta)
 		{
 			computeDirectionVectors();
 		}
-		void moveLeft(float t){
+		void moveLeft(const float t){
 			_Position += t*_LeftVector;
 		}
-		void moveFront(float t){
+		void moveFront(const float t){
 			_Position += t*_FrontVector;
 		}
 
-		void rotateLeft(float degrees){
+		void rotateLeft(const float degrees){
 			_fPhi += glm::radians(degrees);
 			computeDirectionVectors();
 		}
-		void rotateUp(float degrees){
+		void rotateUp(const float degrees){
 			_fTheta += glm::radians(degrees);
 			computeDirectionVectors();
 		}

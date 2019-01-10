@@ -48,7 +48,7 @@ namespace sausageRunner {
             GLuint _vbo; /*!< Image vbo */
 
         public:
-            Image2D(std::string p, std::string name)
+            Image2D(const std::string &p, const std::string &name)
                 : _path(p), _name(name){};
             ~Image2D()
             {

@@ -29,8 +29,8 @@ namespace sausageRunner {
 			glm::vec3 _intensity;
 			int _type;
 		public:
-			Light(glm::vec3 p, glm::vec3 i, int t):_pos(p), _intensity(i), _type(t){}
-			void sendUniform(GLuint progGLId, int i) const;
+			Light(const glm::vec3 &p, const glm::vec3 &i, const int t):_pos(p), _intensity(i), _type(t){}
+			void sendUniform(const GLuint progGLId, const int i) const;
 			~Light(){}
 	};
 
@@ -74,13 +74,13 @@ namespace sausageRunner {
 
 			glm::mat4 _projMatrix = glm::perspective(glm::radians(70.f),8.0f/6.0f,0.1f,100.f);
 
-			Render(std::string vertexShader, std::string fragmentShader);
+			Render(const std::string &vertexShader, const std::string &fragmentShader);
 
 			void reset() const {
 	        	glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
 	        }
-	        void sendLight(glm::mat4 viewMatrix) const;
-	        void sendMatrix(glm::mat4 MVMatrix) const;
+	        void sendLight(const glm::mat4 &viewMatrix) const;
+	        void sendMatrix(const glm::mat4 &MVMatrix) const;
 			void use() const
 			{
 				_prog.use();

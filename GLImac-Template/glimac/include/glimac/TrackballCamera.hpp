@@ -12,13 +12,13 @@ class SimpleAxeCam
 		float _fAngleX;
 		float _fAngleY;
 	public:
-		SimpleAxeCam(float ax=0.0f,float ay=0.0f):_fAngleX(ax),_fAngleY(ay){};
+		SimpleAxeCam(const float ax=0.0f,const float ay=0.0f):_fAngleX(ax),_fAngleY(ay){};
 		virtual void rotateLeft(const float degrees) = 0;
 		virtual void rotateTop(const float degrees) = 0;
 		virtual void moveFront(const float delta) = 0;
 		virtual glm::mat4 getMatrixView() const = 0;
 		virtual void setPosition(const glm::vec3 &p) = 0;
-		virtual void reset(float d,float ax,float ay) = 0;
+		virtual void reset(const float d,const float ax,const float ay) = 0;
 
 		~SimpleAxeCam(){}
 };
@@ -28,9 +28,9 @@ class TrackballCamera : public SimpleAxeCam
 	protected:
 		float _fDistance;
 	public:
-		TrackballCamera(float d=5.0f,float ax=0.0f,float ay=0.0f):_fDistance(d),SimpleAxeCam(ax,ay){}
+		TrackballCamera(const float d=5.0f,const float ax=0.0f,const float ay=0.0f):_fDistance(d),SimpleAxeCam(ax,ay){}
 
-		void reset(float d,float ax,float ay){
+		void reset(const float d,const float ax,const float ay){
 			_fDistance = d;
 			_fAngleX = ax;
 			_fAngleY = ay;

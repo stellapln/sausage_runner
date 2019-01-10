@@ -111,7 +111,7 @@ namespace sausageRunner {
 		return string_rand;
 	}
 
-	std::string random_xbon(std::string bonus, std::string obs, std::string xobs){
+	std::string random_xbon(const std::string bonus, const std::string obs, const std::string xobs){
 		int rand_int_x = EMPTY;
 		
 		if(bonus != STR_EMPTY){
@@ -148,7 +148,7 @@ namespace sausageRunner {
 		return string_rand;
 	}
 
-	std::string random_ybon(std::string bonus, std::string bloc, std::string obs){
+	std::string random_ybon(const std::string bonus, const std::string bloc, const std::string obs){
 		std::string int_y = STR_EMPTY;
 
 		if(bonus != STR_EMPTY){
@@ -162,7 +162,7 @@ namespace sausageRunner {
 		return int_y;
 	}
 
-	std::string random_xcoin(std::string bonus, std::string bloc, std::string obs, std::string xobs){
+	std::string random_xcoin(const std::string bonus, const std::string bloc, const std::string obs, const std::string xobs){
 		int int_rand = EMPTY;
 		if(bloc != STR_BLOC || bonus != STR_EMPTY){
 			int_rand = EMPTY;
@@ -205,7 +205,7 @@ namespace sausageRunner {
 		return string_rand;
 	}
 
-	std::string random_ycoin(std::string xcoin, std::string bloc, std::string obs){
+	std::string random_ycoin(const std::string xcoin, const std::string bloc, const std::string obs){
 		std::string int_y = STR_EMPTY;
 
 		if(xcoin != STR_EMPTY){
@@ -248,7 +248,9 @@ namespace sausageRunner {
 
 			fprintf(file, "%s %s %s %s %s %s %s %s\n", bloc.c_str(), obs.c_str(), xobs.c_str(), bonus.c_str(), xbon.c_str(), ybon.c_str(), xcoin.c_str(), ycoin.c_str() );
 		}
-		fprintf(file, "%s\n", "0 5 5 5 5 5 5 5");
+		for(int j = 0; j < 3; j++){
+			fprintf(file, "%s\n", "0 5 5 5 5 5 5 5");
+		}
 		fclose(file);
 	}
 }

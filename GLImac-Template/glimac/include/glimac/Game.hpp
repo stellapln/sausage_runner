@@ -25,6 +25,8 @@
 #define ANGLE_OF_CAMERA 35.0f
 #define MULT_VALUE_FOR_SCORE 100
 #define MOVE_FRONT_VALUE_ON_MOUSE_WHEEL 0.3
+#define NB_FRAME_OF_END_ANIMATION 20
+#define PERSO_ANGLE_END_ANIMATION -80
 
 namespace sausageRunner {
 	
@@ -51,14 +53,14 @@ namespace sausageRunner {
 
 	 	public:
 
-	 		Personnage(int id):_id(id){}
-	 		void setId(int id){ _id = id;}
+	 		Personnage(const int id):_id(id){}
+	 		void setId(const int id){ _id = id;}
 	 		int id()const{return _id;}
 			
 			/*!
 			 * \brief To set the Y state of the character
 			 */
-			void move_jump_bend(int state, int t){
+			void move_jump_bend(const int state, const int t){
 				int deltaT = t-_last_y;
 				if(deltaT > jumpTime)
 				{
@@ -70,7 +72,7 @@ namespace sausageRunner {
 			/*!
 			 * \brief To set the X state of the character
 			 */
-			void move_left_right(int state, int t){
+			void move_left_right(const int state, const int t){
 				_last_x_state = _x_state;
 				_x_state = state;
 				_last_x = t;}
@@ -78,15 +80,15 @@ namespace sausageRunner {
 				return _x_state;}
 			int get_y_state(){
 				return _y_state;}
-			void set_last_x(int i){
+			void set_last_x(const int i){
 				_last_x = i;}
-			void set_last_y(int i){
+			void set_last_y(const int i){
 				_last_y = i;}
 			
 			/*!
 			 * \brief To get the visual X position, it's an easing transition between the last state and the current state
 			 */
-			float getRealX(int t)
+			float getRealX(const int t)
 			{
 				int deltaT = t - _last_x;
 				if(deltaT < nbFrameForSmoothTranslation) return (_x_state - _last_x_state)*sin(deltaT/float(nbFrameForSmoothTranslation) * M_PI/2) +_last_x_state;
@@ -95,7 +97,7 @@ namespace sausageRunner {
 			/*!
 			 * \brief To get the visual Y position, it's an easing transition for jump or bend and turn to the initial state at the end
 			 */
-			float getRealY(int t)
+			float getRealY(const int t)
 			{
 				int deltaT = t-_last_y;
 				if(deltaT < jumpTime)
@@ -165,12 +167,15 @@ namespace sausageRunner {
 		    int _beginningAnimDuration = NB_FRAME_FOR_BEGINNING_ANIMATION; /*!< Duration of the beginning animation*/
 		    float _zoomBeginningAnimation = ZOOM_VALUE_FOR_BEGINNING_ANIMATION; /*!< Value of the camera zoom during the beginning animation*/
 
+			int _beginningEndAnimation;
+			bool _endAnimationStart = false;
+
 		    std::vector<int> _bestScores;
 
-			void loadFile(std::string level); // Fill the vector _tiles with the file;
+			void loadFile(const std::string level); // Fill the vector _tiles with the file;
 
 		public:
-			World(std::string file = "");
+			World(const std::string file = "");
 			
 			/*!
 			 * \brief Return a pointer of the current camera
@@ -196,12 +201,12 @@ namespace sausageRunner {
 			/*!
 			 * \brief Draw all the elements of the World class
 			 */
-			int draw(int global_time);
+			int draw(const int global_time);
 			
 			/*!
 			 * \brief Calculate the collision between the character and the current tile
 			 */
-			int collision(int global_time, int currentTile);
+			int collision(const int global_time, const int currentTile);
 			
 			/*!
 			 * \brief Set a library of model
@@ -220,12 +225,12 @@ namespace sausageRunner {
 			/*!
 			 * \brief Check if the bonus advantages are done or not
 			 */
-			void checkBonus(int global_time);
+			void checkBonus(const int global_time);
 			
 			/*!
 			 * \brief Set the current bonus if there is no current bonus anymore
 			 */
-			bool setBonus(int b, int global_time);
+			bool setBonus(const int b, const int global_time);
 
 			
 			/*!
@@ -247,6 +252,7 @@ namespace sausageRunner {
 				_t = 0.0;
 				lastTile = -1;
 				_activeCam = 0;
+				_endAnimationStart = false;
 			}
 			
 			/*!
@@ -271,7 +277,7 @@ namespace sausageRunner {
 			/*!
 			 * \brief Add coins
 			 */
-			void addCoin(int n)
+			void addCoin(const int n)
 			{
 				_nCoin += n;
 			}
@@ -311,7 +317,7 @@ namespace sausageRunner {
 			/*!
 			 * \brief Get the mouse motion and change the cam thanks that
 			 */
-			void mouseMotion(int x,int y){
+			void mouseMotion(const int x,const int y){
 			    if(rightClickDown && edit_mode){
 				cam()->rotateLeft(y-lastY);
 				cam()->rotateTop(x-lastX);
@@ -323,7 +329,7 @@ namespace sausageRunner {
 			/*!
 			 * \brief Get the mouse button down event and process it
 			 */
-			void mouseButtonDown(Uint8 btn){
+			void mouseButtonDown(const Uint8 btn){
 			    if(btn == SDL_BUTTON_RIGHT) {
 				rightClickDown = true;
 				SDL_GetMouseState(&lastX, &lastY);
@@ -339,7 +345,7 @@ namespace sausageRunner {
 			/*!
 			 * \brief Get the mouse button up event and process it
 			 */
-			void mouseButtonUp(Uint8 btn){
+			void mouseButtonUp(const Uint8 btn){
 			    if(btn == SDL_BUTTON_RIGHT) {
 					rightClickDown = false;
 			    }
@@ -348,7 +354,7 @@ namespace sausageRunner {
 			/*!
 			 * \brief Get the key button down event and process it
 			 */
-			void keyDown(Uint8 key, int t){
+			void keyDown(const Uint8 key, const int t){
 			    switch(key) {
 				case SDLK_z: // z to jump
 				     _perso->move_jump_bend(1, t);
@@ -376,7 +382,7 @@ namespace sausageRunner {
 			/*!
 			 * \brief Get the key up down event and process it
 			 */
-			void keyUp(Uint8 key, int t){
+			void keyUp(const Uint8 key, const int t){
 			    switch(key) {
 					case SDLK_z:
 					    _perso->move_jump_bend(0, t);
@@ -396,7 +402,7 @@ namespace sausageRunner {
 			/*!
 			 * \brief Save the last rotation of the world (to smooth the camera)
 			 */
-			void setLastRotation(int way, int global_time)
+			void setLastRotation(const int way, const int global_time)
 			{
 				_lastRotation = way;
 				_lastTimeRotation = global_time;
@@ -405,11 +411,21 @@ namespace sausageRunner {
 			/*!
 			 * \brief Return an angle to rotation the view matrix to smooth the camera motion at the world rotations
 			 */
-			float getSmoothCamAngle(int global_time) const
+			float getSmoothCamAngle(const int global_time) const
 			{
 				int detlaT = global_time - _lastTimeRotation;
 				if(detlaT > _timeToSmoothCamRotation) return 0.0;
 				return -_lastRotation * (M_PI/2.0) * (1.0 - float(detlaT)/float(_timeToSmoothCamRotation));
+			}
+			float getEndAnimation(const int global_time) const
+			{
+				int deltaT = global_time - _beginningEndAnimation;
+				if(deltaT < NB_FRAME_OF_END_ANIMATION)
+				{
+					return PERSO_ANGLE_END_ANIMATION * (deltaT / NB_FRAME_OF_END_ANIMATION);
+				}
+				return PERSO_ANGLE_END_ANIMATION;
+
 			}
 			~World(){
 				delete _aroundCam;

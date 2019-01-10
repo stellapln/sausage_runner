@@ -42,7 +42,7 @@
 #define SCORE_MENU 3
 #define QUIT_VALUE 4
 
-#define DEBUG_MODE true
+#define DEBUG_MODE false
 
 
 /*! \namespace glimac
@@ -117,7 +117,7 @@ namespace sausageRunner {
         //World world("./levels/Level1");
         World world("./levels/LevelRandom");
         debug(__LINE__);
-        random_map();
+        //random_map();
 
         /*!
          *  \brief ** Music stuff
@@ -442,11 +442,8 @@ namespace sausageRunner {
         while(!done) {
 
         	SDL_Event e;
-            debug(__LINE__);
     	    while(windowManager.pollEvent(e)) {
-                debug(__LINE__);
     	        if(e.type == SDL_QUIT) {
-                debug(__LINE__);
     	            done = true; //Leave the loop after this iteration
     	        }
     	        
@@ -456,7 +453,6 @@ namespace sausageRunner {
     	         *  Mouse events
     	         */
     	        else if(e.type == SDL_MOUSEMOTION) {
-                    debug(__LINE__);
                     SDL_GetMouseState(&mouse_x, &mouse_y);
                     if(game_statut == RUNNING_SAUSAGE)
                     {
@@ -464,7 +460,6 @@ namespace sausageRunner {
                     }
     	        }
     	       else if(e.type == SDL_MOUSEBUTTONDOWN) {
-                    debug(__LINE__);
     	       		if(game_statut == START_MENU)
     	       		{
                     	Button* bmenu = menu.activeButton(mouse_x,mouse_y);
@@ -492,7 +487,6 @@ namespace sausageRunner {
     	       		}
     	        }
     	        else if(e.type == SDL_MOUSEBUTTONUP) {
-                    debug(__LINE__);
     	            world.mouseButtonUp(e.button.button);
     	        }
     	        
@@ -502,11 +496,9 @@ namespace sausageRunner {
     	         *  Keyboard events
     	         */
     	        else if(e.type == SDL_KEYDOWN) {
-                    debug(__LINE__);
     	        	world.keyDown(e.key.keysym.sym, global_time);
     	        }
     	        else if(e.type == SDL_KEYUP) {
-                    debug(__LINE__);
                    if((e.key.keysym.sym == SDLK_p || e.key.keysym.sym == SDLK_ESCAPE) && game_statut == RUNNING_SAUSAGE)
                    {
                         game_statut = PAUSE_MENU;
@@ -516,10 +508,8 @@ namespace sausageRunner {
                    }
     	           else world.keyUp(e.key.keysym.sym, global_time);
     	        }
-                debug(__LINE__);
     	    }
             
-            debug(__LINE__);
             if(game_statut == START_MENU)
             {
             	Button* bmenu = menu.activeButton(mouse_x,mouse_y);

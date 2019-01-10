@@ -4,12 +4,12 @@ using namespace sausageRunner;
 
 // Fucntions for transformations matrices (translate, scale)
 
-glm::mat3 translate(float x, float y)
+glm::mat3 translate(const float x, const float y)
 {
     return mat3 (vec3(1, 0, 0), vec3(0, 1, 0), vec3(x, y, 1));
 };
 
-glm::mat3 scale(float x, float y)
+glm::mat3 scale(const float x, const float y)
 {
     return mat3 (vec3(x, 0, 0), vec3(0, y, 0), vec3(0, 0, 1));
 };
@@ -18,7 +18,7 @@ struct Vertex2DUV {
     glm::vec2 position;
     glm::vec2 texture;
     public:
-        Vertex2DUV(glm::vec2 p, glm::vec2 t)
+        Vertex2DUV(const glm::vec2 &p,const  glm::vec2 &t)
             : position(p),texture(t){};
         Vertex2DUV(){};
 };
@@ -35,7 +35,7 @@ std::unique_ptr<glimac::Image> Image2D::createImage()
     return image;
 }
 
-void Image2D::textureInitialization(GLuint sampler, GLuint matrixLocation, std::unique_ptr<glimac::Image> &i)
+void Image2D::textureInitialization(const GLuint sampler, const GLuint matrixLocation, std::unique_ptr<glimac::Image> &i)
 {
     _sampler2D = sampler;
     _matrixLocation = matrixLocation;

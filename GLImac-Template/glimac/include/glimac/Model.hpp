@@ -56,7 +56,7 @@ namespace sausageRunner
           std::vector<unsigned int> _indices; /*!< Index of the vertex*/
           std::vector<Texture> _textures; /*!< Textures of the mesh*/
 
-          Mesh(std::vector<Vertex> vert, std::vector<unsigned int> ind, std::vector<Texture> tex):_vertices(vert),_indices(ind),_textures(tex){
+          Mesh(std::vector<Vertex> &vert, std::vector<unsigned int> &ind, std::vector<Texture> &tex):_vertices(vert),_indices(ind),_textures(tex){
               setupMesh();
           };
           void draw() const; /*!< Bind the VAO and the textures and send its*/
@@ -80,7 +80,7 @@ namespace sausageRunner
           Mesh processMesh(aiMesh *mesh, const aiScene *scene); /*!< Process a Mesh from a node of the model*/
           std::vector<Texture> loadMaterialTextures(aiMaterial *mat, aiTextureType type, std::string typeName); /*<! Load a Material */
       public:
-          Model(std::string path){
+          Model(const std::string &path){
             try
             {
                loadModel(path);
