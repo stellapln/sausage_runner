@@ -12,7 +12,7 @@ namespace sausageRunner {
 
 	std::string random_tile(int *last_broken, int *last_virage, int *last_mob);
 
-	std::string random_obs(int *last_mob, std::string bloc);
+	std::string random_obs(int *last_mob, std::string bloc, int *last_broken, int *last_virage)
 
 	std::string random_xobs(std::string obs);
 
