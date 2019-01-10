@@ -3,7 +3,7 @@ X - utiliser la class d'exeption
 X - enregistrement des meilleurs scores
   - affichage du score
 X - pause sur Echap
-  - plusieurs lumières
+X - plusieurs lumières
   - ajouter des asserts
 X - mettre de la musique
 / - for_each + lambda pour l'affichage
