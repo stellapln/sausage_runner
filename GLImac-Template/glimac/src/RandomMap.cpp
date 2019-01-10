@@ -162,7 +162,7 @@ namespace sausageRunner {
 		}
 
 		else{
-			int_rand = rand()%3;
+			int_rand = 1;
 		}
 
 

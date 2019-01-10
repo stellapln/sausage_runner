@@ -73,7 +73,10 @@ std::vector<int> Personnage::getBbox(){
 
 
 World::World(std::string file){
-    if(file == "") _randomized = true;
+    if(file == "")
+    {  
+        _randomized = true;
+    }
     else
     {
         try
