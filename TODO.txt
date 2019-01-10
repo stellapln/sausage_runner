@@ -1,16 +1,19 @@
 Trucs à faire pour respecter les consignes
-X - utiliser la class d'exeption
-X - enregistrement des meilleurs scores
-  - affichage du score
-X - pause sur Echap
-X - plusieurs lumières
-X - ajouter des asserts
-X - mettre de la musique
-/ - for_each + lambda pour l'affichage
-X - Résoudre de problème de texture
-  - Préparer la SOUTENANCE
-X - Bouton hover menu
-X - Mettre des destructeurs à toutes les classes
-X - Remettre les pièces à la seconde partie
+  X - utiliser la class d'exeption
+  X - enregistrement des meilleurs scores
+    - affichage du score
+  X - pause sur Echap
+  X - plusieurs lumières
+  X - ajouter des asserts
+  X - mettre de la musique
+  / - for_each + lambda pour l'affichage
+  X - résoudre de problème de texture
+    - préparer la SOUTENANCE
+  X - bouton hover menu
+  X - mettre des destructeurs à toutes les classes
+  X - remettre les pièces à la seconde partie
+  X - vérifier les Magic Number
+
 Trucs à faire en plus pour grapiller des points
-X - Génération aléatoire
+
+  X - génération aléatoire
