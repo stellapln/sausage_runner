@@ -1,4 +1,9 @@
 #include <glimac/RandomMap.hpp>
+#include <stdio.h>
+#include <iostream>
+#include <stdlib.h>
+#include <time.h>
+#include <string>
 
 using namespace sausageRunner;
 
