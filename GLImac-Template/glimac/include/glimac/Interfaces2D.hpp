@@ -404,65 +404,62 @@ namespace sausageRunner {
     };
 }
 
-/*
+    // Voici la classe à ajouter dans Interface2D : Text
+// -> On peut déclarer dans le main : Text score_toDisplay(points, 0, 0, 50); pour l'instant
+// -> Pour update le score dans la boucle : score_toDisplay.updateText(avec le new score en paramètre);
+// /!\ points doit être un std::string ! donc faire points.c.str()
+// -> Les fonctions checkHovering et checkClick ne sont pas indispensables
 
-namespace Text {
-    class RenderText{
+// Tell me if you have questions !
+
+class Text
+{
+    /*! \class Text
+    * \brief
+    *   class for 2D Interface Text
+    *   attributes and functions
+    */
     private:
-        SDL_Surface* m_scoreSurface;
-        GLuint m_scoreImg;
-        SDL_Surface* m_timeSurface;
-        GLuint m_timeImg;
-
-        SDL_Surface* m_SP_titleSurface;
-        SDL_Surface* m_SP_pointsSurface;
-        SDL_Surface* m_SP_timeSurface;
-        SDL_Surface* m_SP_pointsScoreSurface;
-        SDL_Surface* m_SP_timeScoreSurface;
-        SDL_Surface* m_SP_Surface;
-        GLuint m_SP_titleImg;
-        GLuint m_SP_pointsImg;
-        GLuint m_SP_timeImg;
-        GLuint m_SP_pointsScoreImg;
-        GLuint m_SP_timeScoreImg;
-
-        glm::mat4 m_ProjMatrix;
-        glm::mat4 m_MVMatrix;
-        glm::mat4 m_NormalMatrix;
-        glm::mat4 m_OriginalMatrix;
-
-        std::string m_time;
-
-        TTF_Font* m_font;
-        GLuint m_planeVBO;
-        GLuint m_planeIBO;
-        GLuint m_planeVAO;
-
-        SDLWindowManager* m_windowManager;
-        SDL_Surface* m_screen;
-
-
-
+        std::string _text; /*!< Text to draw */
+        const unsigned int _posX; /*!< its x position */
+        const unsigned int _posY; /*!< its y position */
+        unsigned int _textWidth; /*!< width */
+        unsigned int _textHeight; /*!< height */
+        const unsigned int _fontSize; /*!< font */
+        SDL_Color _textColor; /*!< color */
+        GLuint _sampler2D;
+        GLuint _texture; /*!< Texture linked to the image */
+        GLuint _vao; /*!< Image vao */
+        GLuint _vbo; /*!< Image vbo */
+        int _nb_vertices;
+        
     public:
-        void initText();
+        /*!
+        *  \brief Constructor
+        */
+        Text(const std::string &text, const unsigned int x, const unsigned int y, const unsigned int fontSize, GLuint sampler2D);
+        /*!
+        *  \brief destructor
+        */
+        ~Text(){};
+        /*!
+        *  \brief Function that draws the text on a quads
+        */
+        void drawText();
+        /*!
+        *  \brief Amelioration on hovermouse: becomes black
+        */
+        void checkHovering(const int x, const int y);
+        /*!
+        *  \brief Check the click (can be remove if you want)
+        */
+        bool checkClick(const int x, const int y) const;
+        /*!
+        *  \brief To update the text (pass the new score in parameters)
+        */
+        void updateText(const std::string &newText);
 
-        TTF_Font* loadFont(int size);
-
-        SDL_Surface* createTextTexture(GLuint* textImg, std::string text, SDL_Color color);
-
-        void clean();
-
-        SDL_Surface* createTextTexture(GLuint* textImg, std::string text, SDL_Color color);
-
-        void drawText(SDL_Surface* textSurface, GLuint textImg, float size, float x, float y);
-
-        void drawText(SDL_Surface* textSurface, GLuint textImg, float size, glm::mat4 matrix);
-
-        void createScorePanel(int points);
-
-        void drawScorePanel(int points);
-
-    };
-}*/
+        void setVAO();
+};
 
 #endif

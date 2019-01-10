@@ -16,11 +16,12 @@ uniform vec3 uLightIntensity;
 
 uniform sampler2D uTexture;
 
+
 #define DIRECTIONNAL 0
 #define POINT 1
 
 #define MAX_N_LIGHT 50
-
+#define MAX_SHADOW_CALC 50
 struct Light
 {
 	vec3 pos;
@@ -31,6 +32,7 @@ struct Light
 
 uniform int numberOfSecondaryLights;
 uniform Light secondaryLights[MAX_N_LIGHT];
+
 
 vec3 blinnPhongDir(Light light)
 {
@@ -50,22 +52,41 @@ vec3 blinnPhong(Light light)
 	return blinnPhongPoint(light);
 }
 
+vec3 vClamp(vec3 v,float a, float b)
+{
+	v.x = clamp(v.x,a,b);
+	v.y = clamp(v.y,a,b);
+	v.z = clamp(v.z,a,b);
+	return v;
+}
+
 void main(){
 	vec3 texture = vec3(texture(uTexture,vFragTexCoords));
+	vec3 blPh = vec3(0.0);
 
 	Light globalLight;
 	globalLight.pos = uLightPos_vs;
 	globalLight.intensity = uLightIntensity;
-	globalLight.type = POINT;
+	globalLight.type = DIRECTIONNAL;
+	blPh = blinnPhong(globalLight);
 
-	vec3 blPh = blinnPhong(globalLight);
+	vec3 currentLight;
 
 	for(int i = 0;i < numberOfSecondaryLights && i < MAX_N_LIGHT;i++)
 	{
-		blPh += blinnPhong(secondaryLights[i]);
+		//blPh += blinnPhong(secondaryLights[i]);
+		currentLight = blinnPhong(secondaryLights[i]);
+		blPh += vClamp(currentLight,0.0,1.0);
 	}
-	blPh.x = clamp(blPh.x,0.0,1.0);
-	blPh.y = clamp(blPh.y,0.0,1.0);
-	blPh.z = clamp(blPh.z,0.0,1.0);
-	fFragColor = texture*0.3 + texture*blPh*0.7;
+
+	blPh = vClamp(blPh,0.0,1.0);
+
+	if(distance(vec3(0.0),vFragPosition) > MAX_SHADOW_CALC)
+	{
+		fFragColor = texture;
+	}
+	else
+	{
+		fFragColor = texture*0.2 + texture*blPh*0.8;
+	}
 };

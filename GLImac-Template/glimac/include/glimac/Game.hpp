@@ -230,6 +230,7 @@ namespace sausageRunner {
 				_aroundCam->reset(5.0f + _zoomBeginningAnimation,35.0f,0.0f);
 				_globalPosition = glm::mat4();
 				_globalRotation = glm::mat4();
+				_currentBonus = -1;
 				_t = 0.0;
 				lastTile = -1;
 				_activeCam = 0;

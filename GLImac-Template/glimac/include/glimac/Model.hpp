@@ -4,6 +4,7 @@
 
 #include <glimac/SDLWindowManager.hpp>
 #include <iostream>
+#include <GL/glew.h>
 #include <glimac/glm.hpp>
 #include <glimac/Except.hpp>
 #include <random>
@@ -59,6 +60,10 @@ namespace sausageRunner
               setupMesh();
           };
           void draw() const; /*!< Bind the VAO and the textures and send its*/
+          ~Mesh(){
+            // glDeleteBuffers(1,&vbo);
+            // glDeleteVertexArrays(1,&vao);
+          }
   };
 
   /*! \class Model

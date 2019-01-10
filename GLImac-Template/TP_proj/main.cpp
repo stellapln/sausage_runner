@@ -303,9 +303,10 @@ namespace sausageRunner {
                     return 5; // change character
                 },454,460,193,140);
 
-        //render->addLight(new Light(glm::vec3(1.0,1.0,3.0),glm::vec3(30.0,0.0,0.0),1));
-        //render->addLight(new Light(glm::vec3(0.0,1.0,-5.0),glm::vec3(20.0,20.0,20.0),1));
-        //render->addLight(new Light(glm::vec3(0.0,0.0,-10.0),glm::vec3(20.0,20.0,20.0),1));
+        render->addLight(new Light(glm::vec3(1.0,1.0,3.0),glm::vec3(20.0,10.0,0.0),1));
+        render->addLight(new Light(glm::vec3(0.0,1.0,-0.0),glm::vec3(30.0,30.0,30.0),1));
+        render->addLight(new Light(glm::vec3(0.0,1.0,-5.0),glm::vec3(20.0,20.0,20.0),1));
+        render->addLight(new Light(glm::vec3(0.0,1.0,-10.0),glm::vec3(20.0,20.0,20.0),1));
 
 
     	try
@@ -402,6 +403,8 @@ namespace sausageRunner {
         world.setLibrary(mainLib);
         //! Set the render manager of the world
         world.setRender(render);
+
+        Text score_toDisplay(std::to_string(2542), 0, 0, 50,sampler2D);
 
     	//glEnable(GL_DEPTH_TEST);
 
@@ -527,6 +530,7 @@ namespace sausageRunner {
             else{
                 game_statut = START_MENU;
             }
+            //score_toDisplay.drawText();
 
             global_time++;
             windowManager.swapBuffers();

@@ -151,11 +151,13 @@ void Button::drawButton()
     {
         glUniformMatrix3fv(_hover_image->Location(), 1, GL_FALSE, glm::value_ptr(translate(tx,ty)*scale(w,h)));
         _hover_image->drawImage();
+        glUniformMatrix3fv(_hover_image->Location(), 1, GL_FALSE, glm::value_ptr(glm::mat3()));
     }
     else
     {  
         glUniformMatrix3fv(_image->Location(), 1, GL_FALSE, glm::value_ptr(translate(tx,ty)*scale(w,h)));
         _image->drawImage();
+        glUniformMatrix3fv(_image->Location(), 1, GL_FALSE, glm::value_ptr(glm::mat3()));
     }
 }
 
@@ -202,169 +204,177 @@ void Window::drawWindow()
     };
     for_each(_buttons.begin(), _buttons.end(), drawButton);
 }
-/*
-void Score::scoreTTF(int points, SDL_Surface* screen, TTF_Font *font){
-    font = TTF_OpenFont("../../../GLImac-Template-build/TP_proj/assets/fonts/arial.ttf", 65);
-    SDL_Color redColor = {214,27,20};
-    text = TTF_RenderText_Blended(font, "PROUT", redColor);
 
-    SDL_Rect position;
-    position.x = 0;
-    position.y = 0;
-    SDL_BlitSurface(text, NULL, screen, &position);
-    SDL_Flip(screen);
+Text::Text(const std::string &text, const unsigned int x, const unsigned int y, const unsigned int fontSize, GLuint sampler2D) 
+: _posX(x), _posY(y), _text(text), _fontSize(fontSize), _textWidth(0), _textHeight(0), _textColor({255, 0, 0}), _sampler2D(sampler2D)
+{
+    setVAO();
 }
 
-void Score::drawScore(int size)
-{  
-    TTF_Font *font = TTF_OpenFont("./assets/fonts/arial.ttf", size);
-    SDL_Color redColor = {255,0,0};
-    SDL_Surface *text = TTF_RenderText_Blended(font, "PROUT", redColor);
-
-    TTF_CloseFont(font);
-}
-
-namespace Text {
-
-  void RenderText::initText()
-  {
-    if (TTF_Init() < 0) {
-        std::cout << "SDL_TTF library could not be load" << std::endl;
-    }
-  }
-
-  TTF_Font* RenderText::loadFont(int size)
-  {
-    TTF_Font* font = TTF_OpenFont("./assets/fonts/arial.ttf", size);
-    if (font == NULL)
+void Text::setVAO()
+{
+    TTF_Init();
+ 
+    // Font loading
+    TTF_Font* font = TTF_OpenFont("./assets/fonts/arial.ttf", _fontSize);
+ 
+    if(NULL != font)
     {
-      TTF_SetError("Loading failed :( (code: %d)", 142);
-      std::cout << "Error: " << TTF_GetError() << std::endl;
-      return NULL;
-    }
-    return font;
-  }
+        GLuint _texture;
+        glGenTextures(1, &_texture);
+        // Bind
+        SDL_Surface* text = TTF_RenderText_Blended(font,_text.c_str(), _textColor);
+ 
+        // Free font
+        glBindTexture(GL_TEXTURE_2D, _texture);
+        glTexImage2D(GL_TEXTURE_2D,
+                0,
+                GL_RGBA,
+                text->w,
+                text->h,
+                0,
+                GL_RGBA,
+                GL_FLOAT,
+                text->pixels);
 
-  void RenderText::clean()
-  {
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+
+        // Debind
+        glBindTexture(GL_TEXTURE_2D, 0);
+
+        TTF_CloseFont(font);
+
+        // Text dimensions
+        _textWidth = text->w;
+        _textHeight = text->h;
+
+        GLuint _vbo;
+        GLuint _vao;
+
+        glGenBuffers(1, &_vbo);
+        // variable vbo contient identifiant d'1 vbo
+
+        // Binding d'1 VBO sur la cible GL_ARRAY_BUFFER:
+        glBindBuffer(GL_ARRAY_BUFFER, _vbo);
+        // On peut à présent modifier le VBO en passant par la cible GL_ARRAY_BUFFER
+        
+        Vertex2DUV vertices[] = {
+            Vertex2DUV(glm::vec2(-1.f, 1.f),glm::vec2(0.f, 0.f)),
+            Vertex2DUV(glm::vec2(-1.f, -1.f),glm::vec2(0.f, 1.f)),
+            Vertex2DUV(glm::vec2(1.f, -1.f),glm::vec2(1.f, 1.f)),
+
+            Vertex2DUV(glm::vec2(1.f, -1.f),glm::vec2(1.f, 1.f)),
+            Vertex2DUV(glm::vec2(1.f, 1.f),glm::vec2(1.f, 0.f)),
+            Vertex2DUV(glm::vec2(-1.f, 1.f),glm::vec2(0.f, 0.f))
+
+        };
+        // Get the number of elements in vertices[]
+        _nb_vertices = sizeof(vertices)/sizeof(vertices[0]);
+
+        // envoi des données
+        glBufferData(GL_ARRAY_BUFFER, _nb_vertices * sizeof(Vertex2DUV), vertices, GL_STATIC_DRAW);
+
+        // debindage de la cible
+        glBindBuffer(GL_ARRAY_BUFFER, 0);
+
+        glGenVertexArrays(1, &_vao);
+        // binding
+        glBindVertexArray(_vao);
+        // utilisation de l'attribut 0 du tableau
+        const GLuint VERTEX_ATTR_POSITION = 0;
+        glEnableVertexAttribArray(VERTEX_ATTR_POSITION);
+
+        // attribut couleur
+        const GLuint VERTEX_ATTR_TEXTURE = 1;
+        glEnableVertexAttribArray(VERTEX_ATTR_TEXTURE);
+
+        // rebinding d'1 VBO sur la cible GL_ARRAY_BUFFER:
+        glBindBuffer(GL_ARRAY_BUFFER, _vbo);
+
+        glVertexAttribPointer(VERTEX_ATTR_POSITION, 2, GL_FLOAT, GL_FALSE, sizeof(Vertex2DUV), (const GLvoid*)(offsetof(Vertex2DUV, position)));
+        glVertexAttribPointer(VERTEX_ATTR_TEXTURE, 2, GL_FLOAT, GL_FALSE, sizeof(Vertex2DUV), (const GLvoid*)(offsetof(Vertex2DUV, texture)));
+        // redebindage de la cible
+        glBindBuffer(GL_ARRAY_BUFFER, 0);
+
+        // debindage du VAO
+        glBindVertexArray(0);
+    }
+ 
     TTF_Quit();
-  }
-
-  SDL_Surface* RenderText::createTextTexture(GLuint* textImg, std::string text, SDL_Color color){
-      m_SP_Surface = SDL_DisplayFormatAlpha(TTF_RenderUTF8_Solid( m_font, text.data(), color ));
-      int colors = m_SP_Surface->format->BytesPerPixel;
-      SDL_Rect area;
-      area.x = 0; area.y = 0; area.w = m_SP_Surface->w; area.h = m_SP_Surface->h;
-      GLenum texture_format = GL_RGBA;
-
-      glDisable(GL_TEXTURE);
-      glDisable(GL_TEXTURE_2D);
-      glEnable(GL_BLEND);
-      GLuint img;
-
-      glGenTextures(1, &img);
-      glBindTexture(GL_TEXTURE_2D, img);
-      glTexImage2D( GL_TEXTURE_2D,
-                    0,
-                    colors,
-                    m_SP_Surface->w,
-                    m_SP_Surface->h,
-                    0,
-                    texture_format,
-                    GL_UNSIGNED_BYTE,
-                    m_SP_Surface->pixels
-                  );
-      glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-      glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-      glBindTexture(GL_TEXTURE_2D, 0);
-      glDisable(GL_BLEND);
-      *textImg = img;
-
-      return m_SP_Surface;
-    }
-
-
-    void RenderText::drawText(SDL_Surface* textSurface, GLuint textImg, float size, float x, float y)
-    {
-      useProgram(TEXTURE);
-      glm::mat4 matrix = glm::translate(glm::mat4(1.0f), glm::vec3(x, y, -5.0f));
-      float ratio = floatDivision(textSurface->w, textSurface->h);
-      matrix = glm::scale(matrix, glm::vec3(size * ratio, size, 1.f));
-      applyTransformations(TEXTURE, matrix);
-      glActiveTexture(GL_TEXTURE0);
-      glBindTexture(GL_TEXTURE_2D, textImg);
-      glEnable(GL_BLEND);
-      glEnable(GL_TEXTURE_2D);
-      disableTexture(TEXTURE, false);
-      glDisable(GL_TEXTURE_2D);
-      glDisable(GL_BLEND);
-      debindVAO();
-    }
-
-    void RenderText::drawText(SDL_Surface* textSurface, GLuint textImg, float size, glm::mat4 matrix)
-    {
-      useProgram(TEXTURE);
-      bindPlaneVAO();
-      float ratio = floatDivision(textSurface->w, textSurface->h);
-      matrix = glm::scale(matrix, glm::vec3(size * ratio, size, 1.f));
-      applyTransformations(TEXTURE, matrix);
-      glActiveTexture(GL_TEXTURE0);
-      glBindTexture(GL_TEXTURE_2D, textImg);
-      glEnable(GL_TEXTURE_2D);
-      m_plane.drawPlane();
-      disableTexture(TEXTURE, false);
-      glDisable(GL_TEXTURE_2D);
-      debindVAO();
-    }
-
-    void RenderText::createScorePanel(int points)
-    {
-      if (m_SP_titleSurface == NULL)
-      {
-        m_SP_titleSurface = createTextTexture(&m_SP_titleImg, "SCORE", {255,255,255});
-        m_SP_pointsSurface = createTextTexture(&m_SP_pointsImg, "Points:", {255,255,255});
-        m_SP_timeSurface = createTextTexture(&m_SP_timeImg, "Time:", {255,255,255});
-        m_SP_pointsScoreSurface = createTextTexture(&m_SP_pointsScoreImg, std::to_string(points), {255,255,255});
-        m_SP_timeScoreSurface = createTextTexture(&m_SP_timeScoreImg, m_time, {255,255,255});
-      }
-    }
-
-    void RenderText::drawScorePanel(int points)
-    {
-      useProgram(TEXTURE);
-      glBlendFunc(GL_ONE, GL_ONE_MINUS_SRC_ALPHA);
-      glEnable(GL_BLEND);
-      glm::mat4 original_matrix = m_MVMatrix;
-      original_matrix = glm::translate(original_matrix, glm::vec3(-3.5f, -0.6f, 2.0f));  // Some values set to adjust the plane
-      original_matrix = glm::rotate(original_matrix, (float)-90 * glm::pi<float>()/180, glm::vec3(1, 0, 0));
-      original_matrix = glm::scale(original_matrix, glm::vec3(-1.f, 1.f, 1.f));
-
-      glm::mat4 matrix = glm::translate(original_matrix, glm::vec3(0.f, 10.0f, 0.f));
-      if (m_SP_titleSurface == NULL)
-        m_SP_titleSurface = createTextTexture(&m_SP_titleImg, "SCORE", {255,255,255});
-      drawText(m_SP_titleSurface, m_SP_titleImg, 5.f, matrix);
-
-      matrix = glm::translate(original_matrix, glm::vec3(0.f, 6.0f, -0.1f));
-      if (m_SP_pointsSurface == NULL)
-        m_SP_pointsSurface = createTextTexture(&m_SP_pointsImg, "Points:", {255,255,255});
-      drawText(m_SP_pointsSurface, m_SP_pointsImg, 2.f, matrix);
-
-      matrix = glm::translate(original_matrix, glm::vec3(0.f, 3.5f, -0.1f));
-      if (m_SP_pointsScoreSurface == NULL)
-        m_SP_pointsScoreSurface = createTextTexture(&m_SP_pointsScoreImg, std::to_string(points), {255,255,255});
-      drawText(m_SP_pointsScoreSurface, m_SP_pointsScoreImg, 3.5f, matrix);
-
-      matrix = glm::translate(original_matrix, glm::vec3(0.f, 0.f, -0.0f));
-      if (m_SP_timeSurface == NULL)
-        m_SP_timeSurface = createTextTexture(&m_SP_timeImg, "Time:", {255,255,255});
-      drawText(m_SP_timeSurface, m_SP_timeImg, 2.f, matrix);
-
-      matrix = glm::translate(original_matrix, glm::vec3(0.f, -2.5f, -0.1f));
-      if (m_SP_timeScoreSurface == NULL)
-        m_SP_timeScoreSurface = createTextTexture(&m_SP_timeScoreImg, m_time, {255,255,255});
-      drawText(m_SP_timeScoreSurface, m_SP_timeScoreImg, 3.5f, matrix);
-      glDisable(GL_BLEND);
-    }
-
 }
-*/
+void Text::drawText()
+{
+
+        glBindVertexArray(_vao);
+        glBindTexture(GL_TEXTURE_2D,_texture);
+        glUniform1i(_sampler2D,0);
+        glDrawArrays(GL_TRIANGLES, 0, _nb_vertices);
+        glBindVertexArray(0);
+        glBindTexture(GL_TEXTURE_2D, 0);
+
+
+        /* *************************** STELLA *************************
+        // Transparency
+         //glEnable(GL_BLEND);
+         glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+ 
+        // Texture handling
+        GLuint textTexture;
+        glGenTextures( 1, &textTexture );
+        glBindTexture( GL_TEXTURE_2D, textTexture ); 
+        glTexParameteri( GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR );
+        glTexParameteri( GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR );
+        glTexImage2D( GL_TEXTURE_2D, 0, 4, _textWidth, _textHeight, 0,
+                      GL_RGBA, GL_UNSIGNED_BYTE, text->pixels );
+ 
+        // Free text image
+        SDL_FreeSurface(text);
+ 
+        // Draw the quad with texture containing text
+        glEnable(GL_TEXTURE_2D);
+        glBegin(GL_QUADS);
+            glColor3f(1.0, 1.0, 1.0);
+            /*glTexCoord2d(0, 1); glVertex2f( _posX, WINDOW_HEIGHT - _posY + _textHeight);
+            glTexCoord2d(0, 0); glVertex2f( _posX, WINDOW_HEIGHT - _posY);
+            glTexCoord2d(1, 0); glVertex2f( _posX + _textWidth, WINDOW_HEIGHT - _posY);
+            glTexCoord2d(1, 1); glVertex2f( _posX + _textWidth, WINDOW_HEIGHT - _posY + _textHeight);*//*
+            glTexCoord2d(0, 1); glVertex2f( -1.0, 1.0);
+            glTexCoord2d(0, 0); glVertex2f( -1.0, -1.0);
+            glTexCoord2d(1, 0); glVertex2f( 1.0,-1.0);
+            glTexCoord2d(1, 1); glVertex2f( 1.0, 1.0);
+        glEnd();
+        glDisable(GL_TEXTURE_2D);
+        glBindTexture(GL_TEXTURE_2D, 0);
+ 
+        glDeleteTextures(1, &textTexture);*****************************/
+}
+
+
+void Text::checkHovering(const int x, const int y)
+{ 
+    if(x > _posX && x < _posX + _textWidth && y < _posY && y > _posY - _textHeight)
+    {
+        _textColor = {214, 27, 20};
+    }
+    else 
+    {
+        _textColor = {0, 0, 0};
+    }
+ 
+}
+
+bool Text::checkClick(const int x, const int y) const
+{ 
+    if(x > _posX && x < _posX + _textWidth && y < _posY && y > _posY - _textHeight)
+    {
+        return true;
+    }
+   
+    return false; 
+}
+
+void Text::updateText(const std::string &newText)
+{
+  _text = newText;
+}
