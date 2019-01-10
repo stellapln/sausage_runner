@@ -13,6 +13,20 @@
 #define RIGHT_POS 2
 #define UP_POS 2
 
+#define STR_BLOC "0"
+#define KETCHUP "0"
+#define MOUSTARD "1"
+#define CONSERVE "2"
+#define JUICE "3"
+
+#define STR_EMPTY "5"
+#define STR_LEFT_POS "0"
+#define STR_DOWN_POS "0"
+#define STR_MIDDLE "1"
+#define STR_RIGHT_POS "2"
+#define STR_UP_POS "2"
+
+
 namespace sausageRunner {
 
 	std::string random_tile(int *last_broken, int *last_virage, int *last_mob){
@@ -44,7 +58,7 @@ namespace sausageRunner {
 
 	std::string random_obs(int *last_mob, std::string bloc, int *last_broken, int *last_virage){
 		int int_rand = EMPTY;
-		if(*last_mob == 0 && bloc == "0"){
+		if(*last_mob == 0 && bloc == STR_BLOC){
 			int_rand = rand()%5;
 			if (int_rand == 4){
 				int_rand = EMPTY;
@@ -66,13 +80,13 @@ namespace sausageRunner {
 	std::string random_xobs(std::string obs){
 		int int_rand = EMPTY;
 
-		if(obs == "0"){
+		if(obs == KETCHUP){
 			int_rand = rand()%3;
 		}
-		else if(obs == "1"){
+		else if(obs == MOUSTARD){
 			int_rand = rand()%2;
 		}
-		else if(obs == "2" || obs == "3"){
+		else if(obs == CONSERVE || obs == JUICE){
 			int_rand = LEFT_POS;
 		}
 
@@ -83,7 +97,7 @@ namespace sausageRunner {
 	std::string random_bonus(int *last_bonus, std::string obs){
 		int int_rand = EMPTY;
 		if(*last_bonus == 0){
-			if(obs != "2"){
+			if(obs != CONSERVE){
 				int_rand = rand()%3;
 				*last_bonus = 20;
 			}
@@ -99,21 +113,21 @@ namespace sausageRunner {
 	std::string random_xbon(std::string bonus, std::string obs, std::string xobs){
 		int rand_int_y = EMPTY;
 
-		if(bonus != "5"){
-			if (obs != "5") {
-				if(obs == "0"){
-					if(xobs == "0"){
+		if(bonus != STR_EMPTY){
+			if (obs != STR_EMPTY) {
+				if(obs == KETCHUP){
+					if(xobs == STR_LEFT_POS){
 						rand_int_y = rand()%2 + 1;
 					}
-					else if(xobs == "1"){
+					else if(xobs == STR_MIDDLE){
 						rand_int_y = UP_POS;
 					}
-					else if(xobs == "2"){
+					else if(xobs == STR_RIGHT_POS){
 						rand_int_y = rand()%2;
 					}
 				}
-				else if(obs == "1"){
-					if(xobs == "0"){
+				else if(obs == MOUSTARD){
+					if(xobs == STR_LEFT_POS){
 						rand_int_y = UP_POS;
 					}
 					else{
@@ -131,14 +145,14 @@ namespace sausageRunner {
 	}
 
 	std::string random_ybon(std::string bonus, std::string bloc, std::string obs){
-		std::string int_y = "5";
+		std::string int_y = STR_EMPTY;
 
-		if(bonus != "5"){
-			if (bloc != "0" || obs == "3") {
-				int_y = "2";
+		if(bonus != STR_EMPTY){
+			if (bloc != STR_BLOC || obs == JUICE) {
+				int_y = STR_UP_POS;
 			}
 			else {
-				int_y = "1";
+				int_y = STR_MIDDLE;
 			}
 		}
 		return int_y;
@@ -146,22 +160,22 @@ namespace sausageRunner {
 
 	std::string random_xcoin(std::string bloc, std::string obs, std::string xobs){
 		int int_rand = EMPTY;
-		if(obs == "2"){
+		if(obs == CONSERVE){
 			int rand = MIDDLE;
 		}
-		else if(obs == "0"){
-			if(xobs == "0"){
+		else if(obs == KETCHUP){
+			if(xobs == STR_LEFT_POS){
 				int_rand = rand()%2 + 1;
 			}
-			else if(xobs == "1"){
+			else if(xobs == STR_MIDDLE){
 				int_rand = RIGHT_POS;
 			}
-			else if(xobs == "2"){
+			else if(xobs == STR_RIGHT_POS){
 				int_rand = rand()%2;
 			}
 		}
-		else if(obs == "1"){
-			if(xobs == "0"){
+		else if(obs == MOUSTARD){
+			if(xobs == STR_LEFT_POS){
 				int_rand = RIGHT_POS;
 			}
 			else{
@@ -185,14 +199,14 @@ namespace sausageRunner {
 	}
 
 	std::string random_ycoin(std::string xcoin, std::string bloc, std::string obs){
-		std::string int_y = "5";
+		std::string int_y = STR_EMPTY;
 
-		if(xcoin != "5"){
-			if (bloc != "0" || obs == "3") {
-				int_y = "2";
+		if(xcoin != STR_EMPTY){
+			if (bloc != STR_BLOC || obs == JUICE) {
+				int_y = STR_UP_POS;
 			}
 			else {
-				int_y = "1";
+				int_y = STR_MIDDLE;
 			}
 		}
 		return int_y;
