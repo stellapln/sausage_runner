@@ -161,7 +161,10 @@ namespace sausageRunner {
 
 	std::string random_xcoin(std::string bloc, std::string obs, std::string xobs){
 		int int_rand = EMPTY;
-		if(obs == CONSERVE){
+		if(bloc != STR_BLOC){
+			int_rand = EMPTY;
+		}
+		else if(obs == CONSERVE){
 			int_rand = MIDDLE;
 		}
 		else if(obs == KETCHUP){
