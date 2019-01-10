@@ -162,7 +162,13 @@ namespace sausageRunner {
 		}
 
 		else{
-			int_rand = 1;
+			int_rand = rand()%2;
+			if(int_rand == 0){
+				int_rand = 1;
+			}
+			else {
+				int_rand = 5;
+			}
 		}
 
 
@@ -210,5 +216,7 @@ namespace sausageRunner {
 
 			fprintf(file, "%s %s %s %s %s %s %s %s\n", bloc.c_str(), obs.c_str(), xobs.c_str(), bonus.c_str(), xbon.c_str(), ybon.c_str(), xcoin.c_str(), ycoin.c_str() );
 		}
+		fprintf(file, "%s\n", "0 5 5 5 5 5 5 5");
+		fclose(file);
 	}
 }
