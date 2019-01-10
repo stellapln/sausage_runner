@@ -2,6 +2,9 @@
 #define _LIB_IMPORT_TRACKBALLCAMERA_IMAC_LSM
 #pragma once
 
+#define INITIAL_EYE_POSITION glm::vec3(0.0f,-1.2f,0.2f)
+#define MAX_ANGLE_EYE_CAM 90.0f
+
 class SimpleAxeCam
 {
 	protected:
@@ -55,8 +58,8 @@ class TrackballCamera : public SimpleAxeCam
 class EyesCam : public SimpleAxeCam
 {
 	private:
-		float _maxAngle = 90.0f;
-		glm::vec3 _position = glm::vec3(0.0f,-1.2f,0.2f);
+		float _maxAngle = MAX_ANGLE_EYE_CAM;
+		glm::vec3 _position = INITIAL_EYE_POSITION;
 	public:
 		EyesCam(float ax=0.0f,float ay=0.0f):SimpleAxeCam(ax,ay){}
 		void reset(float d,float ax,float ay){

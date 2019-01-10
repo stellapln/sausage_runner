@@ -40,7 +40,9 @@
 #define RUNNING_SAUSAGE 1
 #define PAUSE_MENU 2
 #define SCORE_MENU 3
-#define QUIT_VALUE 4 
+#define QUIT_VALUE 4
+
+#define DEBUG_MODE true
 
 
 /*! \namespace glimac
@@ -58,12 +60,23 @@ using namespace glimac;
  */
 namespace sausageRunner {
 
+    void debug(int line)
+    {
+        static int i;
+        if(DEBUG_MODE)
+        {
+            std::cout << "Debug : jalon "<< i++ << " - line "<< line << std::endl;
+        }
+    }
+
     /* \main
      * main function of the game
      * with loaders and render loop
      */
     int main(int argc, char** argv) {
         srand(time(NULL));
+
+        debug(__LINE__);
 
         // Initialize SDL and open a window
         //! Window manager of the SDL
@@ -95,21 +108,23 @@ namespace sausageRunner {
         int game_statut = 0; //!< Status of the game (to make a difference between 2Ds interfaces and 3D game time
         int mouse_x,mouse_y; //!< Intergers to save the postion of the mouse
 
-
+        debug(__LINE__);
         /*!
          *  \brief ** Initialization
          *
          *  Initialize the game
          */
-        World world("./levels/Level1");
-        //World world("./levels/LevelRandom");
-        //random_map();
+        //World world("./levels/Level1");
+        World world("./levels/LevelRandom");
+        debug(__LINE__);
+        random_map();
 
         /*!
          *  \brief ** Music stuff
          *
          *  
          */
+        debug(__LINE__);
 
         int random_music = (rand()%3)+1;
         std::string random_str = "./assets/musics/"+ std::to_string(random_music)+".mp3";
@@ -125,6 +140,8 @@ namespace sausageRunner {
          *
          *  Initialize Windows (2D)
          */
+
+        debug(__LINE__);
 
         Image2D menuImage("assets/textures/MENU_WINDOW.png", "menuImage");
         // Play Button
@@ -177,6 +194,7 @@ namespace sausageRunner {
         // VALUE SCORE        
         Image2D valuesScore("assets/textures/numbers.png", "valueScores");
 
+        debug(__LINE__);
         try
         {
         	// MENU WINDOW
@@ -261,6 +279,7 @@ namespace sausageRunner {
         {
         	std::cerr << err.what() << std::endl;
         }
+        debug(__LINE__);
         
         // MENU WINDOW
         Window menu(&menuImage);
@@ -310,6 +329,7 @@ namespace sausageRunner {
         render->addLight(new Light(glm::vec3(0.0,1.0,-5.0),glm::vec3(20.0,20.0,20.0),1));
         render->addLight(new Light(glm::vec3(0.0,1.0,-10.0),glm::vec3(20.0,20.0,20.0),1));
 
+        debug(__LINE__);
 
     	try
         {
@@ -337,6 +357,7 @@ namespace sausageRunner {
          *  Loading objects from .obj
          */
 
+        debug(__LINE__);
         Model saucisse("assets/saucisse.obj");
         
         Model normalModel("assets/bloc-normal.obj");
@@ -388,6 +409,7 @@ namespace sausageRunner {
         mainLib->addSpecial(poireModel);
         mainLib->addSpecial(donutModel);
 
+        debug(__LINE__);
         /*!
          *  \brief ** Score stuff
          *
@@ -415,12 +437,16 @@ namespace sausageRunner {
          *
          *  Application loop for the game
          */
+        debug(__LINE__);
 
         while(!done) {
 
         	SDL_Event e;
+            debug(__LINE__);
     	    while(windowManager.pollEvent(e)) {
+                debug(__LINE__);
     	        if(e.type == SDL_QUIT) {
+                debug(__LINE__);
     	            done = true; //Leave the loop after this iteration
     	        }
     	        
@@ -430,6 +456,7 @@ namespace sausageRunner {
     	         *  Mouse events
     	         */
     	        else if(e.type == SDL_MOUSEMOTION) {
+                    debug(__LINE__);
                     SDL_GetMouseState(&mouse_x, &mouse_y);
                     if(game_statut == RUNNING_SAUSAGE)
                     {
@@ -437,6 +464,7 @@ namespace sausageRunner {
                     }
     	        }
     	       else if(e.type == SDL_MOUSEBUTTONDOWN) {
+                    debug(__LINE__);
     	       		if(game_statut == START_MENU)
     	       		{
                     	Button* bmenu = menu.activeButton(mouse_x,mouse_y);
@@ -464,6 +492,7 @@ namespace sausageRunner {
     	       		}
     	        }
     	        else if(e.type == SDL_MOUSEBUTTONUP) {
+                    debug(__LINE__);
     	            world.mouseButtonUp(e.button.button);
     	        }
     	        
@@ -473,9 +502,11 @@ namespace sausageRunner {
     	         *  Keyboard events
     	         */
     	        else if(e.type == SDL_KEYDOWN) {
+                    debug(__LINE__);
     	        	world.keyDown(e.key.keysym.sym, global_time);
     	        }
     	        else if(e.type == SDL_KEYUP) {
+                    debug(__LINE__);
                    if((e.key.keysym.sym == SDLK_p || e.key.keysym.sym == SDLK_ESCAPE) && game_statut == RUNNING_SAUSAGE)
                    {
                         game_statut = PAUSE_MENU;
@@ -485,8 +516,10 @@ namespace sausageRunner {
                    }
     	           else world.keyUp(e.key.keysym.sym, global_time);
     	        }
+                debug(__LINE__);
     	    }
             
+            debug(__LINE__);
             if(game_statut == START_MENU)
             {
             	Button* bmenu = menu.activeButton(mouse_x,mouse_y);
@@ -540,6 +573,8 @@ namespace sausageRunner {
 
                
         }
+        delete mainLib;
+        delete render;
         return EXIT_SUCCESS;
     }
 }

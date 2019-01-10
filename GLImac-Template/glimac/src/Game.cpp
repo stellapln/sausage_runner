@@ -100,10 +100,11 @@ void World::loadFile(const std::string level){
   	if(!file){
    		throw Except("Level file not loaded",__FILE__,__LINE__);
   	}
-
+    int i = 0;
   	int sup, obs, xo, bon, xb, yb, xp, yp;
 	while(fscanf(file, "%d %d %d %d %d %d %d %d", &sup, &obs, &xo, &bon, &xb, &yb, &xp, &yp) != EOF){
     	//Tile* new_tile = new Tile(sup, obs, xo, bon, xb, yb, xp, yp);
+        std::cout << i++ << std::endl;
     	addTile(new Tile(sup, obs, xo, bon, xb, yb, xp, yp));
 	}
     fclose(file);
@@ -172,7 +173,7 @@ int World::draw(int global_time) {
     glm::mat4 MVMatrixModifiedM;
 	glm::mat4 viewMatrix;
 
-    //if(global_time%200 == 0) _render->addLight(new Light(glm::vec3(0.0,1.0,0.0),50.0,1));
+    // if(global_time%200 == 0) _render->addLight(new Light(glm::vec3(0.0,1.0,0.0),50.0,1));
 
     int deltaT = global_time - _timeStartGame;
 

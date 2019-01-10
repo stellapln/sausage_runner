@@ -112,36 +112,39 @@ namespace sausageRunner {
 	}
 
 	std::string random_xbon(std::string bonus, std::string obs, std::string xobs){
-		int rand_int_y = EMPTY;
-
+		int rand_int_x = EMPTY;
+		
 		if(bonus != STR_EMPTY){
 			if (obs != STR_EMPTY) {
 				if(obs == KETCHUP){
 					if(xobs == STR_LEFT_POS){
-						rand_int_y = rand()%2 + 1;
+						rand_int_x = rand()%2 + 1;
 					}
 					else if(xobs == STR_MIDDLE){
-						rand_int_y = UP_POS;
+						rand_int_x = UP_POS;
 					}
 					else if(xobs == STR_RIGHT_POS){
-						rand_int_y = rand()%2;
+						rand_int_x = rand()%2;
 					}
 				}
 				else if(obs == MOUSTARD){
 					if(xobs == STR_LEFT_POS){
-						rand_int_y = UP_POS;
+						rand_int_x = UP_POS;
 					}
 					else{
-						rand_int_y = DOWN_POS;
+						rand_int_x = DOWN_POS;
 					}
 				}
 			}
 			else{
-				rand_int_y = rand()%3;
+				rand_int_x = rand()%3;
 			}
 		}
+		else {
+			return STR_EMPTY;
+		}
 
-		std::string string_rand = std::to_string(rand_int_y);
+		std::string string_rand = std::to_string(rand_int_x);
 		return string_rand;
 	}
 
@@ -159,9 +162,9 @@ namespace sausageRunner {
 		return int_y;
 	}
 
-	std::string random_xcoin(std::string bloc, std::string obs, std::string xobs){
+	std::string random_xcoin(std::string bonus, std::string bloc, std::string obs, std::string xobs){
 		int int_rand = EMPTY;
-		if(bloc != STR_BLOC){
+		if(bloc != STR_BLOC || bonus != STR_EMPTY){
 			int_rand = EMPTY;
 		}
 		else if(obs == CONSERVE){
@@ -206,7 +209,10 @@ namespace sausageRunner {
 		std::string int_y = STR_EMPTY;
 
 		if(xcoin != STR_EMPTY){
-			if (bloc != STR_BLOC || obs == JUICE) {
+			if (obs == CONSERVE){
+				int_y = STR_DOWN_POS;
+			}
+			else if (bloc != STR_BLOC || obs == JUICE) {
 				int_y = STR_UP_POS;
 			}
 			else {
@@ -217,14 +223,14 @@ namespace sausageRunner {
 	}
 
 	void random_map(){
-		int last_broken = 2;
-		int last_virage = 10;
-		int last_mob = 5;
-		int last_bonus = 6;
+		int last_broken = rand()%5 + 2;
+		int last_virage = rand()%10 + 5;
+		int last_mob = rand()%10 + 3;
+		int last_bonus = rand()%10 + 7;
 
 		std::string bloc, obs, xobs, bonus, xbon, ybon, xcoin, ycoin;
 
-		FILE *file = fopen("./levels/LevelRandom", "w");
+		FILE *file = fopen("./levels/LevelRandom", "w+");
 
 		for(int j = 0; j < 5; j++){
 			fprintf(file, "%s\n", "0 5 5 5 5 5 5 5");
@@ -237,7 +243,7 @@ namespace sausageRunner {
 			bonus = random_bonus(&last_bonus, obs);
 			xbon = random_xbon(bonus, obs, xobs);
 			ybon = random_ybon(bonus, bloc, obs);
-			xcoin = random_xcoin(bloc, obs, xobs);
+			xcoin = random_xcoin(bonus, bloc, obs, xobs);
 			ycoin = random_ycoin(xcoin, bloc, obs);
 
 			fprintf(file, "%s %s %s %s %s %s %s %s\n", bloc.c_str(), obs.c_str(), xobs.c_str(), bonus.c_str(), xbon.c_str(), ybon.c_str(), xcoin.c_str(), ycoin.c_str() );

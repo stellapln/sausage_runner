@@ -43,7 +43,7 @@ namespace sausageRunner {
 	/*!
 	 * \brief Create a random coin, paying attention to other elements
 	 */
-	std::string random_xcoin(std::string bloc, std::string obs, std::string xobs);
+	std::string random_xcoin(std::string bonus, std::string bloc, std::string obs, std::string xobs);
 
 	/*!
 	 * \brief Give the coin an appropriate y position according to the other elements

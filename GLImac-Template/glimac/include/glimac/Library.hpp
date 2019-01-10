@@ -6,6 +6,8 @@
 #include <iostream>
 #include <glimac/Model.hpp>
 
+#define NO_COIN_VALUE 5
+
 
 namespace sausageRunner {
 	/*! \class LibElem
@@ -251,7 +253,7 @@ namespace sausageRunner {
 			 *  \brief Bool : tile have coin ?
 			 */
 			bool haveCoin(){
-				return (!coinTaken && _coin.x() != 5 && _coin.y() != 5);
+				return (!coinTaken && _coin.x() != NO_COIN_VALUE && _coin.y() != NO_COIN_VALUE);
 			}
 		
 			/*!

@@ -13,6 +13,18 @@
 #include <algorithm>
 #include <functional>
 
+#define NB_FRAME_FOR_SMOOTH_TRANSLATION 10
+#define NB_FRAME_FOR_JUMP 50
+#define DETECT_COLLISION_VALUE 2
+#define INITIAL_GAME_SPEED 0.15
+#define NB_FRAME_FOR_SMOOTH_CAM_ROTATION 30
+#define NB_FRAME_FOR_BONUS_INFLUENCE 300
+#define NB_FRAME_FOR_BEGINNING_ANIMATION 100
+#define ZOOM_VALUE_FOR_BEGINNING_ANIMATION 10
+#define DISTANCE_CAMERA_CHARACTER 5.0f
+#define ANGLE_OF_CAMERA 35.0f
+#define MULT_VALUE_FOR_SCORE 100
+#define MOVE_FRONT_VALUE_ON_MOUSE_WHEEL 0.3
 
 namespace sausageRunner {
 	
@@ -34,8 +46,8 @@ namespace sausageRunner {
 			int _last_y = 0; /*!< Stock the global time of the last state changement ion the X axis*/
 			int _points = 0;
 
-			int nbFrameForSmoothTranslation = 10; /*!< Number of frames to visually go from the current X state to the asked X state*/
-			int jumpTime = 50; /*!< Number of frames of a jump*/
+			int nbFrameForSmoothTranslation = NB_FRAME_FOR_SMOOTH_TRANSLATION; /*!< Number of frames to visually go from the current X state to the asked X state*/
+			int jumpTime = NB_FRAME_FOR_JUMP; /*!< Number of frames of a jump*/
 
 	 	public:
 
@@ -101,7 +113,7 @@ namespace sausageRunner {
 				std::vector<int> obsBbox = obs->getBbox();
 				int i = 0;
 				while(i < obsBbox.size() && i < persoBbox.size()){
-					if(persoBbox[i] + obsBbox[i] == 2) return true;
+					if(persoBbox[i] + obsBbox[i] == DETECT_COLLISION_VALUE) return true;
 					i++;
 				}
 				return false;
@@ -118,7 +130,7 @@ namespace sausageRunner {
 	{
 		private:
 			float _t = 0; /*!< advance of the world*/
-			float _speed = 0.15; /*!< Speed of the world*/
+			float _speed = INITIAL_GAME_SPEED; /*!< Speed of the world*/
 			unsigned int lastTile = -1; /*!< Save the last collided tile*/
 			std::vector<Tile> _tiles; /*!< Vector of all tiles*/
 			bool _randomized = false; /* True : the world will be generated, False : the world will be loaded from a file*/
@@ -143,15 +155,15 @@ namespace sausageRunner {
 
 		    int _lastRotation = 0; /*!< The last rotation of the character, to smooth the camera movement*/
 		    int _lastTimeRotation = 0;	/*!< The global time of the last rotation*/
-		    int _timeToSmoothCamRotation = 30; /*!< Duration of camera smoothing for the rotation*/
+		    int _timeToSmoothCamRotation = NB_FRAME_FOR_SMOOTH_CAM_ROTATION; /*!< Duration of camera smoothing for the rotation*/
 		    int _timeStartGame = 0; /*!< The global time of the beginning of the last game*/
 
-		    int _bonusInfluenceTime = 300; /*!< The time of the influence of the current bonus*/
+		    int _bonusInfluenceTime = NB_FRAME_FOR_BONUS_INFLUENCE; /*!< The time of the influence of the current bonus*/
 
 		    int _nCoin = 0; /*!< Number of coin collected*/
 
-		    int _beginningAnimDuration = 100; /*!< Duration of the beginning animation*/
-		    float _zoomBeginningAnimation = 10; /*!< Value of the camera zoom during the beginning animation*/
+		    int _beginningAnimDuration = NB_FRAME_FOR_BEGINNING_ANIMATION; /*!< Duration of the beginning animation*/
+		    float _zoomBeginningAnimation = ZOOM_VALUE_FOR_BEGINNING_ANIMATION; /*!< Value of the camera zoom during the beginning animation*/
 
 		    std::vector<int> _bestScores;
 
@@ -228,7 +240,7 @@ namespace sausageRunner {
 				};
 				for_each(_tiles.begin(), _tiles.end(),resetTile);
 				resume();
-				_aroundCam->reset(5.0f + _zoomBeginningAnimation,35.0f,0.0f);
+				_aroundCam->reset(DISTANCE_CAMERA_CHARACTER + _zoomBeginningAnimation,ANGLE_OF_CAMERA,0.0f);
 				_globalPosition = glm::mat4();
 				_globalRotation = glm::mat4();
 				_currentBonus = -1;
@@ -277,7 +289,7 @@ namespace sausageRunner {
 			 */
 			int getScore() const
 			{
-				return int(_t) * 100;
+				return int(_t) * MULT_VALUE_FOR_SCORE;
 			}
 			
 			/*!
@@ -317,10 +329,10 @@ namespace sausageRunner {
 				SDL_GetMouseState(&lastX, &lastY);
 			    }
 			    else if(btn == SDL_BUTTON_WHEELUP && edit_mode){
-				cam()->moveFront(0.3);
+				cam()->moveFront(MOVE_FRONT_VALUE_ON_MOUSE_WHEEL);
 			    }
 			    else if(btn == SDL_BUTTON_WHEELDOWN && edit_mode){
-				cam()->moveFront(-0.3);
+				cam()->moveFront(-MOVE_FRONT_VALUE_ON_MOUSE_WHEEL);
 			    }
 			}
 			
@@ -398,6 +410,11 @@ namespace sausageRunner {
 				int detlaT = global_time - _lastTimeRotation;
 				if(detlaT > _timeToSmoothCamRotation) return 0.0;
 				return -_lastRotation * (M_PI/2.0) * (1.0 - float(detlaT)/float(_timeToSmoothCamRotation));
+			}
+			~World(){
+				delete _aroundCam;
+				delete _eyesCam;
+				delete _perso;
 			}
 	};
 }

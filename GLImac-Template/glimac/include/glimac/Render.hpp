@@ -8,6 +8,11 @@
 #include <iostream>
 
 #define MAX_LIGHT 50
+#define UNIFORM_KD_VALUE 0.5
+#define UNIFORM_KS_VALUE 0.5
+#define UNIFORM_SHININESS_VALUE 0.5
+#define GLOBAL_LIGHT_DRIECTION glm::vec4(2.0,2.0,0.0,0.0)
+#define GLOBAL_LIGHT_INTENSITY glm::vec3(0.8,0.8,0.8)
 
 
 namespace sausageRunner {
@@ -53,11 +58,11 @@ namespace sausageRunner {
 		    GLuint _uNumberOfSecondaryLights;
 
 			// Light parameters
-			glm::vec3 _Kd = glm::vec3(0.5,0.5,0.5);
-			glm::vec3 _Ks = glm::vec3(0.5,0.5,0.5);
-			float _Shininess = 0.5;
-			glm::vec4 _LightPos_vs = glm::vec4(2.0,2.0,0.0,0.0);
-			glm::vec3 _LightIntensity = glm::vec3(0.8,0.8,0.8);
+			glm::vec3 _Kd = glm::vec3(UNIFORM_KD_VALUE,UNIFORM_KD_VALUE,UNIFORM_KD_VALUE);
+			glm::vec3 _Ks = glm::vec3(UNIFORM_KS_VALUE,UNIFORM_KS_VALUE,UNIFORM_KS_VALUE);
+			float _Shininess = UNIFORM_SHININESS_VALUE;
+			glm::vec4 _LightPos_vs = GLOBAL_LIGHT_DRIECTION;
+			glm::vec3 _LightIntensity = GLOBAL_LIGHT_INTENSITY;
 
 			std::deque<Light> _secondaryLights; 
 
