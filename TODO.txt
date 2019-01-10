@@ -14,8 +14,8 @@ Trucs à faire pour respecter les consignes
   X - remettre les pièces à la seconde partie
   X - vérifier les Magic Number
     - Faire rentrer la saucisse dans le donuts
-  X - Valgrind
-    - verif const
+    - Valgrind
+  X - verif const
 
 Trucs à faire en plus pour grapiller des points
 
