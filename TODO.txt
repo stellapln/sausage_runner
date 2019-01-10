@@ -10,7 +10,7 @@ X - mettre de la musique
 X - Résoudre de problème de texture
   - Préparer la SOUTENANCE
 X - Bouton hover menu
-  - Mettre des destructeurs à toutes les classes
+X - Mettre des destructeurs à toutes les classes
 X - Remettre les pièces à la seconde partie
 Trucs à faire en plus pour grapiller des points
 X - Génération aléatoire
