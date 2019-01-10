@@ -7,17 +7,6 @@
 
 #define EMPTY 5
 #define BLOC 0
-#define BR_BLOC 1
-#define BL_BLOC 2
-#define TURNR_BLOC 3
-#define TURNL_BLOC 4
-#define KETCHUP 0
-#define MOUSTARD 1
-#define CONSERVE 2
-#define JUICE 3
-#define AIMANT 0
-#define SHIELD 1
-#define COIN 2
 #define LEFT_POS 0
 #define DOWN_POS 0
 #define MIDDLE 1
