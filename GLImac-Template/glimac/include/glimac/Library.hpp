@@ -36,6 +36,7 @@ namespace sausageRunner {
 			virtual void descr() {
 				std::cout << "Lib Elem" << std::endl;
 			}
+			~LibElem(){}
 	};
 
 	/*! \class Coin
@@ -89,7 +90,8 @@ namespace sausageRunner {
 			 */
 			void descr(){
 				std::cout << "Coin Elem" << std::endl;
-			} 
+			}
+			~Coin(){}
 	};
 
 
@@ -134,6 +136,7 @@ namespace sausageRunner {
 			std::vector<int> getBbox() override{
 				return _bbox;
 			}
+			~Bonus(){}
 	};
 
 	/*! \class Support
@@ -169,6 +172,7 @@ namespace sausageRunner {
 			std::vector<int> getBbox() override{
 				return _bbox;
 			}
+			~Support(){}
 	};
 
 	/*! \class Obstacle
@@ -211,6 +215,7 @@ namespace sausageRunner {
 			std::vector<int> getBbox() override{
 				return _bbox;
 			}
+			~Obstacle(){}
 			
 	};
 
@@ -270,6 +275,7 @@ namespace sausageRunner {
 				bonusTaken = false;
 				coinTaken = false;
 			}
+			~Tile(){}
 	};
 
 	/*! \class Library
@@ -336,6 +342,8 @@ namespace sausageRunner {
 			int nObstacle() const {return _obstacles.size();}
 			int nSkybox() const {return _skybox.size();}
 			int nSpecial() const {return _specials.size();}
+
+			~Library(){}
 	};
 }
 

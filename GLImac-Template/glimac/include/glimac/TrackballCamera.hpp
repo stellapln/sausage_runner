@@ -16,6 +16,8 @@ class SimpleAxeCam
 		virtual glm::mat4 getMatrixView() const = 0;
 		virtual void setPosition(const glm::vec3 &p) = 0;
 		virtual void reset(float d,float ax,float ay) = 0;
+
+		~SimpleAxeCam(){}
 };
 
 class TrackballCamera : public SimpleAxeCam
@@ -47,6 +49,7 @@ class TrackballCamera : public SimpleAxeCam
 			view = glm::rotate(view,glm::radians(_fAngleY),glm::vec3(0.0,1.0,0.0));
 			return view;
 		}
+		~TrackballCamera(){}
 };
 
 class EyesCam : public SimpleAxeCam
@@ -86,6 +89,7 @@ class EyesCam : public SimpleAxeCam
 			view = glm::translate(view,_position);
 			return view;
 		}
+		~EyesCam(){}
 };
 
 

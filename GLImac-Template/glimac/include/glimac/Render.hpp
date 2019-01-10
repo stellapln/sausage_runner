@@ -26,6 +26,7 @@ namespace sausageRunner {
 		public:
 			Light(glm::vec3 p, glm::vec3 i, int t):_pos(p), _intensity(i), _type(t){}
 			void sendUniform(GLuint progGLId, int i) const;
+			~Light(){}
 	};
 
 	/*! \class Render
@@ -87,6 +88,7 @@ namespace sausageRunner {
 	        {
 	        	_secondaryLights.pop_front();
 	        }
+	        ~Render(){}
 	};
 }
 #endif

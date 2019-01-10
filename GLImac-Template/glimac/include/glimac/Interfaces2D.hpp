@@ -403,7 +403,6 @@ namespace sausageRunner {
 
     };
 }
-
     // Voici la classe à ajouter dans Interface2D : Text
 // -> On peut déclarer dans le main : Text score_toDisplay(points, 0, 0, 50); pour l'instant
 // -> Pour update le score dans la boucle : score_toDisplay.updateText(avec le new score en paramètre);
@@ -427,17 +426,12 @@ class Text
         unsigned int _textHeight; /*!< height */
         const unsigned int _fontSize; /*!< font */
         SDL_Color _textColor; /*!< color */
-        GLuint _sampler2D;
-        GLuint _texture; /*!< Texture linked to the image */
-        GLuint _vao; /*!< Image vao */
-        GLuint _vbo; /*!< Image vbo */
-        int _nb_vertices;
         
     public:
         /*!
         *  \brief Constructor
         */
-        Text(const std::string &text, const unsigned int x, const unsigned int y, const unsigned int fontSize, GLuint sampler2D);
+        Text(const std::string &text, const unsigned int x, const unsigned int y, const unsigned int fontSize);
         /*!
         *  \brief destructor
         */
@@ -458,8 +452,6 @@ class Text
         *  \brief To update the text (pass the new score in parameters)
         */
         void updateText(const std::string &newText);
-
-        void setVAO();
 };
 
 #endif

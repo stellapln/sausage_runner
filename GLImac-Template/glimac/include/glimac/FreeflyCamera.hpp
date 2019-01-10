@@ -42,6 +42,7 @@ class FreeflyCamera
 		glm::mat4 getMatrixView() const{
 			return glm::lookAt(_Position,_Position+_FrontVector,_UpVector);
 		}
+		~FreeflyCamera(){}
 
 };
 #endif

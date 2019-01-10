@@ -12,6 +12,7 @@ namespace sausageRunner {
 		if (*last_virage == 0){
 			int_rand = rand()%2 + 3;
 			*last_virage = 9;
+			*last_broken +=2;
 			*last_mob = 3;
 		}
 		else if(*last_broken == 0){
@@ -138,7 +139,10 @@ namespace sausageRunner {
 
 	std::string random_xcoin(std::string bloc, std::string obs, std::string xobs){
 		int int_rand = 5;
-		if(obs == "2"){
+
+		if(bloc != "0")
+			int_rand = 5;
+		else if(obs == "2"){
 			int rand = 1;
 		}
 		else if(obs == "0"){
@@ -182,6 +186,9 @@ namespace sausageRunner {
 		if(xcoin != "5"){
 			if (bloc != "0" || obs == "3") {
 				int_y = "2";
+			}
+			else if(obs == "2"){
+				int_y = "0";
 			}
 			else {
 				int_y = "1";

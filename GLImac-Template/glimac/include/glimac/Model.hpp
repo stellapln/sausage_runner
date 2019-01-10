@@ -61,7 +61,7 @@ namespace sausageRunner
           };
           void draw() const; /*!< Bind the VAO and the textures and send its*/
           ~Mesh(){
-            // glDeleteBuffers(1,&vbo);
+            //glDeleteBuffers(1,&vbo);
             // glDeleteVertexArrays(1,&vao);
           }
   };
@@ -91,6 +91,7 @@ namespace sausageRunner
             }
           }
           void draw() const; /*!< Draw all the mesh of the model*/
+          ~Model(){}
   };
 }
 

@@ -106,6 +106,7 @@ namespace sausageRunner {
 				}
 				return false;
 			}
+			~Personnage(){}
 	};
 
 	/*! \class World

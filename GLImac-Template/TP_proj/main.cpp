@@ -101,9 +101,9 @@ namespace sausageRunner {
          *
          *  Initialize the game
          */
-        //World world("./levels/Level1");
-        World world("./levels/LevelRandom");
-        random_map();
+        World world("./levels/Level1");
+        //World world("./levels/LevelRandom");
+        //random_map();
 
         /*!
          *  \brief ** Music stuff
@@ -406,7 +406,7 @@ namespace sausageRunner {
         //! Set the render manager of the world
         world.setRender(render);
 
-        Text score_toDisplay(std::to_string(2542), 0, 0, 50,sampler2D);
+        Text score_toDisplay(std::to_string(2542), 0, 0, 50);
 
     	//glEnable(GL_DEPTH_TEST);
 
@@ -532,7 +532,7 @@ namespace sausageRunner {
             else{
                 game_statut = START_MENU;
             }
-            //score_toDisplay.drawText();
+            // score_toDisplay.drawText();
 
             global_time++;
             windowManager.swapBuffers();

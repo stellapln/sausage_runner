@@ -152,6 +152,7 @@ void Button::drawButton()
         glUniformMatrix3fv(_hover_image->Location(), 1, GL_FALSE, glm::value_ptr(translate(tx,ty)*scale(w,h)));
         _hover_image->drawImage();
         glUniformMatrix3fv(_hover_image->Location(), 1, GL_FALSE, glm::value_ptr(glm::mat3()));
+
     }
     else
     {  
@@ -205,119 +206,33 @@ void Window::drawWindow()
     for_each(_buttons.begin(), _buttons.end(), drawButton);
 }
 
-Text::Text(const std::string &text, const unsigned int x, const unsigned int y, const unsigned int fontSize, GLuint sampler2D) 
-: _posX(x), _posY(y), _text(text), _fontSize(fontSize), _textWidth(0), _textHeight(0), _textColor({255, 0, 0}), _sampler2D(sampler2D)
+Text::Text(const std::string &text, const unsigned int x, const unsigned int y, const unsigned int fontSize) 
+: _posX(x), _posY(y), _text(text), _fontSize(fontSize), _textWidth(100), _textHeight(100), _textColor({255, 0, 0})
 {
-    setVAO();
+
 }
 
-void Text::setVAO()
+void Text::drawText()
 {
-    TTF_Init();
+  TTF_Init();
  
     // Font loading
     TTF_Font* font = TTF_OpenFont("./assets/fonts/arial.ttf", _fontSize);
  
     if(NULL != font)
-    {
-        GLuint _texture;
-        glGenTextures(1, &_texture);
-        // Bind
-        SDL_Surface* text = TTF_RenderText_Blended(font,_text.c_str(), _textColor);
+    { 
+        SDL_Surface* text = TTF_RenderText_Blended(font,"coucou", _textColor);
  
         // Free font
-        glBindTexture(GL_TEXTURE_2D, _texture);
-        glTexImage2D(GL_TEXTURE_2D,
-                0,
-                GL_RGBA,
-                text->w,
-                text->h,
-                0,
-                GL_RGBA,
-                GL_FLOAT,
-                text->pixels);
-
-        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-
-        // Debind
-        glBindTexture(GL_TEXTURE_2D, 0);
-
         TTF_CloseFont(font);
 
         // Text dimensions
         _textWidth = text->w;
         _textHeight = text->h;
-
-        GLuint _vbo;
-        GLuint _vao;
-
-        glGenBuffers(1, &_vbo);
-        // variable vbo contient identifiant d'1 vbo
-
-        // Binding d'1 VBO sur la cible GL_ARRAY_BUFFER:
-        glBindBuffer(GL_ARRAY_BUFFER, _vbo);
-        // On peut à présent modifier le VBO en passant par la cible GL_ARRAY_BUFFER
-        
-        Vertex2DUV vertices[] = {
-            Vertex2DUV(glm::vec2(-1.f, 1.f),glm::vec2(0.f, 0.f)),
-            Vertex2DUV(glm::vec2(-1.f, -1.f),glm::vec2(0.f, 1.f)),
-            Vertex2DUV(glm::vec2(1.f, -1.f),glm::vec2(1.f, 1.f)),
-
-            Vertex2DUV(glm::vec2(1.f, -1.f),glm::vec2(1.f, 1.f)),
-            Vertex2DUV(glm::vec2(1.f, 1.f),glm::vec2(1.f, 0.f)),
-            Vertex2DUV(glm::vec2(-1.f, 1.f),glm::vec2(0.f, 0.f))
-
-        };
-        // Get the number of elements in vertices[]
-        _nb_vertices = sizeof(vertices)/sizeof(vertices[0]);
-
-        // envoi des données
-        glBufferData(GL_ARRAY_BUFFER, _nb_vertices * sizeof(Vertex2DUV), vertices, GL_STATIC_DRAW);
-
-        // debindage de la cible
-        glBindBuffer(GL_ARRAY_BUFFER, 0);
-
-        glGenVertexArrays(1, &_vao);
-        // binding
-        glBindVertexArray(_vao);
-        // utilisation de l'attribut 0 du tableau
-        const GLuint VERTEX_ATTR_POSITION = 0;
-        glEnableVertexAttribArray(VERTEX_ATTR_POSITION);
-
-        // attribut couleur
-        const GLuint VERTEX_ATTR_TEXTURE = 1;
-        glEnableVertexAttribArray(VERTEX_ATTR_TEXTURE);
-
-        // rebinding d'1 VBO sur la cible GL_ARRAY_BUFFER:
-        glBindBuffer(GL_ARRAY_BUFFER, _vbo);
-
-        glVertexAttribPointer(VERTEX_ATTR_POSITION, 2, GL_FLOAT, GL_FALSE, sizeof(Vertex2DUV), (const GLvoid*)(offsetof(Vertex2DUV, position)));
-        glVertexAttribPointer(VERTEX_ATTR_TEXTURE, 2, GL_FLOAT, GL_FALSE, sizeof(Vertex2DUV), (const GLvoid*)(offsetof(Vertex2DUV, texture)));
-        // redebindage de la cible
-        glBindBuffer(GL_ARRAY_BUFFER, 0);
-
-        // debindage du VAO
-        glBindVertexArray(0);
-    }
  
-    TTF_Quit();
-}
-void Text::drawText()
-{
-
-        glBindVertexArray(_vao);
-        glBindTexture(GL_TEXTURE_2D,_texture);
-        glUniform1i(_sampler2D,0);
-        glDrawArrays(GL_TRIANGLES, 0, _nb_vertices);
-        glBindVertexArray(0);
-        glBindTexture(GL_TEXTURE_2D, 0);
-
-
-        /* *************************** STELLA *************************
         // Transparency
-         //glEnable(GL_BLEND);
-         glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+        //glEnable(GL_BLEND);
+        //glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
  
         // Texture handling
         GLuint textTexture;
@@ -331,23 +246,27 @@ void Text::drawText()
         // Free text image
         SDL_FreeSurface(text);
  
+        glBindTexture(GL_TEXTURE_2D, textTexture);
+ 
         // Draw the quad with texture containing text
         glEnable(GL_TEXTURE_2D);
         glBegin(GL_QUADS);
-            glColor3f(1.0, 1.0, 1.0);
+        //glColor3f(1.0, 1.0, 1.0);
             /*glTexCoord2d(0, 1); glVertex2f( _posX, WINDOW_HEIGHT - _posY + _textHeight);
             glTexCoord2d(0, 0); glVertex2f( _posX, WINDOW_HEIGHT - _posY);
             glTexCoord2d(1, 0); glVertex2f( _posX + _textWidth, WINDOW_HEIGHT - _posY);
-            glTexCoord2d(1, 1); glVertex2f( _posX + _textWidth, WINDOW_HEIGHT - _posY + _textHeight);*//*
-            glTexCoord2d(0, 1); glVertex2f( -1.0, 1.0);
-            glTexCoord2d(0, 0); glVertex2f( -1.0, -1.0);
-            glTexCoord2d(1, 0); glVertex2f( 1.0,-1.0);
+            glTexCoord2d(1, 1); glVertex2f( _posX + _textWidth, WINDOW_HEIGHT - _posY + _textHeight);*/
+            glTexCoord2d(0, 1); glVertex2f( 0.0, 1.0);
+            glTexCoord2d(0, 0); glVertex2f( 0.0, 0.0);
+            glTexCoord2d(1, 0); glVertex2f( 1.0,0.0);
             glTexCoord2d(1, 1); glVertex2f( 1.0, 1.0);
         glEnd();
         glDisable(GL_TEXTURE_2D);
-        glBindTexture(GL_TEXTURE_2D, 0);
  
-        glDeleteTextures(1, &textTexture);*****************************/
+        glDeleteTextures(1, &textTexture);
+    }
+ 
+    TTF_Quit();
 }
 
 
