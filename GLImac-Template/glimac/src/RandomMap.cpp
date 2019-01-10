@@ -199,8 +199,8 @@ namespace sausageRunner {
 		}
 
 		for (int i = 0; i < 50; i++){
-			bloc = random_tile(&last_broken, &last_virage);
-			obs = random_obs(&last_mob);
+			bloc = random_tile(&last_broken, &last_virage, &last_mob);
+			obs = random_obs(&last_mob, bloc, &last_broken, &last_virage);
 			xobs = random_xobs(obs);
 			bonus = random_bonus(&last_bonus, obs);
 			xbon = random_xbon(bonus, obs, xobs);
