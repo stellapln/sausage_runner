@@ -7,11 +7,12 @@
 
 namespace sausageRunner {
 
-	std::string random_tile(int *last_broken, int *last_virage){
+	std::string random_tile(int *last_broken, int *last_virage, int *last_mob){
 		int int_rand = 0;
 		if (*last_virage == 0){
 			int_rand = rand()%2 + 3;
 			*last_virage = 9;
+			*last_mob = 3;
 		}
 		else if(*last_broken == 0){
 			int_rand = rand()%4;
@@ -20,6 +21,7 @@ namespace sausageRunner {
 			}
 			if (int_rand != 0) {
 				*last_broken = 4;
+				*last_mob = 3;
 			}
 		}
 
@@ -32,15 +34,17 @@ namespace sausageRunner {
 		return string_rand;
 	}
 
-	std::string random_obs(int *last_mob){
+	std::string random_obs(int *last_mob, std::string bloc, int *last_broken, int *last_virage){
 		int int_rand = 5;
-		if(*last_mob == 0){
+		if(*last_mob == 0 && bloc == "0"){
 			int_rand = rand()%5;
 			if (int_rand == 4){
 				int_rand = 5;
 			}
 			else if (int_rand != 5) {
 				*last_mob = 4;
+				*last_broken += 2;
+				*last_virage +=2;
 			}
 		}
 		else {
