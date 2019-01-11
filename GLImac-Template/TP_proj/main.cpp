@@ -114,8 +114,8 @@ namespace sausageRunner {
          *
          *  Initialize the game
          */
-        //World world("./levels/Level1");
-        World world("./levels/LevelRandom");
+        World world("./levels/Level1");
+        //World world("./levels/LevelRandom");
         debug(__LINE__);
         //random_map();
 
